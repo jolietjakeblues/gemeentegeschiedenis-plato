@@ -6,9 +6,14 @@ Twee bronnen zijn omgezet, elk naar een eigen named graph. Een derde graph legt 
 
 | Graph | Bron | Gemeenten | Dekking | Triples |
 |---|---|---|---|---|
-| `gemeentegeschiedenis` | gemeentegeschiedenis.nl | 1.693 | 1812 – 2021 | 142.132 |
+| `gemeentegeschiedenis` | gemeentegeschiedenis.nl | 1.693 | 1812 – 2021 | 145.379 |
 | `tooi` | TOOI-waardelijst gemeenten, versie 6 (LDV, `rce/tooi`) | 605 | 1999 – 2027 | 26.089 |
 | `identiteit` | afgeleid uit beide | 601 koppelingen | | 3.005 |
+
+De data staat in de Linked Data Voorziening van de RCE:
+
+- dataset: <https://linkeddata.cultureelerfgoed.nl/rce/gemeentegeschiedenis>
+- SPARQL-endpoint: `https://api.linkeddata.cultureelerfgoed.nl/datasets/rce/gemeentegeschiedenis/sparql`
 
 OWMS is geen aparte bron: de OWMS-waardelijst is gearchiveerd en TOOI is de opvolger. TOOI noemt bij elke gemeente wel de OWMS-identifier; die staat in de graph `tooi` als identiteitsrelatie.
 
@@ -16,7 +21,7 @@ OWMS is geen aparte bron: de OWMS-waardelijst is gearchiveerd en TOOI is de opvo
 
 - **Entiteit.** Elke gemeente is een `plato:SpatialEntity` met de IRI van haar bron: `https://www.gemeentegeschiedenis.nl/gemeentenaam/<slug>` of `https://identifier.overheid.nl/tooi/id/gemeente/gm<code>`. Dezelfde gemeente bestaat dus twee keer, één keer per bron. Records worden niet samengevoegd.
 - **Bestaan.** Per gemeente één `plato:Attestation` met naam, soort, tijdvak en codes (CBS-code, Amsterdamse code, gemeentecode) zoals de bron ze geeft.
-- **Grenzen.** gemeentegeschiedenis.nl geeft een grens voor elk jaar waarin die veranderde, 3.247 in totaal. Elke grens is een attestatie met geometrie (`plato:Extent`), de naam in dat jaar en het beginjaar.
+- **Grenzen.** gemeentegeschiedenis.nl geeft een grens voor elk jaar waarin die veranderde, 3.247 in totaal. Elke grens is een attestatie met geometrie (`plato:Extent`), de naam in dat jaar en het beginjaar. De geometrie is WKT in WGS84, lengtegraad eerst, en staat zowel in `plato:geo_wkt` als in `geo:asWKT`. De eerste is een subeigenschap van de tweede; omdat het endpoint niet afleidt staan beide er uitgeschreven, zodat GeoSPARQL-functies en kaartweergaven werken. TOOI heeft geen geometrie.
 - **Ligging.** Provincie en, voor de Franse tijd, departement zijn attestaties met relatietype `plato:ContainedIn`.
 - **Wijzigingen.** Elke herindeling is een attestatie over de eerdere gemeente die naar de latere wijst, gedateerd op de dag waarop de wijziging inging. De formulering van de bron staat in `plato:source_label`.
 - **Identiteit.** Een `plato:IdentityRelation` koppelt een gemeente van gemeentegeschiedenis.nl aan een TOOI-gemeente wanneer de gemeentecode gelijk is en de bestaansperioden elkaar raken. De onderbouwing staat in `plato:identity_basis`.
@@ -75,8 +80,10 @@ Vier TOOI-gemeenten hebben geen tegenhanger in gemeentegeschiedenis.nl: Dijk en 
 - `bron/tooi/`: de graphs `gemeenten` en `provincies` uit `rce/tooi`.
 - `data/`: de drie PLATO-graphs.
 - `vocab/plato.skos.ttl`: de SKOS-vocabulaires van PLATO, met de relatietypen.
+- `queries/`: voorbeeldquery's.
 - `rapport/`: de vergelijking tussen de bronnen.
 - `scripts/`: oogsten, omzetten, controleren en vergelijken.
+- `logo.png`, `logo-1024.png`, `logo.svg`: het logo van de dataset.
 
 ## Opnieuw maken
 
@@ -92,9 +99,32 @@ python scripts/compare_sources.py
 
 PLATO publiceert geen SHACL-shapes. `check_plato.py` controleert daarom tegen de ontologie zelf: of elke term bestaat en of domein, bereik, datatype en functionaliteit kloppen. De drie graphs geven 0 problemen.
 
-## IRI's
+## Query's
 
-Entiteiten houden de IRI van hun bron. Alles wat de conversie zelf aanmaakt (attestaties, namen, tijdvakken, identiteitsrelaties) en de graphnamen staan onder `https://linkeddata.cultureelerfgoed.nl/erfgeo/gemeentegeschiedenis/`. Die basis staat als `BASE` in `scripts/platolib.py`; wie de data in een andere dataset publiceert, past haar daar aan en draait `convert.py` opnieuw.
+In `queries/` staan drie query's die op naam zoeken; vervang `"abcoude"` in de `FILTER` door een andere naam in kleine letters.
+
+- `gemeenten-op-naam.rq`: welke gemeenten zo heten, per bron, met begin en einde.
+- `wijzigingen-op-naam.rq`: waaruit een gemeente is ontstaan en waarin zij is opgegaan. Gebruikt de graph `plato-skos` voor de leesbare naam van het relatietype.
+- `grenzen-op-naam.rq`: de grenzen door de tijd, met `geo:asWKT`.
+
+## IRI's en doorverwijzing
+
+Entiteiten houden de IRI van hun bron. Alles wat de conversie zelf aanmaakt (attestaties, namen, tijdvakken, identiteitsrelaties) en de graphnamen staan onder `https://linkeddata.cultureelerfgoed.nl/erfgeo/gemeentegeschiedenis/`. Die basis staat als `BASE` in `scripts/platolib.py`; wie de data elders publiceert, past haar daar aan en draait `convert.py` opnieuw.
+
+De dataset zelf staat onder het account `rce`, niet onder `erfgeo`. Dat is nodig: de webserver stuurt elk adres onder `/erfgeo/` door naar de redirect-API, dus een dataset in een account met die naam is niet rechtstreeks te openen en raakt met een eigen redirectregel in een lus. De regel die de IRI's laat uitkomen staat in de beheerinstellingen van de LDV:
+
+| Methode | Patroon | Dataset |
+|---|---|---|
+| Prefix | `https://linkeddata.cultureelerfgoed.nl/erfgeo/gemeentegeschiedenis/` | `rce / gemeentegeschiedenis` |
+
+Hij moet boven de algemene regel voor `https://linkeddata.cultureelerfgoed.nl/erfgeo/` staan.
+
+De vier graphs op het endpoint:
+
+- `…/erfgeo/gemeentegeschiedenis/graphs/gemeentegeschiedenis`
+- `…/erfgeo/gemeentegeschiedenis/graphs/tooi`
+- `…/erfgeo/gemeentegeschiedenis/graphs/identiteit`
+- `…/erfgeo/gemeentegeschiedenis/graphs/plato-skos` (uit `vocab/plato.skos.ttl`)
 
 ## Grenzen van dit model
 

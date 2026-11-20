@@ -1,0 +1,12 @@
+PREFIX plato: <https://w3id.org/plato#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+
+# De grenzen van een gemeente door de tijd. Elke grens geldt vanaf ?jaar.
+SELECT ?gemeente ?naam ?jaar ?wkt WHERE {
+  ?attestatie plato:attests_about ?gemeente ;
+              plato:attests_geometry/geo:asWKT ?wkt ;
+              plato:attests_name/plato:toponym ?naam ;
+              plato:attests_timespan/plato:start_earliest ?jaar .
+  FILTER(CONTAINS(LCASE(STR(?naam)), "abcoude"))
+}
+ORDER BY ?jaar

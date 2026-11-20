@@ -72,6 +72,10 @@ class PlatoGraph:
         node = URIRef(f'{attestation}/geometry')
         self.add(node, RDF.type, PLATO.Geometry)
         self.add(node, PLATO.geo_wkt, Literal(wkt, datatype=GEO.wktLiteral))
+        # plato:geo_wkt is een subeigenschap van geo:asWKT. Een endpoint zonder
+        # afleiding ziet dat niet, dus de GeoSPARQL-eigenschap staat er ook bij;
+        # kaartweergaven en GeoSPARQL-functies zoeken daarop.
+        self.add(node, GEO.asWKT, Literal(wkt, datatype=GEO.wktLiteral))
         self.add(node, PLATO.geometry_role, role)
         self.add(attestation, PLATO.attests_geometry, node)
 
