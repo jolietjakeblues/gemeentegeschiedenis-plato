@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zwammerdam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zwammerdam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zwammerdam</skos:prefLabel>
+        <gg:name xml:lang="nl">Zwammerdam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10675"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1244"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Alphen_aan_den_Rijn"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bodegraven"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zwammerdam                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.699582 52.094745,4.715555 52.100051,4.730259 52.10256,4.742583 52.088067,4.742363 52.083033,4.735803 52.082727,4.735064 52.073375,4.748336 52.073448,4.752081 52.066547,4.756757 52.065853,4.755238 52.059823,4.745767 52.049165,4.731666 52.056368,4.728484 52.054643,4.715752 52.057807,4.706105 52.068897,4.695599 52.069195,4.699044 52.082338,4.705488 52.090286,4.701928 52.09404,4.699582 52.094745)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-02-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zwammerdam"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zwammerdam"/>
+            </rdf:Description>
+</rdf:RDF>

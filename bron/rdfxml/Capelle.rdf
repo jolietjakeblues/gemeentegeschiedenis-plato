@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Capelle">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Capelle</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Capelle</skos:prefLabel>
+        <gg:name xml:lang="nl">Capelle</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11233"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1036"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sprang-Capelle"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Capelle                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.966672 51.73359,4.987692 51.730248,4.994414 51.7229,4.999649 51.720041,5.01065 51.719718,5.012423 51.715319,5.015938 51.710207,5.026436 51.700082,5.026655 51.690735,5.014073 51.690696,5.014245 51.669843,4.989463 51.677042,4.985173 51.655365,4.977382 51.653989,4.976788 51.655695,4.969542 51.673647,4.961968 51.679642,4.961591 51.688989,4.964631 51.68864,4.964431 51.694572,4.968477 51.695036,4.967228 51.720469,4.966672 51.73359)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1909</gg:year>
+                            <gg:name xml:lang="nl">Capelle                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.014073 51.690696,5.014245 51.669843,4.989463 51.677042,4.985173 51.655365,4.977382 51.653989,4.976788 51.655695,4.969542 51.673647,4.961968 51.679642,4.961591 51.688989,4.964631 51.68864,4.964431 51.694572,4.968477 51.695036,4.967228 51.720469,5.000594 51.711056,5.026216 51.70952,5.026655 51.690735,5.014073 51.690696)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1923</gg:year>
+                            <gg:name xml:lang="nl">Sprang-Capelle                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.026655 51.690735,5.026834 51.686511,5.041364 51.677386,5.060782 51.67133,5.060264 51.662969,5.044814 51.660947,5.02772 51.66593,5.014245 51.669843,4.989463 51.677042,4.985173 51.655365,4.977382 51.653989,4.976788 51.655695,4.969542 51.673647,4.961968 51.679642,4.961591 51.688989,4.964631 51.68864,4.964431 51.694572,4.968477 51.695036,4.967228 51.720469,5.000594 51.711056,5.026216 51.70952,5.026655 51.690735)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1923-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/%27s_Grevelduin-Capelle"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sambeek">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sambeek</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sambeek</skos:prefLabel>
+        <gg:name xml:lang="nl">Sambeek</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10339"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1167"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Boxmeer"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oploo__Sint_Anthonis_en_Ledeacker"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Sambeek                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.96805 51.64859,5.969468 51.646516,5.977075 51.642612,6.001037 51.630444,5.997709 51.630012,5.987807 51.634827,5.978658 51.631099,5.980784 51.627942,5.979221 51.618871,5.974553 51.615209,5.974207 51.610807,5.965363 51.607884,5.950315 51.616767,5.945598 51.608879,5.870075 51.579912,5.836768 51.567371,5.826974 51.568757,5.862277 51.592978,5.864873 51.592788,5.86766 51.597091,5.873287 51.596888,5.879859 51.604051,5.869417 51.612994,5.877416 51.618354,5.882902 51.61833,5.88296 51.623633,5.911169 51.627825,5.925244 51.633334,5.942448 51.634602,5.951089 51.644179,5.96805 51.64859)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-05-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sambeek"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Sambeek"/>
+            </rdf:Description>
+</rdf:RDF>

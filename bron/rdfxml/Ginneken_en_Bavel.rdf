@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ginneken_en_Bavel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ginneken en Bavel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ginneken en Bavel</skos:prefLabel>
+        <gg:name xml:lang="nl">Ginneken en Bavel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10406"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1064"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuw-Ginneken"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Breda"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ginneken en Bavel                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.833116 51.598744,4.835478 51.594441,4.831732 51.593884,4.833683 51.58778,4.840766 51.586735,4.847031 51.581641,4.862055 51.580001,4.860676 51.574512,4.868226 51.570231,4.864947 51.566891,4.865876 51.561322,4.860997 51.559232,4.861488 51.554201,4.831823 51.539322,4.834042 51.534659,4.82791 51.529326,4.821361 51.522822,4.825115 51.510616,4.82082 51.508438,4.82775 51.483752,4.815488 51.48567,4.811186 51.495716,4.794412 51.501026,4.785639 51.500082,4.77971 51.501939,4.775197 51.505511,4.757212 51.504067,4.747477 51.510127,4.743909 51.517927,4.74804 51.531523,4.751322 51.533878,4.759854 51.542284,4.767758 51.544034,4.767116 51.559401,4.783832 51.571174,4.789635 51.579654,4.796539 51.581217,4.801344 51.589061,4.798828 51.593902,4.799194 51.599028,4.810886 51.598996,4.833116 51.598744)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</gg:year>
+                            <gg:name xml:lang="nl">Nieuw-Ginneken                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.82791 51.529326,4.821361 51.522822,4.825115 51.510616,4.82082 51.508438,4.82775 51.483752,4.815488 51.48567,4.811186 51.495716,4.794412 51.501026,4.785639 51.500082,4.77971 51.501939,4.775197 51.505511,4.757212 51.504067,4.747477 51.510127,4.743909 51.517927,4.74804 51.531523,4.751322 51.533878,4.769724 51.526696,4.777649 51.537524,4.776847 51.543542,4.780124 51.546436,4.784878 51.54673,4.787789 51.555554,4.795386 51.559009,4.802581 51.560213,4.81266 51.572848,4.812334 51.575812,4.804046 51.580895,4.812683 51.582466,4.810595 51.587759,4.812538 51.593881,4.810886 51.598996,4.833116 51.598744,4.835478 51.594441,4.831732 51.593884,4.833683 51.58778,4.840766 51.586735,4.847031 51.581641,4.862055 51.580001,4.860676 51.574512,4.868226 51.570231,4.864947 51.566891,4.865876 51.561322,4.860997 51.559232,4.861488 51.554201,4.831823 51.539322,4.834042 51.534659,4.82791 51.529326)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ginneken_en_Bavel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ginneken_en_Bavel"/>
+            </rdf:Description>
+</rdf:RDF>

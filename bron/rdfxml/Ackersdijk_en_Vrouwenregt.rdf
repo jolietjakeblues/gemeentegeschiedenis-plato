@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ackersdijk_en_Vrouwenregt">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ackersdijk en Vrouwenregt</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ackersdijk en Vrouwenregt</skos:prefLabel>
+        <gg:name xml:lang="nl">Ackersdijk en Vrouwenregt</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10013"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1304"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Pijnacker"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vrijenban"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Ackersdijk en Vrouwenregt          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.412481 51.983059,4.420156 51.98492,4.42297 51.982696,4.422762 51.978829,4.426472 51.975534,4.404679 51.967084,4.392116 51.962664,4.38386 51.974009,4.412481 51.983059)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-04-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1855-09-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ackersdijk_en_Vrouwenregt"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ackersdijk_en_Vrouwenregt"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ermelo">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ermelo</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ermelo</skos:prefLabel>
+        <gg:name xml:lang="nl">Ermelo</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10732"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0233"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nunspeet_1"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nunspeet_2"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ermelo                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.703617 52.326955,5.746329 52.313576,5.744852 52.304749,5.739924 52.296256,5.741332 52.287393,5.753475 52.285121,5.753424 52.278875,5.744681 52.273914,5.750752 52.267616,5.748169 52.267598,5.761028 52.246346,5.726278 52.24016,5.722027 52.239453,5.708102 52.237155,5.682635 52.23803,5.679575 52.240195,5.678153 52.24658,5.672476 52.251896,5.65233 52.262459,5.641088 52.268955,5.626608 52.273299,5.611813 52.273957,5.608603 52.27657,5.591899 52.27651,5.553836 52.285558,5.553555 52.288614,5.547403 52.289701,5.56231 52.315924,5.569974 52.32517,5.577907 52.328033,5.579071 52.325784,5.607235 52.325735,5.614259 52.322397,5.620582 52.32553,5.625999 52.323632,5.629087 52.324974,5.677766 52.299519,5.686648 52.312259,5.703617 52.326955)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Ermelo                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.710359 52.386614,5.723637 52.374894,5.72391 52.372197,5.727875 52.372185,5.730831 52.374693,5.740967 52.375113,5.747924 52.381832,5.765844 52.381956,5.762389 52.390326,5.776232 52.394146,5.785961 52.397798,5.789755 52.394909,5.808755 52.399966,5.810946 52.39852,5.815371 52.400302,5.819575 52.394445,5.819375 52.389053,5.835855 52.377218,5.863466 52.350057,5.880005 52.332732,5.873955 52.329522,5.872743 52.326022,5.844346 52.303396,5.839651 52.303144,5.839174 52.299461,5.851547 52.277033,5.846384 52.273638,5.850265 52.266433,5.841321 52.265658,5.819253 52.271044,5.809994 52.268022,5.748169 52.267598,5.761028 52.246346,5.726278 52.24016,5.722027 52.239453,5.708102 52.237155,5.682635 52.23803,5.679575 52.240195,5.678153 52.24658,5.672476 52.251896,5.65233 52.262459,5.641088 52.268955,5.626608 52.273299,5.611813 52.273957,5.608603 52.27657,5.591899 52.27651,5.553836 52.285558,5.553555 52.288614,5.547403 52.289701,5.56231 52.315924,5.569974 52.32517,5.577907 52.328033,5.579071 52.325784,5.607235 52.325735,5.614258 52.322397,5.620582 52.32553,5.625999 52.323632,5.629087 52.324974,5.677766 52.299519,5.686648 52.312259,5.703617 52.326955,5.712287 52.328998,5.714226 52.333307,5.710735 52.337451,5.704146 52.339356,5.704323 52.34367,5.698227 52.353213,5.700304 52.356353,5.692704 52.361226,5.67738 52.375016,5.692832 52.379741,5.710359 52.386614)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</gg:year>
+                            <gg:name xml:lang="nl">Ermelo                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.748756 52.303817,5.742826 52.295656,5.744065 52.285586,5.756461 52.278267,5.74731 52.270117,5.748169 52.267598,5.761028 52.246346,5.726278 52.24016,5.722027 52.239453,5.708102 52.237155,5.682635 52.23803,5.679575 52.240195,5.678153 52.24658,5.672476 52.251896,5.65233 52.262459,5.641088 52.268955,5.626608 52.273299,5.611813 52.273957,5.608603 52.27657,5.591899 52.27651,5.553836 52.285558,5.553555 52.288614,5.547403 52.289701,5.56231 52.315924,5.569974 52.32517,5.575392 52.323094,5.580801 52.318951,5.59136 52.318753,5.596776 52.316407,5.605868 52.316391,5.620582 52.32553,5.625999 52.323632,5.629087 52.324974,5.677766 52.299519,5.686648 52.312259,5.703617 52.326955,5.749579 52.314779,5.748756 52.303817)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2756038"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ermelo_(Nederland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ermelo_(Nederland)"/>
+            </rdf:Description>
+</rdf:RDF>

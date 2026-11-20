@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Meeden">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Meeden</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Meeden</skos:prefLabel>
+        <gg:name xml:lang="nl">Meeden</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10304"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0026"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oosterbroek"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Meeden                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.910083 53.167042,6.931865 53.161371,6.931502 53.159579,6.94197 53.159623,6.942448 53.156291,6.95648 53.155659,6.956272 53.14991,6.950198 53.147293,6.968624 53.107417,6.960773 53.105094,6.957867 53.115558,6.901228 53.123387,6.899473 53.158729,6.910083 53.167042)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Meeden"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Meeden"/>
+            </rdf:Description>
+</rdf:RDF>

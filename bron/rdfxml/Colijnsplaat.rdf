@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Colijnsplaat">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Colijnsplaat</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Colijnsplaat</skos:prefLabel>
+        <gg:name xml:lang="nl">Colijnsplaat</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10121"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1038"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kortgene"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Colijnsplaat                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.790115 51.602546,3.808836 51.603879,3.827135 51.604934,3.848777 51.601085,3.857375 51.598681,3.863313 51.593814,3.866196 51.589626,3.849648 51.575385,3.8436 51.575036,3.840593 51.565916,3.821548 51.566022,3.828703 51.580322,3.790017 51.584834,3.787129 51.593066,3.787332 51.595496,3.793972 51.595497,3.790115 51.602546)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Colijnsplaat"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Colijnsplaat"/>
+            </rdf:Description>
+</rdf:RDF>

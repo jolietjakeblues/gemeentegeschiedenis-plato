@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/De_Werken_en_Sleeuwijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">De Werken en Sleeuwijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">De Werken en Sleeuwijk</skos:prefLabel>
+        <gg:name xml:lang="nl">De Werken en Sleeuwijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10116"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1222"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Werkendam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">de Werken en Sleeuwijk             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.966879 51.82024,4.965985 51.807294,4.960948 51.803231,4.966468 51.802082,4.963909 51.79668,4.955508 51.79602,4.949228 51.800761,4.944168 51.799304,4.93807 51.800269,4.929139 51.794572,4.93323 51.791442,4.923018 51.783672,4.91622 51.782386,4.9094 51.769595,4.904056 51.768045,4.89908 51.759305,4.886186 51.759521,4.88769 51.78065,4.894184 51.809711,4.899962 51.811712,4.900377 51.813602,4.894701 51.815465,4.895103 51.818523,4.90724 51.822798,4.923891 51.825741,4.941461 51.823832,4.966879 51.82024)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1950-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/De_Werken_en_Sleeuwijk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/De_Werken_en_Sleeuwijk"/>
+            </rdf:Description>
+</rdf:RDF>

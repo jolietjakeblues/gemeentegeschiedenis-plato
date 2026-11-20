@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/s-Heer_Abtskerke">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">'s-Heer Abtskerke</rdfs:label>
+        <skos:prefLabel xml:lang="nl">'s-Heer Abtskerke</skos:prefLabel>
+        <gg:name xml:lang="nl">'s-Heer Abtskerke</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10337"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0669"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sinoutskerke_en_Baarsdorp"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Borsele"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">'s-Heer-Abtskerke                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.832788 51.469439,3.835921 51.469408,3.837913 51.470383,3.840186 51.46951,3.848889 51.475273,3.852561 51.475818,3.85346 51.47705,3.855259 51.477345,3.855148 51.478518,3.853315 51.479217,3.851479 51.480006,3.855959 51.48237,3.853369 51.484053,3.857923 51.486494,3.861073 51.484466,3.870686 51.485491,3.870938 51.490888,3.888164 51.492549,3.889149 51.488876,3.879831 51.483272,3.886261 51.480388,3.88638 51.476793,3.883702 51.475051,3.885795 51.468335,3.882036 51.468826,3.872075 51.461056,3.862763 51.468396,3.844881 51.460879,3.838684 51.465382,3.833802 51.465048,3.832788 51.469439)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1816</gg:year>
+                            <gg:name xml:lang="nl">'s-Heer-Abtskerke                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.864043 51.494664,3.863456 51.490701,3.857698 51.490625,3.855185 51.488255,3.861073 51.484466,3.870686 51.485491,3.870938 51.490888,3.888164 51.492549,3.889149 51.488876,3.879831 51.483272,3.886261 51.480388,3.88638 51.476793,3.883702 51.475051,3.885795 51.468335,3.882036 51.468826,3.872075 51.461056,3.862763 51.468396,3.844881 51.460879,3.838684 51.465382,3.833802 51.465048,3.832788 51.469439,3.83516 51.471629,3.828299 51.474414,3.819739 51.468006,3.814203 51.46991,3.809097 51.480179,3.813884 51.4833,3.811908 51.490466,3.823457 51.493858,3.826507 51.493089,3.831824 51.497655,3.839371 51.495958,3.839442 51.493891,3.846388 51.492904,3.864043 51.494664)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/%27s-Heer_Abtskerke"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

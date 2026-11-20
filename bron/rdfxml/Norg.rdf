@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Norg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Norg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Norg</skos:prefLabel>
+        <gg:name xml:lang="nl">Norg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10608"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0120"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Noordenveld"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Norg                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.491552 53.092726,6.514953 53.068334,6.51685 53.060947,6.515342 53.054581,6.502157 53.034843,6.513816 53.007234,6.488337 53.001271,6.413676 52.981175,6.364805 53.032809,6.369403 53.064764,6.32973 53.072093,6.308994 53.079353,6.3131 53.089926,6.347321 53.084893,6.357423 53.102785,6.363429 53.104264,6.416353 53.088094,6.441831 53.104588,6.473397 53.10098,6.484246 53.093063,6.483547 53.089026,6.491552 53.092726)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Norg"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Norg"/>
+            </rdf:Description>
+</rdf:RDF>

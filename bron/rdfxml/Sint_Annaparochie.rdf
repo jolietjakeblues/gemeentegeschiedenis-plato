@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sint_Annaparochie">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sint Annaparochie</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sint Annaparochie</skos:prefLabel>
+        <gg:name xml:lang="nl">Sint Annaparochie</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10128"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Het_Bildt"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Sint Annaparochie                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.684383 53.234465,5.666374 53.236144,5.629728 53.248423,5.629178 53.259108,5.623471 53.260071,5.620377 53.274921,5.617871 53.281206,5.615191 53.304171,5.63668 53.306924,5.674129 53.317292,5.673926 53.306587,5.670427 53.306024,5.670685 53.296889,5.674494 53.296499,5.680185 53.245863,5.67574 53.245303,5.67635 53.241686,5.681725 53.239008,5.684383 53.234465)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2754301"/>
+                                                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Het_Bildt"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sint_Annaparochie"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Het_Bildt"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Sint_Annaparochie"/>
+            </rdf:Description>
+</rdf:RDF>

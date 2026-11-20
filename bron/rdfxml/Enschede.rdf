@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Enschede">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Enschede</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Enschede</skos:prefLabel>
+        <gg:name xml:lang="nl">Enschede</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10364"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0153"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Lonneker"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Enschede                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.89877 52.210207,6.890847 52.213903,6.894616 52.221496,6.907039 52.220977,6.910214 52.215363,6.907741 52.21153,6.89877 52.210207)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1884</gg:year>
+                            <gg:name xml:lang="nl">Enschede                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.895088 52.226794,6.898411 52.225493,6.904733 52.226311,6.906397 52.223592,6.916638 52.22346,6.918119 52.215441,6.91469 52.213597,6.913534 52.209747,6.900394 52.20632,6.8872 52.209905,6.885349 52.215771,6.885823 52.221159,6.884375 52.221626,6.885036 52.223865,6.890282 52.223169,6.895088 52.226794)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1935</gg:year>
+                            <gg:name xml:lang="nl">Enschede                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.939179 52.282225,6.971546 52.265076,6.971435 52.253751,6.974913 52.24858,6.974476 52.244541,6.969654 52.236605,6.965753 52.23396,6.967562 52.227194,6.981787 52.219722,6.979248 52.206002,6.973095 52.20168,6.962909 52.19085,6.963494 52.186707,6.950283 52.176994,6.907727 52.172516,6.905342 52.166884,6.888004 52.159914,6.873411 52.160639,6.829116 52.169458,6.817142 52.169874,6.804689 52.164451,6.766698 52.188543,6.767855 52.202282,6.758764 52.211107,6.759368 52.216494,6.769225 52.222851,6.767565 52.230691,6.775784 52.236078,6.792547 52.233722,6.80643 52.232927,6.820174 52.227817,6.828835 52.233105,6.843478 52.251083,6.841786 52.257576,6.8442 52.259703,6.843919 52.264561,6.833703 52.27026,6.838958 52.27415,6.869715 52.269274,6.918361 52.282047,6.926054 52.282113,6.939179 52.282225)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2756070"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Enschede"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Enschede"/>
+            </rdf:Description>
+</rdf:RDF>

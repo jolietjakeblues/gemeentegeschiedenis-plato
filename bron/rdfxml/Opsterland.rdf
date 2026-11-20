@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Opsterland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Opsterland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Opsterland</skos:prefLabel>
+        <gg:name xml:lang="nl">Opsterland</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10005"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0086"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Beetsterzwaag"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Gorredijk"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Lippenhuizen"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Langezwaag"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ureterp"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Opsterland                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.173511 53.129924,6.181808 53.126095,6.205445 53.112007,6.232132 53.109665,6.260974 53.110627,6.269774 53.110113,6.27955 53.106176,6.290545 53.096388,6.296206 53.095806,6.3131 53.089926,6.308994 53.079353,6.32973 53.072093,6.280236 53.059711,6.278915 53.053521,6.211827 53.031356,6.204559 53.033293,6.19829 53.032886,6.17714 53.017481,6.129424 53.007003,6.098593 52.989307,6.097013 52.983745,6.079051 52.97783,6.061907 52.966784,6.029511 52.960223,5.958345 52.969391,5.967746 52.982286,5.977365 52.988889,5.973964 52.990703,5.979982 52.995167,5.971041 53.005904,5.976854 53.006145,5.985117 53.02201,5.979472 53.023296,5.979803 53.025721,5.952316 53.032414,5.953989 53.034922,5.941357 53.038037,5.939602 53.040741,5.944262 53.043685,5.950384 53.044375,5.956264 53.049289,5.944042 53.049796,5.947552 53.05598,5.944787 53.061385,5.940287 53.059429,5.930835 53.066931,5.935202 53.070146,5.93019 53.075021,5.983446 53.074049,5.985566 53.076285,5.999161 53.077384,6.014906 53.07236,6.02222 53.072591,6.024712 53.069523,6.0884 53.068358,6.105519 53.075086,6.115338 53.082216,6.13996 53.116481,6.162627 53.114449,6.173511 53.129924)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Opsterland                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.205445 53.112007,6.232132 53.109665,6.260974 53.110627,6.269774 53.110113,6.27955 53.106176,6.290545 53.096388,6.296206 53.095806,6.3131 53.089926,6.308994 53.079353,6.32973 53.072093,6.280236 53.059711,6.278915 53.053521,6.211827 53.031356,6.204559 53.033293,6.19829 53.032886,6.17714 53.017481,6.129424 53.007003,6.098593 52.989307,6.097013 52.983745,6.079051 52.97783,6.061907 52.966784,6.029511 52.960223,5.958345 52.969391,5.967746 52.982286,5.977365 52.988889,5.973964 52.990703,5.979982 52.995167,5.971041 53.005904,5.976854 53.006145,5.985117 53.02201,5.979472 53.023296,5.979803 53.025721,5.952316 53.032414,5.953989 53.034922,5.941357 53.038037,5.939602 53.040741,5.944262 53.043685,5.950384 53.044375,5.956264 53.049289,5.944042 53.049796,5.947552 53.05598,5.944787 53.061385,5.940287 53.059429,5.930835 53.066931,5.935202 53.070146,5.93019 53.075021,5.983446 53.074049,5.985566 53.076285,5.999161 53.077384,6.014906 53.07236,6.02222 53.072591,6.024712 53.069523,6.0884 53.068358,6.105519 53.075086,6.115338 53.082216,6.127093 53.09769,6.162627 53.114449,6.181808 53.126095,6.205445 53.112007)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2749277"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Opsterland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Opsterland"/>
+            </rdf:Description>
+</rdf:RDF>

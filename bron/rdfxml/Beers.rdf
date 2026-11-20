@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Beers">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Beers</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Beers</skos:prefLabel>
+        <gg:name xml:lang="nl">Beers</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11410"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0747"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Gassel"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Linden"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Cuijk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Beers                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.831218 51.737098,5.834062 51.731874,5.84071 51.73077,5.842505 51.722223,5.836206 51.714607,5.827972 51.701156,5.823044 51.700186,5.790728 51.709829,5.792934 51.713867,5.792418 51.720879,5.790603 51.728256,5.804183 51.741152,5.810589 51.744904,5.822279 51.740907,5.831218 51.737098)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</gg:year>
+                            <gg:name xml:lang="nl">Beers                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.836206 51.714607,5.827972 51.701156,5.823044 51.700186,5.788563 51.710466,5.783484 51.708775,5.758429 51.723329,5.763355 51.723943,5.764828 51.727084,5.76025 51.73357,5.764275 51.74749,5.769059 51.748103,5.768071 51.751163,5.84056 51.759084,5.847075 51.758789,5.844843 51.752955,5.848537 51.74593,5.831218 51.737098,5.834062 51.731874,5.84071 51.73077,5.842505 51.722223,5.836206 51.714607)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</gg:year>
+                            <gg:name xml:lang="nl">Beers                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.836206 51.714607,5.827972 51.701156,5.823044 51.700186,5.788563 51.710466,5.783484 51.708775,5.758429 51.723329,5.763355 51.723943,5.764828 51.727084,5.76025 51.73357,5.764275 51.74749,5.769059 51.748103,5.768071 51.751163,5.84056 51.759084,5.841076 51.75279,5.839269 51.745876,5.845478 51.744144,5.842497 51.735796,5.849272 51.732893,5.840409 51.729602,5.846748 51.726701,5.836206 51.714607)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Beers_(Noord-Brabant)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Beers_(Noord-Brabant)"/>
+            </rdf:Description>
+</rdf:RDF>

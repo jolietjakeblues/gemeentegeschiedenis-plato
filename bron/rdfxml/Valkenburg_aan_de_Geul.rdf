@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Valkenburg_aan_de_Geul">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Valkenburg aan de Geul</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Valkenburg aan de Geul</skos:prefLabel>
+        <gg:name xml:lang="nl">Valkenburg aan de Geul</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11077"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0994"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Valkenburg-Houthem"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Berg_en_Terblijt"/>
+
+        
+                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Valkenburg a/d Geul                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.833821 50.885218,5.835495 50.882066,5.836043 50.879996,5.838469 50.881065,5.843313 50.882395,5.843878 50.882033,5.851569 50.8838,5.852545 50.881908,5.863203 50.882045,5.865277 50.876463,5.870919 50.872574,5.870198 50.871589,5.872314 50.870142,5.870304 50.868083,5.874946 50.863748,5.872374 50.862321,5.871208 50.859449,5.870324 50.856397,5.877568 50.856546,5.876691 50.854123,5.884052 50.852024,5.887158 50.850303,5.888257 50.846882,5.885708 50.847522,5.878453 50.846205,5.876607 50.846213,5.87588 50.844598,5.877683 50.840545,5.875095 50.8375,5.871102 50.835719,5.871413 50.838325,5.86758 50.838251,5.865427 50.836012,5.86085 50.832616,5.857148 50.831462,5.853314 50.831298,5.845953 50.833305,5.843254 50.833136,5.838019 50.834864,5.838409 50.831177,5.837828 50.829741,5.835271 50.829571,5.826472 50.829605,5.821804 50.831331,5.821839 50.835016,5.822439 50.83843,5.81394 50.840439,5.812514 50.839815,5.809541 50.840635,5.805872 50.843165,5.801953 50.849381,5.801516 50.848214,5.79598 50.848324,5.793435 50.849591,5.783065 50.849088,5.780232 50.849817,5.780108 50.851975,5.776429 50.853515,5.774999 50.852262,5.771307 50.852364,5.764227 50.854724,5.758975 50.855101,5.751177 50.856654,5.754456 50.858261,5.754607 50.859429,5.764014 50.863534,5.76347 50.866412,5.766458 50.867032,5.765626 50.869551,5.768894 50.86963,5.770726 50.867916,5.77488 50.872037,5.77533 50.874823,5.773488 50.875458,5.778383 50.883082,5.781361 50.882353,5.783785 50.883333,5.784061 50.882433,5.786899 50.881974,5.787908 50.883589,5.790748 50.883399,5.790876 50.881781,5.799407 50.88238,5.801141 50.885699,5.80385 50.886678,5.810111 50.887555,5.816206 50.885824,5.820447 50.883471,5.822313 50.885532,5.825738 50.887047,5.834451 50.891688,5.838283 50.891134,5.833821 50.885218)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/6544299"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-01-01</gg:startDate>
+                                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Valkenburg_aan_de_Geul"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Valkenburg_aan_de_Geul"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Abcoude-Proostdij">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Abcoude-Proostdij</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Abcoude-Proostdij</skos:prefLabel>
+        <gg:name xml:lang="nl">Abcoude-Proostdij</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10712"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1004"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Abcoude_1"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Abcoude_2"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1882</gg:year>
+                            <gg:name xml:lang="nl">Abcoude-Proosdij                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.007372 52.281201,4.99378 52.277022,4.988344 52.278712,4.981313 52.278328,4.977565 52.271664,4.969967 52.269481,4.974821 52.26743,4.976447 52.265818,4.972231 52.262388,4.966227 52.262187,4.96128 52.258664,4.966792 52.248887,4.960949 52.247338,4.957529 52.252809,4.939814 52.252293,4.937088 52.246711,4.927906 52.242541,4.921604 52.243145,4.918201 52.246457,4.904827 52.250987,4.91476 52.253364,4.922714 52.263013,4.928678 52.267081,4.924781 52.275514,4.92695 52.278309,4.933095 52.279231,4.941763 52.277017,4.951578 52.277234,4.964175 52.277729,4.972771 52.282972,4.980192 52.28875,4.999399 52.288006,5.005722 52.2856,5.007372 52.281201)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-05-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Abcoude-Proostdij"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

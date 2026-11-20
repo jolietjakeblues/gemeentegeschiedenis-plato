@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Grijpskerk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Grijpskerk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Grijpskerk</skos:prefLabel>
+        <gg:name xml:lang="nl">Grijpskerk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10244"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0016"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zuidhorn"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Grijpskerk                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.346912 53.268755,6.343908 53.248201,6.315991 53.245814,6.312557 53.239371,6.308669 53.23967,6.3035 53.236115,6.295034 53.239505,6.293914 53.243197,6.283877 53.243183,6.278237 53.245741,6.275809 53.258788,6.25856 53.258016,6.260385 53.251893,6.253602 53.249875,6.251262 53.252767,6.24466 53.252276,6.245767 53.247685,6.239448 53.246292,6.235601 53.248746,6.232545 53.25335,6.246383 53.263585,6.258377 53.263769,6.25359 53.271711,6.25732 53.285702,6.270084 53.286597,6.278123 53.298309,6.287768 53.300484,6.289454 53.302178,6.29797 53.300586,6.306228 53.300973,6.305415 53.305023,6.33157 53.300597,6.323213 53.29563,6.323596 53.285653,6.33628 53.276028,6.339699 53.267914,6.346912 53.268755)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Grijpskerk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Grijpskerk"/>
+            </rdf:Description>
+</rdf:RDF>

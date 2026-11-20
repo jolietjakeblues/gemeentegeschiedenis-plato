@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heille">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heille</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heille</skos:prefLabel>
+        <gg:name xml:lang="nl">Heille</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11309"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1073"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sluis_1"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heille                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.409134 51.313956,3.407805 51.311506,3.41431 51.310358,3.416894 51.306985,3.415271 51.30471,3.420019 51.291034,3.432969 51.279924,3.422576 51.274893,3.426218 51.27019,3.419509 51.262884,3.412349 51.262762,3.410987 51.261121,3.407032 51.256468,3.402574 51.256842,3.398056 51.261889,3.38889 51.265059,3.383062 51.27377,3.375181 51.273724,3.371047 51.27644,3.372039 51.279963,3.376309 51.280666,3.376192 51.286599,3.366673 51.291109,3.362474 51.295262,3.362705 51.299761,3.372232 51.301635,3.379819 51.30851,3.391476 51.307631,3.397971 51.313317,3.409134 51.313956)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1880-07-31</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heille"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heille"/>
+            </rdf:Description>
+</rdf:RDF>

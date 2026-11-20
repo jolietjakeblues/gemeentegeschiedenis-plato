@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Alphen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Alphen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Alphen</skos:prefLabel>
+        <gg:name xml:lang="nl">Alphen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10517"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1008"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Alphen_aan_den_Rijn"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Alphen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.626596 52.138789,4.642205 52.140057,4.655654 52.139512,4.658223 52.134225,4.657866 52.129279,4.658563 52.122363,4.663893 52.117812,4.694764 52.113772,4.705505 52.108262,4.730259 52.10256,4.715555 52.100051,4.699582 52.094745,4.694781 52.093818,4.686903 52.084334,4.669361 52.086476,4.644269 52.08623,4.638421 52.095631,4.619123 52.13164,4.626596 52.138789)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1918</gg:year>
+                            <gg:name xml:lang="nl">Alphen aan den Rijn                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.679777 52.165905,4.692902 52.158433,4.703369 52.152472,4.701911 52.142756,4.723917 52.156185,4.723583 52.158969,4.737718 52.161834,4.755934 52.134519,4.756856 52.131288,4.75265 52.118952,4.736799 52.104484,4.730259 52.10256,4.715555 52.100051,4.699582 52.094745,4.694781 52.093818,4.686903 52.084334,4.669361 52.086476,4.644269 52.08623,4.638421 52.095631,4.619123 52.13164,4.626596 52.138789,4.616611 52.14178,4.61873 52.154468,4.616478 52.157958,4.64607 52.162462,4.67866 52.162573,4.679777 52.165905)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1918-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Alphen_aan_den_Rijn"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Alphen_aan_den_Rijn"/>
+            </rdf:Description>
+</rdf:RDF>

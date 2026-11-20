@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hoog_en_Woud_Harnasch">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hoog en Woud Harnasch</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hoog en Woud Harnasch</skos:prefLabel>
+        <gg:name xml:lang="nl">Hoog en Woud Harnasch</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10163"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1330"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/t_Woud"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hof_van_Delft"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Hoog en Woud Harnasch              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.38386 51.974009,4.392116 51.962664,4.387863 51.964156,4.378164 51.961916,4.371198 51.961137,4.360894 51.959969,4.358307 51.96489,4.339567 51.963556,4.338637 51.965975,4.33379 51.974111,4.336235 51.974726,4.37605 51.984729,4.37665 51.983925,4.38386 51.974009)),((4.314286 51.998474,4.311759 51.99778,4.301598 52.006656,4.307058 52.009186,4.304911 52.01128,4.317487 52.017123,4.32328 52.012219,4.327174 52.008334,4.310949 52.001436,4.314286 51.998474)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-04-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1833-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

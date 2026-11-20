@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zuidbroek_Gr">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zuidbroek [Gr]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zuidbroek [Gr]</skos:prefLabel>
+        <gg:name xml:lang="nl">Zuidbroek [Gr]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11282"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1240"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oosterbroek"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zuidbroek (Gr.)                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.825295 53.180761,6.91379 53.178858,6.910083 53.167042,6.899473 53.158729,6.893237 53.159976,6.893286 53.157099,6.880247 53.156184,6.865361 53.149358,6.824209 53.148061,6.823378 53.150049,6.816902 53.148598,6.815933 53.160023,6.821824 53.170827,6.821296 53.177484,6.825295 53.180761)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1965-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zuidbroek_(Groningen)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zuidbroek_(Groningen)"/>
+            </rdf:Description>
+</rdf:RDF>

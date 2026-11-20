@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zegveld">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zegveld</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zegveld</skos:prefLabel>
+        <gg:name xml:lang="nl">Zegveld</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10949"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0354"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rietveld"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Woerden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zegveld                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.859979 52.093235,4.858609 52.085679,4.844009 52.086511,4.824392 52.080127,4.818248 52.081446,4.807452 52.081483,4.805927 52.097834,4.811861 52.101639,4.822639 52.103488,4.821871 52.106451,4.789869 52.119955,4.79041 52.123194,4.802073 52.12469,4.805841 52.138101,4.8277 52.142251,4.834752 52.139049,4.853191 52.136258,4.85179 52.131218,4.860579 52.129011,4.856433 52.121532,4.864511 52.10503,4.865259 52.103505,4.868339 52.10217,4.866908 52.099737,4.859979 52.093235)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Zegveld                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.860579 52.129011,4.856433 52.121532,4.864511 52.10503,4.865259 52.103505,4.868339 52.10217,4.866908 52.099737,4.859979 52.093235,4.846029 52.100452,4.822639 52.103488,4.821871 52.106451,4.789869 52.119955,4.79041 52.123194,4.802073 52.12469,4.805841 52.138101,4.8277 52.142251,4.834752 52.139049,4.853191 52.136258,4.85179 52.131218,4.860579 52.129011)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1989-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zegveld"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zegveld"/>
+            </rdf:Description>
+</rdf:RDF>

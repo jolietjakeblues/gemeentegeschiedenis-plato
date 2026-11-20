@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Beesd">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Beesd</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Beesd</skos:prefLabel>
+        <gg:name xml:lang="nl">Beesd</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10259"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0205"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Geldermalsen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Beesd                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.228889 51.924701,5.242877 51.914742,5.255865 51.896691,5.254577 51.890038,5.246451 51.887332,5.243085 51.895148,5.231025 51.895672,5.221614 51.886761,5.20389 51.887543,5.203173 51.885385,5.20363 51.879993,5.189673 51.883475,5.177857 51.894511,5.167254 51.893952,5.167147 51.886222,5.169197 51.88281,5.167912 51.878134,5.155423 51.87811,5.150472 51.880707,5.145111 51.878269,5.144831 51.876291,5.138752 51.872773,5.122209 51.870849,5.117089 51.877129,5.117913 51.885041,5.110485 51.888349,5.115077 51.897708,5.131692 51.914104,5.143973 51.927612,5.164621 51.926934,5.165072 51.924059,5.159706 51.921532,5.160297 51.919555,5.207658 51.926019,5.211023 51.920631,5.228889 51.924701)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Beesd"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Beesd"/>
+            </rdf:Description>
+</rdf:RDF>

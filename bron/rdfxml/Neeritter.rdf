@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Neeritter">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Neeritter</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Neeritter</skos:prefLabel>
+        <gg:name xml:lang="nl">Neeritter</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11001"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1116"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hunsel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Neeritter                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.772996 51.17407,5.778559 51.172433,5.792431 51.172745,5.809345 51.17718,5.813147 51.170784,5.812247 51.166203,5.817218 51.163221,5.813475 51.159906,5.805931 51.163439,5.80318 51.159673,5.791014 51.157919,5.778525 51.151669,5.747991 51.150672,5.731861 51.146628,5.705349 51.143702,5.70956 51.16583,5.738341 51.186225,5.7469 51.176305,5.772996 51.17407)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Neeritter                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.812247 51.166203,5.817218 51.163221,5.813475 51.159906,5.805931 51.163439,5.80318 51.159673,5.791014 51.157919,5.778525 51.151669,5.775967 51.153386,5.775563 51.156353,5.778445 51.15904,5.778075 51.165963,5.76978 51.165631,5.769384 51.169587,5.776252 51.170194,5.778559 51.172433,5.792431 51.172745,5.809345 51.17718,5.813147 51.170784,5.812247 51.166203)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Neeritter"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Neeritter"/>
+            </rdf:Description>
+</rdf:RDF>

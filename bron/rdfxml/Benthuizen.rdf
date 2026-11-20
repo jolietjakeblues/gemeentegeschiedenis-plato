@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Benthuizen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Benthuizen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Benthuizen</skos:prefLabel>
+        <gg:name xml:lang="nl">Benthuizen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10398"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0490"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hazerswoude"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Benthorn"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoogeveen_Rijnland"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rijneveld"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Benthuizen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.550177 52.07751,4.557093 52.066413,4.556782 52.05958,4.55386 52.059919,4.531898 52.072165,4.535752 52.076598,4.533788 52.11838,4.536701 52.11876,4.5424 52.118532,4.551448 52.110956,4.549803 52.105282,4.550177 52.07751)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1846</gg:year>
+                            <gg:name xml:lang="nl">Benthuizen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.549803 52.105282,4.550177 52.07751,4.55834 52.077837,4.566968 52.06873,4.56816 52.05939,4.564089 52.058732,4.556782 52.05958,4.55386 52.059919,4.531898 52.072165,4.535752 52.076598,4.533788 52.11838,4.536701 52.11876,4.5424 52.118532,4.551448 52.110956,4.549803 52.105282)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1856</gg:year>
+                            <gg:name xml:lang="nl">Benthuizen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.549803 52.105282,4.550177 52.07751,4.55834 52.077837,4.566503 52.078164,4.604177 52.076084,4.605242 52.065215,4.56816 52.05939,4.564089 52.058732,4.556782 52.05958,4.55386 52.059919,4.531898 52.072165,4.535752 52.076598,4.533788 52.11838,4.536701 52.11876,4.5424 52.118532,4.551448 52.110956,4.549803 52.105282)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-04-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Benthuizen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Benthuizen"/>
+            </rdf:Description>
+</rdf:RDF>

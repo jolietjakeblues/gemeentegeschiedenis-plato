@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Kamperveen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Kamperveen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Kamperveen</skos:prefLabel>
+        <gg:name xml:lang="nl">Kamperveen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10443"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1092"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/IJsselmuiden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Kamperveen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.882196 52.515891,5.897582 52.521488,5.905085 52.520467,5.920987 52.53181,5.937858 52.525621,5.949732 52.520802,5.95391 52.513413,5.955252 52.514665,5.956368 52.509806,5.951731 52.504346,5.951911 52.495357,5.963061 52.492158,5.966162 52.492862,5.969446 52.496261,5.978854 52.495046,5.984956 52.488904,5.97323 52.481773,5.963849 52.47364,5.955404 52.480691,5.950698 52.481073,5.935149 52.473596,5.923787 52.471222,5.901613 52.500709,5.882196 52.515891)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1937-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kamperveen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kamperveen"/>
+            </rdf:Description>
+</rdf:RDF>

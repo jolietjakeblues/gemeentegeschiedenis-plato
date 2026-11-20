@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zuiddorpe">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zuiddorpe</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zuiddorpe</skos:prefLabel>
+        <gg:name xml:lang="nl">Zuiddorpe</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11087"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0734"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Axel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zuiddorpe                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.882603 51.251185,3.917436 51.254957,3.917675 51.247498,3.921292 51.246375,3.920754 51.240794,3.927781 51.231533,3.921666 51.230198,3.91508 51.239104,3.907685 51.237482,3.912355 51.234755,3.917016 51.223396,3.899822 51.223807,3.891347 51.220282,3.886739 51.221122,3.854461 51.210272,3.847247 51.211975,3.848143 51.215133,3.855941 51.217394,3.856035 51.223149,3.868172 51.228432,3.869455 51.232944,3.885819 51.244844,3.882603 51.251185)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zuiddorpe"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zuiddorpe"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heukelum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heukelum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heukelum</skos:prefLabel>
+        <gg:name xml:lang="nl">Heukelum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11308"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0533"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Spijk"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vuren"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heukelum                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.085126 51.879298,5.091969 51.876709,5.092744 51.869251,5.073608 51.864797,5.054219 51.856025,5.045228 51.85492,5.025477 51.856209,5.027482 51.859631,5.057809 51.861248,5.059669 51.865029,5.05006 51.868687,5.053649 51.87418,5.060172 51.875816,5.069471 51.875122,5.07845 51.878562,5.085126 51.879298)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1856</gg:year>
+                            <gg:name xml:lang="nl">Heukelum                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.091969 51.876709,5.092744 51.869251,5.073608 51.864797,5.054219 51.856025,5.045228 51.85492,5.025477 51.856209,5.020827 51.856734,5.01069 51.853916,5.004435 51.855514,5.000086 51.85487,4.9991 51.851361,4.9964 51.844701,4.98514 51.838101,4.980914 51.840064,4.989554 51.847554,4.995294 51.855034,4.994228 51.860783,5.003534 51.859016,5.027482 51.859631,5.057809 51.861248,5.059669 51.865029,5.05006 51.868687,5.053649 51.87418,5.060172 51.875816,5.069471 51.875122,5.07845 51.878562,5.085126 51.879298,5.091969 51.876709)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</gg:year>
+                            <gg:name xml:lang="nl">Heukelum                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.091969 51.876709,5.092744 51.869251,5.073608 51.864797,5.054219 51.856025,5.045228 51.85492,5.020827 51.856734,5.01069 51.853916,5.004435 51.855514,5.000086 51.85487,4.9991 51.851361,4.9964 51.844701,4.989554 51.847554,4.995294 51.855034,4.994228 51.860783,5.003534 51.859016,5.027482 51.859631,5.057809 51.861248,5.059669 51.865029,5.05006 51.868687,5.053649 51.87418,5.060172 51.875816,5.069471 51.875122,5.07845 51.878562,5.085126 51.879298,5.091969 51.876709)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heukelum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heukelum"/>
+            </rdf:Description>
+</rdf:RDF>

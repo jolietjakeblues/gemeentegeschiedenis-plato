@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wolvega">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wolvega</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wolvega</skos:prefLabel>
+        <gg:name xml:lang="nl">Wolvega</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11055"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Weststellingwerf"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wolvega                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.109941 52.910337,6.096074 52.904996,6.083331 52.900094,6.073743 52.894406,6.070404 52.883321,6.070923 52.876043,6.075256 52.869892,6.041439 52.856442,6.025792 52.857101,6.014308 52.85027,5.997732 52.847951,5.972879 52.873741,5.997825 52.880041,5.919088 52.898934,5.937157 52.906405,5.947817 52.914713,5.951001 52.919461,5.962216 52.92435,5.977503 52.922209,5.99033 52.92502,5.996334 52.929034,6.003484 52.929896,6.036257 52.913546,6.044295 52.914221,6.08546 52.931871,6.109941 52.910337)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wolvega"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wolvega"/>
+            </rdf:Description>
+</rdf:RDF>

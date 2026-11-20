@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Obdam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Obdam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Obdam</skos:prefLabel>
+        <gg:name xml:lang="nl">Obdam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11338"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0429"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hensbroek"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hensbroek"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Koggenland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Obdam                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.912125 52.650603,4.898167 52.643447,4.8937 52.646484,4.88176 52.644007,4.87532 52.638767,4.873965 52.641008,4.871188 52.63839,4.865077 52.642946,4.869034 52.64566,4.861161 52.64922,4.873501 52.668057,4.874596 52.675611,4.875384 52.684062,4.888046 52.689059,4.889195 52.69203,4.897604 52.694042,4.906358 52.691561,4.937361 52.682785,4.934626 52.675495,4.934866 52.666509,4.921748 52.662953,4.923536 52.661522,4.920384 52.652164,4.912125 52.650603)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Obdam                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.906358 52.691561,4.937361 52.682785,4.934626 52.675495,4.934866 52.666509,4.921748 52.662953,4.90742 52.675568,4.894863 52.674618,4.892486 52.675597,4.88378 52.674123,4.874596 52.675611,4.875384 52.684062,4.888046 52.689059,4.889195 52.69203,4.897604 52.694042,4.906358 52.691561)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</gg:year>
+                            <gg:name xml:lang="nl">Obdam                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.933746 52.646104,4.921099 52.640483,4.899225 52.641294,4.895354 52.643974,4.87532 52.638767,4.867122 52.644933,4.86368 52.648602,4.863169 52.654262,4.873501 52.668057,4.874596 52.675611,4.879158 52.677428,4.875384 52.684062,4.888046 52.689059,4.889195 52.69203,4.897604 52.694042,4.908951 52.697952,4.916932 52.698613,4.917158 52.691335,4.906133 52.685089,4.933001 52.675399,4.932713 52.674589,4.941315 52.672015,4.935751 52.666782,4.918217 52.661412,4.933746 52.646104)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Obdam_(plaats)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Obdam_(plaats)"/>
+            </rdf:Description>
+</rdf:RDF>

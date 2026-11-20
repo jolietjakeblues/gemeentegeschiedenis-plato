@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Stedum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Stedum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Stedum</skos:prefLabel>
+        <gg:name xml:lang="nl">Stedum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10771"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0041"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Loppersum"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Stedum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.700465 53.355901,6.737236 53.38371,6.743504 53.382292,6.752209 53.362963,6.750508 53.361455,6.737557 53.360433,6.73251 53.362376,6.721267 53.358278,6.726179 53.352023,6.719295 53.347966,6.728813 53.340132,6.727659 53.33682,6.71571 53.333987,6.717734 53.331448,6.707931 53.325086,6.720038 53.31372,6.738772 53.308209,6.728816 53.30167,6.710936 53.305643,6.690031 53.294009,6.676417 53.300177,6.654944 53.304539,6.683316 53.345034,6.700465 53.355901)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Stedum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Stedum"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Marsum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Marsum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Marsum</skos:prefLabel>
+        <gg:name xml:lang="nl">Marsum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10778"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Menaldumadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Marsum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.69371 53.187234,5.689935 53.19124,5.688693 53.19486,5.69062 53.198471,5.695391 53.200933,5.701428 53.20301,5.696085 53.209305,5.707849 53.214032,5.704069 53.217277,5.715487 53.217817,5.720598 53.222751,5.724701 53.220266,5.732662 53.22443,5.74705 53.231995,5.750782 53.228819,5.753129 53.223061,5.75496 53.209487,5.766477 53.19148,5.764358 53.171538,5.729924 53.166699,5.727496 53.162213,5.723904 53.161684,5.72273 53.164473,5.71156 53.170345,5.698552 53.170739,5.697531 53.174336,5.684693 53.177693,5.691459 53.182672,5.69371 53.187234)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Marssum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Marssum"/>
+            </rdf:Description>
+</rdf:RDF>

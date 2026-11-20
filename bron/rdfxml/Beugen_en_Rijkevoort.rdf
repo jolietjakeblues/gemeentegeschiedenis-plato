@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Beugen_en_Rijkevoort">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Beugen en Rijkevoort</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Beugen en Rijkevoort</skos:prefLabel>
+        <gg:name xml:lang="nl">Beugen en Rijkevoort</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10252"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1021"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Boxmeer"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wanroij"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Beugen en Rijkevoort               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.958705 51.686658,5.959389 51.683599,5.95337 51.676347,5.952731 51.671496,5.956163 51.668514,5.949196 51.66621,5.939952 51.666793,5.925817 51.657241,5.914641 51.653158,5.901863 51.647731,5.881059 51.647911,5.860584 51.638198,5.849306 51.637164,5.831522 51.635525,5.797606 51.606886,5.784263 51.599831,5.757383 51.595604,5.75542 51.602712,5.82477 51.639326,5.843143 51.641953,5.836825 51.645842,5.838032 51.650961,5.834613 51.655918,5.858617 51.671194,5.878203 51.677675,5.881949 51.676491,5.895019 51.681649,5.90243 51.684852,5.917355 51.687482,5.91883 51.689902,5.931843 51.689663,5.934704 51.687043,5.958705 51.686658)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1931</gg:year>
+                            <gg:name xml:lang="nl">Beugen en Rijkevoort               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.95337 51.676347,5.952731 51.671496,5.956163 51.668514,5.949196 51.66621,5.939952 51.666793,5.925817 51.657241,5.914641 51.653158,5.901863 51.647731,5.881059 51.647911,5.860584 51.638198,5.849306 51.637164,5.843143 51.641953,5.836825 51.645842,5.838032 51.650961,5.834613 51.655918,5.858617 51.671194,5.878203 51.677675,5.881949 51.676491,5.895019 51.681649,5.90243 51.684852,5.917355 51.687482,5.91883 51.689902,5.931843 51.689663,5.934704 51.687043,5.958705 51.686658,5.959389 51.683599,5.95337 51.676347)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-05-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Beugen_en_Rijkevoort"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Beugen_en_Rijkevoort"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ezinge">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ezinge</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ezinge</skos:prefLabel>
+        <gg:name xml:lang="nl">Ezinge</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10136"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0012"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Winsum"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ezinge                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.456343 53.323633,6.460381 53.323058,6.462049 53.317742,6.472979 53.316745,6.475586 53.318968,6.484103 53.317542,6.484421 53.312328,6.501282 53.297076,6.50479 53.276196,6.505621 53.267741,6.490248 53.264468,6.476821 53.266927,6.47311 53.27433,6.464702 53.273776,6.461827 53.278744,6.448279 53.276529,6.443824 53.278275,6.432498 53.27487,6.425396 53.278795,6.425926 53.282116,6.434191 53.289053,6.424182 53.290667,6.423605 53.297861,6.429595 53.30365,6.429956 53.312363,6.439278 53.313181,6.449727 53.317043,6.450339 53.323597,6.456343 53.323633)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ezinge"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ezinge"/>
+            </rdf:Description>
+</rdf:RDF>

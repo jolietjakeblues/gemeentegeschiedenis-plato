@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wilnis">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wilnis</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wilnis</skos:prefLabel>
+        <gg:name xml:lang="nl">Wilnis</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10365"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0350"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oudhuizen"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oudhuizen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Ronde_Venen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wilnis                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.920679 52.163688,4.908147 52.160222,4.894109 52.160883,4.861185 52.152023,4.851449 52.159709,4.849934 52.164106,4.85736 52.166477,4.864782 52.169296,4.86501 52.17478,4.841707 52.179528,4.873942 52.198907,4.893249 52.212201,4.898559 52.208359,4.912889 52.195295,4.923225 52.185898,4.944146 52.18481,4.930361 52.174421,4.930835 52.171008,4.924305 52.166309,4.920679 52.163688)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Wilnis                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.893249 52.212201,4.898559 52.208359,4.902239 52.179343,4.908147 52.160222,4.894109 52.160883,4.861185 52.152023,4.851449 52.159709,4.849934 52.164106,4.85736 52.166477,4.864782 52.169296,4.86501 52.17478,4.841707 52.179528,4.873942 52.198907,4.893249 52.212201)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Wilnis                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.920679 52.163688,4.908147 52.160222,4.894109 52.160883,4.861185 52.152023,4.851449 52.159709,4.849934 52.164106,4.85736 52.166477,4.864782 52.169296,4.86501 52.17478,4.841707 52.179528,4.873942 52.198907,4.893249 52.212201,4.898559 52.208359,4.912889 52.195295,4.923225 52.185898,4.944146 52.18481,4.930361 52.174421,4.930835 52.171008,4.924305 52.166309,4.920679 52.163688)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1882</gg:year>
+                            <gg:name xml:lang="nl">Wilnis                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.918435 52.196395,4.912889 52.195295,4.923225 52.185898,4.944146 52.18481,4.930361 52.174421,4.930835 52.171008,4.924305 52.166309,4.920679 52.163688,4.908147 52.160222,4.894109 52.160883,4.861185 52.152023,4.851449 52.159709,4.849934 52.164106,4.85736 52.166477,4.864782 52.169296,4.86501 52.17478,4.841707 52.179528,4.873942 52.198907,4.88656 52.195456,4.884058 52.209826,4.918133 52.211224,4.918435 52.196395)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1989-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wilnis"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wilnis"/>
+            </rdf:Description>
+</rdf:RDF>

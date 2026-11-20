@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hekendorp">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hekendorp</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hekendorp</skos:prefLabel>
+        <gg:name xml:lang="nl">Hekendorp</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10217"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1075"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Waarder"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oukoop"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Driebruggen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Hekendorp                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.83494 52.029304,4.853837 52.033166,4.85804 52.022759,4.854866 52.020138,4.848915 52.018313,4.842964 52.016488,4.830203 52.011754,4.801192 52.013681,4.793913 52.02434,4.789058 52.027821,4.804357 52.027898,4.811083 52.026133,4.824766 52.027188,4.83494 52.029304)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Hekendorp                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.780489 52.036496,4.789058 52.027821,4.804357 52.027898,4.811083 52.026133,4.824766 52.027188,4.83494 52.029304,4.853837 52.033166,4.85804 52.022759,4.854866 52.020138,4.848915 52.018313,4.842964 52.016488,4.830203 52.011754,4.801192 52.013681,4.793913 52.02434,4.777653 52.020033,4.769388 52.02772,4.771123 52.028718,4.769051 52.031044,4.766148 52.030219,4.759055 52.037193,4.765499 52.045496,4.780489 52.036496)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-04-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-02-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hekendorp"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hekendorp"/>
+            </rdf:Description>
+</rdf:RDF>

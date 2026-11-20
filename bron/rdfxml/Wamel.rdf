@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wamel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wamel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wamel</skos:prefLabel>
+        <gg:name xml:lang="nl">Wamel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10042"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0290"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Leeuwen"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dreumel"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Appeltern"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/West_Maas_en_Waal"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wamel                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.512807 51.851467,5.481531 51.845762,5.470965 51.860601,5.440345 51.869697,5.436432 51.87671,5.442974 51.88174,5.456486 51.885598,5.466656 51.886491,5.496276 51.887693,5.499736 51.883705,5.502185 51.879543,5.503769 51.879627,5.50983 51.867458,5.512807 51.851467)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Wamel                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.528262 51.892724,5.539588 51.891092,5.544369 51.887491,5.574893 51.892389,5.571667 51.885114,5.567453 51.884491,5.565846 51.882337,5.568164 51.880715,5.566547 51.876044,5.56001 51.875335,5.558397 51.871292,5.554184 51.870669,5.552119 51.861863,5.539774 51.860442,5.519283 51.852647,5.481531 51.845762,5.470965 51.860601,5.440345 51.869697,5.436432 51.87671,5.442974 51.88174,5.456486 51.885598,5.466656 51.886491,5.503553 51.887988,5.518521 51.890129,5.528262 51.892724)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Wamel                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.539588 51.891092,5.544369 51.887491,5.574893 51.892389,5.571667 51.885114,5.567453 51.884491,5.565846 51.882337,5.568164 51.880715,5.566547 51.876044,5.56001 51.875335,5.558397 51.871292,5.554184 51.870669,5.552119 51.861863,5.567945 51.862379,5.574627 51.863447,5.576502 51.860478,5.581431 51.858942,5.583594 51.855703,5.579515 51.852204,5.584828 51.839162,5.594114 51.839146,5.598167 51.837072,5.608462 51.835615,5.600739 51.828618,5.5948 51.830516,5.584504 51.831433,5.560272 51.830392,5.551852 51.828607,5.54778 51.825736,5.543116 51.819361,5.535425 51.818292,5.521073 51.820107,5.515564 51.821102,5.510206 51.824344,5.50427 51.828574,5.494267 51.8311,5.48411 51.83039,5.47743 51.82689,5.471175 51.817816,5.466092 51.814045,5.458259 51.812612,5.436651 51.811724,5.430272 51.812895,5.424473 51.814964,5.41911 51.819011,5.414906 51.822877,5.405917 51.831777,5.39997 51.836092,5.409115 51.84418,5.414922 51.848673,5.42248 51.862603,5.433089 51.873116,5.436432 51.87671,5.442974 51.88174,5.456486 51.885598,5.466656 51.886491,5.503553 51.887988,5.518521 51.890129,5.528262 51.892724,5.539588 51.891092)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wamel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wamel"/>
+            </rdf:Description>
+</rdf:RDF>

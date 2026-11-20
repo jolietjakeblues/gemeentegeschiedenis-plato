@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Rilland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Rilland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Rilland</skos:prefLabel>
+        <gg:name xml:lang="nl">Rilland</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10479"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1161"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Maire"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rilland_en_Bath"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rilland-Bath"/>
+
+        
+                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1878</gg:year>
+                            <gg:name xml:lang="nl">Rilland-Bath                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.261321 51.444785,4.2727 51.426556,4.263588 51.422872,4.260738 51.416013,4.266334 51.398897,4.261984 51.388787,4.272441 51.384213,4.273578 51.37883,4.242051 51.375828,4.240383 51.379317,4.251446 51.379246,4.238003 51.388283,4.238722 51.393954,4.232541 51.399736,4.226426 51.408485,4.220508 51.403841,4.203208 51.400341,4.186185 51.408257,4.16686 51.399876,4.157168 51.396897,4.143542 51.395944,4.127841 51.397304,4.111923 51.401266,4.112234 51.410708,4.115754 51.418478,4.113352 51.422137,4.132331 51.422163,4.133389 51.425501,4.141152 51.425584,4.145927 51.42977,4.153454 51.427962,4.169989 51.43344,4.166245 51.438974,4.170362 51.440995,4.177857 51.440443,4.190189 51.436435,4.197913 51.438043,4.218904 51.432771,4.233415 51.433365,4.250532 51.439017,4.25667 51.446717,4.261321 51.444785)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1878-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Rilland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Rilland"/>
+            </rdf:Description>
+</rdf:RDF>

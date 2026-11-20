@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Lunteren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Lunteren</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Lunteren</skos:prefLabel>
+        <gg:name xml:lang="nl">Lunteren</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10653"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ede"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Lunteren                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.691996 52.125161,5.692138 52.120242,5.685015 52.101591,5.670052 52.095597,5.667627 52.080668,5.677608 52.073708,5.67633 52.058565,5.672952 52.060506,5.665388 52.069133,5.646687 52.065177,5.641761 52.063249,5.626603 52.059282,5.617562 52.059543,5.615199 52.05882,5.60497 52.057143,5.602428 52.060056,5.572716 52.055401,5.555111 52.057574,5.5576 52.082156,5.550465 52.085852,5.553399 52.090341,5.54933 52.094931,5.552845 52.098252,5.547756 52.103562,5.547773 52.108235,5.558901 52.117028,5.559066 52.122151,5.568702 52.121687,5.579082 52.124816,5.584353 52.127953,5.588872 52.126058,5.60244 52.123338,5.62159 52.127526,5.657099 52.131045,5.665128 52.130487,5.66792 52.133267,5.678853 52.130004,5.684116 52.1308,5.691996 52.125161)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Lunteren"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Lunteren"/>
+            </rdf:Description>
+</rdf:RDF>

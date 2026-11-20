@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Peel_en_Maas">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Peel en Maas</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Peel en Maas</skos:prefLabel>
+        <gg:name xml:lang="nl">Peel en Maas</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10205"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1894"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kessel"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Helden"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Maasbree"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Meijel"/>
+
+        
+                                                            
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/7535502"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</gg:startDate>
+                                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Peel_en_Maas"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Peel_en_Maas"/>
+            </rdf:Description>
+</rdf:RDF>

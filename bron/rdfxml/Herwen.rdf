@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Herwen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Herwen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Herwen</skos:prefLabel>
+        <gg:name xml:lang="nl">Herwen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10819"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Pannerden"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Herwen_en_Aerdt"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Herwen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.036241 51.909801,6.058017 51.908241,6.061097 51.910111,6.072997 51.908963,6.078886 51.904435,6.090323 51.90167,6.093165 51.897608,6.090381 51.896097,6.101202 51.891358,6.120495 51.889621,6.137488 51.880705,6.144371 51.866818,6.141467 51.865255,6.140258 51.863203,6.137416 51.861479,6.133158 51.861416,6.126411 51.861731,6.121586 51.862852,6.116773 51.86479,6.115203 51.867527,6.113565 51.870642,6.109848 51.870786,6.106901 51.871667,6.105415 51.875176,6.102299 51.876164,6.093783 51.876195,6.093025 51.877816,6.091887 51.879389,6.090893 51.880762,6.088122 51.88196,6.083711 51.881622,6.079837 51.87957,6.074908 51.877297,6.069875 51.875634,6.054992 51.870866,6.038944 51.87572,6.033192 51.879707,6.031063 51.883134,6.027 51.893583,6.022861 51.898819,6.018539 51.901449,6.000598 51.907117,5.992822 51.91237,6.007713 51.917236,6.021502 51.915814,6.036241 51.909801)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Herwen en Aerdt                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.101202 51.891358,6.120495 51.889621,6.137488 51.880705,6.144371 51.866818,6.165444 51.859579,6.16145 51.855291,6.167166 51.84168,6.132903 51.849453,6.108654 51.848796,6.098218 51.849668,6.091031 51.854116,6.054992 51.870866,6.069875 51.875634,6.064387 51.877643,6.058212 51.882353,6.061734 51.88476,6.061375 51.889885,6.036241 51.909801,6.058017 51.908241,6.061097 51.910111,6.072997 51.908963,6.078886 51.904435,6.090323 51.90167,6.093165 51.897608,6.090381 51.896097,6.101202 51.891358)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                                            <gg:resourceGeonames rdf:resource="http://sws.geonames.org/6544274"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Herwen"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Herwen-en-Aerdt"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Rijnwaarden"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Herwen"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Herwen-en-Aerdt"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Rijnwaarden"/>
+            </rdf:Description>
+</rdf:RDF>

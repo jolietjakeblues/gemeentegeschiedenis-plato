@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Westdongeradeel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Westdongeradeel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Westdongeradeel</skos:prefLabel>
+        <gg:name xml:lang="nl">Westdongeradeel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10129"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0097"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nes"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ternaard"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Holwerd"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dongeradeel"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Westdongeradeel                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.088267 53.401641,6.065765 53.385777,6.064332 53.380663,6.053026 53.37839,6.048124 53.382101,6.039263 53.382419,6.035859 53.375968,6.016268 53.372028,6.016418 53.361695,6.023511 53.35384,6.022482 53.34513,6.015079 53.342024,6.010282 53.342498,6.007935 53.346374,5.988513 53.342609,5.991141 53.337294,5.985083 53.333461,5.983095 53.330865,5.990563 53.328222,5.985967 53.321506,5.972282 53.319327,5.966893 53.320341,5.960706 53.317765,5.954265 53.318604,5.948492 53.31315,5.935128 53.312313,5.927721 53.319895,5.927168 53.323671,5.911637 53.32994,5.916327 53.332974,5.896033 53.343215,5.888073 53.342979,5.881071 53.34777,5.885599 53.349728,5.850985 53.370533,5.888086 53.382784,5.922194 53.382367,5.963468 53.389634,5.972094 53.393906,5.979752 53.393329,6.056556 53.402451,6.073103 53.402987,6.088267 53.401641)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</gg:year>
+                            <gg:name xml:lang="nl">Westdongeradeel                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.088267 53.401641,6.065765 53.385777,6.064332 53.380663,6.053026 53.37839,6.048124 53.382101,6.039263 53.382419,6.035859 53.375968,6.016268 53.372028,6.016418 53.361695,6.023511 53.35384,6.022482 53.34513,6.015079 53.342024,6.010282 53.342498,6.007935 53.346374,5.988513 53.342609,5.991141 53.337294,5.985083 53.333461,5.983095 53.330865,5.97648 53.330089,5.972541 53.327412,5.972282 53.319327,5.966893 53.320341,5.960706 53.317765,5.954265 53.318604,5.948492 53.31315,5.935128 53.312313,5.927721 53.319895,5.927168 53.323671,5.911637 53.32994,5.916327 53.332974,5.896033 53.343215,5.888073 53.342979,5.881071 53.34777,5.885599 53.349728,5.850985 53.370533,5.888086 53.382784,5.922194 53.382367,5.963468 53.389634,5.972094 53.393906,5.979752 53.393329,6.056556 53.402451,6.073103 53.402987,6.088267 53.401641)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Westdongeradeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Westdongeradeel"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Mildam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Mildam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Mildam</skos:prefLabel>
+        <gg:name xml:lang="nl">Mildam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11175"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schoterland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Mildam                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.970724 52.957912,5.981663 52.958457,5.994879 52.956868,6.008403 52.954895,6.022562 52.953298,6.036093 52.951893,6.029511 52.960223,6.061907 52.966784,6.079051 52.97783,6.097013 52.983745,6.098593 52.989307,6.129424 53.007003,6.17714 53.017481,6.19829 53.032886,6.204559 53.033293,6.201297 52.986495,6.18971 52.979924,6.16071 52.973465,6.148421 52.968781,6.12797 52.947881,6.110992 52.946816,6.08546 52.931871,6.044295 52.914221,6.036257 52.913546,6.003484 52.929896,5.996334 52.929034,5.99033 52.92502,5.970724 52.957912)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Mildam"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Mildam"/>
+            </rdf:Description>
+</rdf:RDF>

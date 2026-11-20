@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wassenaar">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wassenaar</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wassenaar</skos:prefLabel>
+        <gg:name xml:lang="nl">Wassenaar</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10164"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0629"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wassenaar                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.368986 52.186733,4.398491 52.168557,4.403796 52.166624,4.407874 52.167287,4.411498 52.162014,4.428563 52.156851,4.436799 52.154401,4.440519 52.144364,4.436721 52.144333,4.429178 52.135014,4.397148 52.11048,4.368012 52.094951,4.355803 52.105452,4.350958 52.100376,4.327694 52.090461,4.325654 52.096465,4.321817 52.098228,4.330037 52.102437,4.327522 52.103853,4.314569 52.096185,4.311901 52.097868,4.304839 52.094208,4.299738 52.099914,4.293962 52.097344,4.277641 52.114,4.300829 52.12707,4.368986 52.186733)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1908</gg:year>
+                            <gg:name xml:lang="nl">Wassenaar                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.398491 52.168557,4.403796 52.166624,4.407874 52.167287,4.411498 52.162014,4.428563 52.156851,4.436799 52.154401,4.440519 52.144364,4.436721 52.144333,4.429178 52.135014,4.397148 52.11048,4.368012 52.094951,4.355803 52.105452,4.346388 52.102313,4.343989 52.098786,4.337027 52.096926,4.335382 52.09862,4.325075 52.09628,4.322547 52.098235,4.329898 52.102166,4.328114 52.103498,4.331124 52.105862,4.300829 52.12707,4.368986 52.186733,4.398491 52.168557)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2744989"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wassenaar_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wassenaar_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

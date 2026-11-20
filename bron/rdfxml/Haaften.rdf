@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Haaften">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Haaften</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Haaften</skos:prefLabel>
+        <gg:name xml:lang="nl">Haaften</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10125"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0242"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Herwijnen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Neerijnen"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1978</gg:year>
+                            <gg:name xml:lang="nl">Neerijnen                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.375298 51.862069,5.388219 51.854879,5.393589 51.853261,5.400992 51.854608,5.407668 51.853259,5.408101 51.848855,5.401133 51.842923,5.389669 51.837531,5.373858 51.823509,5.361537 51.809664,5.353563 51.806966,5.346604 51.806874,5.340658 51.80786,5.335143 51.812173,5.325272 51.819358,5.31816 51.82286,5.306407 51.825369,5.292046 51.825269,5.259279 51.819934,5.245791 51.819829,5.224637 51.813869,5.214205 51.811517,5.198828 51.812932,5.175893 51.817657,5.168346 51.818721,5.156027 51.81708,5.158753 51.822928,5.152343 51.828308,5.151229 51.847002,5.192294 51.848425,5.228406 51.855401,5.235376 51.854781,5.244223 51.856949,5.261209 51.85598,5.278624 51.857615,5.289948 51.856546,5.306359 51.851885,5.325073 51.858458,5.326818 51.856391,5.334799 51.858372,5.340027 51.856577,5.356573 51.85838,5.375298 51.862069)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Haaften"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Haaften"/>
+            </rdf:Description>
+</rdf:RDF>

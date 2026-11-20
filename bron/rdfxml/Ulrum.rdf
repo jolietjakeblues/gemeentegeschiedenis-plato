@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ulrum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ulrum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ulrum</skos:prefLabel>
+        <gg:name xml:lang="nl">Ulrum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10180"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0045"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kloosterburen"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Leens"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Eenrum"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Marne"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ulrum                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.308136 53.390276,6.308034 53.385514,6.320601 53.375893,6.321635 53.368157,6.330918 53.366737,6.340771 53.370703,6.360543 53.368028,6.367335 53.369411,6.370467 53.361837,6.365624 53.35361,6.368471 53.346757,6.35563 53.336618,6.349839 53.326061,6.352845 53.319567,6.348216 53.313853,6.343147 53.315332,6.333163 53.311637,6.321467 53.311998,6.317195 53.315625,6.317515 53.32353,6.297611 53.333297,6.299914 53.335706,6.289773 53.338927,6.283646 53.34751,6.274608 53.360696,6.276727 53.376045,6.29376 53.385712,6.308136 53.390276)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</gg:year>
+                            <gg:name xml:lang="nl">Ulrum                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.266551 53.407479,6.298383 53.398167,6.308136 53.390276,6.308034 53.385514,6.320601 53.375893,6.321635 53.368157,6.330918 53.366737,6.340771 53.370703,6.360543 53.368028,6.367335 53.369411,6.370467 53.361837,6.365624 53.35361,6.368471 53.346757,6.35563 53.336618,6.349839 53.326061,6.352845 53.319567,6.348216 53.313853,6.343147 53.315332,6.333163 53.311637,6.321467 53.311998,6.317195 53.315625,6.317515 53.32353,6.297611 53.333297,6.285384 53.337253,6.268954 53.341328,6.259408 53.344453,6.251581 53.343521,6.244611 53.340336,6.237381 53.33913,6.232763 53.340959,6.238609 53.348107,6.254437 53.351138,6.254217 53.355094,6.236522 53.356478,6.23314 53.360186,6.209092 53.359364,6.188375 53.359953,6.186219 53.365179,6.226787 53.365622,6.235536 53.367447,6.232854 53.368544,6.208367 53.368624,6.193357 53.369355,6.190408 53.37234,6.196625 53.375353,6.193529 53.378519,6.193426 53.381035,6.195175 53.386145,6.192659 53.388229,6.183263 53.392155,6.182302 53.397103,6.200306 53.395186,6.223217 53.382899,6.269103 53.385267,6.270347 53.387324,6.260107 53.386321,6.241941 53.38735,6.241406 53.390678,6.220068 53.391007,6.214991 53.39275,6.214618 53.396796,6.242683 53.401991,6.244518 53.403505,6.237011 53.404097,6.229643 53.404059,6.198739 53.399779,6.187832 53.403446,6.191649 53.406566,6.205281 53.403868,6.212192 53.403551,6.242356 53.408193,6.252607 53.409467,6.266551 53.407479)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</gg:year>
+                            <gg:name xml:lang="nl">Ulrum                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.547615 53.424687,6.546603 53.420653,6.52981 53.41704,6.527533 53.421914,6.514282 53.421409,6.509226 53.394859,6.500893 53.398171,6.489391 53.401063,6.480246 53.396204,6.48455 53.394008,6.483358 53.388538,6.478183 53.385979,6.469884 53.384706,6.479304 53.365032,6.484638 53.362108,6.470954 53.355582,6.481815 53.35153,6.483797 53.340909,6.477575 53.33827,6.477782 53.334583,6.457189 53.32749,6.456343 53.323633,6.450339 53.323597,6.449727 53.317043,6.439278 53.313181,6.436411 53.318687,6.436088 53.323902,6.416133 53.324164,6.413298 53.318527,6.407983 53.315877,6.372172 53.318152,6.366138 53.316764,6.361965 53.311406,6.348216 53.313853,6.343147 53.315332,6.333163 53.311637,6.321467 53.311998,6.317195 53.315625,6.317515 53.32353,6.297611 53.333297,6.285384 53.337253,6.268954 53.341328,6.259408 53.344453,6.251581 53.343521,6.244611 53.340336,6.237381 53.33913,6.232763 53.340959,6.238609 53.348107,6.254437 53.351138,6.254217 53.355094,6.236522 53.356478,6.23314 53.360186,6.209092 53.359364,6.188375 53.359953,6.186219 53.365179,6.226787 53.365622,6.235536 53.367447,6.232854 53.368544,6.208367 53.368624,6.193357 53.369355,6.190408 53.37234,6.196625 53.375353,6.193529 53.378519,6.193426 53.381035,6.195175 53.386145,6.192659 53.388229,6.183263 53.392155,6.182302 53.397103,6.200306 53.395186,6.223217 53.382899,6.269103 53.385267,6.270347 53.387324,6.260107 53.386321,6.241941 53.38735,6.241406 53.390678,6.220068 53.391007,6.214991 53.39275,6.214618 53.396796,6.242683 53.401991,6.244518 53.403505,6.237011 53.404097,6.229643 53.404059,6.198739 53.399779,6.187832 53.403446,6.191649 53.406566,6.205281 53.403868,6.212192 53.403551,6.242356 53.408193,6.252607 53.409467,6.266551 53.407479,6.298383 53.398167,6.308136 53.390276,6.372825 53.412317,6.386984 53.413279,6.40651 53.412216,6.4139 53.413052,6.514912 53.422482,6.547615 53.424687)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ulrum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ulrum"/>
+            </rdf:Description>
+</rdf:RDF>

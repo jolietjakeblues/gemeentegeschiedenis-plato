@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Adorp">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Adorp</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Adorp</skos:prefLabel>
+        <gg:name xml:lang="nl">Adorp</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10996"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0001"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Winsum"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Adorp                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.561637 53.31025,6.557453 53.272189,6.55067 53.259675,6.558909 53.254023,6.559183 53.24755,6.547954 53.247839,6.54371 53.245993,6.531656 53.254735,6.521581 53.253393,6.531844 53.239187,6.524014 53.237644,6.510344 53.247658,6.509436 53.253058,6.505621 53.267741,6.50479 53.276196,6.501282 53.297076,6.518449 53.29395,6.519297 53.297716,6.507629 53.298904,6.507703 53.301779,6.518797 53.301495,6.522505 53.305594,6.561637 53.31025)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</gg:year>
+                            <gg:name xml:lang="nl">Adorp                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.561637 53.31025,6.557453 53.272189,6.55067 53.259675,6.536748 53.260258,6.539825 53.257623,6.538697 53.254668,6.523377 53.253286,6.509436 53.253058,6.505621 53.267741,6.50479 53.276196,6.501282 53.297076,6.518449 53.29395,6.519297 53.297716,6.507629 53.298904,6.507703 53.301779,6.518797 53.301495,6.522505 53.305594,6.561637 53.31025)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Adorp"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Adorp"/>
+            </rdf:Description>
+</rdf:RDF>

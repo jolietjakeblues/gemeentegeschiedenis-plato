@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hulsberg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hulsberg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hulsberg</skos:prefLabel>
+        <gg:name xml:lang="nl">Hulsberg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11216"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0924"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nuth"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hulsberg                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.845717 50.909891,5.85193 50.905642,5.858195 50.906515,5.857587 50.902652,5.865645 50.898395,5.870471 50.897655,5.871587 50.895673,5.875712 50.896015,5.882765 50.890952,5.88159 50.887361,5.865203 50.883115,5.872106 50.877424,5.87179 50.874369,5.860382 50.870191,5.850288 50.869423,5.83454 50.871463,5.832703 50.872458,5.833619 50.879107,5.832993 50.887828,5.835586 50.891414,5.835186 50.894202,5.838471 50.895807,5.83836 50.899044,5.840651 50.900653,5.836315 50.907951,5.845717 50.909891)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</gg:year>
+                            <gg:name xml:lang="nl">Hulsberg                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.845717 50.909891,5.85193 50.905642,5.858195 50.906515,5.857587 50.902652,5.865645 50.898395,5.870471 50.897655,5.871587 50.895673,5.875712 50.896015,5.882765 50.890952,5.88159 50.887361,5.865203 50.883115,5.872106 50.877424,5.87179 50.874369,5.860382 50.870191,5.850288 50.869423,5.843669 50.875202,5.833619 50.879107,5.832993 50.887828,5.835586 50.891414,5.835186 50.894202,5.838471 50.895807,5.83836 50.899044,5.840651 50.900653,5.836315 50.907951,5.845717 50.909891)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1982-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hulsberg"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hulsberg"/>
+            </rdf:Description>
+</rdf:RDF>

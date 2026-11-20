@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Haarlemmerliede">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Haarlemmerliede</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Haarlemmerliede</skos:prefLabel>
+        <gg:name xml:lang="nl">Haarlemmerliede</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10041"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1325"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Spaarnwoude"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Haarlemmerliede_en_Spaarnwoude"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Haarlemmerliede                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.663953 52.411542,4.670916 52.408079,4.681435 52.412007,4.672646 52.401079,4.678863 52.39824,4.672894 52.394789,4.673849 52.390211,4.682393 52.388734,4.68279 52.382265,4.675113 52.375568,4.672938 52.373847,4.670197 52.370775,4.669818 52.366998,4.673201 52.357491,4.662043 52.357603,4.661619 52.356612,4.65413 52.356745,4.653798 52.35908,4.636769 52.359063,4.640145 52.367803,4.645275 52.368374,4.657605 52.386427,4.649161 52.390689,4.657982 52.40818,4.662671 52.409017,4.663953 52.411542)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-05-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1857-09-08</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Haarlemmerliede"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Haarlemmerliede"/>
+            </rdf:Description>
+</rdf:RDF>

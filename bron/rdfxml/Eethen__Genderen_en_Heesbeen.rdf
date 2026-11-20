@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Eethen__Genderen_en_Heesbeen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Eethen, Genderen en Heesbeen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Eethen, Genderen en Heesbeen</skos:prefLabel>
+        <gg:name xml:lang="nl">Eethen, Genderen en Heesbeen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10010"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heesbeen__Eethen_en_Genderen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Eethen, Genderen en Heesbeen       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.123406 51.740879,5.141515 51.738761,5.136773 51.732459,5.126941 51.73037,5.134051 51.72733,5.11914 51.727836,5.120039 51.722535,5.110769 51.723862,5.106004 51.722143,5.096876 51.723738,5.089022 51.729471,5.083203 51.733861,5.065887 51.726084,5.059499 51.728763,5.047843 51.719652,5.031621 51.721401,5.025304 51.733157,5.051029 51.738806,5.06095 51.748272,5.067756 51.748291,5.069758 51.751982,5.08121 51.750304,5.081369 51.748237,5.096186 51.740994,5.104553 51.745869,5.110948 51.741929,5.123406 51.740879)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                                                                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1819-05-08</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Eethen"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Eethen,_Genderen_en_Heesbeen"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Genderen"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heesbeen,_Eethen_en_Genderen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Eethen"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Eethen,_Genderen_en_Heesbeen"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Genderen"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heesbeen,_Eethen_en_Genderen"/>
+            </rdf:Description>
+</rdf:RDF>

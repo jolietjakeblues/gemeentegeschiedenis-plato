@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bath">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bath</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bath</skos:prefLabel>
+        <gg:name xml:lang="nl">Bath</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10623"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1018"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Fort_Bath"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rilland_en_Bath"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rilland-Bath"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1875</gg:year>
+                            <gg:name xml:lang="nl">Bath                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.261321 51.444785,4.2727 51.426556,4.263588 51.422872,4.260738 51.416013,4.266334 51.398897,4.261984 51.388787,4.272441 51.384213,4.273578 51.37883,4.242051 51.375828,4.240383 51.379317,4.251446 51.379246,4.238003 51.388283,4.238722 51.393954,4.232541 51.399736,4.226426 51.408485,4.220508 51.403841,4.203208 51.400341,4.189971 51.406408,4.20357 51.436212,4.218904 51.432771,4.233415 51.433365,4.250532 51.439017,4.25667 51.446717,4.261321 51.444785)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1878-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bath_(Reimerswaal)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bath_(Reimerswaal)"/>
+            </rdf:Description>
+</rdf:RDF>

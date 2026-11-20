@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nijland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nijland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nijland</skos:prefLabel>
+        <gg:name xml:lang="nl">Nijland</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11321"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wymbritseradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nijland                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.625204 53.021561,5.619958 53.023838,5.615545 53.024989,5.606375 53.02177,5.597545 53.023499,5.590617 53.026937,5.583372 53.030375,5.576412 53.02715,5.569771 53.024306,5.562195 53.024127,5.558087 53.023181,5.553346 53.021475,5.553966 53.018429,5.558058 53.015568,5.561516 53.012328,5.553934 53.010245,5.547947 53.012347,5.536653 53.013168,5.526524 53.014258,5.526542 53.01965,5.534 53.021887,5.535071 53.030063,5.53183 53.0413,5.546156 53.044966,5.556617 53.050972,5.5532 53.054212,5.563497 53.055905,5.56157 53.058783,5.584712 53.063869,5.598581 53.063037,5.600684 53.065908,5.608445 53.066703,5.608606 53.069039,5.622635 53.070001,5.625308 53.067659,5.633366 53.067912,5.633647 53.064946,5.637661 53.062602,5.646475 53.06474,5.650338 53.062125,5.659449 53.064082,5.661264 53.068031,5.676663 53.072848,5.67976 53.067538,5.699354 53.074498,5.701868 53.071346,5.698415 53.06839,5.701215 53.06362,5.7125 53.056671,5.723825 53.055381,5.731828 53.048978,5.748338 53.043808,5.721399 53.030856,5.728198 53.023468,5.719827 53.020167,5.719568 53.02529,5.711239 53.027649,5.707546 53.022846,5.690209 53.025637,5.677155 53.034835,5.674026 53.035023,5.671715 53.046351,5.654114 53.045493,5.636848 53.024862,5.625204 53.021561)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nijland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nijland"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Limbricht">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Limbricht</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Limbricht</skos:prefLabel>
+        <gg:name xml:lang="nl">Limbricht</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11124"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0931"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sittard"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Limbricht                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.853299 51.027256,5.853541 51.02303,5.849801 51.01963,5.85077 51.016749,5.849014 51.012172,5.837092 51.002421,5.834178 50.99578,5.830168 50.993459,5.812658 50.994513,5.809843 50.998209,5.798759 51.001215,5.802902 51.002549,5.800518 51.006782,5.796816 51.006975,5.796268 51.009494,5.802682 51.009741,5.803893 51.017646,5.824201 51.025212,5.828728 51.021599,5.833595 51.023828,5.840718 51.023441,5.853299 51.027256)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1982-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Limbricht"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Limbricht"/>
+            </rdf:Description>
+</rdf:RDF>

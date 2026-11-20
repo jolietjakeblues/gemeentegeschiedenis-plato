@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vlijmen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vlijmen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vlijmen</skos:prefLabel>
+        <gg:name xml:lang="nl">Vlijmen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11293"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0864"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vlijmen_en_Engelen"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hedikhuizen"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuwkuyk"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heusden"/>
+
+        
+                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1936</gg:year>
+                            <gg:name xml:lang="nl">Vlijmen                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.227716 51.722281,5.225581 51.712301,5.228333 51.711496,5.241342 51.715468,5.249156 51.715567,5.249311 51.712152,5.252934 51.710089,5.255404 51.706676,5.245741 51.696867,5.22464 51.692345,5.214128 51.680196,5.215007 51.677141,5.173644 51.679949,5.175513 51.68229,5.165392 51.682091,5.167399 51.68578,5.16521 51.689731,5.1694 51.690548,5.161942 51.707073,5.175831 51.707099,5.172874 51.720486,5.182417 51.722301,5.188503 51.720514,5.196454 51.722594,5.206293 51.723149,5.215668 51.731702,5.228143 51.724259,5.227716 51.722281)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1958</gg:year>
+                            <gg:name xml:lang="nl">Vlijmen                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.228143 51.724259,5.225581 51.712301,5.228333 51.711496,5.241342 51.715468,5.249156 51.715567,5.249311 51.712152,5.252934 51.710089,5.255404 51.706676,5.245741 51.696867,5.22464 51.692345,5.214128 51.680196,5.215007 51.677141,5.173644 51.679949,5.175513 51.68229,5.165392 51.682091,5.167399 51.68578,5.16521 51.689731,5.1694 51.690548,5.161942 51.707073,5.175831 51.707099,5.172874 51.720486,5.182417 51.722301,5.188503 51.720514,5.196454 51.722594,5.200339 51.727994,5.206242 51.736003,5.228143 51.724259)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1821-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vlijmen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vlijmen"/>
+            </rdf:Description>
+</rdf:RDF>

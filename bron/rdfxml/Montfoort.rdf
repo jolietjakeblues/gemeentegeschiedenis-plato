@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Montfoort">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Montfoort</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Montfoort</skos:prefLabel>
+        <gg:name xml:lang="nl">Montfoort</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10033"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0335"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Willeskop"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Linschoten"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Willeskop"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Montfoort                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.952381 52.044986,4.956563 52.034575,4.964251 52.038378,4.977519 52.037796,4.983796 52.02056,4.9685 52.020327,4.913405 52.008973,4.909739 52.011295,4.892761 52.005472,4.886654 52.004548,4.876637 52.014571,4.876168 52.017356,4.88398 52.022243,4.889061 52.023883,4.906525 52.025753,4.915134 52.024529,4.918917 52.025084,4.92369 52.028518,4.929278 52.037798,4.933923 52.039613,4.932843 52.045541,4.946515 52.04856,4.952381 52.044986)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Montfoort                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.933923 52.039613,4.932843 52.045541,4.946515 52.04856,4.952381 52.044986,4.956563 52.034575,4.953817 52.032228,4.948564 52.032928,4.945773 52.035164,4.943103 52.039828,4.933923 52.039613)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</gg:year>
+                            <gg:name xml:lang="nl">Montfoort                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.956968 52.053092,4.960264 52.043846,4.955177 52.0423,4.956563 52.034575,4.953817 52.032228,4.948564 52.032928,4.945773 52.035164,4.943103 52.039828,4.933923 52.039613,4.936956 52.042411,4.937382 52.043492,4.935604 52.046361,4.938676 52.045294,4.941429 52.046923,4.942461 52.045758,4.94579 52.048197,4.950588 52.049474,4.956968 52.053092)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</gg:year>
+                            <gg:name xml:lang="nl">Montfoort                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.954333 52.069261,4.954662 52.065398,4.965887 52.065888,4.980635 52.063872,4.988786 52.065608,4.996367 52.065813,4.997112 52.064018,5.015222 52.060751,5.013783 52.058499,5.013223 52.055711,5.008423 52.054347,5.003433 52.058106,4.994415 52.05565,4.990947 52.052043,4.984881 52.045731,4.984042 52.041773,4.980571 52.038705,4.977519 52.037796,4.983796 52.02056,4.9685 52.020327,4.913405 52.008973,4.909739 52.011295,4.906525 52.025753,4.924962 52.032298,4.929278 52.037798,4.924887 52.039578,4.920975 52.037316,4.913073 52.04034,4.913475 52.043668,4.907576 52.050115,4.897945 52.050885,4.893175 52.047179,4.878367 52.054667,4.875251 52.059417,4.869415 52.059661,4.866174 52.062523,4.871363 52.067759,4.904583 52.070776,4.922138 52.079745,4.932179 52.082211,4.949068 52.07077,4.954333 52.069261)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2750625"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Montfoort"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Montfoort"/>
+            </rdf:Description>
+</rdf:RDF>

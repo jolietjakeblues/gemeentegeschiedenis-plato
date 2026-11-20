@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oudega">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oudega</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oudega</skos:prefLabel>
+        <gg:name xml:lang="nl">Oudega</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10472"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Smallingerland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Oudega                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.037148 53.108975,6.013941 53.108757,6.008966 53.109434,6.003006 53.107323,5.99591 53.108787,5.986423 53.108835,5.979093 53.110584,5.967153 53.104647,5.948835 53.100452,5.944515 53.096476,5.940719 53.096351,5.937356 53.09294,5.927394 53.0927,5.921921 53.091155,5.918649 53.095023,5.914633 53.096326,5.908949 53.096922,5.903727 53.096516,5.902272 53.09381,5.896682 53.093969,5.889784 53.103414,5.915632 53.10483,5.913632 53.112297,5.959525 53.127004,5.952753 53.134674,5.95927 53.141652,5.967748 53.138646,5.978216 53.139224,5.984771 53.137754,5.99751 53.143399,6.01124 53.14948,6.050135 53.151608,6.050696 53.149178,6.057964 53.145543,6.061855 53.145881,6.074825 53.14383,6.080649 53.152873,6.104477 53.147431,6.118487 53.1451,6.120816 53.141401,6.1476 53.151838,6.153345 53.147038,6.175619 53.155431,6.175013 53.148103,6.101991 53.127352,6.091938 53.13181,6.069734 53.119547,6.055381 53.118866,6.052386 53.116092,6.053597 53.112532,6.037148 53.108975)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oudega_(Smallingerland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oudega_(Smallingerland)"/>
+            </rdf:Description>
+</rdf:RDF>

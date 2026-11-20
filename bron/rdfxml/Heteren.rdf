@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heteren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heteren</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heteren</skos:prefLabel>
+        <gg:name xml:lang="nl">Heteren</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10290"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0251"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Overbetuwe"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heteren                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.851534 51.966854,5.850175 51.962006,5.849268 51.958773,5.840791 51.954852,5.83458 51.95937,5.829329 51.957951,5.828994 51.953548,5.822003 51.952675,5.822521 51.946112,5.798333 51.941256,5.786411 51.941656,5.782751 51.938882,5.759303 51.934644,5.74681 51.936211,5.74629 51.943943,5.731174 51.945157,5.732313 51.942007,5.725312 51.939331,5.715275 51.939,5.715405 51.936843,5.710166 51.936228,5.690228 51.933854,5.658069 51.929888,5.657504 51.932586,5.658691 51.936538,5.665247 51.93859,5.662947 51.94282,5.647085 51.941238,5.648856 51.945728,5.658766 51.948852,5.661394 51.950463,5.670863 51.952778,5.679182 51.956982,5.692875 51.959554,5.703363 51.961414,5.713402 51.961296,5.726368 51.963596,5.732942 51.967083,5.740078 51.967781,5.749665 51.965684,5.762284 51.960791,5.77085 51.958696,5.781898 51.957671,5.794685 51.955919,5.800972 51.959403,5.804235 51.966043,5.814601 51.969691,5.824372 51.971812,5.834415 51.971954,5.843129 51.970213,5.851534 51.966854)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1945</gg:year>
+                            <gg:name xml:lang="nl">Heteren                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.850175 51.962006,5.849268 51.958773,5.840791 51.954852,5.83458 51.95937,5.829329 51.957951,5.828994 51.953548,5.822003 51.952675,5.822521 51.946112,5.798333 51.941256,5.786411 51.941656,5.782751 51.938882,5.759303 51.934644,5.74681 51.936211,5.74629 51.943943,5.731174 51.945157,5.732313 51.942007,5.725312 51.939331,5.715275 51.939,5.715405 51.936843,5.710166 51.936228,5.690228 51.933854,5.658069 51.929888,5.657504 51.932586,5.658691 51.936538,5.665247 51.93859,5.662947 51.94282,5.647085 51.941238,5.648856 51.945728,5.658766 51.948852,5.661394 51.950463,5.670863 51.952778,5.679182 51.956982,5.692875 51.959554,5.703363 51.961414,5.713402 51.961296,5.726368 51.963596,5.732942 51.967083,5.740078 51.967781,5.749665 51.965684,5.762284 51.960791,5.77085 51.958696,5.781898 51.957671,5.790937 51.959797,5.814601 51.969691,5.824372 51.971812,5.834415 51.971954,5.843129 51.970213,5.851534 51.966854,5.850175 51.962006)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heteren"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heteren"/>
+            </rdf:Description>
+</rdf:RDF>

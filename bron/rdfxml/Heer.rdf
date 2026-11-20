@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heer">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heer</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heer</skos:prefLabel>
+        <gg:name xml:lang="nl">Heer</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11407"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0916"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heer_en_Keer"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Maastricht"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1829</gg:year>
+                            <gg:name xml:lang="nl">Heer                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.739317 50.847072,5.757495 50.847555,5.756186 50.843694,5.747355 50.839946,5.746299 50.83195,5.730831 50.832356,5.728827 50.830115,5.714081 50.832225,5.706979 50.831436,5.703156 50.832885,5.700495 50.838105,5.704517 50.845016,5.718016 50.846506,5.72185 50.846675,5.722572 50.848291,5.726264 50.84837,5.727814 50.846747,5.739317 50.847072)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</gg:year>
+                            <gg:name xml:lang="nl">Heer                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.726264 50.84837,5.727814 50.846747,5.739317 50.847072,5.757495 50.847555,5.756186 50.843694,5.747355 50.839946,5.746299 50.83195,5.730831 50.832356,5.728827 50.830115,5.714081 50.832225,5.712018 50.841579,5.718016 50.846506,5.72185 50.846675,5.722572 50.848291,5.726264 50.84837)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1828-08-05</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heer_(Maastricht)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heer_(Maastricht)"/>
+            </rdf:Description>
+</rdf:RDF>

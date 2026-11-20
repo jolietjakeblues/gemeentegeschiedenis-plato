@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Steenwijkerwold">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Steenwijkerwold</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Steenwijkerwold</skos:prefLabel>
+        <gg:name xml:lang="nl">Steenwijkerwold</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11347"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0182"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Steenwijk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Steenwijkerwold                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.032104 52.813636,6.059692 52.823279,6.05517 52.828337,6.052436 52.833924,6.055295 52.836515,6.079931 52.836554,6.120113 52.85222,6.149208 52.826515,6.173421 52.811619,6.201224 52.791302,6.168447 52.765638,6.154862 52.759795,6.127371 52.754757,6.122436 52.752001,6.119831 52.746805,6.111333 52.743352,6.102186 52.745474,6.095768 52.751534,6.091196 52.752729,6.090598 52.770887,6.079411 52.76899,6.060885 52.765846,6.051667 52.763741,6.03385 52.751077,6.019837 52.744862,6.0195 52.741988,6.001661 52.737048,5.990416 52.737645,5.98842 52.732443,5.983121 52.734716,5.976907 52.735017,5.975817 52.731068,5.969451 52.731009,5.967875 52.734971,5.967287 52.746477,5.958684 52.745441,5.957573 52.751108,5.949809 52.757795,5.951686 52.765515,5.967206 52.773978,5.980364 52.78263,6.003616 52.791859,5.999336 52.793229,6.007145 52.800288,6.016803 52.801675,6.032104 52.813636),(6.117049 52.775401,6.124312 52.775446,6.128364 52.778476,6.134857 52.776818,6.149546 52.777803,6.140882 52.791069,6.125793 52.801769,6.114223 52.80157,6.109408 52.797286,6.103328 52.797232,6.102964 52.793101,6.09359 52.791,6.090839 52.785893,6.101465 52.783044,6.106863 52.777799,6.112652 52.778303,6.117049 52.775401)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1973-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Steenwijkerwold"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Steenwijkerwold"/>
+            </rdf:Description>
+</rdf:RDF>

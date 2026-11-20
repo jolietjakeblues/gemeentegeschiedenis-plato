@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ambt_Ommen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ambt Ommen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ambt Ommen</skos:prefLabel>
+        <gg:name xml:lang="nl">Ambt Ommen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11069"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1012"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ommen_1"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ommen_2"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1819</gg:year>
+                            <gg:name xml:lang="nl">Ambt-Ommen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.322198 52.589904,6.353323 52.589295,6.357947 52.578113,6.363099 52.577621,6.365153 52.570414,6.424659 52.529104,6.418696 52.52619,6.418996 52.520075,6.414997 52.519211,6.416692 52.516051,6.423331 52.516443,6.426979 52.514973,6.433206 52.516625,6.440533 52.514943,6.44382 52.516891,6.449695 52.516119,6.453798 52.527407,6.417884 52.567092,6.494709 52.56622,6.504458 52.5726,6.523567 52.558487,6.532286 52.542135,6.535685 52.525475,6.543416 52.522433,6.542279 52.5184,6.542966 52.516506,6.54852 52.514833,6.550956 52.512203,6.555198 52.511083,6.560786 52.516241,6.566538 52.516453,6.570169 52.51453,6.568641 52.512478,6.564232 52.512881,6.562693 52.51038,6.568982 52.508699,6.611181 52.489935,6.595695 52.47823,6.557021 52.485359,6.507483 52.488444,6.504935 52.480828,6.495104 52.476246,6.486811 52.474256,6.466165 52.472648,6.460293 52.467219,6.452488 52.46702,6.448371 52.461035,6.4383 52.439733,6.389915 52.42685,6.341264 52.434442,6.345015 52.478633,6.335839 52.503783,6.338372 52.505111,6.333325 52.510184,6.334394 52.518804,6.340292 52.519026,6.347324 52.517172,6.351832 52.52118,6.355354 52.520522,6.361883 52.522626,6.333727 52.570129,6.322198 52.589904)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1867</gg:year>
+                            <gg:name xml:lang="nl">Ambt-Ommen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.417884 52.567092,6.494709 52.56622,6.504458 52.5726,6.523567 52.558487,6.532286 52.542135,6.535685 52.525475,6.543416 52.522433,6.542279 52.5184,6.542966 52.516506,6.54852 52.514833,6.550956 52.512203,6.555198 52.511083,6.560786 52.516241,6.566538 52.516453,6.570169 52.51453,6.568641 52.512478,6.564232 52.512881,6.562693 52.51038,6.568982 52.508699,6.611181 52.489935,6.595695 52.47823,6.557021 52.485359,6.507483 52.488444,6.504935 52.480828,6.495104 52.476246,6.486811 52.474256,6.466165 52.472648,6.460293 52.467219,6.452488 52.46702,6.448371 52.461035,6.4383 52.439733,6.389915 52.42685,6.34978 52.433115,6.341264 52.434442,6.345015 52.478633,6.335839 52.503783,6.338372 52.505111,6.333325 52.510184,6.334394 52.518804,6.340292 52.519026,6.347324 52.517172,6.351832 52.52118,6.355354 52.520522,6.361883 52.522626,6.333727 52.570129,6.322198 52.589904,6.353323 52.589295,6.405982 52.588226,6.417884 52.567092),(6.418996 52.520075,6.414997 52.519211,6.416692 52.516051,6.423331 52.516443,6.426979 52.514973,6.433206 52.516625,6.440533 52.514943,6.44382 52.516891,6.449695 52.516119,6.453798 52.527407,6.438025 52.53339,6.424659 52.529104,6.418696 52.52619,6.418996 52.520075)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-07-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1923-05-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ambt_Ommen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ambt_Ommen"/>
+            </rdf:Description>
+</rdf:RDF>

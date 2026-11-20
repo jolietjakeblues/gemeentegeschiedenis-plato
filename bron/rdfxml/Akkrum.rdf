@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Akkrum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Akkrum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Akkrum</skos:prefLabel>
+        <gg:name xml:lang="nl">Akkrum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10140"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Utingeradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Akkrum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.874337 53.070769,5.879186 53.063538,5.880542 53.057823,5.870074 53.053869,5.86198 53.050333,5.852962 53.048798,5.854583 53.045366,5.860969 53.044484,5.861848 53.0382,5.853205 53.034189,5.836131 53.026437,5.833016 53.027886,5.819844 53.022363,5.825176 53.019019,5.81918 53.015536,5.824906 53.006978,5.815945 53.004764,5.816931 52.999009,5.782703 52.986097,5.7733 53.000326,5.779455 53.005698,5.775922 53.010382,5.779096 53.015404,5.777516 53.021969,5.771419 53.023517,5.774747 53.028988,5.765041 53.027042,5.766001 53.034587,5.762656 53.044213,5.772339 53.043283,5.809217 53.063647,5.804171 53.066361,5.803328 53.071845,5.815435 53.074049,5.816305 53.07144,5.858157 53.078471,5.862434 53.073782,5.870788 53.073658,5.874337 53.070769)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Akkrum"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Utingeradeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Akkrum"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Utingeradeel"/>
+            </rdf:Description>
+</rdf:RDF>

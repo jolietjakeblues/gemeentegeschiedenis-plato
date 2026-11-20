@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Den_Bommel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Den Bommel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Den Bommel</skos:prefLabel>
+        <gg:name xml:lang="nl">Den Bommel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10293"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1024"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Stad_aan_t_Haringvliet"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oostflakkee"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Den Bommel                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.283603 51.69463,4.28285 51.689949,4.27398 51.691843,4.270695 51.672574,4.27775 51.667877,4.280191 51.656754,4.269225 51.65602,4.241053 51.661321,4.241074 51.661421,4.248803 51.697983,4.243678 51.70045,4.242961 51.717343,4.245124 51.723387,4.228926 51.728531,4.217626 51.728869,4.204904 51.733775,4.195693 51.742671,4.214595 51.756435,4.22179 51.752642,4.239785 51.745538,4.24448 51.737404,4.256283 51.728619,4.272081 51.721938,4.296098 51.716322,4.306681 51.709498,4.316584 51.706802,4.300465 51.703238,4.293722 51.694905,4.283603 51.69463)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Den Bommel                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.256283 51.728619,4.272081 51.721938,4.296098 51.716322,4.306681 51.709498,4.316584 51.706802,4.300465 51.703238,4.293722 51.694905,4.283603 51.69463,4.28285 51.689949,4.27398 51.691843,4.270695 51.672574,4.27775 51.667877,4.280191 51.656754,4.269225 51.65602,4.241053 51.661321,4.241074 51.661421,4.248803 51.697983,4.243678 51.70045,4.242961 51.717343,4.245124 51.723387,4.253218 51.723825,4.256283 51.728619)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Den_Bommel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Den_Bommel"/>
+            </rdf:Description>
+</rdf:RDF>

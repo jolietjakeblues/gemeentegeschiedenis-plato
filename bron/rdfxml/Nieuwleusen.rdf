@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nieuwleusen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nieuwleusen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nieuwleusen</skos:prefLabel>
+        <gg:name xml:lang="nl">Nieuwleusen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10384"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0170"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dalfsen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dalfsen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1819</gg:year>
+                            <gg:name xml:lang="nl">Nieuwleusen                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.302658 52.5941,6.318942 52.5964,6.322198 52.589904,6.333727 52.570129,6.3083 52.567453,6.275222 52.558268,6.272819 52.563409,6.183652 52.542291,6.165453 52.563533,6.158103 52.573377,6.15848 52.578048,6.156894 52.580125,6.152072 52.582853,6.182212 52.585082,6.191143 52.581247,6.302658 52.5941)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Nieuwleusen                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.302998 52.597107,6.31146 52.598152,6.319716 52.599156,6.319893 52.598852,6.321239 52.596387,6.323125 52.592945,6.32342 52.592598,6.333868 52.573842,6.319693 52.572493,6.30748 52.571309,6.305549 52.571114,6.305301 52.571064,6.305209 52.571036,6.304135 52.570451,6.302956 52.569777,6.299407 52.56774,6.299332 52.567694,6.299232 52.567647,6.299111 52.567585,6.298972 52.567532,6.2987 52.567452,6.273325 52.561304,6.270482 52.566375,6.270183 52.566331,6.26948 52.566151,6.262202 52.564268,6.261804 52.564139,6.251973 52.561578,6.242945 52.559197,6.23209 52.556324,6.231133 52.556116,6.230436 52.555939,6.212368 52.551241,6.212195 52.551161,6.2014 52.548336,6.198058 52.547508,6.196361 52.547076,6.194716 52.546645,6.194553 52.546594,6.183664 52.543757,6.176154 52.553419,6.175877 52.553833,6.175573 52.554434,6.17451 52.555734,6.169978 52.561624,6.169883 52.561785,6.169755 52.561849,6.16954 52.561968,6.169293 52.562122,6.169148 52.562306,6.168955 52.562588,6.166865 52.565293,6.159923 52.574092,6.158922 52.575312,6.158693 52.576263,6.158288 52.578177,6.15775 52.580297,6.157685 52.580425,6.157636 52.580577,6.157551 52.58072,6.157428 52.580832,6.157217 52.580898,6.156977 52.581023,6.15686 52.581122,6.156714 52.581355,6.156575 52.581556,6.156313 52.581864,6.156014 52.582132,6.155742 52.58234,6.155525 52.582494,6.155233 52.582672,6.155103 52.582749,6.154998 52.582751,6.15459 52.582738,6.154047 52.582747,6.15319 52.582777,6.152771 52.582892,6.152349 52.582998,6.152103 52.583066,6.151924 52.583109,6.151706 52.583196,6.151253 52.58339,6.15079 52.583611,6.150559 52.583724,6.150414 52.583773,6.150304 52.583785,6.150089 52.583771,6.149835 52.583765,6.149443 52.583742,6.149159 52.583728,6.148941 52.583744,6.148706 52.583783,6.148375 52.583828,6.148123 52.583804,6.147904 52.583798,6.147721 52.583801,6.14734 52.583894,6.147767 52.584038,6.147767 52.584312,6.147552 52.584388,6.147447 52.584746,6.147643 52.584905,6.14775 52.585199,6.179308 52.587936,6.179574 52.587952,6.180183 52.587938,6.182211 52.587883,6.182387 52.587869,6.182598 52.587847,6.182777 52.587796,6.183432 52.587578,6.190757 52.58494,6.191213 52.584823,6.19282 52.584474,6.193892 52.584235,6.194619 52.584108,6.195456 52.584227,6.19671 52.584347,6.197333 52.58442,6.19789 52.584462,6.198623 52.584557,6.198709 52.584537,6.218659 52.586905,6.232162 52.588515,6.23191 52.589174,6.23176 52.589667,6.260643 52.592497,6.260697 52.592388,6.261322 52.592452,6.261276 52.592704,6.263313 52.592903,6.263516 52.592991,6.264061 52.593011,6.266393 52.593253,6.266496 52.593255,6.266629 52.593254,6.266734 52.592977,6.268006 52.592892,6.269793 52.593097,6.276712 52.593947,6.27891 52.594213,6.280012 52.594335,6.281144 52.59449,6.282529 52.594688,6.283246 52.594758,6.285689 52.595042,6.289368 52.595475,6.291146 52.595701,6.293649 52.596014,6.296497 52.596359,6.298469 52.596591,6.302998 52.597107)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-07-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nieuwleusen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nieuwleusen"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hunsel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hunsel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hunsel</skos:prefLabel>
+        <gg:name xml:lang="nl">Hunsel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10784"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0925"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ittervoort"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Neeritter"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Leudal"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hunsel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.807859 51.217905,5.806678 51.213954,5.819189 51.205099,5.822145 51.199874,5.845397 51.192953,5.844489 51.188013,5.826303 51.185926,5.809345 51.17718,5.792431 51.172745,5.778559 51.172433,5.772996 51.17407,5.7469 51.176305,5.738341 51.186225,5.743949 51.189983,5.746426 51.195728,5.750741 51.198681,5.753377 51.206314,5.748253 51.209745,5.753025 51.215933,5.760911 51.217705,5.77263 51.2156,5.774805 51.219008,5.780693 51.221236,5.782718 51.223656,5.782888 51.226711,5.783627 51.229406,5.790097 51.232619,5.799494 51.226744,5.807859 51.217905)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Hunsel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.807859 51.217905,5.806678 51.213954,5.819189 51.205099,5.822145 51.199874,5.845397 51.192953,5.844489 51.188013,5.826303 51.185926,5.809345 51.17718,5.792431 51.172745,5.778559 51.172433,5.772996 51.17407,5.774754 51.179008,5.764215 51.184436,5.754494 51.184917,5.743949 51.189983,5.746426 51.195728,5.750741 51.198681,5.753377 51.206314,5.748253 51.209745,5.753025 51.215933,5.760911 51.217705,5.77263 51.2156,5.774805 51.219008,5.780693 51.221236,5.782718 51.223656,5.782888 51.226711,5.783627 51.229406,5.790097 51.232619,5.799494 51.226744,5.807859 51.217905)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</gg:year>
+                            <gg:name xml:lang="nl">Hunsel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.807859 51.217905,5.806678 51.213954,5.819189 51.205099,5.822145 51.199874,5.845397 51.192953,5.844489 51.188013,5.84146 51.185418,5.843533 51.178129,5.836802 51.177166,5.833193 51.173675,5.826171 51.172083,5.826406 51.166779,5.822269 51.167694,5.813475 51.159906,5.805931 51.163439,5.80318 51.159673,5.791014 51.157919,5.778525 51.151669,5.775967 51.153386,5.775563 51.156353,5.778445 51.15904,5.778075 51.165963,5.76978 51.165631,5.769384 51.169587,5.776252 51.170194,5.778559 51.172433,5.772996 51.17407,5.774754 51.179008,5.764215 51.184436,5.754494 51.184917,5.743949 51.189983,5.746426 51.195728,5.750741 51.198681,5.753377 51.206314,5.748253 51.209745,5.753025 51.215933,5.760911 51.217705,5.77263 51.2156,5.774805 51.219008,5.780693 51.221236,5.782718 51.223656,5.782888 51.226711,5.783627 51.229406,5.790097 51.232619,5.799494 51.226744,5.807859 51.217905)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</gg:year>
+                            <gg:name xml:lang="nl">Hunsel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.79269 51.234318,5.844489 51.188013,5.851446 51.182862,5.852712 51.180789,5.849436 51.182151,5.826171 51.172083,5.826406 51.166779,5.822269 51.167694,5.813475 51.159906,5.805931 51.163439,5.80318 51.159673,5.791014 51.157919,5.778525 51.151669,5.775967 51.153386,5.775563 51.156353,5.778445 51.15904,5.778075 51.165963,5.76978 51.165631,5.769384 51.169587,5.776252 51.170194,5.778559 51.172433,5.772996 51.17407,5.774754 51.179008,5.764215 51.184436,5.754494 51.184917,5.743949 51.189983,5.746426 51.195728,5.750741 51.198681,5.753377 51.206314,5.748253 51.209745,5.753025 51.215933,5.760911 51.217705,5.77263 51.2156,5.774805 51.219008,5.780693 51.221236,5.782718 51.223656,5.782888 51.226711,5.784812 51.233986,5.789824 51.234058,5.79269 51.234318)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hunsel_(voormalige_gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hunsel_(voormalige_gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

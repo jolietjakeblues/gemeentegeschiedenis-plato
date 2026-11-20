@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Eelde">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Eelde</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Eelde</skos:prefLabel>
+        <gg:name xml:lang="nl">Eelde</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10622"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0113"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Peize"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zuidlaren"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Eelde                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.516036 53.196023,6.521582 53.190669,6.534195 53.192346,6.53835 53.191048,6.547118 53.177664,6.55886 53.169372,6.567022 53.156081,6.583715 53.1596,6.590463 53.144166,6.605398 53.138443,6.610401 53.135696,6.612249 53.132352,6.6167 53.131228,6.618934 53.125723,6.607735 53.120626,6.550077 53.109606,6.548307 53.116004,6.544795 53.118734,6.540236 53.127046,6.539209 53.127775,6.514262 53.127922,6.515574 53.1209,6.502922 53.116885,6.50031 53.119875,6.482495 53.118331,6.48088 53.113493,6.476271 53.114344,6.476022 53.116324,6.456211 53.12459,6.458722 53.135531,6.461645 53.13892,6.462346 53.143047,6.475343 53.148771,6.48708 53.15774,6.490349 53.168674,6.500508 53.179903,6.498375 53.184236,6.505756 53.191985,6.498601 53.19304,6.510611 53.194546,6.516036 53.196023)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1820</gg:year>
+                            <gg:name xml:lang="nl">Eelde                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.510611 53.194546,6.516036 53.196023,6.521582 53.190669,6.534195 53.192346,6.53835 53.191048,6.547118 53.177664,6.55886 53.169372,6.567022 53.156081,6.583715 53.1596,6.590463 53.144166,6.605398 53.138443,6.610401 53.135696,6.612249 53.132352,6.6167 53.131228,6.618934 53.125723,6.607735 53.120626,6.550077 53.109606,6.548307 53.116004,6.544795 53.118734,6.540236 53.127046,6.539209 53.127775,6.541665 53.135839,6.539195 53.138469,6.542163 53.143293,6.535563 53.148029,6.539826 53.150954,6.537597 53.157086,6.537859 53.166969,6.533113 53.168452,6.510611 53.194546)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Eelde"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Eelde"/>
+            </rdf:Description>
+</rdf:RDF>

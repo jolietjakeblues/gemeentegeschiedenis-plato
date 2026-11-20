@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Baarderadeel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Baarderadeel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Baarderadeel</skos:prefLabel>
+        <gg:name xml:lang="nl">Baarderadeel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10422"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0061"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bozum"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Jorwerd"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Littenseradeel"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Baarderadeel                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.764358 53.171538,5.763703 53.147818,5.754503 53.120439,5.758473 53.113059,5.754272 53.110825,5.711692 53.088304,5.699354 53.074498,5.67976 53.067538,5.676663 53.072848,5.681161 53.076072,5.680579 53.07832,5.675207 53.078243,5.677462 53.080753,5.672283 53.087505,5.674085 53.089118,5.666077 53.097225,5.669678 53.100002,5.662395 53.105141,5.65702 53.105243,5.657344 53.109286,5.638726 53.117683,5.641277 53.119655,5.627706 53.123547,5.61661 53.143787,5.610184 53.143889,5.604407 53.154053,5.609935 53.153594,5.614446 53.158527,5.626388 53.155269,5.629095 53.158229,5.634019 53.156602,5.64289 53.16512,5.650501 53.162767,5.65964 53.165712,5.66371 53.170824,5.669089 53.170183,5.672852 53.173858,5.676138 53.173221,5.684693 53.177693,5.697531 53.174336,5.698552 53.170739,5.71156 53.170345,5.72273 53.164473,5.723904 53.161684,5.727496 53.162213,5.729924 53.166699,5.764358 53.171538)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Littenseradeel                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.617786 53.168226,5.6227 53.164352,5.638416 53.167196,5.64289 53.16512,5.650501 53.162767,5.65964 53.165712,5.66371 53.170824,5.669089 53.170183,5.672852 53.173858,5.676138 53.173221,5.684693 53.177693,5.697531 53.174336,5.698552 53.170739,5.71156 53.170345,5.72273 53.164473,5.723904 53.161684,5.727496 53.162213,5.729924 53.166699,5.739658 53.168468,5.764358 53.171538,5.763703 53.147818,5.754503 53.120439,5.758473 53.113059,5.754272 53.110825,5.711692 53.088304,5.699354 53.074498,5.67976 53.067538,5.676663 53.072848,5.661264 53.068031,5.659449 53.064082,5.650338 53.062125,5.646475 53.06474,5.637661 53.062602,5.633647 53.064946,5.633366 53.067912,5.625308 53.067659,5.622635 53.070001,5.608606 53.069039,5.608445 53.066703,5.600684 53.065908,5.592335 53.067091,5.587875 53.070513,5.593257 53.072661,5.58598 53.080042,5.573005 53.082039,5.564792 53.080884,5.558244 53.085476,5.559482 53.096437,5.527842 53.099174,5.527133 53.110677,5.532667 53.113187,5.536543 53.111295,5.53866 53.11866,5.545398 53.123235,5.55242 53.123674,5.547053 53.126467,5.546772 53.13141,5.553636 53.129154,5.55693 53.131036,5.562587 53.125996,5.571101 53.125714,5.5756 53.129661,5.583954 53.126951,5.592029 53.128555,5.587422 53.133955,5.602534 53.138242,5.602571 53.14561,5.590022 53.14671,5.588724 53.156776,5.580356 53.157599,5.57888 53.161824,5.582488 53.166222,5.58833 53.168548,5.590595 53.173307,5.59975 53.179761,5.606634 53.180557,5.607056 53.175255,5.6187 53.171279,5.617786 53.168226)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Baarderadeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Baarderadeel"/>
+            </rdf:Description>
+</rdf:RDF>

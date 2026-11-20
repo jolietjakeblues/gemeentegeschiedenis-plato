@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/IJsselmonde">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">IJsselmonde</rdfs:label>
+        <skos:prefLabel xml:lang="nl">IJsselmonde</skos:prefLabel>
+        <gg:name xml:lang="nl">IJsselmonde</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11357"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1230"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rotterdam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">IJsselmonde                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.573529 51.900329,4.566687 51.877091,4.558137 51.876132,4.54717 51.872369,4.541813 51.871521,4.539422 51.867369,4.527716 51.864498,4.518572 51.864341,4.512768 51.864208,4.50878 51.867683,4.508547 51.872176,4.514049 51.880487,4.510968 51.882082,4.514496 51.894872,4.509347 51.89816,4.508677 51.91011,4.519274 51.895716,4.532921 51.896266,4.543139 51.901463,4.556472 51.903356,4.566948 51.902621,4.573529 51.900329)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1870</gg:year>
+                            <gg:name xml:lang="nl">IJsselmonde                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.518572 51.864341,4.512768 51.864208,4.50878 51.867683,4.508547 51.872176,4.514049 51.880487,4.510968 51.882082,4.514496 51.894872,4.519274 51.895716,4.532921 51.896266,4.543139 51.901463,4.556472 51.903356,4.566948 51.902621,4.573529 51.900329,4.566687 51.877091,4.558137 51.876132,4.54717 51.872369,4.541813 51.871521,4.539422 51.867369,4.527716 51.864498,4.518572 51.864341)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1896</gg:year>
+                            <gg:name xml:lang="nl">IJsselmonde                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.541813 51.871521,4.539422 51.867369,4.527716 51.864498,4.518572 51.864341,4.512768 51.864208,4.50878 51.867683,4.503992 51.867468,4.508547 51.872176,4.504225 51.877807,4.521286 51.881799,4.537352 51.892433,4.532921 51.896266,4.543139 51.901463,4.556472 51.903356,4.566948 51.902621,4.573529 51.900329,4.566687 51.877091,4.558137 51.876132,4.54717 51.872369,4.541813 51.871521)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/IJsselmonde_(deelgemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/IJsselmonde_(deelgemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

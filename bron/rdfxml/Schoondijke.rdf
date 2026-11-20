@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Schoondijke">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Schoondijke</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Schoondijke</skos:prefLabel>
+        <gg:name xml:lang="nl">Schoondijke</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10189"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0706"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oostburg"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Schoondijke                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.588823 51.38502,3.589509 51.378557,3.598671 51.372045,3.604932 51.369893,3.595862 51.363101,3.581203 51.359728,3.578758 51.356184,3.587496 51.3458,3.570601 51.341042,3.568819 51.338947,3.55806 51.338778,3.558911 51.328273,3.545022 51.327514,3.544887 51.323736,3.539327 51.322839,3.53873 51.319862,3.525847 51.319118,3.515678 51.322191,3.506357 51.322041,3.504412 51.320481,3.501474 51.322142,3.487429 51.321734,3.486892 51.327749,3.491727 51.328817,3.490043 51.334813,3.494868 51.343073,3.492809 51.347715,3.49895 51.345028,3.509651 51.346639,3.513381 51.350206,3.525195 51.352733,3.529023 51.357469,3.538565 51.359419,3.538948 51.367696,3.548927 51.369562,3.559481 51.36784,3.574977 51.371859,3.575919 51.377088,3.583519 51.381072,3.583334 51.385744,3.588823 51.38502)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Schoondijke"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Schoondijke"/>
+            </rdf:Description>
+</rdf:RDF>

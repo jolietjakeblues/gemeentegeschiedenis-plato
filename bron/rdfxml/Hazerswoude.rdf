@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hazerswoude">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hazerswoude</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hazerswoude</skos:prefLabel>
+        <gg:name xml:lang="nl">Hazerswoude</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11257"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0524"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Benthorn"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Benthuizen"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoogeveen_Rijnland"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rijneveld"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hazerswoude                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.557799 52.130596,4.56897 52.126719,4.579033 52.127507,4.593136 52.131019,4.612888 52.128993,4.619123 52.13164,4.638421 52.095631,4.644269 52.08623,4.630996 52.085966,4.631599 52.076173,4.604177 52.076084,4.605242 52.065215,4.56816 52.05939,4.564089 52.058732,4.556782 52.05958,4.55386 52.059919,4.531898 52.072165,4.535752 52.076598,4.533788 52.11838,4.536701 52.11876,4.539372 52.124173,4.545685 52.13015,4.543721 52.133642,4.546869 52.13708,4.557799 52.130596)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Hazerswoude                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.557799 52.130596,4.56897 52.126719,4.579033 52.127507,4.593136 52.131019,4.612888 52.128993,4.619123 52.13164,4.638421 52.095631,4.644269 52.08623,4.630996 52.085966,4.631599 52.076173,4.604177 52.076084,4.566503 52.078164,4.55834 52.077837,4.550177 52.07751,4.549803 52.105282,4.551448 52.110956,4.5424 52.118532,4.536701 52.11876,4.539372 52.124173,4.545685 52.13015,4.543721 52.133642,4.546869 52.13708,4.557799 52.130596)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</gg:year>
+                            <gg:name xml:lang="nl">Rijneveld                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.619123 52.13164,4.638421 52.095631,4.644269 52.08623,4.630996 52.085966,4.631599 52.076173,4.626494 52.07614,4.604177 52.076084,4.605242 52.065215,4.56816 52.05939,4.564089 52.058732,4.556782 52.05958,4.55386 52.059919,4.531898 52.072165,4.533178 52.073883,4.531848 52.074772,4.534285 52.077036,4.53075 52.078809,4.533626 52.080987,4.535512 52.08154,4.533788 52.11838,4.536701 52.11876,4.539372 52.124173,4.545685 52.13015,4.543721 52.133642,4.546869 52.13708,4.557799 52.130596,4.563876 52.133694,4.568174 52.138308,4.569077 52.152786,4.616478 52.157958,4.61873 52.154468,4.616611 52.14178,4.626596 52.138789,4.619123 52.13164)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hazerswoude_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hazerswoude_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

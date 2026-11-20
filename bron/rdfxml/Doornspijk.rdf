@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Doornspijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Doornspijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Doornspijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Doornspijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10069"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0223"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oosterwolde_Ge"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Elburg"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Doornspijk                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.878278 52.44176,5.878536 52.438524,5.858613 52.431954,5.866489 52.42608,5.872074 52.425878,5.879264 52.42459,5.895377 52.406726,5.91232 52.385531,5.872919 52.355501,5.863466 52.350057,5.835855 52.377218,5.819375 52.389053,5.819575 52.394445,5.815371 52.400302,5.810946 52.39852,5.808755 52.399966,5.789755 52.394909,5.785961 52.397798,5.776232 52.394146,5.762389 52.390326,5.765844 52.381956,5.747924 52.381832,5.740967 52.375113,5.730831 52.374693,5.727875 52.372185,5.72391 52.372197,5.723637 52.374894,5.710359 52.386614,5.729801 52.39339,5.75472 52.40437,5.810712 52.43555,5.816874 52.43409,5.822067 52.423825,5.84431 52.428145,5.843758 52.431563,5.841607 52.436873,5.850758 52.440074,5.850333 52.441693,5.862725 52.445149,5.871616 52.445749,5.878278 52.44176)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Doornspijk                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.86408 52.516235,5.882196 52.515891,5.901613 52.500709,5.923787 52.471222,5.904414 52.463219,5.884482 52.457193,5.890756 52.452673,5.881454 52.449566,5.880503 52.443459,5.881661 52.441746,5.878278 52.44176,5.878536 52.438524,5.858613 52.431954,5.866489 52.42608,5.872074 52.425878,5.879264 52.42459,5.895377 52.406726,5.91232 52.385531,5.872919 52.355501,5.863466 52.350057,5.835855 52.377218,5.819375 52.389053,5.819575 52.394445,5.815371 52.400302,5.810946 52.39852,5.808755 52.399966,5.789755 52.394909,5.785961 52.397798,5.776232 52.394146,5.762389 52.390326,5.765844 52.381956,5.747924 52.381832,5.740967 52.375113,5.730831 52.374693,5.727875 52.372185,5.72391 52.372197,5.723637 52.374894,5.710359 52.386614,5.729801 52.39339,5.75472 52.40437,5.810712 52.43555,5.816874 52.43409,5.822067 52.423825,5.84431 52.428145,5.843758 52.431563,5.841607 52.436873,5.850758 52.440074,5.850333 52.441693,5.862725 52.445149,5.86047 52.454415,5.864624 52.457634,5.839574 52.468158,5.848018 52.487628,5.852062 52.494173,5.859681 52.504479,5.864175 52.511471,5.86408 52.516235)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Doornspijk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Doornspijk"/>
+            </rdf:Description>
+</rdf:RDF>

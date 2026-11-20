@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hoogezand">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hoogezand</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hoogezand</skos:prefLabel>
+        <gg:name xml:lang="nl">Hoogezand</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10410"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1083"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Windeweer"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoogezand-Sappemeer"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hoogezand                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.77353 53.149042,6.755504 53.143879,6.757889 53.117359,6.744891 53.112268,6.740678 53.115513,6.71231 53.11592,6.711756 53.122217,6.719562 53.128331,6.698948 53.143297,6.691687 53.140411,6.689728 53.144835,6.692507 53.147771,6.681749 53.157953,6.663352 53.167856,6.65986 53.17625,6.639785 53.180326,6.645869 53.183767,6.640713 53.186517,6.660896 53.19619,6.666156 53.196942,6.682587 53.195957,6.717944 53.168071,6.748794 53.164669,6.772576 53.164846,6.77353 53.149042)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1822</gg:year>
+                            <gg:name xml:lang="nl">Hoogezand                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.639785 53.180326,6.645869 53.183767,6.640713 53.186517,6.660896 53.19619,6.666156 53.196942,6.682587 53.195957,6.717944 53.168071,6.748794 53.164669,6.772576 53.164846,6.773944 53.142183,6.789743 53.140831,6.793796 53.132156,6.800995 53.11922,6.805814 53.115837,6.800558 53.115001,6.806162 53.08995,6.811621 53.065261,6.774061 53.089787,6.740678 53.115513,6.71231 53.11592,6.711756 53.122217,6.719562 53.128331,6.698948 53.143297,6.691687 53.140411,6.689728 53.144835,6.692507 53.147771,6.681749 53.157953,6.663352 53.167856,6.65986 53.17625,6.639785 53.180326)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hoogezand"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hoogezand"/>
+            </rdf:Description>
+</rdf:RDF>

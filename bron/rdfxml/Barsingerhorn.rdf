@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Barsingerhorn">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Barsingerhorn</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Barsingerhorn</skos:prefLabel>
+        <gg:name xml:lang="nl">Barsingerhorn</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10973"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0369"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wieringerwaard"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Anna_Paulowna"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Niedorp"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Barsingerhorn                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.875096 52.797566,4.897993 52.791911,4.886785 52.786742,4.882039 52.786992,4.874218 52.783903,4.871597 52.779937,4.861741 52.773783,4.861479 52.770906,4.850244 52.768789,4.850479 52.76169,4.827176 52.753495,4.822661 52.759046,4.820913 52.768204,4.812438 52.7705,4.82898 52.774713,4.825627 52.781976,4.831238 52.78362,4.83188 52.803125,4.84285 52.803355,4.853423 52.799718,4.875096 52.797566)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Barsingerhorn                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.910327 52.802835,4.913362 52.796377,4.908863 52.787462,4.897993 52.791911,4.886785 52.786742,4.882039 52.786992,4.874218 52.783903,4.871597 52.779937,4.861741 52.773783,4.861479 52.770906,4.850244 52.768789,4.850479 52.76169,4.827176 52.753495,4.822661 52.759046,4.820913 52.768204,4.812438 52.7705,4.82898 52.774713,4.825627 52.781976,4.831238 52.78362,4.83188 52.803125,4.84285 52.803355,4.853423 52.799718,4.875096 52.797566,4.888634 52.832672,4.896067 52.831445,4.911981 52.814345,4.910327 52.802835)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1938</gg:year>
+                            <gg:name xml:lang="nl">Barsingerhorn                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.910327 52.802835,4.913362 52.796377,4.908863 52.787462,4.897993 52.791911,4.886785 52.786742,4.882039 52.786992,4.874218 52.783903,4.871597 52.779937,4.861741 52.773783,4.861479 52.770906,4.850244 52.768789,4.850479 52.76169,4.827176 52.753495,4.822661 52.759046,4.820913 52.768204,4.812438 52.7705,4.82898 52.774713,4.825627 52.781976,4.831238 52.78362,4.83188 52.803125,4.84285 52.803355,4.853423 52.799718,4.875096 52.797566,4.890346 52.838701,4.911981 52.814345,4.910327 52.802835)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</gg:year>
+                            <gg:name xml:lang="nl">Barsingerhorn                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.846954 52.843365,4.879971 52.837578,4.890346 52.838701,4.911981 52.814345,4.910327 52.802835,4.913362 52.796377,4.908863 52.787462,4.897993 52.791911,4.886785 52.786742,4.882039 52.786992,4.874218 52.783903,4.871597 52.779937,4.861741 52.773783,4.861479 52.770906,4.850244 52.768789,4.850479 52.76169,4.827176 52.753495,4.822661 52.759046,4.820913 52.768204,4.812438 52.7705,4.82898 52.774713,4.825627 52.781976,4.831238 52.78362,4.83188 52.803125,4.811665 52.82936,4.846954 52.843365)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Barsingerhorn"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Barsingerhorn"/>
+            </rdf:Description>
+</rdf:RDF>

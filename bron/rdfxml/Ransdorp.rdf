@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ransdorp">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ransdorp</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ransdorp</skos:prefLabel>
+        <gg:name xml:lang="nl">Ransdorp</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10789"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1157"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Durgerdam"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Holysloot"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Durgerdam"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Holysloot"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schellingwoude"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Amsterdam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ransdorp                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.010278 52.422317,5.018387 52.419556,5.023966 52.420382,5.030306 52.418065,5.031942 52.415643,5.035458 52.417182,5.049594 52.416747,5.064862 52.416277,5.067232 52.413766,5.067099 52.411879,5.059754 52.411319,5.052273 52.409411,5.049655 52.405809,5.043934 52.404534,5.035017 52.398666,5.032584 52.39048,5.028203 52.387321,5.015333 52.380541,5.013186 52.373973,5.005103 52.374666,5.00288 52.376996,4.998175 52.377609,4.995664 52.377414,4.992158 52.37714,4.986225 52.383681,4.982552 52.383759,4.979403 52.390758,4.9832 52.393198,4.97729 52.396862,4.980643 52.39975,4.975763 52.403148,4.988724 52.410502,4.993454 52.413185,5.005778 52.415742,5.010278 52.422317)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Ransdorp                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.010278 52.422317,5.018387 52.419556,5.023966 52.420382,5.030306 52.418065,5.031942 52.415643,5.035458 52.417182,5.064862 52.416277,5.067232 52.413766,5.067099 52.411879,5.059754 52.411319,5.052273 52.409411,5.049655 52.405809,5.043934 52.404534,5.035017 52.398666,5.032584 52.39048,5.028203 52.387321,5.015333 52.380541,5.013186 52.373973,5.005103 52.374666,5.00288 52.376996,4.998175 52.377609,4.987319 52.376315,4.979673 52.377367,4.972859 52.383635,4.965327 52.387923,4.946524 52.388034,4.950849 52.396319,4.954539 52.394624,4.958628 52.397156,4.969188 52.399081,4.97729 52.396862,4.980643 52.39975,4.975763 52.403148,4.993454 52.413185,5.005778 52.415742,5.010278 52.422317)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1878</gg:year>
+                            <gg:name xml:lang="nl">Ransdorp                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.010278 52.422317,5.018387 52.419556,5.023966 52.420382,5.030306 52.418065,5.031942 52.415643,5.035458 52.417182,5.064862 52.416277,5.067232 52.413766,5.067099 52.411879,5.059754 52.411319,5.052273 52.409411,5.049655 52.405809,5.043934 52.404534,5.035017 52.398666,5.032584 52.39048,5.028203 52.387321,5.015333 52.380541,5.013186 52.373973,5.005103 52.374666,5.00288 52.376996,4.998175 52.377609,4.980869 52.375035,4.963622 52.381895,4.953907 52.384107,4.946853 52.38444,4.946524 52.388034,4.950849 52.396319,4.954539 52.394624,4.958628 52.397156,4.969188 52.399081,4.97729 52.396862,4.980643 52.39975,4.975763 52.403148,4.993454 52.413185,5.005778 52.415742,5.010278 52.422317)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1921-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ransdorp"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ransdorp"/>
+            </rdf:Description>
+</rdf:RDF>

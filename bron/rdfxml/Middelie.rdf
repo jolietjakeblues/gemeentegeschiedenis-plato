@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Middelie">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Middelie</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Middelie</skos:prefLabel>
+        <gg:name xml:lang="nl">Middelie</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10452"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0421"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kwadijk"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Warder"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zeevang"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Middelie                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.046218 52.527848,5.043769 52.520652,5.047331 52.517247,5.046309 52.516075,5.029646 52.518003,5.018695 52.523902,5.01589 52.524432,5.004083 52.526641,4.989151 52.515807,4.983743 52.511116,4.972548 52.511077,4.972462 52.520244,4.976145 52.520257,4.976122 52.522773,4.973317 52.523303,4.98743 52.543213,4.995043 52.54908,4.993371 52.554647,5.003791 52.560343,5.006444 52.560441,5.011048 52.574027,5.032894 52.572207,5.039028 52.56126,5.052117 52.546649,5.053076 52.536765,5.042788 52.533051,5.046218 52.527848)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Middelie                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.006444 52.560441,5.019342 52.552304,5.025831 52.552144,5.033124 52.543628,5.033595 52.539944,5.042788 52.533051,5.046218 52.527848,5.043769 52.520652,5.047331 52.517247,5.046309 52.516075,5.029646 52.518003,5.018695 52.523902,5.01589 52.524432,5.018654 52.528755,5.007208 52.540312,4.995043 52.54908,4.993371 52.554647,5.003791 52.560343,5.006444 52.560441)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Middelie"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Middelie"/>
+            </rdf:Description>
+</rdf:RDF>

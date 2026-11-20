@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wolphaartsdijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wolphaartsdijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wolphaartsdijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Wolphaartsdijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10543"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0728"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Goes"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wolphaartsdijk                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.847593 51.53814,3.848771 51.528895,3.845243 51.526691,3.854207 51.51728,3.849929 51.515965,3.816316 51.508775,3.802561 51.510747,3.816211 51.51183,3.822258 51.516137,3.801471 51.525476,3.790476 51.526675,3.755263 51.535987,3.74446 51.535746,3.741386 51.537051,3.734345 51.536412,3.731081 51.538973,3.752852 51.546922,3.773127 51.544416,3.788367 51.541569,3.810945 51.54736,3.822726 51.548597,3.831426 51.547185,3.839993 51.541186,3.847593 51.53814)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1876</gg:year>
+                            <gg:name xml:lang="nl">Wolphaartsdijk                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.831426 51.547185,3.839993 51.541186,3.847593 51.53814,3.848771 51.528895,3.845243 51.526691,3.854207 51.51728,3.849929 51.515965,3.816316 51.508775,3.772263 51.515996,3.770273 51.519294,3.748995 51.517919,3.748492 51.51989,3.742262 51.516836,3.722025 51.526438,3.731081 51.538973,3.752852 51.546922,3.773127 51.544416,3.788367 51.541569,3.810945 51.54736,3.822726 51.548597,3.831426 51.547185)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wolphaartsdijk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wolphaartsdijk"/>
+            </rdf:Description>
+</rdf:RDF>

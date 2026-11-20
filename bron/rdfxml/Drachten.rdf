@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Drachten">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Drachten</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Drachten</skos:prefLabel>
+        <gg:name xml:lang="nl">Drachten</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10405"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Smallingerland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Drachten                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.083284 53.068453,6.083172 53.074653,6.078986 53.074862,6.083045 53.081659,6.073463 53.085362,6.062492 53.091325,6.060628 53.093429,6.056689 53.094244,6.052973 53.09934,6.046695 53.10242,6.03829 53.104242,6.037148 53.108975,6.053597 53.112532,6.052386 53.116092,6.055381 53.118866,6.069734 53.119547,6.091938 53.13181,6.101991 53.127352,6.175013 53.148103,6.173511 53.129924,6.162627 53.114449,6.13996 53.116481,6.115338 53.082216,6.105519 53.075086,6.0884 53.068358,6.083284 53.068453)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2747091"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Drachten"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Smallingerland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Drachten"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Smallingerland"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bennebroek">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bennebroek</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bennebroek</skos:prefLabel>
+        <gg:name xml:lang="nl">Bennebroek</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10734"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0372"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heemstede"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bloemendaal"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Bennebroek                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.608524 52.320592,4.608661 52.312773,4.600976 52.316138,4.583377 52.316109,4.58818 52.326298,4.597577 52.325822,4.608524 52.320592)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Bennebroek                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.590151 52.328352,4.590292 52.32832,4.590285 52.328303,4.590804 52.328194,4.591076 52.328263,4.591594 52.328154,4.591773 52.328506,4.593358 52.328095,4.593874 52.328639,4.594199 52.328521,4.595154 52.328126,4.595617 52.327942,4.596293 52.327736,4.596534 52.328013,4.597242 52.327815,4.597252 52.327828,4.597317 52.327822,4.600405 52.326465,4.601902 52.325808,4.604119 52.324823,4.60448 52.324756,4.604533 52.32473,4.604602 52.324677,4.604788 52.324552,4.605463 52.324186,4.605657 52.324079,4.6057 52.324059,4.605694 52.324052,4.605763 52.324009,4.605789 52.324016,4.606375 52.323676,4.606485 52.323639,4.606615 52.323606,4.607241 52.323301,4.607356 52.323377,4.607656 52.32359,4.607963 52.323385,4.608254 52.323199,4.60844 52.323068,4.608563 52.323004,4.608683 52.322955,4.608811 52.32292,4.608941 52.322895,4.609154 52.322834,4.609631 52.322701,4.609939 52.322611,4.610123 52.3226,4.610661 52.322424,4.611102 52.322294,4.611227 52.322254,4.611289 52.322217,4.611375 52.322192,4.611388 52.322204,4.611387 52.321552,4.611422 52.320411,4.611481 52.319117,4.611505 52.318184,4.611544 52.317679,4.611546 52.316899,4.611554 52.31663,4.611549 52.315649,4.611593 52.314426,4.611632 52.3137,4.611685 52.313588,4.610037 52.313951,4.605744 52.315016,4.605502 52.315189,4.603178 52.3158,4.602904 52.315913,4.602779 52.316023,4.602651 52.316126,4.602376 52.316181,4.602017 52.316265,4.601846 52.316367,4.601641 52.316485,4.601456 52.316574,4.601137 52.316604,4.599912 52.31697,4.598639 52.317309,4.59709 52.317594,4.596238 52.317758,4.595927 52.317794,4.594995 52.317669,4.592268 52.317819,4.591098 52.317757,4.590077 52.317883,4.588312 52.318051,4.584276 52.31844,4.583547 52.318474,4.583693 52.318595,4.583784 52.318684,4.584122 52.319063,4.584974 52.320102,4.586368 52.321823,4.58783 52.323637,4.589292 52.325413,4.588492 52.325648,4.588905 52.326295,4.589981 52.328094,4.590151 52.328352)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-05-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bennebroek"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bennebroek"/>
+            </rdf:Description>
+</rdf:RDF>

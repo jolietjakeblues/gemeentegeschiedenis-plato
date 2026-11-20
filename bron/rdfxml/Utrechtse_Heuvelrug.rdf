@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Utrechtse_Heuvelrug">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Utrechtse Heuvelrug</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Utrechtse Heuvelrug</skos:prefLabel>
+        <gg:name xml:lang="nl">Utrechtse Heuvelrug</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10777"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1581"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Driebergen-Rijsenburg"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Doorn"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Maarn"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Amerongen"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Leersum"/>
+
+        
+                                                                                                            
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2756685"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</gg:startDate>
+                                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Utrechtse_Heuvelrug_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Utrechtse_Heuvelrug_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

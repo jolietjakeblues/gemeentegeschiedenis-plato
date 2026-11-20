@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bierum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bierum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bierum</skos:prefLabel>
+        <gg:name xml:lang="nl">Bierum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11294"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0008"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Delfzijl"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bierum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.900822 53.346896,6.886405 53.346897,6.886205 53.341148,6.876655 53.342884,6.873222 53.339153,6.833891 53.339363,6.830103 53.342823,6.829998 53.348665,6.823768 53.35548,6.81491 53.355585,6.804291 53.361552,6.803544 53.366234,6.780665 53.392741,6.794059 53.397797,6.846878 53.416848,6.862863 53.422404,6.876737 53.427715,6.883592 53.421519,6.883856 53.411811,6.889276 53.394759,6.891146 53.375145,6.896602 53.367888,6.900822 53.346896)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</gg:year>
+                            <gg:name xml:lang="nl">Bierum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.896602 53.367888,6.900822 53.346896,6.886405 53.346897,6.886205 53.341148,6.876655 53.342884,6.873222 53.339153,6.833891 53.339363,6.830103 53.342823,6.829998 53.348665,6.823768 53.35548,6.81491 53.355585,6.804291 53.361552,6.803544 53.366234,6.780665 53.392741,6.794059 53.397797,6.846878 53.416848,6.876804 53.403631,6.889248 53.393951,6.891146 53.375145,6.896602 53.367888)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bierum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bierum"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Laren_NH">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Laren [NH]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Laren [NH]</skos:prefLabel>
+        <gg:name xml:lang="nl">Laren [NH]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10649"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0417"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Blaricum"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Laren (NH.)                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.293979 52.293458,5.294871 52.287437,5.304857 52.276569,5.263968 52.279859,5.242954 52.252962,5.221828 52.223634,5.21602 52.211492,5.199072 52.240677,5.189242 52.245335,5.203508 52.26549,5.205237 52.272503,5.210794 52.275208,5.227636 52.277389,5.235534 52.281714,5.24623 52.282176,5.274482 52.29407,5.278445 52.292187,5.283124 52.296775,5.293979 52.293458)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Laren (NH.)                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.203508 52.26549,5.213614 52.265865,5.216529 52.269644,5.225023 52.270555,5.224456 52.265431,5.242954 52.252962,5.221828 52.223634,5.21602 52.211492,5.199072 52.240677,5.189242 52.245335,5.203508 52.26549)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Laren                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.203871 52.26695,5.20419 52.267517,5.205051 52.267005,5.205598 52.266795,5.206981 52.266489,5.207895 52.266258,5.209275 52.266031,5.211469 52.267454,5.211864 52.267693,5.212013 52.267785,5.212177 52.267854,5.214531 52.268404,5.216284 52.26883,5.216897 52.26909,5.218058 52.269698,5.218574 52.269944,5.219246 52.270426,5.219418 52.270519,5.219484 52.27054,5.220319 52.270785,5.220399 52.27082,5.220497 52.270855,5.221021 52.271067,5.22109 52.271104,5.221191 52.271135,5.222087 52.271457,5.222178 52.271481,5.222325 52.271542,5.222416 52.271611,5.22316 52.272039,5.223252 52.272104,5.22337 52.272166,5.223449 52.272201,5.223557 52.272225,5.224072 52.272384,5.224218 52.272442,5.224405 52.272513,5.224538 52.272601,5.22488 52.272759,5.225368 52.272922,5.225796 52.27116,5.225862 52.270868,5.225987 52.270632,5.226023 52.270448,5.22604 52.270289,5.226098 52.270144,5.225898 52.268757,5.225688 52.267948,5.226319 52.267905,5.229377 52.265864,5.229511 52.265292,5.229942 52.265475,5.230425 52.264732,5.230855 52.264759,5.23101 52.264765,5.232026 52.264351,5.232325 52.264236,5.232643 52.264019,5.233967 52.262927,5.236424 52.260869,5.244038 52.25462,5.245035 52.254457,5.242413 52.250848,5.241046 52.249087,5.240251 52.248066,5.238911 52.246249,5.238122 52.245196,5.237346 52.244211,5.23634 52.242811,5.235173 52.241354,5.234211 52.240145,5.233653 52.23946,5.233634 52.239329,5.232996 52.238511,5.23239 52.237789,5.231751 52.236945,5.230696 52.235671,5.230207 52.235011,5.229574 52.234197,5.228898 52.233249,5.227008 52.230744,5.22635 52.229794,5.224919 52.227906,5.223009 52.225255,5.224596 52.225194,5.223912 52.223318,5.223431 52.222203,5.22247 52.220023,5.221689 52.218299,5.220483 52.215699,5.219902 52.214275,5.218925 52.212199,5.215675 52.21687,5.200448 52.238606,5.1996 52.239837,5.199166 52.240394,5.196033 52.24268,5.189244 52.247596,5.199246 52.260838,5.19978 52.261505,5.200799 52.26288,5.203871 52.26695)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2751873"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Laren_(Noord-Holland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Laren_(Noord-Holland)"/>
+            </rdf:Description>
+</rdf:RDF>

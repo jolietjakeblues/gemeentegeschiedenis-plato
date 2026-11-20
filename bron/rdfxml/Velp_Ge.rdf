@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Velp_Ge">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Velp [Ge]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Velp [Ge]</skos:prefLabel>
+        <gg:name xml:lang="nl">Velp [Ge]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10698"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rheden"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rosendaal_Ge"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Velp [Ge]                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.018368 52.031811,6.020746 52.030257,6.024675 52.030235,6.034905 52.03127,6.038082 52.033555,6.044532 52.031338,6.047047 52.028658,6.049147 52.024526,6.047542 52.022034,6.040488 52.021954,6.035631 52.018565,6.034957 52.012277,6.040139 52.008024,6.040824 52.005054,6.038138 52.000574,6.033265 51.995927,6.027866 51.995148,6.014686 52.000162,6.013082 51.999991,6.002574 51.998339,5.998894 51.995392,5.997955 51.979937,5.992952 51.975918,5.987547 51.974418,5.974148 51.973766,5.973726 51.974847,5.965014 51.976418,5.949142 51.975866,5.947218 51.984953,5.955687 51.98698,5.952709 51.993286,5.950872 51.997699,5.939092 52.010698,5.936771 52.031752,5.935552 52.042803,5.940498 52.053835,5.944247 52.062177,5.954556 52.070127,5.964836 52.07556,5.976385 52.07748,5.992422 52.07686,6.00785 52.074352,6.006706 52.06546,6.005228 52.060311,6.015581 52.054155,6.01713 52.050168,6.02275 52.046846,6.017579 52.042512,6.021056 52.038252,6.022484 52.033765,6.019938 52.033438,6.018368 52.031811)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Velp_(Gelderland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Velp_(Gelderland)"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oudenbosch">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oudenbosch</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oudenbosch</skos:prefLabel>
+        <gg:name xml:lang="nl">Oudenbosch</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10397"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0830"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Halderberge"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Oudenbosch                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.53438 51.619869,4.530422 51.615346,4.548379 51.61251,4.547879 51.608281,4.544141 51.607445,4.54432 51.597828,4.553606 51.595198,4.556884 51.589559,4.563559 51.587538,4.540546 51.575778,4.533918 51.56764,4.529414 51.569405,4.529215 51.57228,4.508826 51.574825,4.510583 51.580951,4.516036 51.58252,4.514521 51.608756,4.5184 51.609774,4.525172 51.618094,4.53438 51.619869)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</gg:year>
+                            <gg:name xml:lang="nl">Halderberge                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.584797 51.626878,4.591752 51.625577,4.597227 51.626333,4.610791 51.610154,4.609816 51.60808,4.599669 51.610439,4.582287 51.589287,4.587936 51.588067,4.586045 51.580773,4.588456 51.574947,4.586593 51.566035,4.588368 51.56353,4.570115 51.559988,4.563982 51.55626,4.566668 51.551245,4.543354 51.541101,4.524066 51.539612,4.524464 51.556604,4.533918 51.56764,4.529414 51.569405,4.5066 51.570583,4.505657 51.567161,4.502034 51.568032,4.501091 51.564609,4.492268 51.56589,4.484762 51.566192,4.4805 51.562923,4.45179 51.563416,4.450556 51.567271,4.439365 51.571316,4.435546 51.574611,4.435888 51.578929,4.428436 51.583362,4.429891 51.589667,4.426384 51.591705,4.428351 51.60107,4.423641 51.605346,4.424653 51.612096,4.433163 51.619357,4.449569 51.615085,4.466288 51.616567,4.480332 51.62189,4.48958 51.621602,4.497569 51.611865,4.508474 51.607902,4.514521 51.608756,4.5184 51.609774,4.525172 51.618094,4.53438 51.619869,4.545484 51.620669,4.558012 51.630466,4.566812 51.631068,4.572568 51.632277,4.579662 51.631337,4.584797 51.626878)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oudenbosch"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oudenbosch"/>
+            </rdf:Description>
+</rdf:RDF>

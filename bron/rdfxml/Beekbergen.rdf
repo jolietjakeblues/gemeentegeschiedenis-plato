@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Beekbergen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Beekbergen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Beekbergen</skos:prefLabel>
+        <gg:name xml:lang="nl">Beekbergen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11390"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Apeldoorn"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Beekbergen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.063653 52.156917,6.019628 52.143644,5.994259 52.131929,5.980159 52.124462,5.960498 52.119605,5.957608 52.11251,5.955063 52.104983,5.950241 52.098101,5.909539 52.099457,5.902567 52.102364,5.884346 52.10451,5.864712 52.124814,5.85926 52.147756,5.846436 52.150952,5.848653 52.15346,5.840202 52.170211,5.827631 52.173709,5.831604 52.178106,5.835482 52.180461,5.838647 52.181526,5.842839 52.180217,5.848893 52.189672,5.868148 52.187656,5.886821 52.19641,5.933005 52.189313,5.97892 52.189284,6.005262 52.19348,6.039288 52.195235,6.044533 52.194345,6.047879 52.19686,6.05574 52.198346,6.056506 52.196775,6.048982 52.182616,6.06679 52.161393,6.063653 52.156917)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Beekbergen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Beekbergen"/>
+            </rdf:Description>
+</rdf:RDF>

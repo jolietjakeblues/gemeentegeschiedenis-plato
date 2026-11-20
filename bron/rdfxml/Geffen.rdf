@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Geffen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Geffen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Geffen</skos:prefLabel>
+        <gg:name xml:lang="nl">Geffen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10370"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0780"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Maasdonk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Geffen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.443694 51.761925,5.462674 51.764341,5.492915 51.749936,5.495223 51.745979,5.503183 51.744623,5.500714 51.7413,5.467533 51.727216,5.479519 51.713994,5.463591 51.707084,5.45477 51.710505,5.450866 51.711946,5.447555 51.724531,5.45682 51.725874,5.457845 51.733334,5.447434 51.742059,5.438189 51.761388,5.443694 51.761925)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</gg:year>
+                            <gg:name xml:lang="nl">Maasdonk                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.459645 51.772613,5.463395 51.762363,5.466147 51.762541,5.471065 51.758673,5.473818 51.75903,5.492915 51.749936,5.487693 51.745716,5.487826 51.740593,5.493906 51.740048,5.493903 51.73897,5.472749 51.729999,5.477227 51.725501,5.475634 51.725053,5.480096 51.712915,5.491233 51.711108,5.491512 51.706613,5.477616 51.703119,5.474426 51.698987,5.471813 51.694045,5.469643 51.694227,5.470362 51.691799,5.460094 51.692255,5.45952 51.694952,5.457785 51.695403,5.447085 51.697296,5.436673 51.700088,5.436241 51.702065,5.424959 51.703058,5.42308 51.705036,5.419752 51.704768,5.41874 51.706026,5.414979 51.705758,5.412087 51.709444,5.422941 51.712137,5.419472 51.717082,5.413393 51.716095,5.409344 51.72077,5.407175 51.725534,5.410939 51.726881,5.404575 51.737129,5.422385 51.74171,5.407482 51.763645,5.416753 51.764542,5.429647 51.765796,5.434283 51.766244,5.443264 51.765341,5.44935 51.766506,5.457616 51.772524,5.459645 51.772613)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Geffen_(plaats)"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

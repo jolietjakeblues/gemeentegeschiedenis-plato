@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Kethel_en_Spaland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Kethel en Spaland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Kethel en Spaland</skos:prefLabel>
+        <gg:name xml:lang="nl">Kethel en Spaland</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10551"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1096"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oud-_en_Nieuw-Mathenesse"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuwland__Kortland_en_s-Graveland"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schiedam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Kethel en Spaland                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.403858 51.9129,4.411567 51.91081,4.425832 51.911276,4.428194 51.908581,4.427584 51.903093,4.412348 51.902069,4.402222 51.900007,4.394764 51.915315,4.403858 51.9129)),((4.405117 51.947043,4.395389 51.93968,4.363351 51.922417,4.35837 51.924081,4.359006 51.928042,4.354781 51.934746,4.362034 51.935529,4.362828 51.938952,4.352405 51.943175,4.347438 51.950412,4.354374 51.952451,4.358179 51.945113,4.366128 51.94734,4.360894 51.959969,4.371198 51.961137,4.378164 51.961916,4.387863 51.964156,4.392116 51.962664,4.395912 51.955505,4.405117 51.947043)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Kethel en Spaland                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.360894 51.959969,4.371198 51.961137,4.378164 51.961916,4.387863 51.964156,4.392116 51.962664,4.395912 51.955505,4.405117 51.947043,4.395389 51.93968,4.363351 51.922417,4.35837 51.924081,4.359006 51.928042,4.354781 51.934746,4.362034 51.935529,4.362828 51.938952,4.352405 51.943175,4.347438 51.950412,4.354374 51.952451,4.358179 51.945113,4.366128 51.94734,4.360894 51.959969)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1856</gg:year>
+                            <gg:name xml:lang="nl">Kethel en Spaland                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.405117 51.947043,4.395389 51.93968,4.397039 51.930795,4.394103 51.925467,4.38366 51.92439,4.382805 51.917101,4.365 51.913802,4.363351 51.922417,4.35837 51.924081,4.359006 51.928042,4.354781 51.934746,4.362034 51.935529,4.362828 51.938952,4.352405 51.943175,4.347438 51.950412,4.354374 51.952451,4.358179 51.945113,4.366128 51.94734,4.360894 51.959969,4.371198 51.961137,4.378164 51.961916,4.387863 51.964156,4.392116 51.962664,4.395912 51.955505,4.405117 51.947043)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1868</gg:year>
+                            <gg:name xml:lang="nl">Kethel en Spaland                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.405117 51.947043,4.395389 51.93968,4.363351 51.922417,4.35837 51.924081,4.359006 51.928042,4.354781 51.934746,4.362034 51.935529,4.362828 51.938952,4.352405 51.943175,4.347438 51.950412,4.354374 51.952451,4.358179 51.945113,4.366128 51.94734,4.360894 51.959969,4.371198 51.961137,4.378164 51.961916,4.387863 51.964156,4.392116 51.962664,4.395912 51.955505,4.405117 51.947043)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kethel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kethel"/>
+            </rdf:Description>
+</rdf:RDF>

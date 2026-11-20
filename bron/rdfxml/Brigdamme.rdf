@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Brigdamme">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Brigdamme</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Brigdamme</skos:prefLabel>
+        <gg:name xml:lang="nl">Brigdamme</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10727"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sint_Laurens"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Brigdamme                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.594834 51.524555,3.59557 51.525682,3.597302 51.525844,3.59872 51.524781,3.60071 51.523908,3.602072 51.522437,3.60459 51.522882,3.60697 51.523145,3.607289 51.524234,3.605746 51.528503,3.604831 51.531517,3.603388 51.533212,3.601939 51.535042,3.59994 51.534289,3.599251 51.535227,3.600033 51.537426,3.603552 51.537455,3.60645 51.544422,3.60799 51.549301,3.613761 51.549209,3.615596 51.546539,3.614267 51.543642,3.62406 51.536508,3.627816 51.536295,3.627903 51.534049,3.619997 51.53348,3.614393 51.533035,3.614396 51.529259,3.621988 51.526767,3.622011 51.522452,3.635299 51.525439,3.638748 51.529447,3.643509 51.525562,3.613667 51.514684,3.607036 51.514763,3.606375 51.51691,3.596677 51.518021,3.595973 51.521246,3.594834 51.524555)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Brigdamme"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Brigdamme"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Roggel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Roggel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Roggel</skos:prefLabel>
+        <gg:name xml:lang="nl">Roggel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10505"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0958"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Neer"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Roggel_en_Neer"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Roggel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.909851 51.312953,5.919299 51.311382,5.94432 51.293197,5.949104 51.274118,5.956444 51.265093,5.953412 51.26322,5.951615 51.256937,5.927506 51.253366,5.916593 51.251079,5.918075 51.255387,5.91037 51.258028,5.888315 51.258575,5.895807 51.262408,5.889321 51.271964,5.889634 51.287424,5.892695 51.291995,5.885926 51.315485,5.91082 51.309892,5.909851 51.312953)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</gg:year>
+                            <gg:name xml:lang="nl">Roggel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.885926 51.315485,5.91082 51.309892,5.909851 51.312953,5.919299 51.311382,5.950606 51.302965,5.986393 51.287235,6.007208 51.278856,6.009075 51.268599,6.006752 51.266364,6.00283 51.26234,6.004951 51.260261,6.012345 51.256177,6.012591 51.253209,6.006941 51.248565,6.003811 51.239503,6.000344 51.237184,5.997707 51.24349,5.980872 51.248431,5.97574 51.250345,5.971278 51.24866,5.969281 51.249299,5.968986 51.248581,5.965133 51.249679,5.967033 51.252726,5.96418 51.253639,5.951734 51.254958,5.929532 51.255064,5.925044 51.25104,5.916593 51.251079,5.918075 51.255387,5.91037 51.258028,5.888315 51.258575,5.895807 51.262408,5.889321 51.271964,5.889634 51.287424,5.892695 51.291995,5.885926 51.315485)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Roggel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Roggel"/>
+            </rdf:Description>
+</rdf:RDF>

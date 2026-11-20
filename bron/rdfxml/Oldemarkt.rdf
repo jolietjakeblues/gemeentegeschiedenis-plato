@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oldemarkt">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oldemarkt</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oldemarkt</skos:prefLabel>
+        <gg:name xml:lang="nl">Oldemarkt</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10858"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0172"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/IJsselham"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Oldemarkt                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.876795 52.799008,5.890332 52.802816,5.905845 52.810568,5.91123 52.814408,5.92017 52.817694,5.926863 52.831144,5.945309 52.834833,5.955362 52.83191,5.955702 52.835234,5.971492 52.839741,5.985165 52.819453,5.992571 52.818606,5.996515 52.814273,6.016014 52.819024,6.026243 52.81852,6.032104 52.813636,6.016803 52.801675,6.007145 52.800288,5.999336 52.793229,6.003616 52.791859,5.980364 52.78263,5.967206 52.773978,5.951686 52.765515,5.949809 52.757795,5.942394 52.757201,5.94377 52.760519,5.938754 52.76216,5.933265 52.761557,5.912165 52.768661,5.891123 52.781424,5.883669 52.790622,5.879669 52.790908,5.876795 52.799008)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</gg:year>
+                            <gg:name xml:lang="nl">IJsselham                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.971492 52.839741,5.985165 52.819453,5.992571 52.818606,5.996515 52.814273,6.016014 52.819024,6.026243 52.81852,6.032104 52.813636,6.016803 52.801675,6.007145 52.800288,5.999336 52.793229,6.011585 52.789301,6.043295 52.788412,6.045091 52.769799,6.051667 52.763741,6.03385 52.751077,5.968318 52.734879,5.963222 52.741464,5.944175 52.722503,5.939815 52.717131,5.927967 52.740461,5.917594 52.752011,5.905229 52.758536,5.894431 52.759841,5.868672 52.774956,5.85082 52.782396,5.846525 52.782682,5.834527 52.783447,5.816721 52.781446,5.816905 52.78513,5.794545 52.803361,5.810208 52.813013,5.817348 52.815054,5.833752 52.809242,5.837703 52.804015,5.844672 52.803988,5.854162 52.803951,5.876795 52.799008,5.890332 52.802816,5.905845 52.810568,5.91123 52.814408,5.92017 52.817694,5.926863 52.831144,5.945309 52.834833,5.955362 52.83191,5.955702 52.835234,5.971492 52.839741)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1973-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oldemarkt"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oldemarkt"/>
+            </rdf:Description>
+</rdf:RDF>

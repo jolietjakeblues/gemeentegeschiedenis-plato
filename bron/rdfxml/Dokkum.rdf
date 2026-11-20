@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dokkum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dokkum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dokkum</skos:prefLabel>
+        <gg:name xml:lang="nl">Dokkum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10198"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0066"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dongeradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Dokkum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.990563 53.328222,6.01381 53.327025,6.022718 53.320418,6.012076 53.31095,6.002313 53.310191,5.989631 53.315197,5.985967 53.321506,5.990563 53.328222)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</gg:year>
+                            <gg:name xml:lang="nl">Dokkum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.022718 53.320418,6.019924 53.3039,6.015853 53.302483,5.998195 53.30545,5.975648 53.302148,5.972547 53.305757,5.97516 53.310327,5.971605 53.313669,5.972282 53.319327,5.972541 53.327412,5.97648 53.330089,5.983095 53.330865,6.015534 53.332047,6.024507 53.329754,6.022718 53.320418)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Dongeradeel                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.191649 53.406566,6.187832 53.403446,6.180624 53.403943,6.16214 53.396157,6.159819 53.392488,6.168204 53.349303,6.173013 53.341275,6.179313 53.332787,6.174885 53.328683,6.179039 53.317873,6.177641 53.315276,6.157766 53.311452,6.15192 53.303312,6.134841 53.295871,6.131149 53.299219,6.135868 53.303233,6.134157 53.308366,6.12336 53.308612,6.121376 53.315453,6.115546 53.316747,6.105921 53.315457,6.10281 53.317901,6.091557 53.317968,6.086957 53.32114,6.07702 53.319131,6.022718 53.320418,6.019924 53.3039,6.015853 53.302483,5.998195 53.30545,5.975648 53.302148,5.972547 53.305757,5.97516 53.310327,5.971605 53.313669,5.972282 53.319327,5.966876 53.319083,5.960706 53.317765,5.955746 53.31716,5.948492 53.31315,5.935128 53.312313,5.927721 53.319895,5.927168 53.323671,5.911637 53.32994,5.916327 53.332974,5.896033 53.343215,5.888073 53.342979,5.881071 53.34777,5.885599 53.349728,5.850985 53.370533,5.888086 53.382784,5.922194 53.382367,5.963468 53.389634,5.972094 53.393906,5.979752 53.393329,6.056556 53.402451,6.073103 53.402987,6.088267 53.401641,6.139925 53.398095,6.149717 53.399201,6.178281 53.407373,6.191649 53.406566)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dokkum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dokkum"/>
+            </rdf:Description>
+</rdf:RDF>

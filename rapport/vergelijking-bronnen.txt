@@ -1,0 +1,21 @@
+Beide bronnen dekken 2000-01-01 t/m 2021-01-01.
+TOOI: 255 wijzigingen, gemeentegeschiedenis.nl: 266; in beide: 253
+  zelfde relatietype: 249
+  gemeentegeschiedenis.nl MergedInto, TOOI AbsorbedBy: 4
+Alleen in TOOI: 2
+   2006-05-20 gm0240 gm1586 SucceededBy
+   2019-01-01 gm0053 gm1969 MergedInto
+Alleen in gemeentegeschiedenis.nl: 13
+   2000-01-01 ? gm1731 SucceededBy
+   2001-01-01 gm0143 ? SucceededBy
+   2005-01-01 ? gm1876 MergedInto
+   2006-05-19 gm0240 gm1586 SucceededBy
+   2007-01-01 ? gm1640 SucceededBy
+   2010-01-01 ? gm1894 SucceededBy
+   2010-01-01 gm0964 gm1894 MergedInto
+   2010-01-01 gm0993 gm0984 AbsorbedBy
+   2014-01-01 gm0055 gm0074 AbsorbedBy
+   2014-01-01 gm0055 gm1900 AbsorbedBy
+   2014-01-01 gm0055 gm1921 MergedInto
+   2018-01-01 gm0140 ? SucceededBy
+   2018-01-01 gm0140 gm1949 MergedInto

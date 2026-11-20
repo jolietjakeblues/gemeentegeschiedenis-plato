@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Termunten">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Termunten</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Termunten</skos:prefLabel>
+        <gg:name xml:lang="nl">Termunten</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11023"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0042"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Delfzijl"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Termunten                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.914598 53.261079,6.927986 53.266659,6.934306 53.271521,6.939417 53.271904,6.952291 53.263109,6.982649 53.26936,6.988892 53.267929,7.000982 53.278552,6.997479 53.281115,7.000287 53.292041,7.01117 53.30223,7.024736 53.299979,7.076505 53.296476,7.095659 53.302855,7.098554 53.300208,7.080003 53.290046,7.082586 53.27563,7.079244 53.26687,7.079836 53.259043,7.090049 53.251978,7.065551 53.238573,7.049335 53.253178,7.048274 53.260652,7.034269 53.251049,7.022141 53.251304,7.011314 53.262236,7.002539 53.264062,6.959585 53.253488,6.955306 53.255341,6.946812 53.244218,6.942085 53.246077,6.924896 53.234615,6.915448 53.238511,6.91502 53.243369,6.908335 53.244982,6.911224 53.254651,6.915752 53.255582,6.914598 53.261079)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Termunten"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Termunten"/>
+            </rdf:Description>
+</rdf:RDF>

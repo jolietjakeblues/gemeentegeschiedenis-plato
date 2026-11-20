@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Woudenberg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Woudenberg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Woudenberg</skos:prefLabel>
+        <gg:name xml:lang="nl">Woudenberg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11398"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0351"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Woudenberg                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.486625 52.114774,5.491144 52.111625,5.489093 52.10857,5.481493 52.104352,5.483516 52.094554,5.48058 52.086197,5.465693 52.083422,5.465394 52.079288,5.470645 52.079104,5.471949 52.074609,5.490908 52.073246,5.491044 52.068842,5.493523 52.06866,5.496116 52.055535,5.489706 52.057698,5.484017 52.056624,5.481386 52.0533,5.461987 52.048371,5.453971 52.049454,5.448574 52.04766,5.446673 52.043256,5.431518 52.046858,5.428752 52.050904,5.428905 52.058814,5.435905 52.059889,5.435769 52.068248,5.434021 52.070496,5.421333 52.071759,5.413893 52.069783,5.406015 52.064302,5.398724 52.063584,5.396391 52.06682,5.400912 52.067269,5.404998 52.073111,5.32987 52.082176,5.313956 52.089717,5.296144 52.094648,5.317878 52.100955,5.3408 52.093236,5.393623 52.087223,5.398292 52.08893,5.403988 52.102232,5.415516 52.099084,5.424707 52.094767,5.436823 52.098538,5.440772 52.105187,5.453616 52.10527,5.466889 52.09942,5.473025 52.10319,5.477575 52.115591,5.486625 52.114774)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</gg:year>
+                            <gg:name xml:lang="nl">Woudenberg                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.481493 52.104352,5.483516 52.094554,5.470517 52.088722,5.459272 52.082258,5.458828 52.078213,5.482585 52.069029,5.492941 52.069289,5.496116 52.055535,5.489706 52.057698,5.484017 52.056624,5.481386 52.0533,5.461987 52.048371,5.453971 52.049454,5.448574 52.04766,5.446673 52.043256,5.431518 52.046858,5.428752 52.050904,5.428905 52.058814,5.435905 52.059889,5.435769 52.068248,5.434021 52.070496,5.421333 52.071759,5.413893 52.069783,5.406015 52.064302,5.398724 52.063584,5.396391 52.06682,5.400912 52.067269,5.404998 52.073111,5.32987 52.082176,5.313956 52.089717,5.296144 52.094648,5.317878 52.100955,5.3408 52.093236,5.393623 52.087223,5.398292 52.08893,5.403988 52.102232,5.415516 52.099084,5.424707 52.094767,5.436823 52.098538,5.440772 52.105187,5.453616 52.10527,5.466889 52.09942,5.473025 52.10319,5.477575 52.115591,5.486625 52.114774,5.491144 52.111625,5.489093 52.10857,5.481493 52.104352)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2744162"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Woudenberg"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Woudenberg"/>
+            </rdf:Description>
+</rdf:RDF>

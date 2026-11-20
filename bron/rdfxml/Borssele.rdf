@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Borssele">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Borssele</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Borssele</skos:prefLabel>
+        <gg:name xml:lang="nl">Borssele</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10043"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1254"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Borsele"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Borssele                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.756829 51.456176,3.755479 51.449684,3.748773 51.444106,3.7472 51.439859,3.748381 51.435021,3.762057 51.434673,3.768715 51.433507,3.774271 51.435022,3.787526 51.434395,3.783944 51.425806,3.779361 51.425293,3.777018 51.418338,3.76882 51.410313,3.751503 51.412139,3.747869 51.413257,3.737882 51.411138,3.724744 51.41266,3.718738 51.415721,3.711404 51.427483,3.704434 51.437092,3.719155 51.447552,3.721151 51.451986,3.7262 51.451609,3.741189 51.462879,3.745579 51.460873,3.754302 51.462434,3.756829 51.456176)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</gg:year>
+                            <gg:name xml:lang="nl">Borsele                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.907316 51.474903,3.904517 51.47244,3.904387 51.467584,3.91911 51.461837,3.924583 51.457231,3.921255 51.453323,3.928846 51.449913,3.920477 51.446212,3.921905 51.437599,3.898856 51.394605,3.893773 51.391843,3.870621 51.396668,3.864184 51.395775,3.855043 51.389812,3.847826 51.390796,3.811402 51.384466,3.769381 51.406635,3.76882 51.410313,3.751503 51.412139,3.747869 51.413257,3.737882 51.411138,3.724744 51.41266,3.718738 51.415721,3.711404 51.427483,3.701318 51.439654,3.698377 51.445276,3.713787 51.468333,3.711928 51.471902,3.693265 51.470554,3.699154 51.474775,3.700691 51.479922,3.695407 51.482632,3.697285 51.490211,3.697714 51.498039,3.704077 51.505144,3.766845 51.49821,3.788903 51.489434,3.788428 51.486551,3.801194 51.483848,3.842947 51.483958,3.907002 51.480113,3.907316 51.474903)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Borssele_(dorp)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Borssele_(dorp)"/>
+            </rdf:Description>
+</rdf:RDF>

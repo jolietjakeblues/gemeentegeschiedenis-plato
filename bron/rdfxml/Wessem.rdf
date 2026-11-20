@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wessem">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wessem</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wessem</skos:prefLabel>
+        <gg:name xml:lang="nl">Wessem</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10127"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0989"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heel_2"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wessem                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.877489 51.17071,5.875252 51.168577,5.87665 51.168111,5.878136 51.164539,5.880039 51.165681,5.882115 51.165902,5.884242 51.16528,5.885663 51.164349,5.881387 51.160895,5.878292 51.152189,5.875276 51.150853,5.870725 51.15294,5.865158 51.153682,5.861865 51.153156,5.859893 51.155951,5.86683 51.163203,5.867305 51.167606,5.861098 51.175721,5.868695 51.177488,5.872209 51.17172,5.877489 51.17071)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1821</gg:year>
+                            <gg:name xml:lang="nl">Wessem                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.91355 51.173248,5.920139 51.174207,5.920544 51.172138,5.891461 51.167054,5.886146 51.16474,5.881387 51.160895,5.878292 51.152189,5.875276 51.150853,5.870725 51.15294,5.865158 51.153682,5.861865 51.153156,5.859893 51.155951,5.86683 51.163203,5.867305 51.167606,5.861098 51.175721,5.868695 51.177488,5.872209 51.17172,5.877489 51.17071,5.882094 51.173387,5.893551 51.175045,5.893673 51.173157,5.90109 51.171417,5.91355 51.173248)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wessem"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wessem"/>
+            </rdf:Description>
+</rdf:RDF>

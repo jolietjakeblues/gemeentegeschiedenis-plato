@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Empel_en_Meerwijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Empel en Meerwijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Empel en Meerwijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Empel en Meerwijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10295"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0773"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/s-Hertogenbosch"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Empel en Meerwijk                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.374022 51.756365,5.380831 51.744231,5.356363 51.740452,5.354196 51.735149,5.329299 51.732802,5.324676 51.726058,5.316575 51.723537,5.306167 51.71625,5.291407 51.716508,5.284468 51.713626,5.273033 51.715143,5.271424 51.721703,5.277789 51.722968,5.270385 51.731769,5.259822 51.73032,5.256775 51.732834,5.265738 51.737428,5.271816 51.738153,5.279055 51.738249,5.292815 51.735026,5.301789 51.736111,5.30989 51.739712,5.331452 51.747994,5.349983 51.752225,5.356208 51.755373,5.374022 51.756365)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1958</gg:year>
+                            <gg:name xml:lang="nl">Empel en Meerwijk                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.354196 51.735149,5.329299 51.732802,5.324676 51.726058,5.316575 51.723537,5.306167 51.71625,5.291407 51.716508,5.284468 51.713626,5.273033 51.715143,5.271424 51.721703,5.277789 51.722968,5.270385 51.731769,5.259822 51.73032,5.256775 51.732834,5.265738 51.737428,5.271816 51.738153,5.279055 51.738249,5.292815 51.735026,5.301789 51.736111,5.30989 51.739712,5.331452 51.747994,5.349983 51.752225,5.356208 51.755373,5.359103 51.75834,5.361708 51.763374,5.374022 51.756365,5.380831 51.744231,5.356363 51.740452,5.354196 51.735149)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1971-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Empel_en_Meerwijk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Empel_en_Meerwijk"/>
+            </rdf:Description>
+</rdf:RDF>

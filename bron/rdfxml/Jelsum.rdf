@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Jelsum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Jelsum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Jelsum</skos:prefLabel>
+        <gg:name xml:lang="nl">Jelsum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10645"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Leeuwarderadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Jelsum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.794755 53.256632,5.806161 53.254689,5.814851 53.25492,5.819357 53.253334,5.821708 53.250471,5.825914 53.242748,5.828264 53.239885,5.833245 53.238874,5.834674 53.238859,5.858704 53.238597,5.852018 53.229727,5.852027 53.216608,5.855074 53.207701,5.844811 53.208813,5.813809 53.212168,5.809697 53.220269,5.780065 53.221538,5.774691 53.223263,5.753129 53.223061,5.750782 53.228819,5.733083 53.243877,5.735386 53.250879,5.743609 53.250324,5.744575 53.252034,5.7579 53.251803,5.758869 53.253703,5.767124 53.254248,5.775063 53.254794,5.781748 53.257056,5.788738 53.257984,5.794755 53.256632)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Jelsum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Jelsum"/>
+            </rdf:Description>
+</rdf:RDF>

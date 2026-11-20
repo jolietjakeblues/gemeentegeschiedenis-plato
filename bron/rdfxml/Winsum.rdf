@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Winsum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Winsum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Winsum</skos:prefLabel>
+        <gg:name xml:lang="nl">Winsum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11135"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0053"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Baflo"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ezinge"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Adorp"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Het_Hogeland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Winsum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.470954 53.355582,6.484638 53.362108,6.492277 53.361229,6.491797 53.348384,6.520706 53.345599,6.531265 53.341724,6.56937 53.335066,6.561637 53.31025,6.522505 53.305594,6.518797 53.301495,6.507703 53.301779,6.507629 53.298904,6.519297 53.297716,6.518449 53.29395,6.501282 53.297076,6.484421 53.312328,6.484103 53.317542,6.475586 53.318968,6.472979 53.316745,6.462049 53.317742,6.460381 53.323058,6.456343 53.323633,6.457189 53.32749,6.477782 53.334583,6.477575 53.33827,6.483797 53.340909,6.481815 53.35153,6.470954 53.355582)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</gg:year>
+                            <gg:name xml:lang="nl">Winsum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.527533 53.421914,6.52981 53.41704,6.546603 53.420653,6.547227 53.404742,6.539655 53.402748,6.539555 53.393404,6.524378 53.393638,6.523674 53.389781,6.525482 53.389944,6.528269 53.387311,6.525447 53.382935,6.539073 53.375437,6.549136 53.37525,6.557836 53.369145,6.555783 53.354428,6.569573 53.353395,6.575303 53.343364,6.571789 53.341152,6.56937 53.335066,6.561637 53.31025,6.557453 53.272189,6.55067 53.259675,6.536748 53.260258,6.539825 53.257623,6.538697 53.254668,6.523377 53.253286,6.509436 53.253058,6.505621 53.267741,6.490248 53.264468,6.476821 53.266927,6.47311 53.27433,6.464702 53.273776,6.461827 53.278744,6.448279 53.276529,6.443824 53.278275,6.432498 53.27487,6.425396 53.278795,6.425926 53.282116,6.434191 53.289053,6.424182 53.290667,6.423605 53.297861,6.429595 53.30365,6.429956 53.312363,6.439278 53.313181,6.449727 53.317043,6.450339 53.323597,6.456343 53.323633,6.457189 53.32749,6.477782 53.334583,6.477575 53.33827,6.483797 53.340909,6.481815 53.35153,6.470954 53.355582,6.484638 53.362108,6.479304 53.365032,6.469884 53.384706,6.478183 53.385979,6.483358 53.388538,6.48455 53.394008,6.480246 53.396204,6.489391 53.401063,6.500893 53.398171,6.509226 53.394859,6.514282 53.421409,6.527533 53.421914)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2744336"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Winsum_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Winsum_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

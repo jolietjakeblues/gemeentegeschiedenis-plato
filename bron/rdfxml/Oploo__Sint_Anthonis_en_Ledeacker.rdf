@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oploo__Sint_Anthonis_en_Ledeacker">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oploo, Sint Anthonis en Ledeacker</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oploo, Sint Anthonis en Ledeacker</skos:prefLabel>
+        <gg:name xml:lang="nl">Oploo, Sint Anthonis en Ledeacker</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11415"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0827"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oploo"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sint_Anthonis_en_Ledeacker"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sambeek"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/St.Anthonis"/>
+
+        
+                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</gg:year>
+                            <gg:name xml:lang="nl">Oploo, Sint Anthonis en Ledeacker  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.8704 51.569754,5.858239 51.565489,5.836768 51.567371,5.826974 51.568757,5.818475 51.569957,5.806694 51.574944,5.799512 51.578385,5.784263 51.599831,5.797606 51.606886,5.831522 51.635525,5.860584 51.638198,5.881059 51.647911,5.901863 51.647731,5.896485 51.644879,5.924672 51.633876,5.926719 51.623799,5.923766 51.61833,5.933002 51.617928,5.939301 51.613404,5.945598 51.608879,5.870075 51.579912,5.873349 51.575764,5.868861 51.574255,5.8704 51.569754)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</gg:year>
+                            <gg:name xml:lang="nl">St. Anthonis                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.857324 51.672008,5.848874 51.66566,5.87303 51.653787,5.868825 51.652366,5.868448 51.644098,5.875092 51.643981,5.880325 51.646835,5.887104 51.645818,5.888957 51.643563,5.893881 51.64462,5.922491 51.632628,5.926719 51.623799,5.935543 51.613062,5.942577 51.609793,5.944002 51.608258,5.9295 51.602753,5.930784 51.601488,5.925274 51.599447,5.926698 51.597822,5.899165 51.587968,5.89717 51.590224,5.892532 51.588447,5.893245 51.587635,5.889187 51.586034,5.890472 51.58486,5.876856 51.579974,5.878852 51.577719,5.868861 51.574255,5.868611 51.56425,5.858239 51.565489,5.836768 51.567371,5.826974 51.568757,5.818475 51.569957,5.806694 51.574944,5.799512 51.578385,5.784263 51.599831,5.757383 51.595604,5.75542 51.602712,5.749668 51.623493,5.746147 51.63474,5.785564 51.649264,5.793484 51.66236,5.806059 51.662406,5.806823 51.666897,5.812892 51.666606,5.824521 51.673394,5.840502 51.681243,5.857324 51.672008)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1821-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oploo,_St._Anthonis_en_Ledeacker"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oploo,_St._Anthonis_en_Ledeacker"/>
+            </rdf:Description>
+</rdf:RDF>

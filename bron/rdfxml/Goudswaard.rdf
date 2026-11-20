@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Goudswaard">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Goudswaard</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Goudswaard</skos:prefLabel>
+        <gg:name xml:lang="nl">Goudswaard</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10914"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0516"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Korendijk_1"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Korendijk_2"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Goudswaard                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.292877 51.747754,4.287796 51.73638,4.26259 51.748546,4.261793 51.751504,4.268841 51.75346,4.287096 51.749126,4.292877 51.747754)),((4.318359 51.760214,4.31449 51.752358,4.286606 51.758053,4.247959 51.765933,4.233069 51.776035,4.231088 51.779791,4.24078 51.780516,4.250209 51.791664,4.260378 51.802369,4.272493 51.805002,4.284147 51.802775,4.295175 51.802429,4.303481 51.800708,4.307569 51.793465,4.30659 51.779882,4.307551 51.770003,4.319233 51.766155,4.316455 51.761095,4.318359 51.760214)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Korendijk                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.328848 51.72678,4.316558 51.726219,4.30696 51.728108,4.287796 51.73638,4.26259 51.748546,4.261793 51.751504,4.26639 51.75278,4.268841 51.75346,4.292877 51.747754,4.310573 51.746569,4.348969 51.733072,4.34901 51.731275,4.328848 51.72678)),((4.384257 51.819404,4.389574 51.815135,4.394216 51.815084,4.391161 51.808946,4.388907 51.799399,4.385145 51.792535,4.379666 51.791229,4.378596 51.780703,4.386149 51.779959,4.408295 51.774483,4.401976 51.765261,4.392731 51.75089,4.381752 51.730122,4.361734 51.738308,4.346735 51.742042,4.31449 51.752358,4.249659 51.765587,4.247959 51.765933,4.233069 51.776035,4.231088 51.779791,4.24078 51.780516,4.2488 51.790032,4.250209 51.791664,4.260378 51.802369,4.272493 51.805002,4.284147 51.802775,4.295175 51.802429,4.301421 51.80797,4.315663 51.812775,4.327387 51.813781,4.35565 51.820864,4.364406 51.818514,4.379605 51.826376,4.384471 51.822822,4.384257 51.819404)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-04-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Goudswaard"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Goudswaard"/>
+            </rdf:Description>
+</rdf:RDF>

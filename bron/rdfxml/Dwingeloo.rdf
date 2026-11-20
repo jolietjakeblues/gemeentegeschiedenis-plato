@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dwingeloo">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dwingeloo</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dwingeloo</skos:prefLabel>
+        <gg:name xml:lang="nl">Dwingeloo</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10331"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0112"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westerveld"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Dwingeloo                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.420772 52.878663,6.420847 52.875516,6.432945 52.865885,6.436501 52.853182,6.43099 52.852421,6.432513 52.847824,6.452961 52.846295,6.459116 52.849116,6.463813 52.846917,6.462805 52.836141,6.437198 52.801858,6.414041 52.794511,6.397429 52.787822,6.394115 52.791984,6.376263 52.795819,6.339351 52.796119,6.310056 52.792036,6.309962 52.794643,6.312988 52.797496,6.313687 52.802523,6.307078 52.80554,6.306547 52.80851,6.314733 52.816894,6.324505 52.822929,6.36011 52.862906,6.371513 52.868115,6.371315 52.87252,6.374552 52.877706,6.383804 52.886077,6.420772 52.878663)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dwingeloo"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dwingeloo"/>
+            </rdf:Description>
+</rdf:RDF>

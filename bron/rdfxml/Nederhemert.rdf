@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nederhemert">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nederhemert</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nederhemert</skos:prefLabel>
+        <gg:name xml:lang="nl">Nederhemert</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10310"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1115"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kerkwijk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nederhemert                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.132999 51.760046,5.146505 51.753423,5.164167 51.754716,5.151342 51.742197,5.141515 51.738761,5.123406 51.740879,5.123827 51.743217,5.124974 51.745107,5.135349 51.754118,5.135335 51.756635,5.132999 51.760046)),((5.138568 51.774529,5.146123 51.77068,5.156542 51.773038,5.16219 51.773498,5.16714 51.768654,5.172669 51.76363,5.172831 51.760035,5.147345 51.758817,5.142417 51.759437,5.137332 51.762122,5.138756 51.76662,5.141346 51.769951,5.138568 51.774529)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1909</gg:year>
+                            <gg:name xml:lang="nl">Nederhemert                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.138568 51.774529,5.146123 51.77068,5.156542 51.773038,5.16219 51.773498,5.16714 51.768654,5.172669 51.76363,5.172831 51.760035,5.183 51.753492,5.162692 51.760016,5.153748 51.752988,5.141059 51.742895,5.130063 51.741343,5.129756 51.744489,5.14028 51.75296,5.142149 51.755481,5.139816 51.758352,5.137332 51.762122,5.138756 51.76662,5.141346 51.769951,5.138568 51.774529)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1936</gg:year>
+                            <gg:name xml:lang="nl">Nederhemert                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.138568 51.774529,5.146123 51.77068,5.156542 51.773038,5.16219 51.773498,5.16714 51.768654,5.172669 51.76363,5.172831 51.760035,5.183 51.753492,5.185222 51.74244,5.182027 51.744592,5.169571 51.745198,5.154226 51.74463,5.130063 51.741343,5.129756 51.744489,5.14028 51.75296,5.142149 51.755481,5.139816 51.758352,5.137332 51.762122,5.138756 51.76662,5.141346 51.769951,5.138568 51.774529)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nederhemert"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nederhemert"/>
+            </rdf:Description>
+</rdf:RDF>

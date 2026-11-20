@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heerlen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heerlen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heerlen</skos:prefLabel>
+        <gg:name xml:lang="nl">Heerlen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10902"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0917"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoensbroek"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heerlen                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.932179 50.935494,5.935914 50.938533,5.95042 50.938104,5.964896 50.935336,5.97223 50.930355,6.012746 50.928615,5.991861 50.90868,5.987593 50.908523,5.984557 50.904583,5.987079 50.901784,5.998308 50.901635,5.997928 50.894446,6.010486 50.887637,6.010858 50.88359,6.019926 50.871226,6.007744 50.863292,6.020026 50.847405,6.011209 50.846374,6.006679 50.847387,5.99826 50.844196,5.985003 50.851097,5.959153 50.87361,5.958953 50.880443,5.953129 50.880561,5.956073 50.888817,5.943481 50.893552,5.945381 50.897858,5.936045 50.901678,5.948688 50.912673,5.949745 50.917792,5.94281 50.920522,5.943851 50.924292,5.932179 50.935494)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Heerlen                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.931874 50.933788,5.943166 50.926453,5.947586 50.927331,5.947469 50.929399,5.953185 50.931618,5.952492 50.93306,5.962311 50.933371,5.965154 50.933177,5.967694 50.931546,5.973219 50.929811,5.976043 50.928178,6.013277 50.925825,6.008347 50.918841,6.004188 50.916166,5.994858 50.909564,5.992389 50.905621,5.994369 50.904802,5.995475 50.902459,5.997748 50.89157,6.000171 50.892097,6.010299 50.884312,6.010988 50.882691,6.011753 50.876214,6.016825 50.873041,6.018201 50.869797,6.020303 50.867628,6.00813 50.860323,6.009538 50.859417,6.001982 50.85721,6.010393 50.849075,6.016288 50.844009,6.017521 50.840676,6.017062 50.838252,6.019875 50.836349,6.01756 50.833126,6.021189 50.828611,6.026851 50.827501,6.025265 50.825712,6.025786 50.822294,6.028015 50.819315,6.024452 50.818166,6.022646 50.821052,6.020372 50.820795,6.01802 50.825213,6.01185 50.830729,6.004621 50.831487,6.005543 50.836696,5.997932 50.840872,5.994951 50.840887,5.993277 50.843143,5.970345 50.859801,5.967537 50.862422,5.968403 50.863496,5.965738 50.866206,5.96011 50.870549,5.960832 50.871534,5.945802 50.885631,5.941986 50.887357,5.941578 50.888887,5.930051 50.899638,5.92637 50.900914,5.926821 50.903069,5.924843 50.904067,5.921446 50.905342,5.923726 50.90587,5.92091 50.90822,5.917797 50.909493,5.900642 50.913885,5.901659 50.915768,5.897003 50.919115,5.899181 50.92315,5.901591 50.92251,5.902322 50.924305,5.905907 50.926896,5.914582 50.926767,5.912046 50.928936,5.920336 50.932403,5.92977 50.936315,5.931874 50.933788)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2754651"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heerlen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heerlen"/>
+            </rdf:Description>
+</rdf:RDF>

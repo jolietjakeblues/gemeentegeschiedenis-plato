@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dieren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dieren</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dieren</skos:prefLabel>
+        <gg:name xml:lang="nl">Dieren</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11355"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rheden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Dieren                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.047542 52.022034,6.049147 52.024526,6.047047 52.028658,6.044532 52.031338,6.038082 52.033555,6.034905 52.03127,6.024675 52.030235,6.020746 52.030257,6.018368 52.031811,6.019938 52.033438,6.022484 52.033765,6.021056 52.038252,6.017579 52.042512,6.02275 52.046846,6.01713 52.050168,6.015581 52.054155,6.005228 52.060311,6.006706 52.06546,6.022472 52.066545,6.031271 52.069912,6.048477 52.079524,6.062561 52.084748,6.075428 52.086561,6.07857 52.082138,6.109523 52.074582,6.112976 52.071684,6.11496 52.068077,6.118022 52.068058,6.121138 52.062376,6.136995 52.060118,6.114662 52.049742,6.109172 52.043844,6.109664 52.038178,6.116004 52.033734,6.12554 52.028731,6.130358 52.02924,6.141921 52.032313,6.145025 52.034899,6.148248 52.035867,6.152186 52.036022,6.156554 52.035813,6.158418 52.034004,6.159562 52.032738,6.156983 52.026822,6.144665 52.022228,6.141641 52.024315,6.130539 52.022588,6.122941 52.021287,6.115618 52.018906,6.115316 52.018279,6.113998 52.017837,6.109821 52.020829,6.103717 52.021765,6.096814 52.018302,6.094485 52.009148,6.100327 52.001023,6.101012 51.998322,6.097739 51.993938,6.085801 51.994009,6.079496 52.000608,6.074661 52.008187,6.072126 52.013864,6.067539 52.018744,6.061314 52.021387,6.051126 52.022074,6.047542 52.022034)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Rheden                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.006706 52.06546,6.022472 52.066545,6.031271 52.069912,6.048477 52.079524,6.062561 52.084748,6.075428 52.086561,6.07857 52.082138,6.109523 52.074582,6.112976 52.071684,6.11496 52.068077,6.118022 52.068058,6.121138 52.062376,6.136995 52.060118,6.114662 52.049742,6.109172 52.043844,6.109664 52.038178,6.116004 52.033734,6.12554 52.028731,6.130358 52.02924,6.141921 52.032313,6.145025 52.034899,6.148248 52.035867,6.152186 52.036022,6.156554 52.035813,6.158418 52.034004,6.159562 52.032738,6.156983 52.026822,6.144665 52.022228,6.141641 52.024315,6.130539 52.022588,6.122941 52.021287,6.115618 52.018906,6.115316 52.018279,6.113998 52.017837,6.109821 52.020829,6.103717 52.021765,6.096814 52.018302,6.094485 52.009148,6.100327 52.001023,6.101012 51.998322,6.097739 51.993938,6.085801 51.994009,6.079496 52.000608,6.074661 52.008187,6.072126 52.013864,6.067539 52.018744,6.061314 52.021387,6.051126 52.022074,6.040488 52.021954,6.035631 52.018565,6.034957 52.012277,6.040139 52.008024,6.040824 52.005054,6.038138 52.000574,6.033265 51.995927,6.027866 51.995148,6.014686 52.000162,6.013082 51.999991,6.002574 51.998339,5.998894 51.995392,5.997955 51.979937,5.992952 51.975918,5.987547 51.974418,5.974148 51.973766,5.973726 51.974847,5.965014 51.976418,5.949142 51.975866,5.947218 51.984953,5.955687 51.98698,5.952709 51.993286,5.950872 51.997699,5.956848 51.99812,5.973655 52.002801,5.97779 52.007185,5.978742 52.013112,5.9823 52.017768,5.990504 52.021142,5.995227 52.025612,5.977653 52.052037,5.984094 52.053982,5.997641 52.053104,6.003795 52.055319,6.006706 52.06546)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2748200"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dieren_(Gelderland)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Rheden"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dieren_(Gelderland)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Rheden"/>
+            </rdf:Description>
+</rdf:RDF>

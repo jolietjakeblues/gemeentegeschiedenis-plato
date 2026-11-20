@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heeg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heeg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heeg</skos:prefLabel>
+        <gg:name xml:lang="nl">Heeg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10975"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wymbritseradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heeg                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.625204 53.021561,5.618479 53.01789,5.611572 53.007838,5.605012 53.006772,5.613568 52.990671,5.626582 52.965585,5.624038 52.961594,5.623064 52.956266,5.614725 52.955443,5.606266 52.960042,5.563825 52.953192,5.556955 52.946732,5.549523 52.94836,5.547766 52.956181,5.542707 52.956277,5.541511 52.954751,5.535859 52.955207,5.498529 52.962797,5.494306 52.964611,5.472952 52.973781,5.471772 52.979353,5.475807 52.986449,5.478939 52.989053,5.49368 52.988142,5.507541 52.992712,5.502641 52.998019,5.510704 53.00493,5.513237 53.003337,5.518435 53.000069,5.536653 53.013168,5.547947 53.012347,5.553934 53.010245,5.561516 53.012328,5.558058 53.015568,5.553966 53.018429,5.553346 53.021475,5.558087 53.023181,5.562195 53.024127,5.569771 53.024306,5.576412 53.02715,5.583372 53.030375,5.590617 53.026937,5.597545 53.023499,5.606375 53.02177,5.615545 53.024989,5.619958 53.023838,5.625204 53.021561)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heeg"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heeg"/>
+            </rdf:Description>
+</rdf:RDF>

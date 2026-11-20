@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Kortgene">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Kortgene</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Kortgene</skos:prefLabel>
+        <gg:name xml:lang="nl">Kortgene</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10250"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0682"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Colijnsplaat"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kats"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Noord-Beveland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Kortgene                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.787129 51.593066,3.790017 51.584834,3.828703 51.580322,3.821548 51.566022,3.840593 51.565916,3.843568 51.563258,3.854108 51.562948,3.861986 51.564579,3.840941 51.547222,3.836286 51.552644,3.826815 51.555484,3.809432 51.553543,3.804726 51.552041,3.799518 51.548374,3.793638 51.547485,3.785257 51.548,3.779559 51.550079,3.772008 51.555639,3.782356 51.59336,3.787129 51.593066)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</gg:year>
+                            <gg:name xml:lang="nl">Kortgene                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.857375 51.598681,3.863313 51.593814,3.874595 51.580116,3.885993 51.575768,3.89393 51.562564,3.894181 51.559331,3.871084 51.555618,3.869111 51.554243,3.862455 51.546336,3.854162 51.544249,3.844056 51.544656,3.836286 51.552644,3.826815 51.555484,3.809432 51.553543,3.804726 51.552041,3.799518 51.548374,3.793638 51.547485,3.785257 51.548,3.779559 51.550079,3.772008 51.555639,3.782356 51.59336,3.787129 51.593066,3.787332 51.595496,3.793972 51.595497,3.790115 51.602546,3.808836 51.603879,3.827135 51.604934,3.848777 51.601085,3.857375 51.598681)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</gg:year>
+                            <gg:name xml:lang="nl">Noord-Beveland                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.848777 51.601085,3.857375 51.598681,3.863313 51.593814,3.874595 51.580116,3.885993 51.575768,3.89393 51.562564,3.894181 51.559331,3.871084 51.555618,3.869111 51.554243,3.862455 51.546336,3.86544 51.543318,3.858694 51.542421,3.850602 51.542944,3.844056 51.544656,3.836286 51.552644,3.826815 51.555484,3.809432 51.553543,3.804726 51.552041,3.799518 51.548374,3.793638 51.547485,3.785257 51.548,3.779559 51.550079,3.772008 51.555639,3.764659 51.555447,3.75578 51.553705,3.744501 51.55058,3.72717 51.543413,3.70222 51.528042,3.698347 51.527537,3.693718 51.531875,3.694056 51.534397,3.696529 51.537669,3.693634 51.541853,3.692421 51.547319,3.683193 51.555007,3.671112 51.561752,3.651805 51.568749,3.64308 51.578059,3.637144 51.586062,3.630464 51.587131,3.629184 51.590348,3.68322 51.596542,3.695339 51.596718,3.705384 51.594436,3.710713 51.590826,3.760827 51.598007,3.772241 51.597716,3.790115 51.602546,3.808836 51.603879,3.827135 51.604934,3.848777 51.601085)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kortgene"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kortgene"/>
+            </rdf:Description>
+</rdf:RDF>

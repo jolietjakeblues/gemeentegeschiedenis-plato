@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Rozenburg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Rozenburg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Rozenburg</skos:prefLabel>
+        <gg:name xml:lang="nl">Rozenburg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11314"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0600"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rotterdam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Rozenburg                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.242749 51.879955,4.227532 51.8843,4.225157 51.886254,4.216161 51.891468,4.196181 51.90529,4.1744 51.910012,4.167352 51.918029,4.158421 51.925667,4.152571 51.937471,4.156578 51.945154,4.168616 51.946448,4.207179 51.929222,4.227913 51.914597,4.261424 51.899821,4.292721 51.891577,4.302062 51.889776,4.29338 51.888347,4.261865 51.882207,4.242749 51.879955)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1873</gg:year>
+                            <gg:name xml:lang="nl">Rozenburg                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.150487 51.955068,4.207179 51.929222,4.227913 51.914597,4.261424 51.899821,4.292721 51.891577,4.302062 51.889776,4.29338 51.888347,4.261865 51.882207,4.242749 51.879955,4.227532 51.8843,4.225157 51.886254,4.216161 51.891468,4.196181 51.90529,4.1744 51.910012,4.167352 51.918029,4.145252 51.928674,4.130029 51.932288,4.114668 51.930415,4.10085 51.935658,4.102952 51.943501,4.087853 51.94756,4.085879 51.955449,4.121049 51.956822,4.150487 51.955068)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</gg:year>
+                            <gg:name xml:lang="nl">Rozenburg                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.227913 51.914597,4.261424 51.899821,4.292721 51.891577,4.29338 51.888347,4.261865 51.882207,4.247428 51.878742,4.238312 51.877394,4.226442 51.881502,4.227532 51.8843,4.225157 51.886254,4.21906 51.886104,4.216161 51.891468,4.196181 51.90529,4.1744 51.910012,4.167352 51.918029,4.145252 51.928674,4.130029 51.932288,4.114668 51.930415,4.101744 51.929825,4.099243 51.93591,4.09946 51.943553,4.108416 51.950842,4.108689 51.950906,4.123881 51.954425,4.188713 51.929215,4.193215 51.918474,4.20278 51.914077,4.218193 51.913871,4.202294 51.927016,4.121969 51.965461,4.12028 51.968589,4.207179 51.929222,4.227913 51.914597)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</gg:year>
+                            <gg:name xml:lang="nl">Rozenburg                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.227913 51.914597,4.261424 51.899821,4.257883 51.896191,4.238764 51.899512,4.231109 51.903392,4.216332 51.901628,4.215106 51.898469,4.21915 51.893835,4.226219 51.89013,4.225157 51.886254,4.21906 51.886104,4.216161 51.891468,4.196181 51.90529,4.1744 51.910012,4.167352 51.918029,4.145252 51.928674,4.130029 51.932288,4.114668 51.930415,4.101744 51.929825,4.099243 51.93591,4.09946 51.943553,4.108416 51.950842,4.108689 51.950906,4.123881 51.954425,4.16871 51.937639,4.188713 51.929215,4.193215 51.918474,4.20278 51.914077,4.218193 51.913871,4.202294 51.927016,4.121969 51.965461,4.12028 51.968589,4.207179 51.929222,4.227913 51.914597)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</gg:year>
+                            <gg:name xml:lang="nl">Rozenburg                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.258652 51.906087,4.261715 51.899824,4.264337 51.899579,4.261195 51.897392,4.241776 51.901069,4.235797 51.90191,4.235031 51.90343,4.231959 51.904209,4.229354 51.903824,4.226204 51.913232,4.22407 51.917076,4.221077 51.920372,4.220133 51.923149,4.209672 51.928438,4.19862 51.93399,4.188314 51.93874,4.18798 51.940354,4.203692 51.934671,4.213545 51.930455,4.221507 51.926219,4.224378 51.922023,4.228113 51.918105,4.245302 51.910992,4.258652 51.906087)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Rozenburg                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.212718 51.933728,4.212879 51.933675,4.214098 51.933202,4.215304 51.932702,4.216466 51.932174,4.217615 51.931619,4.218749 51.931082,4.219869 51.9305,4.22096 51.929908,4.222008 51.929307,4.223057 51.928671,4.224048 51.928015,4.225011 51.927342,4.225916 51.92664,4.226763 51.925912,4.227568 51.925165,4.2283 51.924399,4.229061 51.923633,4.229808 51.922876,4.230627 51.92212,4.231431 51.921382,4.232235 51.920644,4.232612 51.920306,4.233068 51.919897,4.23393 51.919177,4.234791 51.918458,4.235739 51.917784,4.236744 51.91712,4.237793 51.916492,4.238869 51.915909,4.240031 51.915363,4.241207 51.914835,4.242426 51.914335,4.243688 51.913897,4.245006 51.913497,4.246324 51.913123,4.247641 51.912759,4.248959 51.912358,4.250278 51.911948,4.251553 51.911538,4.252843 51.911101,4.254075 51.910654,4.255336 51.910208,4.256569 51.909734,4.257802 51.909252,4.25902 51.90876,4.260239 51.908277,4.261472 51.907786,4.262705 51.907294,4.263909 51.906802,4.265128 51.906311,4.266179 51.905904,4.265928 51.905392,4.26289 51.899206,4.260485 51.896566,4.235147 51.901389,4.233274 51.902701,4.230475 51.903521,4.228173 51.903271,4.226431 51.909397,4.226299 51.909837,4.226155 51.910276,4.225997 51.910712,4.225827 51.911147,4.225644 51.91158,4.225448 51.912011,4.22524 51.912439,4.22502 51.912865,4.224787 51.913289,4.224541 51.91371,4.224283 51.914128,4.224013 51.914543,4.223731 51.914955,4.223437 51.915364,4.223131 51.915769,4.222813 51.916171,4.222484 51.91657,4.22215 51.916958,4.221806 51.917343,4.221453 51.917725,4.221092 51.918105,4.220721 51.91848,4.220342 51.918852,4.219954 51.919221,4.219557 51.919587,4.219456 51.920176,4.21904 51.922591,4.18708 51.938539,4.191268 51.941747,4.200541 51.938342,4.209352 51.935106,4.212718 51.933728)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-18</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Rozenburg_(Zuid-Holland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Rozenburg_(Zuid-Holland)"/>
+            </rdf:Description>
+</rdf:RDF>

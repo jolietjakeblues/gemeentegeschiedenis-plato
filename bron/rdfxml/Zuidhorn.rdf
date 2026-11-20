@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zuidhorn">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zuidhorn</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zuidhorn</skos:prefLabel>
+        <gg:name xml:lang="nl">Zuidhorn</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10021"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0056"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Aduard"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Grijpskerk"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oldehove"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westerkwartier"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zuidhorn                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.346912 53.268755,6.372101 53.26253,6.380933 53.268568,6.388328 53.270753,6.398423 53.279385,6.408799 53.274355,6.409091 53.267703,6.405577 53.264857,6.412858 53.255899,6.43028 53.251345,6.431678 53.2472,6.426475 53.242662,6.435303 53.242226,6.443112 53.224634,6.431126 53.22438,6.42697 53.219653,6.412677 53.216721,6.409596 53.213063,6.392297 53.228755,6.379054 53.23246,6.36946 53.238649,6.364376 53.23905,6.358731 53.247812,6.343908 53.248201,6.346912 53.268755)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</gg:year>
+                            <gg:name xml:lang="nl">Zuidhorn                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.321467 53.311998,6.333163 53.311637,6.343147 53.315332,6.348216 53.313853,6.361965 53.311406,6.366138 53.316764,6.372172 53.318152,6.407983 53.315877,6.413298 53.318527,6.416133 53.324164,6.436088 53.323902,6.436411 53.318687,6.439278 53.313181,6.429956 53.312363,6.429595 53.30365,6.423605 53.297861,6.424182 53.290667,6.434191 53.289053,6.425926 53.282116,6.425396 53.278795,6.432498 53.27487,6.443824 53.278275,6.448279 53.276529,6.461827 53.278744,6.464702 53.273776,6.47311 53.27433,6.476821 53.266927,6.490248 53.264468,6.505621 53.267741,6.509436 53.253058,6.510344 53.247658,6.497317 53.242118,6.481969 53.245314,6.465052 53.203771,6.450432 53.205698,6.442686 53.207205,6.435167 53.211943,6.42697 53.219653,6.412677 53.216721,6.409596 53.213063,6.392297 53.228755,6.379054 53.23246,6.36946 53.238649,6.364376 53.23905,6.358731 53.247812,6.343908 53.248201,6.315991 53.245814,6.293914 53.243197,6.275443 53.240999,6.275299 53.248548,6.282522 53.250112,6.281957 53.251734,6.235601 53.248746,6.232545 53.25335,6.246383 53.263585,6.258377 53.263769,6.25359 53.271711,6.25732 53.285702,6.270084 53.286597,6.278123 53.298309,6.287768 53.300484,6.289454 53.302178,6.294649 53.306722,6.2821 53.309242,6.285384 53.337253,6.297611 53.333297,6.317515 53.32353,6.317195 53.315625,6.321467 53.311998)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2743693"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zuidhorn_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zuidhorn_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

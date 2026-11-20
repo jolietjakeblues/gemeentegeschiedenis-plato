@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Werkhoven">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Werkhoven</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Werkhoven</skos:prefLabel>
+        <gg:name xml:lang="nl">Werkhoven</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11299"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1223"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Odijk"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bunnik"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Werkhoven                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.241399 52.056664,5.245787 52.052175,5.250598 52.052181,5.246239 52.047592,5.249601 52.04454,5.246409 52.040042,5.251081 52.037261,5.255745 52.037266,5.256918 52.034931,5.256049 52.032773,5.267719 52.028471,5.268017 52.026134,5.26234 52.023971,5.277676 52.008437,5.273171 52.004747,5.276387 51.999717,5.272752 51.997646,5.266636 51.99782,5.266187 52.002134,5.260508 52.002218,5.241009 51.997342,5.235161 52.004345,5.229749 52.011079,5.211378 52.015817,5.201614 52.01679,5.202327 52.020567,5.197942 52.023885,5.200841 52.027395,5.197463 52.033771,5.187387 52.038428,5.189414 52.041488,5.190693 52.04904,5.196237 52.047881,5.197569 52.043209,5.201651 52.043036,5.218072 52.056273,5.241399 52.056664)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Werkhoven                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.250598 52.052181,5.246239 52.047592,5.249601 52.04454,5.246409 52.040042,5.251081 52.037261,5.255745 52.037266,5.256918 52.034931,5.256049 52.032773,5.267719 52.028471,5.268017 52.026134,5.26234 52.023971,5.277676 52.008437,5.273171 52.004747,5.276387 51.999717,5.272752 51.997646,5.266636 51.99782,5.266187 52.002134,5.260508 52.002218,5.241009 51.997342,5.235161 52.004345,5.229749 52.011079,5.211378 52.015817,5.201614 52.01679,5.202327 52.020567,5.197942 52.023885,5.200841 52.027395,5.215825 52.03371,5.218309 52.031916,5.23388 52.038229,5.229333 52.046492,5.243177 52.047768,5.245787 52.052175,5.250598 52.052181)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-09-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Werkhoven"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Werkhoven"/>
+            </rdf:Description>
+</rdf:RDF>

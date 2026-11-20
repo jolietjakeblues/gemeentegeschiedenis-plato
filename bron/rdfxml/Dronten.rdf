@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dronten">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dronten</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dronten</skos:prefLabel>
+        <gg:name xml:lang="nl">Dronten</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Flevoland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Flevoland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10210"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0303"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zuidelijke_IJsselmeerpolders__Openbaar_Lichaam"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</gg:year>
+                            <gg:name xml:lang="nl">Dronten                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.757083 52.581595,5.760745 52.578438,5.764146 52.579326,5.808252 52.578728,5.81736 52.574741,5.848831 52.551346,5.853192 52.545487,5.856433 52.517523,5.851682 52.500106,5.843159 52.487647,5.802698 52.443397,5.778291 52.427663,5.750985 52.414807,5.729526 52.414871,5.719671 52.413911,5.667242 52.39742,5.650022 52.392426,5.628817 52.383214,5.615975 52.370747,5.611892 52.367112,5.611845 52.36716,5.614501 52.369761,5.612604 52.372012,5.61232 52.373989,5.6181 52.384044,5.623075 52.408211,5.588846 52.410881,5.588125 52.414028,5.58593 52.416188,5.566754 52.435632,5.575002 52.438765,5.582383 52.445044,5.586217 52.447284,5.56601 52.469785,5.605373 52.484009,5.590872 52.499853,5.588135 52.513249,5.590935 52.513424,5.58733 52.563039,5.570502 52.594791,5.640536 52.608772,5.64863 52.604441,5.651546 52.598323,5.757083 52.581595)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2756558"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1972-01-01</gg:startDate>
+                                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dronten"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dronten"/>
+            </rdf:Description>
+</rdf:RDF>

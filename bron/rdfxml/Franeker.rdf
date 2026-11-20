@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Franeker">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Franeker</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Franeker</skos:prefLabel>
+        <gg:name xml:lang="nl">Franeker</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11226"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0069"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Franekeradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Franeker                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.507948 53.192468,5.515443 53.197492,5.520982 53.198205,5.526806 53.194604,5.536224 53.192077,5.545163 53.193971,5.563627 53.19788,5.561486 53.186562,5.579123 53.18294,5.581684 53.18698,5.589604 53.18508,5.588987 53.181127,5.59975 53.179761,5.590595 53.173307,5.58833 53.168548,5.582488 53.166222,5.57888 53.161824,5.567822 53.163369,5.559436 53.159967,5.552114 53.160966,5.554228 53.166354,5.542119 53.167,5.539853 53.160623,5.523706 53.160642,5.530611 53.168901,5.521497 53.171427,5.516255 53.168558,5.510277 53.169732,5.502047 53.167943,5.501551 53.168189,5.495327 53.171274,5.502511 53.173424,5.509129 53.186986,5.506142 53.188696,5.507948 53.192468)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Franeker"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Franeker"/>
+            </rdf:Description>
+</rdf:RDF>

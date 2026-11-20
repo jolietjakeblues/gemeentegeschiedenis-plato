@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wanneperveen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wanneperveen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wanneperveen</skos:prefLabel>
+        <gg:name xml:lang="nl">Wanneperveen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10105"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0187"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Brederwiede"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wanneperveen                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.102186 52.745474,6.111333 52.743352,6.119831 52.746805,6.157792 52.690485,6.155009 52.683583,6.140099 52.676488,6.134697 52.671849,6.119076 52.666014,6.108102 52.663924,6.101546 52.660729,6.100562 52.654713,6.096804 52.650781,6.09265 52.649817,6.086471 52.660818,6.05687 52.648496,6.045721 52.663837,6.037411 52.661636,6.029881 52.672282,6.036332 52.678628,6.044762 52.678761,6.05609 52.674923,6.092906 52.67498,6.10839 52.681448,6.109518 52.687103,6.095354 52.689255,6.090144 52.687129,6.076581 52.689905,6.074726 52.694229,6.083344 52.696696,6.088319 52.693251,6.093839 52.696184,6.082967 52.700922,6.073634 52.700077,6.073236 52.703045,6.081404 52.704975,6.091522 52.708511,6.092363 52.714797,6.096171 52.721514,6.103578 52.721919,6.099262 52.729584,6.097877 52.735434,6.102186 52.745474)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1973-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wanneperveen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wanneperveen"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Tubbergen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Tubbergen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Tubbergen</skos:prefLabel>
+        <gg:name xml:lang="nl">Tubbergen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10694"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0183"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Tubbergen                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.946426 52.434404,6.949508 52.430049,6.942983 52.430612,6.929861 52.431745,6.855797 52.424506,6.852867 52.411509,6.863851 52.405889,6.864724 52.384314,6.865622 52.362091,6.854223 52.359267,6.821252 52.361199,6.785908 52.357847,6.776644 52.343305,6.760773 52.337917,6.758882 52.32895,6.751192 52.326972,6.74996 52.329862,6.73841 52.336017,6.712268 52.340178,6.721621 52.348612,6.722456 52.356872,6.713454 52.370007,6.714274 52.372874,6.707133 52.374752,6.696175 52.391592,6.673036 52.414407,6.679974 52.425477,6.675417 52.43056,6.674886 52.437577,6.685496 52.443304,6.692576 52.443945,6.700895 52.451673,6.698903 52.453942,6.719138 52.476098,6.748617 52.462999,6.773485 52.458217,6.854662 52.45679,6.854055 52.447359,6.863046 52.447877,6.946426 52.434404)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2746132"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Tubbergen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Tubbergen"/>
+            </rdf:Description>
+</rdf:RDF>

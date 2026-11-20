@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sexbierum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sexbierum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sexbierum</skos:prefLabel>
+        <gg:name xml:lang="nl">Sexbierum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10156"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Barradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Sexbierum                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.458558 53.182714,5.449948 53.183541,5.447736 53.187729,5.43633 53.187734,5.427772 53.184692,5.42181 53.183816,5.42895 53.192252,5.444088 53.212194,5.453378 53.218479,5.46147 53.223506,5.478562 53.234457,5.518641 53.248765,5.52229 53.24298,5.523751 53.239366,5.521608 53.238886,5.525601 53.232138,5.528279 53.232696,5.530943 53.228839,5.525989 53.227721,5.528657 53.22555,5.532405 53.226108,5.530903 53.217037,5.53143 53.214548,5.537193 53.215749,5.538732 53.212465,5.538239 53.212292,5.537773 53.207171,5.527904 53.210148,5.526836 53.203859,5.523541 53.203055,5.520982 53.198205,5.515443 53.197492,5.507948 53.192468,5.504062 53.19409,5.497761 53.187446,5.485788 53.18512,5.483685 53.181438,5.458558 53.182714)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Barradeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sexbierum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Barradeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Sexbierum"/>
+            </rdf:Description>
+</rdf:RDF>

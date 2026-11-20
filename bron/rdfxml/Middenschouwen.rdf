@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Middenschouwen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Middenschouwen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Middenschouwen</skos:prefLabel>
+        <gg:name xml:lang="nl">Middenschouwen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10837"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0688"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Duivendijke"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Elkerzee"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ellemeet"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kerkwerve"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schouwen-Duiveland"/>
+
+        
+                                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</gg:year>
+                            <gg:name xml:lang="nl">Middenschouwen                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.824976 51.738765,3.851632 51.738398,3.871192 51.742339,3.879134 51.73435,3.87734 51.73172,3.897159 51.714624,3.908097 51.71647,3.907137 51.710435,3.914112 51.709534,3.919218 51.69935,3.917786 51.689983,3.924661 51.678652,3.93051 51.676657,3.910769 51.670117,3.907539 51.671604,3.905676 51.675536,3.878682 51.665482,3.874986 51.667952,3.869241 51.666799,3.855206 51.675696,3.841703 51.677316,3.822231 51.68425,3.83294 51.692483,3.827228 51.702925,3.817831 51.70271,3.810604 51.710794,3.803416 51.713574,3.795406 51.72731,3.809502 51.729927,3.807763 51.734129,3.817012 51.734613,3.816368 51.740628,3.818357 51.750094,3.824597 51.749728,3.824976 51.738765)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1961-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Middenschouwen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Middenschouwen"/>
+            </rdf:Description>
+</rdf:RDF>

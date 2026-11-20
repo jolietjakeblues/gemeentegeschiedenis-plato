@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Brunssum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Brunssum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Brunssum</skos:prefLabel>
+        <gg:name xml:lang="nl">Brunssum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10533"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0899"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Brunssum                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.968485 50.960577,5.972026 50.959211,5.978327 50.962145,5.997934 50.959436,5.9986 50.956017,5.995575 50.953246,6.018309 50.940181,6.019114 50.93667,6.016784 50.932728,6.012746 50.928615,5.97223 50.930355,5.964896 50.935336,5.95042 50.938104,5.946946 50.944952,5.95141 50.949335,5.954461 50.954444,5.968485 50.960577)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Brunssum                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.970045 50.960119,5.975282 50.957756,5.981857 50.95997,6.006304 50.957414,6.006844 50.955254,6.018612 50.951954,6.016131 50.947473,6.019655 50.9346,6.013277 50.925825,5.976043 50.928178,5.973219 50.929811,5.967694 50.931546,5.965154 50.933177,5.962311 50.933371,5.952492 50.93306,5.953185 50.931618,5.947469 50.929399,5.947586 50.927331,5.943166 50.926453,5.931874 50.933788,5.92977 50.936315,5.935201 50.938446,5.932667 50.940706,5.936711 50.94581,5.943005 50.948567,5.951283 50.950594,5.958744 50.955502,5.967195 50.959864,5.967224 50.962111,5.971494 50.96209,5.970045 50.960119)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2758173"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Brunssum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Brunssum"/>
+            </rdf:Description>
+</rdf:RDF>

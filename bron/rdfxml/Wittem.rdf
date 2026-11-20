@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wittem">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wittem</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wittem</skos:prefLabel>
+        <gg:name xml:lang="nl">Wittem</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11371"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0990"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Slenaken"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Gulpen-Wittem"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wittem                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.932211 50.84165,5.938754 50.842697,5.947885 50.846429,5.954991 50.847023,5.956859 50.837216,5.961571 50.828024,5.964938 50.824861,5.97611 50.821748,5.982938 50.812005,5.976599 50.804397,5.9641 50.803112,5.951092 50.794906,5.946442 50.797446,5.943256 50.791978,5.94362 50.774987,5.935384 50.773858,5.930733 50.776217,5.925066 50.776513,5.920763 50.772129,5.934918 50.758399,5.916559 50.751563,5.914074 50.757328,5.904845 50.755751,5.901692 50.75253,5.888013 50.758612,5.892051 50.765067,5.88644 50.770484,5.881684 50.776438,5.885905 50.786667,5.887771 50.788726,5.895179 50.79184,5.904803 50.802854,5.91817 50.805759,5.899343 50.822204,5.910149 50.824043,5.910473 50.827637,5.918748 50.831375,5.932211 50.84165)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Wittem                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.955961 50.845041,5.957625 50.841797,5.957164 50.838922,5.958971 50.835857,5.956967 50.834519,5.960716 50.827759,5.963399 50.826667,5.969301 50.821963,5.97354 50.820503,5.971362 50.816559,5.980694 50.813994,5.983211 50.811105,5.984041 50.809483,5.981888 50.807516,5.980996 50.804375,5.979726 50.804921,5.977856 50.802863,5.970745 50.801371,5.968616 50.801292,5.96593 50.802024,5.952919 50.793549,5.947838 50.795641,5.944974 50.793318,5.94423 50.790445,5.945953 50.780369,5.945328 50.775608,5.944868 50.772734,5.937197 50.771332,5.933829 50.774225,5.931993 50.774863,5.924903 50.774716,5.922856 50.769243,5.925939 50.766262,5.927326 50.763649,5.931275 50.761922,5.932676 50.760567,5.931665 50.758954,5.932506 50.758141,5.935483 50.758217,5.936317 50.756864,5.93305 50.756251,5.922937 50.751714,5.916263 50.750486,5.916307 50.754351,5.912615 50.753649,5.910218 50.754738,5.906816 50.754574,5.902531 50.751537,5.890964 50.756352,5.891147 50.760127,5.89105 50.764262,5.888267 50.769038,5.878165 50.765486,5.869509 50.764444,5.864535 50.763206,5.854843 50.757763,5.850265 50.753377,5.849149 50.755179,5.845561 50.764991,5.845716 50.766249,5.84618 50.770202,5.843659 50.773358,5.845935 50.774158,5.843122 50.776416,5.840899 50.78101,5.838063 50.780931,5.835949 50.782287,5.841494 50.783884,5.846329 50.785303,5.846484 50.78665,5.851305 50.786631,5.856959 50.784811,5.861356 50.784972,5.865319 50.784237,5.866748 50.78531,5.873815 50.783123,5.886566 50.782169,5.888441 50.785128,5.891592 50.78808,5.895017 50.790043,5.897028 50.792371,5.901033 50.79541,5.903752 50.797645,5.90562 50.799794,5.907617 50.800773,5.914309 50.80299,5.915716 50.801995,5.918287 50.803601,5.914782 50.807213,5.912684 50.809829,5.909299 50.811642,5.90975 50.813888,5.903135 50.818681,5.901 50.818062,5.900879 50.81995,5.905853 50.820647,5.90798 50.820458,5.911117 50.821792,5.909716 50.823416,5.910316 50.82629,5.913875 50.827262,5.917863 50.828503,5.91917 50.831103,5.924718 50.832156,5.930454 50.837163,5.928358 50.83996,5.931057 50.840127,5.934171 50.839393,5.941432 50.841066,5.948142 50.84418,5.95112 50.843896,5.955961 50.845041)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wittem"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wittem"/>
+            </rdf:Description>
+</rdf:RDF>

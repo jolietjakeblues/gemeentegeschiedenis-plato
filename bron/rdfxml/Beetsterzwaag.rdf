@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Beetsterzwaag">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Beetsterzwaag</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Beetsterzwaag</skos:prefLabel>
+        <gg:name xml:lang="nl">Beetsterzwaag</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10987"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Opsterland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Beetsterzwaag                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.979093 53.110584,5.986423 53.108835,5.99591 53.108787,6.003006 53.107323,6.008966 53.109434,6.013941 53.108757,6.037148 53.108975,6.03829 53.104242,6.046695 53.10242,6.052973 53.09934,6.056689 53.094244,6.060628 53.093429,6.062492 53.091325,6.073463 53.085362,6.083045 53.081659,6.078986 53.074862,6.083172 53.074653,6.083284 53.068453,6.0884 53.068358,6.105519 53.075086,6.115338 53.082216,6.120124 53.088881,6.136516 53.069828,6.149372 53.068886,6.151855 53.065352,6.14533 53.062666,6.141662 53.057305,6.127947 53.049637,6.097405 53.0397,6.091692 53.039949,6.078071 53.037229,6.065566 53.0373,6.04844 53.038904,6.037039 53.04112,6.035645 53.043497,6.028508 53.044181,6.023534 53.046146,6.01923 53.045092,6.006764 53.047957,5.997133 53.049299,5.986811 53.052366,5.981842 53.054975,5.974706 53.055872,5.961881 53.059165,5.947552 53.05598,5.944787 53.061385,5.940287 53.059429,5.930835 53.066931,5.935202 53.070146,5.93019 53.075021,5.903023 53.074153,5.895873 53.075172,5.893756 53.072755,5.874337 53.070769,5.870788 53.073658,5.871292 53.078689,5.883008 53.08538,5.878572 53.089083,5.898012 53.092147,5.896682 53.093969,5.902272 53.09381,5.903727 53.096516,5.908949 53.096922,5.914633 53.096326,5.918649 53.095023,5.921921 53.091155,5.927394 53.0927,5.937356 53.09294,5.940719 53.096351,5.944515 53.096476,5.948835 53.100452,5.967153 53.104647,5.979093 53.110584)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Beetsterzwaag"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Beetsterzwaag"/>
+            </rdf:Description>
+</rdf:RDF>

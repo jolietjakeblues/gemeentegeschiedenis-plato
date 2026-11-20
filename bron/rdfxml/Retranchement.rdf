@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Retranchement">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Retranchement</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Retranchement</skos:prefLabel>
+        <gg:name xml:lang="nl">Retranchement</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10400"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0701"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sluis_1"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Retranchement                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.367588 51.374293,3.371308 51.37139,3.375403 51.372989,3.380027 51.369113,3.386167 51.369938,3.388735 51.350651,3.410598 51.349765,3.410932 51.345366,3.401869 51.339187,3.406572 51.33666,3.40239 51.333802,3.40357 51.326449,3.377739 51.349293,3.378661 51.351197,3.370647 51.357083,3.363146 51.370799,3.367588 51.374293)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1881</gg:year>
+                            <gg:name xml:lang="nl">Retranchement                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.367588 51.374293,3.371308 51.37139,3.375403 51.372989,3.380027 51.369113,3.386167 51.369938,3.388735 51.350651,3.410598 51.349765,3.410932 51.345366,3.401869 51.339187,3.406572 51.33666,3.40239 51.333802,3.40357 51.326449,3.408388 51.324553,3.431029 51.325295,3.418685 51.318704,3.417329 51.316883,3.409134 51.313956,3.397971 51.313317,3.388792 51.319813,3.38739 51.325633,3.380395 51.334594,3.377521 51.341197,3.367992 51.352182,3.370647 51.357083,3.363146 51.370799,3.367588 51.374293)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Retranchement_(plaats)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Retranchement_(plaats)"/>
+            </rdf:Description>
+</rdf:RDF>

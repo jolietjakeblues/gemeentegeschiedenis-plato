@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Herveld">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Herveld</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Herveld</skos:prefLabel>
+        <gg:name xml:lang="nl">Herveld</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10444"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Valburg"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Loenen_en_Wolferen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Herveld                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.74681 51.936211,5.746393 51.934814,5.751827 51.934161,5.755203 51.933515,5.757993 51.933142,5.759601 51.931956,5.760175 51.930318,5.76398 51.928307,5.773771 51.904465,5.77258 51.902651,5.772203 51.897019,5.770615 51.896205,5.771194 51.895113,5.768833 51.893848,5.766019 51.891131,5.771459 51.891749,5.776448 51.891278,5.777371 51.896092,5.779301 51.898357,5.782261 51.899978,5.785296 51.897887,5.797052 51.896588,5.80375 51.898092,5.810069 51.89025,5.818061 51.89058,5.819244 51.892733,5.828795 51.893617,5.848181 51.89541,5.851087 51.881376,5.848305 51.87914,5.848976 51.873744,5.849104 51.872126,5.84192 51.865323,5.839026 51.866233,5.837121 51.864532,5.835682 51.865796,5.831311 51.864195,5.821781 51.869624,5.810065 51.87443,5.797169 51.877532,5.779481 51.880918,5.707687 51.894619,5.708714 51.895964,5.705385 51.897681,5.706288 51.902083,5.702723 51.91171,5.691862 51.917491,5.693625 51.920273,5.706885 51.924822,5.705761 51.930308,5.711291 51.930922,5.710166 51.936228,5.715405 51.936843,5.715275 51.939,5.725312 51.939331,5.732313 51.942007,5.731174 51.945157,5.74629 51.943943,5.74681 51.936211)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Herveld"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Herveld"/>
+            </rdf:Description>
+</rdf:RDF>

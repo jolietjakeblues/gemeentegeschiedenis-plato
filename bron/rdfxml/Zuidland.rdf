@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zuidland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zuidland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zuidland</skos:prefLabel>
+        <gg:name xml:lang="nl">Zuidland</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10316"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0640"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bernisse"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zuidland                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.218766 51.824705,4.240857 51.828788,4.250643 51.837693,4.260372 51.837427,4.256393 51.82831,4.263095 51.821363,4.28597 51.817175,4.289288 51.811992,4.284147 51.802775,4.272493 51.805002,4.260378 51.802369,4.250209 51.791664,4.24076 51.786988,4.23573 51.78532,4.226578 51.786129,4.213153 51.795164,4.19107 51.802402,4.191149 51.80492,4.195785 51.810541,4.208426 51.815163,4.210727 51.821478,4.218766 51.824705)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</gg:year>
+                            <gg:name xml:lang="nl">Bernisse                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.286824 51.859431,4.287925 51.850003,4.292479 51.847798,4.296256 51.847654,4.302183 51.842585,4.29761 51.839666,4.300572 51.837177,4.297963 51.837063,4.299934 51.833575,4.301345 51.829184,4.303014 51.826143,4.307119 51.824383,4.306434 51.822669,4.309179 51.823143,4.309796 51.821621,4.315891 51.821497,4.315663 51.812775,4.301421 51.80797,4.295175 51.802429,4.284147 51.802775,4.272493 51.805002,4.260378 51.802369,4.250209 51.791664,4.2488 51.790032,4.243108 51.785842,4.228406 51.788305,4.222321 51.793818,4.210189 51.797652,4.206038 51.801116,4.201077 51.802324,4.183893 51.805116,4.169267 51.815123,4.154805 51.818927,4.16182 51.822326,4.161186 51.824297,4.166199 51.826687,4.168086 51.826617,4.1854 51.835605,4.187859 51.835899,4.188832 51.837527,4.187914 51.839316,4.191438 51.843217,4.196183 51.844883,4.198152 51.847241,4.199516 51.85058,4.196028 51.850725,4.192562 51.85006,4.187036 51.850453,4.238402 51.873889,4.262261 51.86639,4.268235 51.865548,4.283642 51.864885,4.286824 51.859431)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1980-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zuidland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zuidland"/>
+            </rdf:Description>
+</rdf:RDF>

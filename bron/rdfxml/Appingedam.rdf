@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Appingedam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Appingedam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Appingedam</skos:prefLabel>
+        <gg:name xml:lang="nl">Appingedam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10886"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0003"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Eemsdelta"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Appingedam                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.886205 53.341148,6.88377 53.322936,6.886414 53.316972,6.883517 53.311346,6.888948 53.307863,6.887239 53.293237,6.862984 53.290122,6.858416 53.292515,6.849984 53.291539,6.846054 53.286195,6.829457 53.287653,6.826345 53.293262,6.815373 53.292585,6.807682 53.300404,6.812948 53.300881,6.808774 53.306233,6.806465 53.318122,6.809254 53.320785,6.83309 53.324455,6.837676 53.326916,6.835179 53.328563,6.834251 53.336662,6.833891 53.339363,6.873222 53.339153,6.876655 53.342884,6.886205 53.341148)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2759686"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Appingedam"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Appingedam"/>
+            </rdf:Description>
+</rdf:RDF>

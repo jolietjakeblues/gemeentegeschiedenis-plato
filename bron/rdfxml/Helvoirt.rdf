@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Helvoirt">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Helvoirt</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Helvoirt</skos:prefLabel>
+        <gg:name xml:lang="nl">Helvoirt</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10389"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0795"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Haaren"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Helvoirt                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.215007 51.677141,5.217332 51.674178,5.213301 51.669678,5.205641 51.669397,5.211736 51.663204,5.21795 51.663483,5.217958 51.661415,5.22563 51.658101,5.226226 51.652888,5.226674 51.648934,5.231877 51.648401,5.235785 51.646249,5.240437 51.637446,5.239151 51.6334,5.248986 51.628828,5.251015 51.626763,5.245969 51.62397,5.240931 51.618661,5.233418 51.620179,5.224043 51.617021,5.209729 51.622123,5.202942 51.622023,5.192512 51.629646,5.189313 51.634585,5.188999 51.640427,5.180614 51.641761,5.174555 51.639952,5.157792 51.640999,5.152091 51.653841,5.154959 51.658162,5.154074 51.661665,5.157097 51.664008,5.15927 51.663114,5.173644 51.679949,5.215007 51.677141)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Helvoirt"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Helvoirt"/>
+            </rdf:Description>
+</rdf:RDF>

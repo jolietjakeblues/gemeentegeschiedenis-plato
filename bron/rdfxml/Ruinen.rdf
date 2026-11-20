@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ruinen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ruinen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ruinen</skos:prefLabel>
+        <gg:name xml:lang="nl">Ruinen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10629"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0127"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Wolden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ruinen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.310056 52.792036,6.339351 52.796119,6.376263 52.795819,6.394115 52.791984,6.397429 52.787822,6.414041 52.794511,6.437198 52.801858,6.491476 52.790223,6.524708 52.73976,6.506807 52.734627,6.488614 52.729494,6.480114 52.732988,6.463302 52.723614,6.45723 52.723489,6.447014 52.723401,6.437233 52.716747,6.427319 52.716834,6.421544 52.716705,6.387572 52.687246,6.37226 52.683779,6.357591 52.702594,6.37581 52.710083,6.365386 52.727066,6.348507 52.726933,6.327059 52.720814,6.324364 52.726317,6.318965 52.723034,6.309013 52.728414,6.314565 52.731966,6.320239 52.741179,6.315458 52.746159,6.315149 52.752543,6.303813 52.762966,6.298469 52.762467,6.295299 52.773905,6.3027 52.787689,6.310056 52.792036)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</gg:year>
+                            <gg:name xml:lang="nl">Ruinen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.491476 52.790223,6.524708 52.73976,6.506807 52.734627,6.498226 52.740729,6.494338 52.739238,6.491454 52.74232,6.485971 52.742191,6.480657 52.736937,6.476877 52.739758,6.465354 52.73483,6.464808 52.730701,6.431676 52.719582,6.427319 52.716834,6.421544 52.716705,6.387572 52.687246,6.37226 52.683779,6.357591 52.702594,6.37581 52.710083,6.365386 52.727066,6.348507 52.726933,6.327059 52.720814,6.324364 52.726317,6.318965 52.723034,6.309013 52.728414,6.314565 52.731966,6.320239 52.741179,6.315458 52.746159,6.315149 52.752543,6.303813 52.762966,6.298469 52.762467,6.295299 52.773905,6.3027 52.787689,6.310056 52.792036,6.339351 52.796119,6.376263 52.795819,6.394115 52.791984,6.397429 52.787822,6.414041 52.794511,6.437198 52.801858,6.491476 52.790223)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ruinen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ruinen"/>
+            </rdf:Description>
+</rdf:RDF>

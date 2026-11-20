@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Diepenveen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Diepenveen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Diepenveen</skos:prefLabel>
+        <gg:name xml:lang="nl">Diepenveen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10933"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0152"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Deventer"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Diepenveen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.325621 52.300015,6.327947 52.278335,6.327476 52.262969,6.264673 52.25015,6.257634 52.242202,6.262439 52.240818,6.264474 52.232624,6.257446 52.232586,6.256726 52.22567,6.252321 52.224984,6.249104 52.225097,6.236086 52.225551,6.227634 52.227499,6.221174 52.226466,6.201562 52.234513,6.192183 52.233948,6.183867 52.235532,6.19586 52.243001,6.195719 52.251361,6.182755 52.255224,6.177096 52.266497,6.174093 52.270652,6.151243 52.270981,6.143583 52.277142,6.1208 52.272882,6.118634 52.274783,6.113849 52.277868,6.113937 52.283261,6.111241 52.28867,6.108525 52.292911,6.105228 52.297515,6.111807 52.296396,6.162546 52.305781,6.182378 52.307897,6.18232 52.31284,6.203771 52.315031,6.205457 52.318974,6.235219 52.318315,6.236429 52.312554,6.272218 52.29818,6.325621 52.300015)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</gg:year>
+                            <gg:name xml:lang="nl">Diepenveen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.236429 52.312554,6.272218 52.29818,6.325621 52.300015,6.327947 52.278335,6.327476 52.262969,6.264673 52.25015,6.257634 52.242202,6.262439 52.240818,6.264474 52.232624,6.257446 52.232586,6.256726 52.22567,6.252321 52.224984,6.249104 52.225097,6.236086 52.225551,6.227634 52.227499,6.221174 52.226466,6.201562 52.234513,6.192183 52.233948,6.183867 52.235532,6.19586 52.243001,6.195719 52.251361,6.204015 52.256517,6.20362 52.258946,6.198794 52.259339,6.196421 52.257738,6.189712 52.259311,6.18874 52.262284,6.177096 52.266497,6.174093 52.270652,6.143583 52.277142,6.1208 52.272882,6.118634 52.274783,6.113849 52.277868,6.113937 52.283261,6.111241 52.28867,6.108525 52.292911,6.105228 52.297515,6.111807 52.296396,6.162546 52.305781,6.182378 52.307897,6.18232 52.31284,6.203771 52.315031,6.205457 52.318974,6.235219 52.318315,6.236429 52.312554)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</gg:year>
+                            <gg:name xml:lang="nl">Diepenveen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.236429 52.312554,6.272218 52.29818,6.325621 52.300015,6.327947 52.278335,6.327476 52.262969,6.264673 52.25015,6.25385 52.258409,6.25406 52.261643,6.249851 52.263651,6.21223 52.265088,6.208593 52.258552,6.198794 52.259339,6.196421 52.257738,6.189712 52.259311,6.18874 52.262284,6.177096 52.266497,6.174093 52.270652,6.143583 52.277142,6.1208 52.272882,6.118634 52.274783,6.113849 52.277868,6.113937 52.283261,6.111241 52.28867,6.108525 52.292911,6.105228 52.297515,6.111807 52.296396,6.162546 52.305781,6.182378 52.307897,6.18232 52.31284,6.203771 52.315031,6.205457 52.318974,6.235219 52.318315,6.236429 52.312554)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Diepenveen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Diepenveen"/>
+            </rdf:Description>
+</rdf:RDF>

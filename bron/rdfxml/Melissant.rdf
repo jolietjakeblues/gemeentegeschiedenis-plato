@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Melissant">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Melissant</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Melissant</skos:prefLabel>
+        <gg:name xml:lang="nl">Melissant</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10918"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1113"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dirksland"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Onwaard"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Roxenisse"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dirksland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Melissant                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.082706 51.772629,4.083106 51.765294,4.062946 51.761113,4.060456 51.757129,4.06455 51.745939,4.060255 51.739328,4.064613 51.733894,4.07735 51.729003,4.085783 51.722714,4.095673 51.721026,4.105859 51.729318,4.106028 51.738669,4.099569 51.746868,4.109445 51.747007,4.112522 51.739459,4.124206 51.730686,4.128872 51.724263,4.123494 51.719891,4.128856 51.714465,4.08717 51.714729,4.070776 51.721108,4.062977 51.72632,4.06059 51.727915,4.04711 51.728481,4.036407 51.728178,4.035666 51.738418,4.038609 51.746542,4.038169 51.756426,4.028216 51.755052,4.02265 51.766674,4.038367 51.769193,4.048275 51.767329,4.056061 51.77353,4.067499 51.773839,4.082706 51.772629)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Melissant                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.122383 51.76995,4.127293 51.765328,4.107231 51.752436,4.112522 51.739459,4.124206 51.730686,4.128872 51.724263,4.123494 51.719891,4.128856 51.714465,4.08717 51.714729,4.070776 51.721108,4.062977 51.72632,4.06059 51.727915,4.04711 51.728481,4.036407 51.728178,4.035666 51.738418,4.038609 51.746542,4.038169 51.756426,4.028216 51.755052,4.02265 51.766674,4.038367 51.769193,4.048275 51.767329,4.056061 51.77353,4.067499 51.773839,4.105115 51.770841,4.122383 51.76995),(4.060456 51.757129,4.06455 51.745939,4.060255 51.739328,4.064613 51.733894,4.07735 51.729003,4.085783 51.722714,4.095673 51.721026,4.105859 51.729318,4.106028 51.738669,4.099569 51.746868,4.100435 51.757126,4.083106 51.765294,4.062946 51.761113,4.060456 51.757129)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Melissant                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.049614 51.780828,4.066768 51.779045,4.086527 51.782322,4.109437 51.781945,4.105115 51.770841,4.122383 51.76995,4.127293 51.765328,4.107231 51.752436,4.112522 51.739459,4.124206 51.730686,4.128872 51.724263,4.123494 51.719891,4.128856 51.714465,4.08717 51.714729,4.070776 51.721108,4.062977 51.72632,4.06059 51.727915,4.04711 51.728481,4.036407 51.728178,4.035666 51.738418,4.038609 51.746542,4.038169 51.756426,4.028216 51.755052,4.022126 51.769634,4.013583 51.778973,4.038847 51.787088,4.049614 51.780828),(4.060456 51.757129,4.06455 51.745939,4.060255 51.739328,4.064613 51.733894,4.07735 51.729003,4.085783 51.722714,4.095673 51.721026,4.105859 51.729318,4.106028 51.738669,4.099569 51.746868,4.100435 51.757126,4.083106 51.765294,4.062946 51.761113,4.060456 51.757129)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-04-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Melissant"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Melissant"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Minnertsga">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Minnertsga</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Minnertsga</skos:prefLabel>
+        <gg:name xml:lang="nl">Minnertsga</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10328"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Barradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Minnertsga                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.538732 53.212465,5.537193 53.215749,5.53143 53.214548,5.530903 53.217037,5.532405 53.226108,5.528657 53.22555,5.525989 53.227721,5.530943 53.228839,5.528279 53.232696,5.525601 53.232138,5.521608 53.238886,5.523751 53.239366,5.52229 53.24298,5.518641 53.248765,5.521741 53.249871,5.536164 53.261535,5.550388 53.258192,5.57377 53.259686,5.587251 53.258675,5.602959 53.253437,5.609516 53.246596,5.629526 53.235145,5.613467 53.228707,5.600579 53.226664,5.593665 53.221195,5.592252 53.221756,5.588435 53.223271,5.566395 53.215758,5.558925 53.219543,5.538732 53.212465)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Minnertsga"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Minnertsga"/>
+            </rdf:Description>
+</rdf:RDF>

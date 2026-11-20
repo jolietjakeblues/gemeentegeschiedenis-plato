@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Poortvliet">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Poortvliet</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Poortvliet</skos:prefLabel>
+        <gg:name xml:lang="nl">Poortvliet</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11181"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0700"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuw-Strijen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tholen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Poortvliet                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.156384 51.529628,4.15241 51.529221,4.148646 51.527,4.144827 51.526755,4.141811 51.525155,4.140119 51.521132,4.12118 51.523355,4.122786 51.527778,4.114663 51.529667,4.112441 51.536925,4.117406 51.544979,4.1129 51.551403,4.099196 51.551612,4.096589 51.557067,4.102917 51.5628,4.094784 51.564778,4.088426 51.560123,4.078664 51.568554,4.087999 51.580075,4.105149 51.580804,4.106993 51.587027,4.117395 51.586601,4.125376 51.595407,4.124459 51.602409,4.134245 51.603503,4.131551 51.596552,4.131521 51.587203,4.137667 51.584122,4.140558 51.57867,4.138584 51.566513,4.149727 51.559889,4.147819 51.55052,4.152833 51.546438,4.167571 51.545244,4.169839 51.541312,4.159193 51.535178,4.158845 51.532028,4.156449 51.530025,4.156384 51.529628)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1813</gg:year>
+                            <gg:name xml:lang="nl">Poortvliet                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.134245 51.603503,4.131551 51.596552,4.131521 51.587203,4.137667 51.584122,4.140558 51.57867,4.138584 51.566513,4.149727 51.559889,4.147819 51.55052,4.152833 51.546438,4.167571 51.545244,4.169839 51.541312,4.159193 51.535178,4.158845 51.532028,4.156449 51.530025,4.155213 51.522461,4.146967 51.523632,4.140119 51.521132,4.12118 51.523355,4.122786 51.527778,4.114663 51.529667,4.112441 51.536925,4.117406 51.544979,4.1129 51.551403,4.099196 51.551612,4.096589 51.557067,4.102917 51.5628,4.094784 51.564778,4.088426 51.560123,4.078664 51.568554,4.087999 51.580075,4.105149 51.580804,4.106993 51.587027,4.117395 51.586601,4.125376 51.595407,4.124459 51.602409,4.134245 51.603503)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1971-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Poortvliet"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Poortvliet"/>
+            </rdf:Description>
+</rdf:RDF>

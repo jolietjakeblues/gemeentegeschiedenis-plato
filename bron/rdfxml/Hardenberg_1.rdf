@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hardenberg_1">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hardenberg [1]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hardenberg [1]</skos:prefLabel>
+        <gg:name xml:lang="nl">Hardenberg [1]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10174"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ambt_Hardenberg"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Stad_Hardenberg"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hardenberg                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.61648 52.616793,6.605955 52.604677,6.622253 52.59624,6.626162 52.58829,6.636398 52.584947,6.637754 52.591134,6.649839 52.590557,6.65521 52.587444,6.654669 52.584034,6.665095 52.577181,6.683307 52.574377,6.700694 52.588478,6.760204 52.565963,6.767927 52.558233,6.754169 52.556864,6.728755 52.560121,6.724601 52.549561,6.717573 52.546315,6.683766 52.549835,6.706955 52.516682,6.698801 52.485223,6.669977 52.491471,6.654764 52.484713,6.657746 52.480906,6.650231 52.475504,6.653799 52.471601,6.641347 52.468497,6.63843 52.469427,6.624749 52.469661,6.61237 52.463767,6.603605 52.4768,6.595695 52.47823,6.611181 52.489935,6.568982 52.508699,6.562693 52.51038,6.564232 52.512881,6.568641 52.512478,6.570169 52.51453,6.566538 52.516453,6.560786 52.516241,6.555198 52.511083,6.550956 52.512203,6.54852 52.514833,6.542966 52.516506,6.542279 52.5184,6.543416 52.522433,6.535685 52.525475,6.532286 52.542135,6.523567 52.558487,6.504458 52.5726,6.517094 52.576345,6.518138 52.582537,6.534201 52.587416,6.549834 52.587084,6.527003 52.605821,6.520929 52.60498,6.517739 52.61301,6.516297 52.643133,6.52953 52.651994,6.554512 52.663346,6.580785 52.667309,6.635812 52.626748,6.61648 52.616793)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                                            <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2754858"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ambt_Hardenberg"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hardenberg_(gemeente)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hardenberg_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ambt_Hardenberg"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hardenberg_(gemeente)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hardenberg_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

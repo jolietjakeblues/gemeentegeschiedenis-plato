@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vinkeveen_en_Waverveen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vinkeveen en Waverveen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vinkeveen en Waverveen</skos:prefLabel>
+        <gg:name xml:lang="nl">Vinkeveen en Waverveen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11048"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0346"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vinkeveen"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Waverveen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Ronde_Venen"/>
+
+        
+                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1882</gg:year>
+                            <gg:name xml:lang="nl">Vinkeveen en Waverveen             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.877716 52.252671,4.885367 52.249468,4.89091 52.251469,4.896202 52.249604,4.904827 52.250987,4.918201 52.246457,4.921604 52.243145,4.927906 52.242541,4.930919 52.234194,4.944649 52.237302,4.942982 52.228308,4.93395 52.224139,4.938576 52.215258,4.97553 52.222404,4.966792 52.248887,4.979741 52.226013,4.981544 52.220896,4.971174 52.218703,4.964062 52.197197,4.959382 52.19709,4.958724 52.189448,4.953023 52.189247,4.951895 52.184929,4.944146 52.18481,4.923225 52.185898,4.912889 52.195295,4.918435 52.196395,4.918133 52.211224,4.884058 52.209826,4.884849 52.217559,4.855269 52.243764,4.86514 52.251088,4.871599 52.249768,4.877716 52.252671)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</gg:year>
+                            <gg:name xml:lang="nl">Vinkeveen en Waverveen             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.877716 52.252671,4.885367 52.249468,4.89091 52.251469,4.896202 52.249604,4.904827 52.250987,4.918201 52.246457,4.921604 52.243145,4.927906 52.242541,4.930919 52.234194,4.944649 52.237302,4.942982 52.228308,4.93395 52.224139,4.938576 52.215258,4.97553 52.222404,4.966792 52.248887,4.979741 52.226013,4.981544 52.220896,4.971174 52.218703,4.96392 52.196747,4.959519 52.198079,4.95866 52.196099,4.949732 52.196785,4.944146 52.18481,4.923225 52.185898,4.912889 52.195295,4.918435 52.196395,4.918133 52.211224,4.884058 52.209826,4.884849 52.217559,4.855269 52.243764,4.86514 52.251088,4.871599 52.249768,4.877716 52.252671)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1841-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1989-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vinkeveen_en_Waverveen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vinkeveen_en_Waverveen"/>
+            </rdf:Description>
+</rdf:RDF>

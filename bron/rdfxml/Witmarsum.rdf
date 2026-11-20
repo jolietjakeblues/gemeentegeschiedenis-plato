@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Witmarsum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Witmarsum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Witmarsum</skos:prefLabel>
+        <gg:name xml:lang="nl">Witmarsum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10454"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wonseradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Witmarsum                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.527662 53.102099,5.527842 53.099174,5.559482 53.096437,5.558244 53.085476,5.564793 53.080884,5.573005 53.082039,5.58598 53.080042,5.593257 53.072661,5.587875 53.070513,5.592335 53.067091,5.600684 53.065908,5.598581 53.063037,5.584712 53.063869,5.56157 53.058783,5.563497 53.055905,5.5532 53.054212,5.53873 53.053243,5.541587 53.059889,5.537725 53.064566,5.547887 53.069406,5.546556 53.072553,5.538046 53.071126,5.53179 53.074189,5.522823 53.069527,5.501807 53.077007,5.498358 53.07054,5.492234 53.06776,5.480723 53.068397,5.473942 53.071946,5.464141 53.074405,5.454337 53.075865,5.457502 53.073592,5.454181 53.072594,5.449356 53.073778,5.446336 53.071963,5.449526 53.069826,5.445124 53.067966,5.440272 53.067892,5.435745 53.066016,5.431189 53.068279,5.426361 53.067635,5.420262 53.069615,5.426702 53.074298,5.425631 53.075429,5.416241 53.072362,5.409534 53.067195,5.400953 53.067035,5.393177 53.070751,5.386502 53.071332,5.382432 53.079937,5.378995 53.104648,5.398856 53.113274,5.40554 53.108125,5.402923 53.107156,5.413386 53.098917,5.411775 53.098069,5.419219 53.094676,5.422038 53.096007,5.425458 53.095522,5.426871 53.100246,5.438552 53.106298,5.449227 53.110654,5.453416 53.107159,5.464333 53.114764,5.462931 53.119005,5.467162 53.120092,5.472224 53.117484,5.493416 53.110684,5.495286 53.10729,5.508439 53.107439,5.514596 53.102103,5.527662 53.102099)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                    
+                                                                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/W%C3%BBnseradiel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Witmarsum_(Nederland)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wonseradeel"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Witmarsum_(Nederland)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wonseradeel"/>
+            </rdf:Description>
+</rdf:RDF>

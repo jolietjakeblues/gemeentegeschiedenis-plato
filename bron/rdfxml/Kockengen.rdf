@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Kockengen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Kockengen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Kockengen</skos:prefLabel>
+        <gg:name xml:lang="nl">Kockengen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10765"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0324"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Laag-Nieuwkoop"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Breukelen_2"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Kockengen                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.924305 52.166309,4.935809 52.156107,4.939068 52.151805,4.957493 52.135066,4.95633 52.134522,4.958255 52.131743,4.941518 52.125839,4.934996 52.135431,4.920424 52.14616,4.91051 52.144233,4.908147 52.160222,4.920679 52.163688,4.924305 52.166309)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</gg:year>
+                            <gg:name xml:lang="nl">Kockengen                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.939068 52.151805,4.957493 52.135066,4.973802 52.140517,4.976452 52.138279,4.992756 52.144627,4.998787 52.139883,4.992818 52.137526,4.982184 52.134344,4.980614 52.130294,4.970289 52.125584,4.976366 52.115809,4.973751 52.114451,4.967838 52.12225,4.958255 52.131743,4.941518 52.125839,4.934996 52.135431,4.920424 52.14616,4.910509 52.144233,4.908147 52.160222,4.920679 52.163688,4.924305 52.166309,4.935809 52.156107,4.939068 52.151805)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</gg:year>
+                            <gg:name xml:lang="nl">Kockengen                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.978835 52.149253,4.992818 52.137526,4.982184 52.134344,4.980614 52.130294,4.97128 52.128914,4.967838 52.12225,4.958255 52.131743,4.941518 52.125839,4.934996 52.135431,4.920424 52.14616,4.910509 52.144233,4.908147 52.160222,4.920679 52.163688,4.924305 52.166309,4.930835 52.171008,4.930361 52.174421,4.944146 52.18481,4.949137 52.182852,4.968391 52.156676,4.972936 52.155075,4.972975 52.15094,4.978835 52.149253)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1989-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kockengen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kockengen"/>
+            </rdf:Description>
+</rdf:RDF>

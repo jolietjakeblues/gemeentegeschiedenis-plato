@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Menaldum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Menaldum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Menaldum</skos:prefLabel>
+        <gg:name xml:lang="nl">Menaldum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11144"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Menaldumadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Menaldum                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.74705 53.231995,5.732662 53.22443,5.724701 53.220266,5.720598 53.222751,5.715487 53.217817,5.704069 53.217277,5.707849 53.214032,5.696085 53.209305,5.701428 53.20301,5.695391 53.200933,5.69062 53.198471,5.688693 53.19486,5.689935 53.19124,5.69371 53.187234,5.687699 53.188582,5.684827 53.185734,5.676324 53.193367,5.66653 53.197958,5.658636 53.202544,5.652624 53.20427,5.641505 53.200107,5.632982 53.206025,5.631736 53.210024,5.63144 53.213641,5.635586 53.218009,5.645416 53.217988,5.642921 53.225035,5.652151 53.230534,5.643619 53.235882,5.655174 53.239899,5.666374 53.236144,5.701995 53.232821,5.705042 53.239821,5.733083 53.243877,5.74705 53.231995)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                    
+                                                                            <gg:resourceGeonames rdf:resource="http://sws.geonames.org/8260048"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Menaldum"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Menaldumadeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Menaldumadeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Menaldum"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Menaldumadeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Menaldumadeel"/>
+            </rdf:Description>
+</rdf:RDF>

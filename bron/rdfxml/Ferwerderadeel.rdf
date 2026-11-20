@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ferwerderadeel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ferwerderadeel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ferwerderadeel</skos:prefLabel>
+        <gg:name xml:lang="nl">Ferwerderadeel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11284"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0068"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ferwerd"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Blija"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hallum"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Marrum"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ferwerderadiel"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Ferwerderadeel                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.850985 53.370533,5.885599 53.349728,5.881071 53.34777,5.888073 53.342979,5.896033 53.343215,5.916327 53.332974,5.911637 53.32994,5.927168 53.323671,5.927721 53.319895,5.935128 53.312313,5.923082 53.308863,5.920578 53.312648,5.901854 53.315156,5.901802 53.310843,5.886492 53.310189,5.884049 53.306515,5.889275 53.304427,5.893486 53.305308,5.898797 53.297827,5.858744 53.283435,5.848344 53.278264,5.83732 53.270578,5.812295 53.271298,5.812184 53.275252,5.767627 53.288161,5.751454 53.290817,5.733453 53.289971,5.736653 53.296252,5.723149 53.295572,5.719291 53.300884,5.724354 53.315336,5.715904 53.328837,5.850985 53.370533)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Ferwerderadeel                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.881071 53.34777,5.888073 53.342979,5.896033 53.343215,5.916327 53.332974,5.911637 53.32994,5.927168 53.323671,5.927721 53.319895,5.935128 53.312313,5.923082 53.308863,5.898797 53.297827,5.908694 53.285205,5.886508 53.27272,5.86622 53.281518,5.858744 53.283435,5.848344 53.278264,5.83732 53.270578,5.812295 53.271298,5.812184 53.275252,5.767627 53.288161,5.751454 53.290817,5.733453 53.289971,5.736653 53.296252,5.738803 53.302446,5.745144 53.307459,5.724157 53.309406,5.719962 53.310137,5.715904 53.328837,5.850985 53.370533,5.885599 53.349728,5.881071 53.34777)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ferwerderadeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ferwerderadeel"/>
+            </rdf:Description>
+</rdf:RDF>

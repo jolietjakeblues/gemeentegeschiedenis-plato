@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Langbroek">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Langbroek</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Langbroek</skos:prefLabel>
+        <gg:name xml:lang="nl">Langbroek</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11413"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0325"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sterkenburg"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wijk_bij_Duurstede"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Langbroek                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.311437 52.02599,5.328783 52.020158,5.341311 52.021152,5.36084 52.009473,5.380941 52.002915,5.386475 52.001746,5.400309 52.002285,5.414432 51.9968,5.396811 51.987725,5.377013 51.984669,5.357071 51.983497,5.334785 51.995533,5.323424 51.998314,5.320211 52.004694,5.316715 52.004961,5.312497 52.001813,5.29181 52.005573,5.289912 52.007908,5.277676 52.008437,5.26234 52.023971,5.268017 52.026134,5.285042 52.035857,5.290871 52.036132,5.29321 52.032448,5.304001 52.028502,5.309831 52.027877,5.311437 52.02599)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Langbroek                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.311437 52.02599,5.328783 52.020158,5.341311 52.021152,5.36084 52.009473,5.380941 52.002915,5.386475 52.001746,5.400309 52.002285,5.414432 51.9968,5.396811 51.987725,5.377013 51.984669,5.357071 51.983497,5.334785 51.995533,5.323424 51.998314,5.320211 52.004694,5.316715 52.004961,5.312497 52.001813,5.29181 52.005573,5.289912 52.007908,5.311437 52.02599)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Langbroek_(Wijk_bij_Duurstede)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Langbroek_(Wijk_bij_Duurstede)"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sint_Jansteen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sint Jansteen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sint Jansteen</skos:prefLabel>
+        <gg:name xml:lang="nl">Sint Jansteen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10864"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0709"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hulst"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Sint Jansteen                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.036111 51.287141,4.036541 51.282291,4.04072 51.276676,4.052928 51.275828,4.056419 51.269125,4.058696 51.264746,4.061933 51.256872,4.06148 51.247787,4.057608 51.242979,4.035466 51.241015,4.028647 51.243992,4.022122 51.241848,4.015018 51.244731,3.999444 51.243468,3.991311 51.242472,3.990474 51.246417,3.984367 51.2494,3.978934 51.249065,3.978602 51.259849,3.977001 51.302531,4.00235 51.29897,4.005621 51.290379,4.010851 51.292868,4.036111 51.287141)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1962</gg:year>
+                            <gg:name xml:lang="nl">Sint Jansteen                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.00235 51.29897,4.005621 51.290379,4.010851 51.292868,4.036111 51.287141,4.036541 51.282291,4.034965 51.282273,4.039534 51.273156,4.043835 51.273116,4.054013 51.263165,4.058696 51.264746,4.061933 51.256872,4.06148 51.247787,4.057608 51.242979,4.035466 51.241015,4.028647 51.243992,4.022122 51.241848,4.015018 51.244731,3.999444 51.243468,3.991311 51.242472,3.990474 51.246417,3.984367 51.2494,3.978934 51.249065,3.978602 51.259849,3.977001 51.302531,4.00235 51.29897)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sint_Jansteen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Sint_Jansteen"/>
+            </rdf:Description>
+</rdf:RDF>

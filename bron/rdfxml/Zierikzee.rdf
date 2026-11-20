@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zierikzee">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zierikzee</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zierikzee</skos:prefLabel>
+        <gg:name xml:lang="nl">Zierikzee</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10843"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0732"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schouwen-Duiveland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zierikzee                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.869241 51.666799,3.874986 51.667952,3.878682 51.665482,3.896691 51.671736,3.898169 51.670766,3.914115 51.67834,3.924661 51.678652,3.93051 51.676657,3.938516 51.670463,3.947638 51.660957,3.939247 51.652133,3.937915 51.648611,3.94394 51.645449,3.943647 51.64104,3.935325 51.639229,3.931747 51.633701,3.926107 51.629406,3.923074 51.629368,3.885954 51.633662,3.880814 51.653553,3.874301 51.658144,3.869241 51.666799)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961</gg:year>
+                            <gg:name xml:lang="nl">Zierikzee                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.970526 51.668608,3.960047 51.661648,3.950751 51.649398,3.95197 51.642851,3.957476 51.637794,3.948648 51.63373,3.946233 51.623363,3.931747 51.633701,3.926107 51.629406,3.923074 51.629368,3.885954 51.633662,3.880814 51.653553,3.874301 51.658144,3.869241 51.666799,3.874986 51.667952,3.878682 51.665482,3.905676 51.675536,3.907539 51.671604,3.910769 51.670117,3.93051 51.676657,3.938516 51.670463,3.938573 51.664171,3.943053 51.664227,3.949911 51.671323,3.955808 51.672294,3.959461 51.675665,3.95723 51.677616,3.961943 51.679471,3.968572 51.675596,3.970526 51.668608)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</gg:year>
+                            <gg:name xml:lang="nl">Schouwen-Duiveland                 </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.824597 51.749728,3.824976 51.738765,3.851632 51.738398,3.871192 51.742339,3.880299 51.742816,3.89801 51.737109,3.909997 51.72917,3.920346 51.731457,3.934636 51.732804,3.966242 51.731394,3.981252 51.723574,3.983256 51.714968,4.003668 51.700558,4.009064 51.689654,4.013944 51.686116,4.025115 51.684987,4.040632 51.683549,4.05422 51.67885,4.088562 51.666291,4.103605 51.676166,4.139775 51.680602,4.148054 51.684555,4.150034 51.68089,4.135837 51.676604,4.105163 51.672227,4.091658 51.664168,4.093343 51.66086,4.100332 51.65905,4.092555 51.653031,4.096076 51.651182,4.074104 51.641408,4.06857 51.632986,4.054968 51.628876,4.048144 51.630057,4.040082 51.629155,4.014715 51.622568,4.002758 51.616853,3.987026 51.616576,3.966191 51.613268,3.959682 51.613639,3.954279 51.61555,3.946233 51.623363,3.931747 51.633701,3.926107 51.629406,3.923074 51.629368,3.885954 51.633662,3.880814 51.653553,3.874301 51.658144,3.869241 51.666799,3.855206 51.675696,3.841703 51.677316,3.822231 51.68425,3.809485 51.684798,3.817546 51.685895,3.819313 51.689155,3.807811 51.695473,3.794225 51.695109,3.786004 51.690322,3.794248 51.690345,3.798372 51.688243,3.786003 51.686277,3.762668 51.679573,3.756458 51.675351,3.746593 51.672246,3.738891 51.673307,3.720588 51.667743,3.707445 51.667376,3.693442 51.67068,3.672955 51.692408,3.670976 51.702628,3.67604 51.71412,3.685433 51.722168,3.690816 51.725302,3.710714 51.731343,3.735912 51.735117,3.762037 51.741415,3.774009 51.742749,3.816368 51.740628,3.818357 51.750094,3.814597 51.754089,3.822482 51.756442,3.827276 51.751831,3.824597 51.749728)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zierikzee"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zierikzee"/>
+            </rdf:Description>
+</rdf:RDF>

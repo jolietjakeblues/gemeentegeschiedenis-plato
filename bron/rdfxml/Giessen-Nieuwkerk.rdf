@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Giessen-Nieuwkerk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Giessen-Nieuwkerk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Giessen-Nieuwkerk</skos:prefLabel>
+        <gg:name xml:lang="nl">Giessen-Nieuwkerk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10255"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1062"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schelluinen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Giessenburg"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Giessen-Nieuwkerk                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.916466 51.869935,4.920333 51.861052,4.93614 51.862821,4.942266 51.845227,4.935446 51.845112,4.933303 51.841778,4.921146 51.838674,4.92207 51.847486,4.909476 51.844469,4.907501 51.839158,4.868409 51.831711,4.865478 51.834305,4.851118 51.833971,4.851493 51.839096,4.857573 51.840292,4.863034 51.844811,4.863264 51.850025,4.871967 51.850513,4.878855 51.857464,4.893756 51.862022,4.894586 51.865801,4.916466 51.869935)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Giessen-Nieuwkerk                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.894586 51.865801,4.916466 51.869935,4.920333 51.861052,4.92207 51.847486,4.909476 51.844469,4.907501 51.839158,4.868409 51.831711,4.865478 51.834305,4.851118 51.833971,4.851493 51.839096,4.857573 51.840292,4.863034 51.844811,4.863264 51.850025,4.871967 51.850513,4.878855 51.857464,4.893756 51.862022,4.894586 51.865801)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1957</gg:year>
+                            <gg:name xml:lang="nl">Giessenburg                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.907501 51.839158,4.868409 51.831711,4.865478 51.834305,4.847202 51.833863,4.847189 51.833894,4.835558 51.860594,4.853894 51.869128,4.864587 51.873581,4.870223 51.875943,4.878028 51.879213,4.893988 51.880629,4.891316 51.885831,4.908591 51.886801,4.918039 51.872278,4.916466 51.869935,4.920333 51.861052,4.92207 51.847486,4.909476 51.844469,4.907501 51.839158)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1957-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Giessen-Nieuwkerk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Giessen-Nieuwkerk"/>
+            </rdf:Description>
+</rdf:RDF>

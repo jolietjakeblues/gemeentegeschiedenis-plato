@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vlaardinger-Ambacht">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vlaardinger-Ambacht</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vlaardinger-Ambacht</skos:prefLabel>
+        <gg:name xml:lang="nl">Vlaardinger-Ambacht</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10790"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1210"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vlaardingen"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zouteveen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vlaardingen"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Vlaardinger-Ambacht                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.319003 51.941078,4.347438 51.950412,4.352405 51.943175,4.362828 51.938952,4.362034 51.935529,4.354781 51.934746,4.359006 51.928042,4.35837 51.924081,4.363351 51.922417,4.365 51.913802,4.365481 51.911828,4.367885 51.901961,4.356561 51.901503,4.342669 51.899043,4.341468 51.906943,4.341869 51.914677,4.334439 51.91542,4.334077 51.91227,4.32343 51.90768,4.32689 51.902677,4.326596 51.896652,4.315133 51.896009,4.305676 51.896551,4.309184 51.90782,4.311014 51.916376,4.311197 51.920872,4.304583 51.923868,4.304961 51.932321,4.310865 51.934712,4.311356 51.938492,4.319003 51.941078)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1856</gg:year>
+                            <gg:name xml:lang="nl">Vlaardinger-Ambacht                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.338637 51.965975,4.339567 51.963556,4.358307 51.96489,4.360894 51.959969,4.366128 51.94734,4.358179 51.945113,4.354374 51.952451,4.347438 51.950412,4.352405 51.943175,4.362828 51.938952,4.362034 51.935529,4.354781 51.934746,4.359006 51.928042,4.35837 51.924081,4.363351 51.922417,4.365 51.913802,4.365481 51.911828,4.367885 51.901961,4.356561 51.901503,4.342669 51.899043,4.341468 51.906943,4.341869 51.914677,4.334439 51.91542,4.334077 51.91227,4.32343 51.90768,4.32689 51.902677,4.326596 51.896652,4.315133 51.896009,4.305676 51.896551,4.309184 51.90782,4.311014 51.916376,4.311197 51.920872,4.304583 51.923868,4.304961 51.932321,4.310865 51.934712,4.311356 51.938492,4.319003 51.941078,4.309699 51.959061,4.329135 51.961665,4.328186 51.964892,4.338637 51.965975)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1910</gg:year>
+                            <gg:name xml:lang="nl">Vlaardinger-Ambacht                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.338637 51.965975,4.339567 51.963556,4.358307 51.96489,4.360894 51.959969,4.366128 51.94734,4.358179 51.945113,4.354374 51.952451,4.347438 51.950412,4.352405 51.943175,4.362828 51.938952,4.362034 51.935529,4.354781 51.934746,4.359006 51.928042,4.35837 51.924081,4.363351 51.922417,4.365 51.913802,4.365481 51.911828,4.334582 51.915511,4.334214 51.912631,4.311014 51.916376,4.311197 51.920872,4.304583 51.923868,4.304961 51.932321,4.310865 51.934712,4.311356 51.938492,4.319003 51.941078,4.309699 51.959061,4.329135 51.961665,4.328186 51.964892,4.338637 51.965975)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-04-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vlaardingerambacht"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vlaardingerambacht"/>
+            </rdf:Description>
+</rdf:RDF>

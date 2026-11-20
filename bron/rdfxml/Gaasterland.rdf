@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Gaasterland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Gaasterland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Gaasterland</skos:prefLabel>
+        <gg:name xml:lang="nl">Gaasterland</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10036"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0071"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Balk"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sloten_Fr"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Gaasterlan-Sleat"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Gaasterland                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.597639 52.899309,5.607861 52.893,5.616331 52.893164,5.613686 52.898741,5.63019 52.900326,5.646292 52.909009,5.652202 52.903065,5.648035 52.902175,5.641463 52.896528,5.639395 52.898779,5.632256 52.897715,5.647895 52.878721,5.651166 52.879253,5.652964 52.881765,5.661359 52.870243,5.647104 52.870725,5.639635 52.863102,5.654451 52.857858,5.656625 52.849136,5.641814 52.85483,5.612661 52.844194,5.601393 52.846821,5.592036 52.8454,5.582965 52.841641,5.579377 52.835895,5.572238 52.832042,5.564809 52.829627,5.529356 52.832011,5.474932 52.84833,5.452375 52.851399,5.438863 52.84907,5.438125 52.852215,5.429225 52.859947,5.432195 52.859946,5.43383 52.862192,5.432201 52.866057,5.427748 52.868664,5.429087 52.870641,5.456853 52.867303,5.465914 52.868555,5.473185 52.865585,5.479275 52.866209,5.484478 52.868901,5.491309 52.868536,5.494884 52.873206,5.502316 52.875356,5.501581 52.878232,5.556529 52.913483,5.55639 52.916,5.57382 52.924511,5.581261 52.925757,5.592359 52.914236,5.592326 52.907227,5.597957 52.903712,5.597639 52.899309)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1945</gg:year>
+                            <gg:name xml:lang="nl">Gaasterland                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.597639 52.899309,5.607861 52.893,5.616331 52.893164,5.613686 52.898741,5.63019 52.900326,5.646292 52.909009,5.652202 52.903065,5.648035 52.902175,5.641463 52.896528,5.639395 52.898779,5.632256 52.897715,5.647895 52.878721,5.651166 52.879253,5.643837 52.870732,5.639642 52.86445,5.641814 52.85483,5.612661 52.844194,5.601393 52.846821,5.592036 52.8454,5.582965 52.841641,5.579377 52.835895,5.572238 52.832042,5.564809 52.829627,5.529356 52.832011,5.474932 52.84833,5.452375 52.851399,5.438863 52.84907,5.438125 52.852215,5.429225 52.859947,5.432195 52.859946,5.43383 52.862192,5.432201 52.866057,5.427748 52.868664,5.429087 52.870641,5.456853 52.867303,5.465914 52.868555,5.473185 52.865585,5.479275 52.866209,5.484478 52.868901,5.491309 52.868536,5.494884 52.873206,5.502316 52.875356,5.501581 52.878232,5.556529 52.913483,5.55639 52.916,5.57382 52.924511,5.581261 52.925757,5.592359 52.914236,5.592326 52.907227,5.597957 52.903712,5.597639 52.899309)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Gaasterland                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.597639 52.899309,5.607861 52.893,5.616331 52.893164,5.613686 52.898741,5.63019 52.900326,5.646292 52.909009,5.652202 52.903065,5.648035 52.902175,5.66294 52.885517,5.652964 52.881765,5.651166 52.879253,5.643837 52.870732,5.639642 52.86445,5.641814 52.85483,5.612661 52.844194,5.601393 52.846821,5.592036 52.8454,5.582965 52.841641,5.579377 52.835895,5.572238 52.832042,5.564809 52.829627,5.529356 52.832011,5.474932 52.84833,5.452375 52.851399,5.438863 52.84907,5.438125 52.852215,5.429225 52.859947,5.432195 52.859946,5.43383 52.862192,5.432201 52.866057,5.427748 52.868664,5.429087 52.870641,5.456853 52.867303,5.465914 52.868555,5.473185 52.865585,5.479275 52.866209,5.484478 52.868901,5.491309 52.868536,5.494884 52.873206,5.502316 52.875356,5.501581 52.878232,5.502921 52.879489,5.490008 52.883814,5.493284 52.886867,5.488091 52.890016,5.495992 52.900344,5.488434 52.909517,5.495124 52.91005,5.506586 52.91579,5.559287 52.934507,5.562725 52.938726,5.571361 52.94069,5.572375 52.934308,5.58157 52.928452,5.581261 52.925757,5.592359 52.914236,5.592326 52.907227,5.597957 52.903712,5.597639 52.899309)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-06-06</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Gaasterland_(streek)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Gaasterland_(streek)"/>
+            </rdf:Description>
+</rdf:RDF>

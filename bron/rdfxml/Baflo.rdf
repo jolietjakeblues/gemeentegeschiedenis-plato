@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Baflo">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Baflo</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Baflo</skos:prefLabel>
+        <gg:name xml:lang="nl">Baflo</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10539"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0004"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Winsum"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Baflo                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.547615 53.424687,6.547227 53.404742,6.541282 53.401744,6.535856 53.401257,6.533162 53.396071,6.524378 53.393638,6.528269 53.387311,6.525447 53.382935,6.539073 53.375437,6.549136 53.37525,6.557836 53.369145,6.555783 53.354428,6.569573 53.353395,6.575303 53.343364,6.571789 53.341152,6.56937 53.335066,6.531265 53.341724,6.520706 53.345599,6.491797 53.348384,6.492277 53.361229,6.484638 53.362108,6.479304 53.365032,6.469884 53.384706,6.478183 53.385979,6.483358 53.388538,6.48455 53.394008,6.492862 53.395729,6.509226 53.394859,6.514912 53.422482,6.547615 53.424687)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Baflo"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Baflo"/>
+            </rdf:Description>
+</rdf:RDF>

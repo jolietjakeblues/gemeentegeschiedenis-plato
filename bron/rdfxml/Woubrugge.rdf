@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Woubrugge">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Woubrugge</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Woubrugge</skos:prefLabel>
+        <gg:name xml:lang="nl">Woubrugge</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10461"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0633"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoogmade"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Jacobswoude"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Woubrugge                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.630234 52.182675,4.63798 52.182905,4.687581 52.19022,4.679777 52.165905,4.67866 52.162573,4.64607 52.162462,4.616478 52.157958,4.569077 52.152786,4.565413 52.153389,4.55678 52.161868,4.553153 52.160404,4.546234 52.163051,4.538794 52.170009,4.554008 52.177218,4.556256 52.174268,4.561092 52.165763,4.580176 52.169311,4.576674 52.177017,4.592134 52.179099,4.626812 52.186159,4.630234 52.182675)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1856</gg:year>
+                            <gg:name xml:lang="nl">Woubrugge                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.687581 52.19022,4.679777 52.165905,4.67866 52.162573,4.64607 52.162462,4.616478 52.157958,4.569077 52.152786,4.565413 52.153389,4.55678 52.161868,4.553153 52.160404,4.546234 52.163051,4.538794 52.170009,4.554008 52.177218,4.556256 52.174268,4.592134 52.179099,4.626812 52.186159,4.630234 52.182675,4.63798 52.182905,4.687581 52.19022)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</gg:year>
+                            <gg:name xml:lang="nl">Woubrugge                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.687581 52.19022,4.679777 52.165905,4.67866 52.162573,4.64607 52.162462,4.616478 52.157958,4.569077 52.152786,4.565413 52.153389,4.55678 52.161868,4.553153 52.160404,4.546234 52.163051,4.538794 52.170009,4.554008 52.177218,4.556256 52.174268,4.592134 52.179099,4.596573 52.176163,4.598873 52.170066,4.627812 52.178975,4.630234 52.182675,4.63798 52.182905,4.687581 52.19022)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</gg:year>
+                            <gg:name xml:lang="nl">Jacobswoude                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.721535 52.227717,4.718709 52.22096,4.721844 52.216843,4.719711 52.212696,4.71786 52.199563,4.707717 52.202831,4.703959 52.199843,4.69215 52.18791,4.687581 52.19022,4.679777 52.165905,4.67866 52.162573,4.64607 52.162462,4.616478 52.157958,4.569077 52.152786,4.565413 52.153389,4.55678 52.161868,4.555039 52.161136,4.561356 52.167293,4.572498 52.173482,4.586012 52.178069,4.592134 52.179099,4.596573 52.176163,4.598873 52.170066,4.627812 52.178975,4.630234 52.182675,4.648969 52.199242,4.644752 52.206496,4.641743 52.220229,4.666637 52.228293,4.670635 52.225442,4.68046 52.224242,4.686412 52.227334,4.700542 52.231731,4.719592 52.230402,4.721535 52.227717)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Woubrugge"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Woubrugge"/>
+            </rdf:Description>
+</rdf:RDF>

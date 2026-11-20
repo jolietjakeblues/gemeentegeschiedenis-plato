@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Rockanje">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Rockanje</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Rockanje</skos:prefLabel>
+        <gg:name xml:lang="nl">Rockanje</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10464"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0598"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Naters"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Naters"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westvoorne"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Rockanje                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.114906 51.860391,4.116059 51.855549,4.114183 51.85517,4.107258 51.853656,4.104584 51.855784,4.088367 51.854347,4.081363 51.850584,4.078441 51.846237,4.066572 51.845115,4.062969 51.849209,4.056274 51.859651,4.027045 51.885206,4.027176 51.890511,4.039552 51.899283,4.042799 51.907321,4.086693 51.902242,4.087354 51.899462,4.122565 51.892655,4.121868 51.886445,4.129908 51.884644,4.126647 51.876609,4.116055 51.865977,4.114906 51.860391)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Rockanje                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.042799 51.907321,4.086693 51.902242,4.087354 51.899462,4.122565 51.892655,4.121868 51.886445,4.113667 51.88366,4.094276 51.881111,4.089707 51.878364,4.071554 51.873307,4.062833 51.873569,4.0659 51.86803,4.100846 51.869767,4.114183 51.85517,4.107258 51.853656,4.104584 51.855784,4.088367 51.854347,4.081363 51.850584,4.078441 51.846237,4.066572 51.845115,4.062969 51.849209,4.056274 51.859651,4.027045 51.885206,4.027176 51.890511,4.039552 51.899283,4.042799 51.907321)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1856</gg:year>
+                            <gg:name xml:lang="nl">Rockanje                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.114906 51.860391,4.116059 51.855549,4.107258 51.853656,4.104584 51.855784,4.088367 51.854347,4.081363 51.850584,4.078441 51.846237,4.066572 51.845115,4.062969 51.849209,4.056274 51.859651,4.027045 51.885206,4.027176 51.890511,4.039552 51.899283,4.042799 51.907321,4.086693 51.902242,4.087354 51.899462,4.122565 51.892655,4.121868 51.886445,4.129908 51.884644,4.126647 51.876609,4.116055 51.865977,4.114906 51.860391)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</gg:year>
+                            <gg:name xml:lang="nl">Rockanje                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.114906 51.860391,4.116059 51.855549,4.107258 51.853656,4.104584 51.855784,4.088367 51.854347,4.081363 51.850584,4.078441 51.846237,4.062958 51.844625,4.062969 51.849209,4.056274 51.859651,4.027045 51.885206,4.027176 51.890511,4.039552 51.899283,4.042799 51.907321,4.084386 51.901587,4.087806 51.898928,4.12215 51.891932,4.121555 51.887251,4.126647 51.876609,4.116055 51.865977,4.114906 51.860391)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1980-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Rockanje"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Rockanje"/>
+            </rdf:Description>
+</rdf:RDF>

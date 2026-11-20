@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sloten_NH">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sloten [NH]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sloten [NH]</skos:prefLabel>
+        <gg:name xml:lang="nl">Sloten [NH]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10148"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1181"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Amsterdam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Sloten (NH.)                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.850121 52.403454,4.860035 52.397657,4.870877 52.400311,4.871401 52.393123,4.8719 52.388092,4.865809 52.381415,4.845827 52.357957,4.848291 52.336397,4.840176 52.328181,4.838006 52.325655,4.823348 52.324777,4.816907 52.323757,4.797267 52.333638,4.794119 52.338655,4.755901 52.353737,4.754232 52.357503,4.757883 52.369206,4.758547 52.374153,4.752792 52.3761,4.757378 52.384123,4.764709 52.385061,4.765801 52.390998,4.754846 52.396872,4.755943 52.402361,4.769778 52.400726,4.779873 52.393229,4.799892 52.390274,4.805441 52.392818,4.828963 52.391583,4.838181 52.394592,4.83764 52.402678,4.850121 52.403454)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Sloten (NH.)                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.850121 52.403454,4.860035 52.397657,4.870877 52.400311,4.871401 52.393123,4.8719 52.388092,4.865809 52.381415,4.845827 52.357957,4.848291 52.336397,4.840176 52.328181,4.838006 52.325655,4.823348 52.324777,4.814461 52.331475,4.807686 52.333509,4.801145 52.339948,4.787711 52.345993,4.779514 52.355118,4.754232 52.357503,4.757883 52.369206,4.758547 52.374153,4.752792 52.3761,4.757378 52.384123,4.764709 52.385061,4.765801 52.390998,4.754846 52.396872,4.755943 52.402361,4.769778 52.400726,4.779873 52.393229,4.799892 52.390274,4.805441 52.392818,4.828963 52.391583,4.838181 52.394592,4.83764 52.402678,4.850121 52.403454)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1855</gg:year>
+                            <gg:name xml:lang="nl">Sloten (NH.)                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.850121 52.403454,4.860035 52.397657,4.870877 52.400311,4.871401 52.393123,4.8719 52.388092,4.865809 52.381415,4.845827 52.357957,4.848291 52.336397,4.840176 52.328181,4.838006 52.325655,4.816907 52.323757,4.797267 52.333638,4.794119 52.338655,4.755901 52.353737,4.754232 52.357503,4.757883 52.369206,4.758547 52.374153,4.752792 52.3761,4.757378 52.384123,4.764709 52.385061,4.765801 52.390998,4.754846 52.396872,4.755943 52.402361,4.769778 52.400726,4.779873 52.393229,4.799892 52.390274,4.805441 52.392818,4.828963 52.391583,4.838181 52.394592,4.83764 52.402678,4.850121 52.403454)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1878</gg:year>
+                            <gg:name xml:lang="nl">Sloten (NH.)                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.838006 52.325655,4.816907 52.323757,4.797267 52.333638,4.794119 52.338655,4.755901 52.353737,4.754232 52.357503,4.757883 52.369206,4.758547 52.374153,4.752792 52.3761,4.757378 52.384123,4.764709 52.385061,4.765801 52.390998,4.754846 52.396872,4.76415 52.424784,4.776369 52.423589,4.807884 52.419523,4.815825 52.419292,4.849706 52.413429,4.857529 52.410678,4.850121 52.403454,4.871401 52.393123,4.8719 52.388092,4.865809 52.381415,4.845827 52.357957,4.848291 52.336397,4.840176 52.328181,4.838006 52.325655)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1921-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sloten_(Noord-Holland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Sloten_(Noord-Holland)"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nootdorp">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nootdorp</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nootdorp</skos:prefLabel>
+        <gg:name xml:lang="nl">Nootdorp</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10601"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0577"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoogeveen_Delfland"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuweveen"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoogeveen_Delfland"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuweveen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Pijnacker-Nootdorp"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nootdorp                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.436806 52.044201,4.410602 52.032913,4.409368 52.032381,4.402583 52.029448,4.392186 52.031698,4.386197 52.038838,4.382556 52.038717,4.382533 52.046268,4.390774 52.055866,4.399962 52.062415,4.40522 52.062009,4.412937 52.055871,4.418118 52.052318,4.421225 52.050187,4.43571 52.047788,4.436806 52.044201)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Nootdorp                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.402439 52.040859,4.401042 52.040165,4.410602 52.032913,4.409368 52.032381,4.402583 52.029448,4.392186 52.031698,4.386197 52.038838,4.382556 52.038717,4.395062 52.045704,4.402439 52.040859)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1833</gg:year>
+                            <gg:name xml:lang="nl">Nootdorp                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.43571 52.047788,4.436806 52.044201,4.409368 52.032381,4.402583 52.029448,4.392186 52.031698,4.386197 52.038838,4.382556 52.038717,4.382533 52.046268,4.390774 52.055866,4.399962 52.062415,4.40522 52.062009,4.412937 52.055871,4.418118 52.052318,4.421225 52.050187,4.43571 52.047788)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1938</gg:year>
+                            <gg:name xml:lang="nl">Nootdorp                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.436806 52.044201,4.409368 52.032381,4.402583 52.029448,4.392186 52.031698,4.386197 52.038838,4.382556 52.038717,4.374627 52.034874,4.366457 52.041635,4.373402 52.050324,4.393456 52.066405,4.399962 52.062415,4.40522 52.062009,4.412937 52.055871,4.418118 52.052318,4.421225 52.050187,4.43571 52.047788,4.436806 52.044201)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</gg:year>
+                            <gg:name xml:lang="nl">Nootdorp                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.436806 52.044201,4.409368 52.032381,4.402583 52.029448,4.392186 52.031698,4.386197 52.038838,4.382556 52.038717,4.374627 52.034874,4.366457 52.041635,4.358757 52.046871,4.379409 52.061971,4.395741 52.055458,4.41037 52.053243,4.416934 52.053118,4.421225 52.050187,4.43571 52.047788,4.436806 52.044201)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Nootdorp                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.43779 52.05026,4.439636 52.047273,4.441567 52.04427,4.439742 52.043507,4.439692 52.043552,4.433991 52.041127,4.42849 52.038849,4.425761 52.037675,4.42589 52.037492,4.42205 52.035923,4.421335 52.036156,4.418373 52.034895,4.418214 52.034793,4.418142 52.034665,4.418095 52.034519,4.418078 52.034341,4.417183 52.033943,4.41438 52.03282,4.410393 52.031187,4.405556 52.029116,4.403163 52.030335,4.39992 52.031364,4.394998 52.032864,4.394834 52.032888,4.3942 52.032839,4.393557 52.033615,4.392828 52.03413,4.392365 52.03443,4.390863 52.035822,4.389689 52.036825,4.387599 52.038647,4.387443 52.038599,4.387328 52.038769,4.387402 52.038816,4.387371 52.038963,4.38726 52.039292,4.387185 52.039646,4.386633 52.039448,4.384971 52.038729,4.384079 52.038369,4.379413 52.036367,4.379281 52.036454,4.378256 52.037143,4.373532 52.040299,4.371061 52.041903,4.368371 52.043736,4.360969 52.04863,4.361943 52.049449,4.362833 52.050238,4.363359 52.050717,4.363929 52.051208,4.364217 52.051424,4.365674 52.052248,4.36744 52.053396,4.370315 52.05524,4.371564 52.05619,4.372484 52.056944,4.373059 52.057405,4.373499 52.057882,4.374014 52.058404,4.374351 52.058837,4.376149 52.059786,4.376886 52.060252,4.377225 52.060537,4.38162 52.059037,4.383506 52.058408,4.385646 52.057655,4.387335 52.05705,4.388902 52.056503,4.390074 52.056105,4.390914 52.055858,4.39154 52.055648,4.392387 52.055397,4.393403 52.055063,4.394586 52.054708,4.39563 52.05445,4.396682 52.054201,4.397645 52.05398,4.398336 52.053818,4.398982 52.053717,4.399725 52.053578,4.400802 52.053428,4.40362 52.053081,4.40372 52.053088,4.405283 52.053001,4.407443 52.052802,4.407607 52.052757,4.408045 52.052706,4.411612 52.052418,4.422058 52.051696,4.430263 52.051128,4.430308 52.051103,4.431443 52.051019,4.432997 52.050576,4.43779 52.05026)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nootdorp"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nootdorp"/>
+            </rdf:Description>
+</rdf:RDF>

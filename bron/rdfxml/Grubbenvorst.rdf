@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Grubbenvorst">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Grubbenvorst</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Grubbenvorst</skos:prefLabel>
+        <gg:name xml:lang="nl">Grubbenvorst</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10176"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0912"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Horst_aan_de_Maas"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Grubbenvorst                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.116276 51.467533,6.125838 51.471428,6.13479 51.473168,6.148585 51.471821,6.172284 51.477237,6.176089 51.472537,6.175865 51.467954,6.173929 51.464192,6.152265 51.442403,6.151334 51.438364,6.152707 51.434489,6.155583 51.425931,6.1554 51.423595,6.148503 51.41528,6.146973 51.409717,6.14804 51.404766,6.151334 51.395486,6.154131 51.390883,6.144294 51.386903,6.141782 51.391323,6.096967 51.392144,6.08918 51.390304,6.081124 51.399071,6.080151 51.401234,6.076689 51.409884,6.075999 51.421304,6.092676 51.44916,6.095689 51.448603,6.116276 51.467533)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1958</gg:year>
+                            <gg:name xml:lang="nl">Grubbenvorst                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.176089 51.472537,6.175865 51.467954,6.173929 51.464192,6.152265 51.442403,6.151334 51.438364,6.152707 51.434489,6.155583 51.425931,6.1554 51.423595,6.148503 51.41528,6.146973 51.409717,6.14804 51.404766,6.151334 51.395486,6.141782 51.391323,6.096967 51.392144,6.08918 51.390304,6.085367 51.394641,6.081124 51.399071,6.080151 51.401234,6.076689 51.409884,6.075999 51.421304,6.092676 51.44916,6.095689 51.448603,6.116276 51.467533,6.125838 51.471428,6.13479 51.473168,6.148585 51.471821,6.172284 51.477237,6.176089 51.472537)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1992</gg:year>
+                            <gg:name xml:lang="nl">Grubbenvorst                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.176089 51.472537,6.175865 51.467954,6.173929 51.464192,6.152265 51.442403,6.151334 51.438364,6.152707 51.434489,6.155583 51.425931,6.1554 51.423595,6.148503 51.41528,6.146973 51.409717,6.14804 51.404766,6.150221 51.397651,6.137433 51.397734,6.126637 51.405443,6.12461 51.404557,6.110384 51.404646,6.108744 51.400971,6.106445 51.400985,6.104758 51.403333,6.08761 51.400381,6.080151 51.401234,6.076689 51.409884,6.075999 51.421304,6.092676 51.44916,6.095689 51.448603,6.116276 51.467533,6.125838 51.471428,6.13479 51.473168,6.148585 51.471821,6.172284 51.477237,6.176089 51.472537)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Grubbenvorst"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Grubbenvorst"/>
+            </rdf:Description>
+</rdf:RDF>

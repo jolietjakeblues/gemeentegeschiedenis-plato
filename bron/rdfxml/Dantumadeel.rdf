@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dantumadeel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dantumadeel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dantumadeel</skos:prefLabel>
+        <gg:name xml:lang="nl">Dantumadeel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10650"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0065"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dantumawoude"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Veenwouden"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rinsumageest"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dantumadiel"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Dantumadeel                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.07702 53.319131,6.073968 53.315913,6.072929 53.288333,6.055807 53.286543,6.053326 53.261846,6.048967 53.260972,6.04625 53.24005,6.018946 53.237142,6.009631 53.235124,6.00012 53.229781,5.97188 53.223363,5.955099 53.222455,5.942375 53.245967,5.925174 53.248112,5.926117 53.251612,5.86622 53.281518,5.858744 53.283435,5.898797 53.297827,5.893486 53.305308,5.889275 53.304427,5.884049 53.306515,5.886492 53.310189,5.901802 53.310843,5.901854 53.315156,5.920578 53.312648,5.923082 53.308863,5.935128 53.312313,5.948492 53.31315,5.954265 53.318604,5.960706 53.317765,5.966893 53.320341,5.972282 53.319327,5.985967 53.321506,5.989631 53.315197,6.002313 53.310191,6.012076 53.31095,6.022718 53.320418,6.07702 53.319131)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</gg:year>
+                            <gg:name xml:lang="nl">Dantumadeel                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.073968 53.315913,6.072929 53.288333,6.055807 53.286543,6.053326 53.261846,6.048967 53.260972,6.04625 53.24005,6.018946 53.237142,6.009631 53.235124,6.00012 53.229781,5.97188 53.223363,5.955099 53.222455,5.942375 53.245967,5.925174 53.248112,5.926117 53.251612,5.86622 53.281518,5.858744 53.283435,5.898797 53.297827,5.893486 53.305308,5.889275 53.304427,5.884049 53.306515,5.886492 53.310189,5.901802 53.310843,5.901854 53.315156,5.920578 53.312648,5.923082 53.308863,5.935128 53.312313,5.948492 53.31315,5.954265 53.318604,5.960706 53.317765,5.966893 53.320341,5.972282 53.319327,5.971605 53.313669,5.97516 53.310327,5.972547 53.305757,5.975648 53.302148,5.998195 53.30545,6.015853 53.302483,6.019924 53.3039,6.022718 53.320418,6.07702 53.319131,6.073968 53.315913)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Dantumadeel                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.073968 53.315913,6.072929 53.288333,6.055807 53.286543,6.053326 53.261846,6.048967 53.260972,6.04625 53.24005,6.018946 53.237142,6.009631 53.235124,6.00012 53.229781,5.97188 53.223363,5.955099 53.222455,5.942375 53.245967,5.925174 53.248112,5.926117 53.251612,5.886508 53.27272,5.908694 53.285205,5.898797 53.297827,5.923082 53.308863,5.935128 53.312313,5.948492 53.31315,5.955746 53.31716,5.960706 53.317765,5.966876 53.319083,5.972282 53.319327,5.971605 53.313669,5.97516 53.310327,5.972547 53.305757,5.975648 53.302148,5.998195 53.30545,6.015853 53.302483,6.019924 53.3039,6.022718 53.320418,6.07702 53.319131,6.073968 53.315913)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dantumadeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dantumadeel"/>
+            </rdf:Description>
+</rdf:RDF>

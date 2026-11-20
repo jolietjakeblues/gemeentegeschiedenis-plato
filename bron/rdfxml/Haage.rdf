@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Haage">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Haage</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Haage</skos:prefLabel>
+        <gg:name xml:lang="nl">Haage</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10762"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Princenhage"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Haage                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.76338 51.621404,4.755922 51.617769,4.757177 51.610584,4.758699 51.60493,4.766317 51.596791,4.758568 51.593513,4.759983 51.585161,4.769241 51.583413,4.780964 51.580688,4.785552 51.582869,4.789635 51.579654,4.783832 51.571174,4.767116 51.559401,4.767758 51.544034,4.759854 51.542284,4.751322 51.533878,4.74804 51.531523,4.729661 51.536814,4.722482 51.534886,4.724429 51.539751,4.701199 51.550763,4.692447 51.547925,4.689583 51.574875,4.682583 51.589035,4.679226 51.6007,4.660351 51.607596,4.655392 51.6197,4.660203 51.634831,4.673235 51.632844,4.677958 51.635659,4.677308 51.64024,4.685643 51.643077,4.694931 51.640345,4.731127 51.644868,4.756355 51.638535,4.763899 51.625722,4.76338 51.621404)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1819-05-08</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Princenhage"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Princenhage"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Kollum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Kollum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Kollum</skos:prefLabel>
+        <gg:name xml:lang="nl">Kollum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10984"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kollumerland_en_Nieuwkruisland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Kollum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.186308 53.264809,6.189194 53.258769,6.175338 53.254997,6.161489 53.25976,6.145838 53.255996,6.139615 53.260079,6.1354 53.259145,6.135033 53.262001,6.130984 53.261883,6.130464 53.287008,6.133801 53.28713,6.134357 53.291694,6.133104 53.297446,6.134841 53.295871,6.15192 53.303312,6.157766 53.311452,6.177641 53.315276,6.179039 53.317873,6.202147 53.319504,6.198892 53.315826,6.20313 53.313085,6.228781 53.308483,6.22276 53.305243,6.226711 53.300076,6.226644 53.296651,6.221124 53.294549,6.213296 53.296316,6.206046 53.290941,6.195199 53.286634,6.195438 53.284162,6.191389 53.284189,6.187063 53.282077,6.191486 53.276623,6.182132 53.272974,6.186308 53.264809)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2752523"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kollum"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kollumerland_en_Nieuwkruisland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kollum"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kollumerland_en_Nieuwkruisland"/>
+            </rdf:Description>
+</rdf:RDF>

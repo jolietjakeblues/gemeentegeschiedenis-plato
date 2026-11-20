@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oosthuizen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oosthuizen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oosthuizen</skos:prefLabel>
+        <gg:name xml:lang="nl">Oosthuizen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11121"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0430"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Etersheim"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Etersheim"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zeevang"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Oosthuizen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.020616 52.594188,5.031857 52.572833,5.032894 52.572207,5.011048 52.574027,5.006444 52.560441,5.003791 52.560343,4.993371 52.554647,4.995043 52.54908,4.98743 52.543213,4.973317 52.523303,4.95634 52.526658,4.96127 52.534944,4.975483 52.543891,4.976668 52.559174,4.983841 52.56495,4.997044 52.572903,4.997747 52.57677,4.990185 52.581059,4.979232 52.584886,4.997618 52.591329,5.008997 52.589568,5.020616 52.594188)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Oosthuizen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.979232 52.584886,4.997618 52.591329,5.008997 52.589568,5.009514 52.580852,5.011048 52.574027,5.006444 52.560441,5.003791 52.560343,4.993371 52.554647,4.995043 52.54908,4.98743 52.543213,4.973317 52.523303,4.95634 52.526658,4.96127 52.534944,4.975483 52.543891,4.976668 52.559174,4.983841 52.56495,4.997044 52.572903,4.997747 52.57677,4.990185 52.581059,4.979232 52.584886)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1847</gg:year>
+                            <gg:name xml:lang="nl">Oosthuizen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.020616 52.594188,5.031857 52.572833,5.032894 52.572207,5.011048 52.574027,5.006444 52.560441,5.003791 52.560343,4.993371 52.554647,4.995043 52.54908,4.98743 52.543213,4.973317 52.523303,4.95634 52.526658,4.96127 52.534944,4.975483 52.543891,4.976668 52.559174,4.983841 52.56495,4.997044 52.572903,4.997747 52.57677,4.990185 52.581059,4.979232 52.584886,4.997618 52.591329,5.008997 52.589568,5.020616 52.594188)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oosthuizen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oosthuizen"/>
+            </rdf:Description>
+</rdf:RDF>

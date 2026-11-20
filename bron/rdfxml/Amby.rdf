@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Amby">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Amby</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Amby</skos:prefLabel>
+        <gg:name xml:lang="nl">Amby</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10922"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0883"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Maastricht"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Amby                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.758279 50.856811,5.73908 50.853275,5.739317 50.847072,5.727814 50.846747,5.726264 50.84837,5.722572 50.848291,5.72185 50.846675,5.718016 50.846506,5.709798 50.848956,5.709537 50.852283,5.713835 50.857664,5.713854 50.860361,5.718406 50.861426,5.719182 50.870593,5.733154 50.877294,5.739825 50.876464,5.743772 50.872497,5.753719 50.872826,5.758944 50.868854,5.761785 50.868935,5.76204 50.865338,5.748921 50.858728,5.758 50.857441,5.758279 50.856811)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</gg:year>
+                            <gg:name xml:lang="nl">Amby                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.739825 50.876464,5.743772 50.872497,5.753719 50.872826,5.758944 50.868854,5.761785 50.868935,5.76204 50.865338,5.748921 50.858728,5.758 50.857441,5.758279 50.856811,5.73908 50.853275,5.739317 50.847072,5.727814 50.846747,5.726264 50.84837,5.722572 50.848291,5.72185 50.846675,5.718016 50.846506,5.718792 50.855762,5.713835 50.857664,5.713854 50.860361,5.718406 50.861426,5.719182 50.870593,5.733154 50.877294,5.739825 50.876464)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Amby"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Amby"/>
+            </rdf:Description>
+</rdf:RDF>

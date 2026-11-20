@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Posterholt">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Posterholt</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Posterholt</skos:prefLabel>
+        <gg:name xml:lang="nl">Posterholt</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10456"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0956"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sint_Odilienberg"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Montfort"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ambt_Montfort"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Posterholt                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.0431 51.143015,6.044746 51.138242,6.053173 51.138014,6.051587 51.127146,6.068757 51.119406,6.055667 51.11301,6.056777 51.110756,6.035185 51.098564,6.0318 51.101549,6.026652 51.111196,6.014178 51.118006,5.999302 51.116287,5.996635 51.119807,5.999707 51.125274,6.008297 51.126667,6.016384 51.133095,6.015291 51.136697,6.0431 51.143015)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</gg:year>
+                            <gg:name xml:lang="nl">Posterholt                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.999045 51.150627,6.008453 51.148779,6.027358 51.151643,6.03504 51.149083,6.044224 51.151728,6.04444 51.146783,6.0431 51.143015,6.044746 51.138242,6.052877 51.137296,6.051587 51.127146,6.068757 51.119406,6.055667 51.11301,6.056777 51.110756,6.035185 51.098564,6.0318 51.101549,6.026652 51.111196,6.014178 51.118006,5.999302 51.116287,5.996635 51.119807,5.988673 51.122545,5.983372 51.121314,5.978761 51.118192,5.969761 51.118057,5.966223 51.120592,5.953726 51.114901,5.938588 51.114884,5.936749 51.116331,5.923034 51.115945,5.916332 51.12928,5.917919 51.130621,5.915236 51.13333,5.930638 51.143057,5.95901 51.160808,5.963197 51.164114,5.967806 51.166787,5.978787 51.175721,5.983822 51.178032,5.989507 51.175306,5.987743 51.17163,5.99515 51.169524,6.000087 51.164464,5.998611 51.160966,6.00345 51.159413,5.998546 51.156113,6.001253 51.155469,5.999045 51.150627)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-02-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Posterholt"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Posterholt"/>
+            </rdf:Description>
+</rdf:RDF>

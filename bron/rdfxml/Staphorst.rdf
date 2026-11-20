@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Staphorst">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Staphorst</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Staphorst</skos:prefLabel>
+        <gg:name xml:lang="nl">Staphorst</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11362"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0180"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Staphorst                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.157792 52.690485,6.162787 52.688565,6.175524 52.68956,6.18718 52.687954,6.198344 52.683834,6.209404 52.682141,6.217256 52.682895,6.2205 52.682423,6.219574 52.680362,6.227699 52.679946,6.238407 52.675466,6.245646 52.675144,6.249898 52.673316,6.251146 52.669083,6.26426 52.666919,6.270392 52.663099,6.275853 52.662699,6.279755 52.665546,6.284774 52.665238,6.291305 52.659347,6.296775 52.659395,6.299499 52.66243,6.302346 52.664296,6.317191 52.667236,6.323698 52.667365,6.330432 52.664256,6.327051 52.658261,6.32657 52.656467,6.302658 52.5941,6.191143 52.581247,6.182212 52.585082,6.152072 52.582853,6.131064 52.579481,6.124399 52.586803,6.123452 52.591931,6.107357 52.600388,6.103527 52.600861,6.103119 52.60302,6.106406 52.605427,6.103069 52.609042,6.106981 52.613512,6.104895 52.621434,6.097706 52.624353,6.102538 52.639962,6.105577 52.654144,6.12005 52.662413,6.119076 52.666014,6.134697 52.671849,6.140099 52.676488,6.155009 52.683583,6.157792 52.690485)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1962</gg:year>
+                            <gg:name xml:lang="nl">Staphorst                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.172337 52.684997,6.178122 52.677769,6.186725 52.679239,6.196251 52.674592,6.202276 52.680572,6.217256 52.682895,6.2205 52.682423,6.219574 52.680362,6.227699 52.679946,6.238407 52.675466,6.245646 52.675144,6.249898 52.673316,6.251146 52.669083,6.26426 52.666919,6.270392 52.663099,6.275853 52.662699,6.279755 52.665546,6.284774 52.665238,6.291305 52.659347,6.296775 52.659395,6.299499 52.66243,6.302346 52.664296,6.317191 52.667236,6.323698 52.667365,6.330432 52.664256,6.327051 52.658261,6.32657 52.656467,6.302658 52.5941,6.191143 52.581247,6.182212 52.585082,6.152072 52.582853,6.131064 52.579481,6.124399 52.586803,6.123452 52.591931,6.107357 52.600388,6.103527 52.600861,6.103119 52.60302,6.106406 52.605427,6.103069 52.609042,6.106981 52.613512,6.104895 52.621434,6.097706 52.624353,6.102538 52.639962,6.105577 52.654144,6.12005 52.662413,6.119076 52.666014,6.134697 52.671849,6.140099 52.676488,6.155009 52.683583,6.157792 52.690485,6.162787 52.688565,6.164377 52.686488,6.172337 52.684997)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2746837"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Staphorst"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Staphorst"/>
+            </rdf:Description>
+</rdf:RDF>

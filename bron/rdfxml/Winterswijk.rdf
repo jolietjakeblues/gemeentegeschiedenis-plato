@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Winterswijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Winterswijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Winterswijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Winterswijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11119"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0294"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Winterswijk                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.655378 52.012889,6.67938 52.02683,6.68477 52.026771,6.689191 52.038498,6.710322 52.038352,6.763449 52.021652,6.811461 51.99645,6.808021 51.993615,6.828042 51.991304,6.829586 51.975913,6.834114 51.971902,6.829737 51.962517,6.815781 51.962957,6.798542 51.956154,6.796553 51.934513,6.786346 51.928972,6.79022 51.927308,6.772653 51.914032,6.756762 51.91251,6.730105 51.896008,6.721218 51.89521,6.702181 51.905044,6.703153 51.908449,6.696306 51.907896,6.695464 51.913928,6.689631 51.913274,6.683458 51.915949,6.668536 51.912607,6.661367 51.916101,6.663037 51.9186,6.659799 51.927444,6.655904 51.928565,6.650466 51.926466,6.634102 51.934102,6.634846 51.945151,6.62971 51.948801,6.636279 51.954844,6.639549 51.962539,6.658571 51.976538,6.652806 51.994039,6.658324 52.008902,6.655378 52.012889)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2744331"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Winterswijk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Winterswijk"/>
+            </rdf:Description>
+</rdf:RDF>

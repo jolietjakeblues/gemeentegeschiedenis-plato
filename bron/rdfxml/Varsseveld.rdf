@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Varsseveld">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Varsseveld</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Varsseveld</skos:prefLabel>
+        <gg:name xml:lang="nl">Varsseveld</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10318"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wisch"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Varsseveld                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.428999 51.890181,6.419868 51.895764,6.423407 51.897582,6.420145 51.899444,6.422156 51.907045,6.422112 51.913517,6.402991 51.930631,6.40006 51.928466,6.399465 51.932995,6.395671 51.934751,6.384189 51.940221,6.39627 51.950227,6.414205 51.971196,6.437331 51.970542,6.445869 51.968488,6.459026 51.970975,6.465112 51.975954,6.528011 51.965293,6.533152 51.961467,6.524626 51.958044,6.516216 51.947608,6.509331 51.945697,6.492945 51.924099,6.491666 51.913504,6.482523 51.908106,6.47276 51.907028,6.46986 51.907325,6.455104 51.897931,6.438476 51.895205,6.428999 51.890181)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Wisch                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.465112 51.975954,6.528011 51.965293,6.533152 51.961467,6.524626 51.958044,6.516216 51.947608,6.509331 51.945697,6.492945 51.924099,6.491666 51.913504,6.482523 51.908106,6.47276 51.907028,6.46986 51.907325,6.455104 51.897931,6.438476 51.895205,6.409799 51.879997,6.404874 51.880579,6.399406 51.889346,6.387546 51.891695,6.382882 51.897577,6.385145 51.901333,6.379043 51.907947,6.363056 51.907901,6.348342 51.913056,6.350723 51.915643,6.325925 51.925372,6.323638 51.920267,6.305455 51.926792,6.30449 51.936507,6.306714 51.938557,6.320299 51.934495,6.331313 51.925778,6.347827 51.922948,6.36325 51.92354,6.380873 51.931572,6.380266 51.93697,6.39627 51.950227,6.414205 51.971196,6.437331 51.970542,6.445869 51.968488,6.459026 51.970975,6.465112 51.975954)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Varsseveld"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wisch_(Gelderland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Varsseveld"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wisch_(Gelderland)"/>
+            </rdf:Description>
+</rdf:RDF>

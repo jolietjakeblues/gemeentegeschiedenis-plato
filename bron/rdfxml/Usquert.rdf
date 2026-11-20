@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Usquert">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Usquert</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Usquert</skos:prefLabel>
+        <gg:name xml:lang="nl">Usquert</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11035"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0046"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hefshuizen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Usquert                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.607237 53.384021,6.586444 53.376771,6.581807 53.377536,6.583001 53.382646,6.577967 53.385392,6.577576 53.387553,6.580669 53.390667,6.571455 53.410886,6.574039 53.417331,6.567988 53.427005,6.637434 53.445623,6.654467 53.41076,6.65455 53.403391,6.651154 53.400371,6.637086 53.397463,6.632681 53.395891,6.633022 53.392113,6.619626 53.391532,6.605966 53.386909,6.607237 53.384021)),((6.594323 53.534302,6.590166 53.531288,6.58158 53.531643,6.580645 53.535965,6.57268 53.537032,6.566058 53.537546,6.578766 53.54434,6.609538 53.544212,6.609954 53.54295,6.598421 53.54055,6.594323 53.534302)),((6.501385 53.535411,6.50664 53.532182,6.506704 53.528857,6.497379 53.529842,6.496231 53.532098,6.489352 53.528477,6.460004 53.534027,6.452428 53.535458,6.448303 53.533633,6.445261 53.532287,6.432915 53.533113,6.435168 53.538934,6.443671 53.547306,6.497139 53.53802,6.501385 53.535411)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Usquert"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Usquert"/>
+            </rdf:Description>
+</rdf:RDF>

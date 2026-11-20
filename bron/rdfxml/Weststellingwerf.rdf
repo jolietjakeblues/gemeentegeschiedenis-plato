@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Weststellingwerf">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Weststellingwerf</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Weststellingwerf</skos:prefLabel>
+        <gg:name xml:lang="nl">Weststellingwerf</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11322"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0098"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wolvega"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sonnega"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Noordwolde"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Weststellingwerf                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.243381 52.915296,6.20835 52.886694,6.120113 52.85222,6.079931 52.836554,6.055295 52.836515,6.052436 52.833924,6.05517 52.828337,6.059692 52.823279,6.032104 52.813636,6.026243 52.81852,6.016014 52.819024,5.996515 52.814273,5.992571 52.818606,5.985165 52.819453,5.971492 52.839741,5.955702 52.835234,5.955362 52.83191,5.945309 52.834833,5.926863 52.831144,5.92017 52.817694,5.91123 52.814408,5.905845 52.810568,5.890332 52.802816,5.876795 52.799008,5.854162 52.803951,5.844672 52.803988,5.837703 52.804015,5.833752 52.809242,5.817348 52.815054,5.820074 52.820796,5.826493 52.824816,5.850315 52.860763,5.868016 52.877138,5.884901 52.885965,5.886881 52.890181,5.892252 52.892135,5.905341 52.893247,5.937157 52.906405,5.947817 52.914713,5.951001 52.919461,5.962216 52.92435,5.977503 52.922209,5.99033 52.92502,5.996334 52.929034,6.003484 52.929896,6.036257 52.913546,6.044295 52.914221,6.08546 52.931871,6.109941 52.910337,6.142868 52.923254,6.195186 52.938009,6.200538 52.937883,6.210455 52.92739,6.211245 52.921993,6.246308 52.920487,6.243381 52.915296)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2744609"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Weststellingwerf"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Weststellingwerf"/>
+            </rdf:Description>
+</rdf:RDF>

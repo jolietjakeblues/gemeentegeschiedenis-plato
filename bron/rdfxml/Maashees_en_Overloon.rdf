@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Maashees_en_Overloon">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Maashees en Overloon</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Maashees en Overloon</skos:prefLabel>
+        <gg:name xml:lang="nl">Maashees en Overloon</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10532"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1109"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vierlingsbeek"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Maashees en Overloon               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.022222 51.596174,6.024069 51.594096,6.026636 51.591925,6.034488 51.585949,6.036883 51.581891,6.036247 51.577759,6.035142 51.571114,6.036664 51.566611,6.03892 51.563003,6.045643 51.55919,6.040153 51.558502,6.033528 51.559078,6.030984 51.55253,6.028174 51.557759,6.001102 51.571298,5.924293 51.553159,5.904833 51.553606,5.888631 51.561857,5.858239 51.565489,5.963446 51.582006,5.973438 51.573687,5.984896 51.578393,5.991923 51.575211,6.003178 51.575421,6.007667 51.587263,6.018695 51.591608,6.022222 51.596174)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-05-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Maashees_en_Overloon"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Maashees_en_Overloon"/>
+            </rdf:Description>
+</rdf:RDF>

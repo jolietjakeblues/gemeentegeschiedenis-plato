@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Graft-De_Rijp">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Graft-De Rijp</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Graft-De Rijp</skos:prefLabel>
+        <gg:name xml:lang="nl">Graft-De Rijp</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11417"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0365"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Graft"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Rijp"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Alkmaar"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</gg:year>
+                            <gg:name xml:lang="nl">Graft-De Rijp                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.824739 52.57383,4.825086 52.569787,4.834349 52.572168,4.861373 52.569594,4.8625 52.56169,4.853712 52.556708,4.842969 52.542998,4.832694 52.539536,4.82985 52.542937,4.825432 52.542647,4.820783 52.537322,4.817833 52.537488,4.816536 52.535145,4.807986 52.535283,4.793917 52.540337,4.798656 52.549707,4.791239 52.553085,4.790069 52.563235,4.792988 52.565497,4.79129 52.57115,4.809413 52.572678,4.810266 52.575109,4.824739 52.57383)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</gg:year>
+                            <gg:name xml:lang="nl">Graft-De Rijp                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.824739 52.57383,4.825086 52.569787,4.834349 52.572168,4.861373 52.569594,4.8625 52.56169,4.853712 52.556708,4.842969 52.542998,4.834322 52.539004,4.825432 52.542647,4.820783 52.537322,4.817833 52.537488,4.816536 52.535145,4.824222 52.533474,4.820124 52.531208,4.812904 52.531173,4.80809 52.527375,4.805316 52.525384,4.797827 52.52346,4.789818 52.51641,4.787167 52.516396,4.786933 52.522776,4.789405 52.525215,4.800134 52.527246,4.801736 52.528692,4.807986 52.535283,4.793917 52.540337,4.798656 52.549707,4.791239 52.553085,4.790069 52.563235,4.792988 52.565497,4.79129 52.57115,4.809413 52.572678,4.810266 52.575109,4.824739 52.57383)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</gg:year>
+                            <gg:name xml:lang="nl">Graft-De Rijp                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.824739 52.57383,4.825086 52.569787,4.834349 52.572168,4.861373 52.569594,4.8625 52.56169,4.853712 52.556708,4.842969 52.542998,4.834322 52.539004,4.825432 52.542647,4.820783 52.537322,4.817833 52.537488,4.816536 52.535145,4.824222 52.533474,4.820124 52.531208,4.812904 52.531173,4.80809 52.527375,4.805316 52.525384,4.797827 52.52346,4.789818 52.51641,4.787167 52.516396,4.780969 52.517174,4.77783 52.531088,4.777787 52.534233,4.777667 52.553556,4.778355 52.557154,4.782638 52.556637,4.790749 52.556588,4.790069 52.563235,4.792988 52.565497,4.79129 52.57115,4.809413 52.572678,4.810266 52.575109,4.824739 52.57383)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2755374"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-08-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Graft-De_Rijp"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Graft-De_Rijp"/>
+            </rdf:Description>
+</rdf:RDF>

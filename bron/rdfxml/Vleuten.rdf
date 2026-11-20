@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vleuten">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vleuten</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vleuten</skos:prefLabel>
+        <gg:name xml:lang="nl">Vleuten</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10658"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1211"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Haarzuilens"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vleuten-De_Meern"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Vleuten                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.014396 52.124923,5.029526 52.113825,5.037545 52.115107,5.03639 52.113486,5.035111 52.109078,5.038792 52.104954,5.039124 52.099832,5.054752 52.098259,5.055788 52.096285,5.049096 52.09357,5.058886 52.0918,5.052941 52.08666,5.06725 52.085171,5.072083 52.082578,5.03736 52.08275,5.029184 52.083534,5.014277 52.086634,5.00231 52.087045,4.991644 52.088717,4.986874 52.099936,4.975646 52.098909,4.970808 52.101229,4.977002 52.110148,4.973751 52.114451,4.976366 52.115809,4.970289 52.125584,4.980614 52.130294,4.982184 52.134344,4.992818 52.137526,4.998787 52.139883,5.014396 52.124923)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Vleuten                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.977002 52.110148,4.985606 52.111167,4.984988 52.11494,4.994766 52.115332,5.032341 52.10853,5.035111 52.109078,5.038792 52.104954,5.039124 52.099832,5.054752 52.098259,5.055788 52.096285,5.049096 52.09357,5.058886 52.0918,5.052941 52.08666,5.06725 52.085171,5.072083 52.082578,5.03736 52.08275,5.029184 52.083534,5.014277 52.086634,5.00231 52.087045,4.991644 52.088717,4.986874 52.099936,4.975646 52.098909,4.970808 52.101229,4.977002 52.110148)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1954</gg:year>
+                            <gg:name xml:lang="nl">Vleuten-De Meern                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.014396 52.124923,5.029526 52.113825,5.037545 52.115107,5.03639 52.113486,5.035111 52.109078,5.038792 52.104954,5.039124 52.099832,5.054752 52.098259,5.052941 52.08666,5.06725 52.085171,5.073841 52.081594,5.069398 52.070347,5.065917 52.067641,5.052205 52.068142,5.06215 52.064215,5.064059 52.062423,5.061636 52.054686,5.015222 52.060751,4.997112 52.064018,4.996367 52.065813,4.997743 52.075255,5.000643 52.077332,5.00231 52.087045,4.991644 52.088717,4.986874 52.099936,4.975646 52.098909,4.970808 52.101229,4.977002 52.110148,4.973751 52.114451,4.976366 52.115809,4.970289 52.125584,4.980614 52.130294,4.982184 52.134344,4.992818 52.137526,4.998787 52.139883,5.014396 52.124923)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1954-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vleuten"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vleuten"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Haamstede">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Haamstede</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Haamstede</skos:prefLabel>
+        <gg:name xml:lang="nl">Haamstede</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10701"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1068"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westerschouwen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Haamstede                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.764642 51.721314,3.778121 51.712689,3.787812 51.712822,3.794527 51.70707,3.797279 51.707018,3.801435 51.704017,3.808707 51.694676,3.805252 51.690045,3.798372 51.688243,3.786003 51.686277,3.762668 51.679573,3.756458 51.675351,3.74772 51.673071,3.739182 51.685178,3.735206 51.6871,3.736104 51.690259,3.729371 51.696367,3.725123 51.685968,3.70609 51.676616,3.698148 51.676322,3.693442 51.67068,3.672955 51.692408,3.670976 51.702628,3.67604 51.71412,3.685433 51.722168,3.690816 51.725302,3.710714 51.731343,3.713733 51.731925,3.719673 51.727874,3.728652 51.715955,3.737391 51.718416,3.743184 51.718318,3.745841 51.720872,3.757946 51.718344,3.764642 51.721314)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961</gg:year>
+                            <gg:name xml:lang="nl">Westerschouwen                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.810604 51.710794,3.817831 51.70271,3.827228 51.702925,3.83294 51.692483,3.822231 51.68425,3.809485 51.684798,3.817546 51.685895,3.819313 51.689155,3.807811 51.695473,3.794225 51.695109,3.786004 51.690322,3.794248 51.690345,3.798372 51.688243,3.786003 51.686277,3.762668 51.679573,3.756458 51.675351,3.746593 51.672246,3.738891 51.673307,3.720588 51.667743,3.707445 51.667376,3.693442 51.67068,3.672955 51.692408,3.670976 51.702628,3.67604 51.71412,3.685433 51.722168,3.690816 51.725302,3.710714 51.731343,3.735912 51.735117,3.762037 51.741415,3.774009 51.742749,3.816368 51.740628,3.817012 51.734613,3.807763 51.734129,3.809502 51.729927,3.795406 51.72731,3.803416 51.713574,3.810604 51.710794)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1961-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Haamstede"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Haamstede"/>
+            </rdf:Description>
+</rdf:RDF>

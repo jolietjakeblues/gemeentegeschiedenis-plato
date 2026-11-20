@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Brijdorpe">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Brijdorpe</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Brijdorpe</skos:prefLabel>
+        <gg:name xml:lang="nl">Brijdorpe</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10678"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Duivendijke"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Brijdorpe                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.848216 51.702664,3.856368 51.706345,3.856777 51.707237,3.864322 51.711801,3.864581 51.712804,3.869123 51.715763,3.869264 51.717136,3.873939 51.721742,3.870721 51.7217,3.868602 51.723763,3.866926 51.725741,3.868593 51.732761,3.871361 51.735261,3.874371 51.732863,3.882374 51.74047,3.881975 51.741308,3.883523 51.741732,3.892764 51.738121,3.893175 51.73444,3.901365 51.727532,3.898882 51.723815,3.903474 51.720637,3.903525 51.719987,3.89521 51.717239,3.888221 51.714329,3.881057 51.711605,3.872569 51.709767,3.868255 51.70944,3.865739 51.707776,3.861175 51.706803,3.857081 51.70525,3.853666 51.703887,3.848216 51.702664)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Brijdorpe"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Brijdorpe"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Velden">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Velden</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Velden</skos:prefLabel>
+        <gg:name xml:lang="nl">Velden</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10202"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Arcen_en_Velden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Velden                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.21258 51.508421,6.21391 51.502388,6.212009 51.492874,6.222585 51.480663,6.22528 51.470666,6.220679 51.447327,6.214059 51.447195,6.215937 51.43972,6.207287 51.406612,6.195568 51.402289,6.180892 51.401311,6.172936 51.398309,6.165954 51.393322,6.158602 51.391932,6.153625 51.403561,6.152719 51.4095,6.155265 51.415596,6.159528 51.421141,6.160603 51.425179,6.157494 51.436885,6.157424 51.44129,6.160385 51.446214,6.178791 51.462361,6.181764 51.467824,6.181709 51.472948,6.178349 51.478365,6.171567 51.485781,6.169036 51.489304,6.170937 51.499359,6.177126 51.499137,6.191272 51.500929,6.21258 51.508421)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Arcen_en_Velden"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Velden_(Venlo)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Arcen_en_Velden"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Velden_(Venlo)"/>
+            </rdf:Description>
+</rdf:RDF>

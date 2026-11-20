@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vollenhove_1">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vollenhove [1]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vollenhove [1]</skos:prefLabel>
+        <gg:name xml:lang="nl">Vollenhove [1]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11088"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Stad_Vollenhove"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ambt_Vollenhove"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Vollenhove                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.957573 52.751108,5.958684 52.745441,5.967287 52.746477,5.967875 52.734971,5.969451 52.731009,5.975817 52.731068,5.976907 52.735017,5.983121 52.734716,5.98842 52.732443,6.00302 52.728414,6.012794 52.718297,6.012069 52.708954,6.023452 52.708175,6.031239 52.704448,6.026729 52.69953,6.008719 52.702232,6.001534 52.685733,6.008471 52.684708,6.021541 52.678348,6.018668 52.67396,6.029881 52.672282,6.037411 52.661636,6.045721 52.663837,6.05687 52.648496,6.060486 52.643443,6.061276 52.637147,6.058883 52.635184,6.053185 52.629644,6.045183 52.627891,6.038128 52.630177,6.029916 52.634266,6.00472 52.649318,5.993398 52.65342,5.984256 52.654905,5.958819 52.664916,5.934004 52.66647,5.933199 52.673035,5.941846 52.678746,5.955098 52.685874,5.963147 52.690598,5.958096 52.700328,5.952774 52.700623,5.954188 52.706998,5.94708 52.710117,5.941975 52.712357,5.939511 52.71773,5.927967 52.740461,5.940468 52.745437,5.945781 52.743974,5.947466 52.74837,5.955594 52.746983,5.957573 52.751108),(5.942073 52.720086,5.945738 52.717373,5.952112 52.718239,5.954041 52.718502,5.954834 52.722632,5.949693 52.725712,5.942289 52.725477,5.942073 52.720086)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                                    
+                                                                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ambt_Vollenhove"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Brederwiede"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vollenhove"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ambt_Vollenhove"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Brederwiede"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vollenhove"/>
+            </rdf:Description>
+</rdf:RDF>

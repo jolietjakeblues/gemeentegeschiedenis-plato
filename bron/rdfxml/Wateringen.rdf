@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wateringen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wateringen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wateringen</skos:prefLabel>
+        <gg:name xml:lang="nl">Wateringen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11329"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0630"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wateringen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.250099 52.025827,4.255956 52.030468,4.271667 52.037449,4.282406 52.039348,4.28334 52.042863,4.287617 52.040835,4.303895 52.018694,4.305856 52.015925,4.277062 52.002084,4.266917 52.005943,4.25124 52.015321,4.254997 52.016526,4.250835 52.019812,4.254442 52.021195,4.250099 52.025827)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1958</gg:year>
+                            <gg:name xml:lang="nl">Wateringen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.277062 52.002084,4.268859 51.998141,4.24827 52.011787,4.240819 52.018366,4.247311 52.020856,4.245206 52.023443,4.250099 52.025827,4.255956 52.030468,4.271667 52.037449,4.282406 52.039348,4.28334 52.042863,4.287617 52.040835,4.303895 52.018694,4.305856 52.015925,4.277062 52.002084)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</gg:year>
+                            <gg:name xml:lang="nl">Wateringen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.2691 52.035178,4.271936 52.032508,4.272942 52.033057,4.290457 52.020098,4.287575 52.018812,4.291887 52.015257,4.297506 52.017826,4.298982 52.017031,4.303895 52.018694,4.305856 52.015925,4.277062 52.002084,4.268859 51.998141,4.24827 52.011787,4.240819 52.018366,4.247311 52.020856,4.245206 52.023443,4.250099 52.025827,4.2691 52.035178)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Wateringen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.248191 52.025228,4.249121 52.025678,4.254379 52.028089,4.254972 52.028374,4.255473 52.028337,4.255725 52.028335,4.256242 52.028428,4.256848 52.028721,4.257064 52.028823,4.257618 52.029069,4.258267 52.029338,4.260091 52.030112,4.265737 52.032635,4.266462 52.032995,4.266902 52.033219,4.267089 52.033125,4.270106 52.034768,4.272455 52.035996,4.273531 52.034577,4.274297 52.033519,4.274646 52.033073,4.275881 52.031545,4.277904 52.032481,4.281773 52.027386,4.282768 52.02763,4.283459 52.026723,4.285209 52.027436,4.285845 52.026515,4.285077 52.026326,4.285823 52.025882,4.285263 52.025567,4.288253 52.023761,4.286765 52.02298,4.294337 52.019356,4.289715 52.017649,4.294654 52.015278,4.295511 52.014845,4.298256 52.016791,4.30102 52.017874,4.302641 52.016456,4.305795 52.017708,4.30595 52.017581,4.307601 52.018201,4.309833 52.015654,4.30599 52.014016,4.302311 52.012436,4.300076 52.011355,4.299262 52.010993,4.299002 52.010857,4.298696 52.010689,4.298477 52.010581,4.296913 52.009862,4.29557 52.009321,4.294809 52.00893,4.292182 52.007668,4.291671 52.007544,4.291164 52.007359,4.290015 52.006804,4.289617 52.006625,4.288273 52.006034,4.285424 52.00475,4.284538 52.004349,4.284164 52.004195,4.283246 52.00374,4.282422 52.003276,4.282089 52.00311,4.281747 52.003015,4.2813 52.002829,4.280553 52.002525,4.279844 52.00223,4.278621 52.0017,4.277572 52.00124,4.277078 52.001009,4.276391 52.000692,4.275201 52.000167,4.273111 51.999213,4.270829 52.00049,4.266048 52.003096,4.259363 52.006706,4.253775 52.009756,4.253462 52.009861,4.249552 52.011983,4.249264 52.012011,4.245905 52.015562,4.245612 52.015497,4.24184 52.019529,4.241561 52.019856,4.242364 52.019883,4.242724 52.019934,4.243927 52.020289,4.246419 52.021004,4.247711 52.021389,4.248325 52.021578,4.24988 52.022034,4.251059 52.022418,4.250197 52.023534,4.249724 52.024107,4.249548 52.024295,4.249442 52.024404,4.249269 52.024507,4.248716 52.024831,4.248536 52.024921,4.248298 52.025122,4.248191 52.025228)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wateringen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wateringen"/>
+            </rdf:Description>
+</rdf:RDF>

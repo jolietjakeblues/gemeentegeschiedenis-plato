@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vrijenban">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vrijenban</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vrijenban</skos:prefLabel>
+        <gg:name xml:lang="nl">Vrijenban</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10853"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1215"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Delft"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Biesland"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Abtsregt"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ackersdijk_en_Vrouwenregt"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Delft"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Vrijenban                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.412481 51.983059,4.38386 51.974009,4.37665 51.983925,4.388358 51.987342,4.40616 51.992535,4.412481 51.983059)),((4.390491 51.993659,4.373195 51.98866,4.366432 51.997949,4.375671 52.001535,4.373114 52.005108,4.389411 52.012349,4.388326 52.015306,4.385565 52.019504,4.404713 52.027973,4.4122 52.022787,4.420924 52.010095,4.413557 52.007248,4.399836 52.00201,4.402998 51.997272,4.390491 51.993659)),((4.392186 52.031698,4.376756 52.024465,4.358715 52.016938,4.356468 52.019615,4.347034 52.018094,4.342873 52.021563,4.35716 52.027532,4.359656 52.026744,4.370058 52.0307,4.377996 52.034094,4.374627 52.034874,4.382556 52.038717,4.386197 52.038838,4.392186 52.031698)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1833</gg:year>
+                            <gg:name xml:lang="nl">Vrijenban                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.412481 51.983059,4.38386 51.974009,4.37665 51.983925,4.388358 51.987342,4.40616 51.992535,4.412481 51.983059)),((4.402583 52.029448,4.4122 52.022787,4.420924 52.010095,4.413557 52.007248,4.399836 52.00201,4.402998 51.997272,4.390491 51.993659,4.373195 51.98866,4.366432 51.997949,4.375671 52.001535,4.373114 52.005108,4.389411 52.012349,4.388326 52.015306,4.384857 52.02058,4.379271 52.022779,4.376756 52.024465,4.358715 52.016938,4.356468 52.019615,4.347034 52.018094,4.342873 52.021563,4.35716 52.027532,4.359656 52.026744,4.370058 52.0307,4.377996 52.034094,4.374627 52.034874,4.382556 52.038717,4.386197 52.038838,4.392186 52.031698,4.402583 52.029448)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1856</gg:year>
+                            <gg:name xml:lang="nl">Vrijenban                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.402583 52.029448,4.4122 52.022787,4.420924 52.010095,4.413557 52.007248,4.399836 52.00201,4.402998 51.997272,4.412481 51.983059,4.420156 51.98492,4.42297 51.982696,4.422762 51.978829,4.426472 51.975534,4.404679 51.967084,4.392116 51.962664,4.38386 51.974009,4.37605 51.984729,4.373195 51.98866,4.366432 51.997949,4.375671 52.001535,4.373114 52.005108,4.389411 52.012349,4.384857 52.02058,4.376756 52.024465,4.358715 52.016938,4.356468 52.019615,4.347034 52.018094,4.342873 52.021563,4.35716 52.027532,4.359656 52.026744,4.370058 52.0307,4.377996 52.034094,4.374627 52.034874,4.382556 52.038717,4.386197 52.038838,4.392186 52.031698,4.402583 52.029448)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-04-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1921-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vrijenban"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vrijenban"/>
+            </rdf:Description>
+</rdf:RDF>

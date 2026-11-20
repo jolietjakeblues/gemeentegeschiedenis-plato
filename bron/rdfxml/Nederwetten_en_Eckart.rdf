@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nederwetten_en_Eckart">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nederwetten en Eckart</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nederwetten en Eckart</skos:prefLabel>
+        <gg:name xml:lang="nl">Nederwetten en Eckart</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11361"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Woensel"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nuenen__Gerwen_en_Nederwetten"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nederwetten en Eckart              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.501461 51.464721,5.487211 51.462937,5.487505 51.467905,5.490966 51.473288,5.497184 51.476729,5.50503 51.478575,5.504511 51.475505,5.507952 51.470377,5.501461 51.464721)),((5.549188 51.53145,5.553585 51.512298,5.547755 51.507281,5.541926 51.506198,5.542453 51.502629,5.528693 51.492943,5.529981 51.491003,5.521611 51.485797,5.518265 51.486619,5.516516 51.485621,5.518111 51.483529,5.516215 51.482441,5.512432 51.482627,5.509516 51.480994,5.509188 51.478797,5.505037 51.478614,5.505681 51.482425,5.503101 51.486742,5.512772 51.4959,5.50803 51.499501,5.513514 51.503809,5.525612 51.503616,5.530088 51.507296,5.535567 51.508907,5.544235 51.516176,5.538061 51.522387,5.542243 51.52355,5.539087 51.527599,5.532457 51.527427,5.544029 51.539997,5.549188 51.53145)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1821-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nederwetten_en_Eckart"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nederwetten_en_Eckart"/>
+            </rdf:Description>
+</rdf:RDF>

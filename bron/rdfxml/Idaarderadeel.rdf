@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Idaarderadeel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Idaarderadeel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Idaarderadeel</skos:prefLabel>
+        <gg:name xml:lang="nl">Idaarderadeel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10815"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0078"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Grouw"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Roordahuizum"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Boornsterhem"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Idaarderadeel                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.859605 53.170302,5.861217 53.16733,5.89321 53.16675,5.896396 53.157931,5.901032 53.158001,5.904242 53.151427,5.908867 53.150688,5.905088 53.1472,5.91326 53.143211,5.907552 53.14081,5.917739 53.130611,5.910096 53.128667,5.914379 53.124605,5.906893 53.1232,5.913632 53.112297,5.915632 53.10483,5.889784 53.103414,5.898012 53.092147,5.878572 53.089083,5.883008 53.08538,5.871292 53.078689,5.870788 53.073658,5.862434 53.073782,5.858157 53.078471,5.816305 53.07144,5.815435 53.074049,5.803328 53.071845,5.79289 53.07251,5.796389 53.079597,5.791325 53.080693,5.79291 53.090572,5.789808 53.094087,5.783842 53.094646,5.775079 53.099617,5.768063 53.099729,5.768389 53.102873,5.760946 53.105503,5.76127 53.108377,5.756044 53.108483,5.754272 53.110825,5.758473 53.113059,5.754503 53.120439,5.777512 53.121175,5.79959 53.118136,5.812042 53.123664,5.822442 53.132972,5.824159 53.140244,5.832578 53.145155,5.819559 53.158412,5.83333 53.160069,5.859605 53.170302)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Boornsterhem                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.931176 53.11797,5.930952 53.100089,5.915632 53.10483,5.889784 53.103414,5.876939 53.103108,5.88276 53.089784,5.878572 53.089083,5.883008 53.08538,5.871292 53.078689,5.870788 53.073658,5.874337 53.070769,5.893756 53.072755,5.895873 53.075172,5.903023 53.074153,5.93019 53.075021,5.935202 53.070146,5.930835 53.066931,5.940287 53.059429,5.944787 53.061385,5.947552 53.05598,5.944042 53.049796,5.956264 53.049289,5.950384 53.044375,5.944262 53.043685,5.939602 53.040741,5.941357 53.038037,5.926671 53.031993,5.922965 53.033627,5.923066 53.029763,5.90362 53.024007,5.900536 53.027885,5.896514 53.028082,5.894532 53.024316,5.900114 53.017373,5.894587 53.016228,5.864981 53.020574,5.864298 53.026148,5.863883 53.029115,5.85405 53.029513,5.853205 53.034189,5.836131 53.026437,5.833016 53.027886,5.819085 53.035935,5.805398 53.023403,5.783786 53.023207,5.778547 53.020708,5.777516 53.021969,5.771419 53.023517,5.774747 53.028988,5.765041 53.027042,5.766001 53.034587,5.762656 53.044213,5.761774 53.045743,5.754616 53.045675,5.748338 53.043808,5.731828 53.048978,5.727683 53.052764,5.723825 53.055381,5.7125 53.056671,5.701215 53.06362,5.698415 53.06839,5.701868 53.071346,5.699354 53.074498,5.711692 53.088304,5.754272 53.110825,5.758473 53.113059,5.754503 53.120439,5.777512 53.121175,5.79959 53.118136,5.812042 53.123664,5.822442 53.132972,5.824159 53.140244,5.832578 53.145155,5.819559 53.158412,5.83333 53.160069,5.859605 53.170302,5.861217 53.16733,5.89321 53.16675,5.929835 53.165961,5.92657 53.155912,5.91326 53.143211,5.907552 53.14081,5.917739 53.130611,5.931176 53.11797)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Idaarderadeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Idaarderadeel"/>
+            </rdf:Description>
+</rdf:RDF>

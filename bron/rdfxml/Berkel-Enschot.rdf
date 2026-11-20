@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Berkel-Enschot">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Berkel-Enschot</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Berkel-Enschot</skos:prefLabel>
+        <gg:name xml:lang="nl">Berkel-Enschot</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11132"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0751"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tilburg"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Berkel-Enschot                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.167987 51.594008,5.173354 51.588176,5.167589 51.586817,5.169912 51.583765,5.174114 51.579997,5.176777 51.56571,5.172186 51.560578,5.146565 51.55154,5.13165 51.537396,5.120045 51.549954,5.118562 51.556962,5.12632 51.561923,5.122961 51.569196,5.117891 51.57296,5.12132 51.578451,5.114231 51.581761,5.114784 51.585807,5.121699 51.58771,5.125829 51.597158,5.133598 51.601579,5.134005 51.606254,5.145718 51.602504,5.159285 51.602711,5.167987 51.594008)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</gg:year>
+                            <gg:name xml:lang="nl">Berkel-Enschot                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.134005 51.606254,5.145718 51.602504,5.159285 51.602711,5.167987 51.594008,5.173354 51.588176,5.167589 51.586817,5.169912 51.583765,5.162573 51.579976,5.171001 51.567318,5.176777 51.56571,5.172186 51.560578,5.146565 51.55154,5.13165 51.537396,5.120045 51.549954,5.118562 51.556962,5.12632 51.561923,5.122961 51.569196,5.117891 51.57296,5.12132 51.578451,5.114231 51.581761,5.114784 51.585807,5.121699 51.58771,5.125829 51.597158,5.133598 51.601579,5.134005 51.606254)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Berkel-Enschot"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Berkel-Enschot"/>
+            </rdf:Description>
+</rdf:RDF>

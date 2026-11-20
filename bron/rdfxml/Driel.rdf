@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Driel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Driel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Driel</skos:prefLabel>
+        <gg:name xml:lang="nl">Driel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10341"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1248"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Maasdriel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Driel                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.351832 51.796449,5.334589 51.789342,5.342274 51.786199,5.346622 51.785751,5.356918 51.777395,5.356202 51.765171,5.353309 51.759058,5.345491 51.75555,5.327393 51.751048,5.319867 51.748167,5.309882 51.744026,5.300189 51.739885,5.293532 51.738621,5.286869 51.739964,5.281075 51.741307,5.29019 51.743922,5.293367 51.748329,5.286693 51.754076,5.282204 51.753802,5.280023 51.757486,5.281464 51.760633,5.278419 51.761889,5.271903 51.760983,5.267377 51.774282,5.258683 51.774542,5.256348 51.780292,5.266486 51.78246,5.290676 51.787786,5.303861 51.790043,5.3172 51.787445,5.320091 51.79239,5.324436 51.794999,5.333858 51.795004,5.336325 51.792668,5.351832 51.796449)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1944-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Driel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Driel"/>
+            </rdf:Description>
+</rdf:RDF>

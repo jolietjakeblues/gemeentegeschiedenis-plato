@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Domburg-Binnen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Domburg-Binnen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Domburg-Binnen</skos:prefLabel>
+        <gg:name xml:lang="nl">Domburg-Binnen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10236"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Domburg"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Domburg-Binnen                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.493955 51.552004,3.491846 51.552048,3.490036 51.551417,3.488913 51.552844,3.48833 51.554351,3.487883 51.556807,3.49059 51.557815,3.48511 51.562741,3.502171 51.569489,3.50835 51.563115,3.513698 51.562841,3.510997 51.558392,3.493955 51.552004)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1816</gg:year>
+                            <gg:name xml:lang="nl">Domburg                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.513698 51.562841,3.510997 51.558392,3.493955 51.552004,3.496134 51.548173,3.491302 51.546476,3.49633 51.539995,3.503039 51.541631,3.506949 51.537739,3.500309 51.530978,3.503523 51.529951,3.500965 51.525595,3.496345 51.52579,3.484708 51.524881,3.478872 51.530001,3.472163 51.542118,3.467473 51.543929,3.458406 51.546927,3.456201 51.551296,3.502171 51.569489,3.50835 51.563115,3.513698 51.562841)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Domburg_(Nederland)"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Domburg_(Nederland)"/>
+            </rdf:Description>
+</rdf:RDF>

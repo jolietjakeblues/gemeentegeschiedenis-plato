@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Krabbendijke">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Krabbendijke</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Krabbendijke</skos:prefLabel>
+        <gg:name xml:lang="nl">Krabbendijke</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11038"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0684"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuwlande_ZBev"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Reimerswaal"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Krabbendijke                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.101547 51.443611,4.134047 51.432969,4.145444 51.431653,4.15302 51.433351,4.166245 51.438974,4.169989 51.43344,4.153454 51.427962,4.145927 51.42977,4.141152 51.425584,4.133389 51.425501,4.132331 51.422163,4.113352 51.422137,4.100082 51.42361,4.093047 51.428296,4.080624 51.430226,4.079892 51.435701,4.071179 51.43857,4.070053 51.442692,4.074761 51.444784,4.077922 51.442948,4.101547 51.443611)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1816</gg:year>
+                            <gg:name xml:lang="nl">Krabbendijke                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.079771 51.459972,4.082409 51.458293,4.088607 51.447845,4.134047 51.432969,4.145444 51.431653,4.15302 51.433351,4.166245 51.438974,4.169989 51.43344,4.153454 51.427962,4.145927 51.42977,4.141152 51.425584,4.133389 51.425501,4.132331 51.422163,4.113352 51.422137,4.100082 51.42361,4.093047 51.428296,4.080624 51.430226,4.079892 51.435701,4.071179 51.43857,4.070053 51.442692,4.07815 51.446289,4.067322 51.447606,4.072052 51.458177,4.079771 51.459972)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Krabbendijke"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Krabbendijke"/>
+            </rdf:Description>
+</rdf:RDF>

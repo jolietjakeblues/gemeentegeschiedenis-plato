@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oud-Vroenhoven">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oud-Vroenhoven</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oud-Vroenhoven</skos:prefLabel>
+        <gg:name xml:lang="nl">Oud-Vroenhoven</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11348"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1141"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/voorheen_Belgisch_grondgebied"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Maastricht"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1840</gg:year>
+                            <gg:name xml:lang="nl">Oud-Vroenhoven                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.691087 50.853771,5.68967 50.854224,5.679441 50.853531,5.674723 50.84842,5.67426 50.842398,5.67992 50.839418,5.678898 50.834926,5.672332 50.82901,5.668156 50.819132,5.653697 50.821683,5.654859 50.826265,5.64962 50.828524,5.650635 50.832207,5.641182 50.842656,5.638952 50.850211,5.640946 50.851375,5.640679 50.854432,5.642407 50.858743,5.643017 50.866472,5.647434 50.868799,5.644194 50.87375,5.65302 50.876876,5.662993 50.881527,5.674792 50.882487,5.680297 50.876631,5.690065 50.871212,5.694012 50.866617,5.691087 50.853771)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1839-07-18</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1920-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oud-Vroenhoven"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oud-Vroenhoven"/>
+            </rdf:Description>
+</rdf:RDF>

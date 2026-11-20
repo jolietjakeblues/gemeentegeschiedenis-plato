@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hoek">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hoek</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hoek</skos:prefLabel>
+        <gg:name xml:lang="nl">Hoek</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10038"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0674"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Terneuzen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hoek                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.81273 51.287659,3.798586 51.29448,3.77048 51.302633,3.745364 51.311092,3.740002 51.31659,3.747958 51.326772,3.75974 51.334399,3.765612 51.334751,3.765344 51.338253,3.7658 51.349677,3.782406 51.34694,3.783083 51.331756,3.794181 51.33038,3.800739 51.331638,3.812338 51.315703,3.820724 51.317974,3.82572 51.315831,3.82946 51.314226,3.825584 51.305903,3.818322 51.304367,3.814327 51.295412,3.816067 51.290671,3.81273 51.287659)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1892</gg:year>
+                            <gg:name xml:lang="nl">Hoek                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.783083 51.331756,3.794181 51.33038,3.800739 51.331638,3.812338 51.315703,3.820724 51.317974,3.82946 51.314226,3.825584 51.305903,3.818322 51.304367,3.814327 51.295412,3.816067 51.290671,3.81273 51.287659,3.799206 51.284868,3.789428 51.285724,3.776694 51.289054,3.741206 51.283164,3.730023 51.28714,3.726925 51.301391,3.74977 51.29623,3.770463 51.299037,3.77048 51.302633,3.745364 51.311092,3.740002 51.31659,3.747958 51.326772,3.75974 51.334399,3.765612 51.334751,3.765344 51.338253,3.7658 51.349677,3.782406 51.34694,3.783083 51.331756)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1953</gg:year>
+                            <gg:name xml:lang="nl">Hoek                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.782406 51.34694,3.783083 51.331756,3.794181 51.33038,3.800739 51.331638,3.812338 51.315703,3.820724 51.317974,3.82946 51.314226,3.825584 51.305903,3.818322 51.304367,3.814327 51.295412,3.816067 51.290671,3.81273 51.287659,3.799206 51.284868,3.789428 51.285724,3.776694 51.289054,3.741206 51.283164,3.730023 51.28714,3.726925 51.301391,3.720373 51.30804,3.708645 51.311018,3.728606 51.326228,3.729776 51.333527,3.728681 51.347896,3.738633 51.342643,3.747649 51.3434,3.765344 51.338253,3.7658 51.349677,3.782406 51.34694)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hoek_(Terneuzen)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hoek_(Terneuzen)"/>
+            </rdf:Description>
+</rdf:RDF>

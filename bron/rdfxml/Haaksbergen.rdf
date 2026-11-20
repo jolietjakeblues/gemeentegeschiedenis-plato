@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Haaksbergen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Haaksbergen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Haaksbergen</skos:prefLabel>
+        <gg:name xml:lang="nl">Haaksbergen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11435"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0158"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Haaksbergen                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.766698 52.188543,6.804689 52.164451,6.817142 52.169874,6.829116 52.169458,6.843356 52.166625,6.873411 52.160639,6.888004 52.159914,6.881352 52.153347,6.873965 52.128989,6.853462 52.118459,6.759977 52.117517,6.716279 52.116221,6.69645 52.122195,6.660683 52.127711,6.67344 52.139618,6.670757 52.147917,6.67344 52.149775,6.670489 52.153852,6.673394 52.158315,6.67133 52.162742,6.644527 52.171211,6.647172 52.176846,6.625191 52.185618,6.672282 52.195811,6.693903 52.194854,6.700018 52.193888,6.71244 52.203367,6.766698 52.188543)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2755031"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Haaksbergen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Haaksbergen"/>
+            </rdf:Description>
+</rdf:RDF>

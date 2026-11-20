@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Voorthuizen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Voorthuizen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Voorthuizen</skos:prefLabel>
+        <gg:name xml:lang="nl">Voorthuizen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11425"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Barneveld"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Voorthuizen                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.608608 52.158624,5.599124 52.158298,5.598343 52.159754,5.592301 52.159764,5.586786 52.159935,5.585991 52.158321,5.582573 52.158358,5.580744 52.159946,5.57313 52.160766,5.567874 52.160289,5.565764 52.158192,5.556313 52.159498,5.550794 52.158698,5.541609 52.160832,5.52401 52.161802,5.506935 52.161659,5.487501 52.163939,5.487233 52.162001,5.47884 52.162866,5.483823 52.169244,5.48341 52.180748,5.489552 52.181283,5.499215 52.186487,5.508574 52.186657,5.529202 52.18978,5.536946 52.187703,5.534446 52.183392,5.535601 52.178987,5.542902 52.17655,5.544792 52.173582,5.567463 52.176426,5.563979 52.182633,5.566329 52.185235,5.577002 52.184949,5.576743 52.192949,5.594888 52.195075,5.616816 52.193057,5.617385 52.189821,5.624704 52.191244,5.632945 52.200485,5.630792 52.207949,5.65199 52.21631,5.664392 52.199422,5.654561 52.19686,5.650009 52.187787,5.618937 52.168601,5.62047 52.166598,5.614191 52.165379,5.615132 52.163095,5.607473 52.161595,5.608608 52.158624)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Voorthuizen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Voorthuizen"/>
+            </rdf:Description>
+</rdf:RDF>

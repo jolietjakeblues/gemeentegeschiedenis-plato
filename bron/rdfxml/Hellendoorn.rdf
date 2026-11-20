@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hellendoorn">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hellendoorn</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hellendoorn</skos:prefLabel>
+        <gg:name xml:lang="nl">Hellendoorn</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10806"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0163"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hellendoorn                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.448371 52.461035,6.465354 52.445422,6.481495 52.437904,6.507299 52.434696,6.522934 52.436525,6.530213 52.439331,6.538807 52.447427,6.546606 52.447531,6.559659 52.446054,6.565327 52.443481,6.570655 52.444686,6.572822 52.443227,6.597753 52.451244,6.596458 52.446943,6.599829 52.435763,6.591363 52.432703,6.574842 52.419837,6.576475 52.414967,6.518135 52.404123,6.510461 52.391253,6.515754 52.379878,6.497085 52.373403,6.488492 52.358562,6.488889 52.344986,6.489044 52.339412,6.46843 52.324502,6.461249 52.318725,6.426321 52.32416,6.35573 52.315951,6.353216 52.321724,6.350021 52.323188,6.336292 52.346579,6.344521 52.367455,6.359217 52.374705,6.380288 52.377856,6.389949 52.376426,6.406361 52.413138,6.389915 52.42685,6.4383 52.439733,6.448371 52.461035)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1956</gg:year>
+                            <gg:name xml:lang="nl">Hellendoorn                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.481495 52.437904,6.507299 52.434696,6.522934 52.436525,6.530213 52.439331,6.538807 52.447427,6.546606 52.447531,6.559659 52.446054,6.565327 52.443481,6.570655 52.444686,6.572822 52.443227,6.597753 52.451244,6.596458 52.446943,6.599829 52.435763,6.591363 52.432703,6.574842 52.419837,6.576475 52.414967,6.518135 52.404123,6.510461 52.391253,6.515754 52.379878,6.497085 52.373403,6.499412 52.360797,6.51451 52.359845,6.513277 52.351768,6.501826 52.351696,6.493596 52.345392,6.488889 52.344986,6.489044 52.339412,6.46843 52.324502,6.461249 52.318725,6.426321 52.32416,6.35573 52.315951,6.353216 52.321724,6.350021 52.323188,6.336292 52.346579,6.344521 52.367455,6.359217 52.374705,6.380288 52.377856,6.389949 52.376426,6.406361 52.413138,6.389915 52.42685,6.4383 52.439733,6.448371 52.461035,6.465354 52.445422,6.481495 52.437904)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2754456"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hellendoorn"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hellendoorn"/>
+            </rdf:Description>
+</rdf:RDF>

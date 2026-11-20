@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bleskensgraaf_en_Hofwegen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bleskensgraaf en Hofwegen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bleskensgraaf en Hofwegen</skos:prefLabel>
+        <gg:name xml:lang="nl">Bleskensgraaf en Hofwegen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10451"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0496"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bleskensgraaf"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hofwegen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Graafstroom"/>
+
+        
+                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1856</gg:year>
+                            <gg:name xml:lang="nl">Bleskensgraaf en Hofwege           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.797549 51.869758,4.80469 51.85649,4.78042 51.858615,4.768115 51.856124,4.752864 51.856761,4.74375 51.854644,4.732887 51.852966,4.734938 51.861697,4.730866 51.862213,4.739025 51.880326,4.766418 51.884429,4.778486 51.883503,4.78721 51.882829,4.797549 51.869758)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</gg:year>
+                            <gg:name xml:lang="nl">Graafstroom                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.924995 51.901878,4.908591 51.886801,4.891316 51.885831,4.893988 51.880629,4.878028 51.879213,4.870223 51.875943,4.864587 51.873581,4.853894 51.869128,4.835558 51.860594,4.808131 51.848508,4.800334 51.845413,4.79062 51.844735,4.781162 51.846574,4.764363 51.844059,4.75709 51.845279,4.74263 51.841605,4.735307 51.846238,4.707962 51.84069,4.691675 51.842932,4.681139 51.848532,4.678935 51.859485,4.683022 51.867329,4.689265 51.867367,4.698372 51.879465,4.704343 51.878421,4.709598 51.876654,4.739025 51.880326,4.766418 51.884429,4.77589 51.892837,4.808463 51.901721,4.828258 51.910716,4.842474 51.900895,4.847588 51.898582,4.868645 51.899485,4.871871 51.896893,4.884771 51.899645,4.877361 51.912467,4.895081 51.913531,4.91228 51.92268,4.91785 51.918208,4.924995 51.901878)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1855-09-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bleskensgraaf_en_Hofwegen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bleskensgraaf_en_Hofwegen"/>
+            </rdf:Description>
+</rdf:RDF>

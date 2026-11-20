@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Halsteren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Halsteren</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Halsteren</skos:prefLabel>
+        <gg:name xml:lang="nl">Halsteren</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10387"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0789"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bergen_op_Zoom"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Halsteren                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.312271 51.553407,4.312252 51.548103,4.303891 51.548026,4.302086 51.545132,4.29904 51.533867,4.30307 51.522039,4.293454 51.520421,4.29232 51.513668,4.277912 51.513712,4.273727 51.508099,4.27853 51.506077,4.275589 51.502633,4.261994 51.499087,4.235871 51.512586,4.229913 51.514595,4.225441 51.51482,4.226053 51.524715,4.246938 51.54236,4.246032 51.555475,4.240839 51.561268,4.262789 51.560133,4.312271 51.553407)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1878</gg:year>
+                            <gg:name xml:lang="nl">Halsteren                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.293454 51.520421,4.29232 51.513668,4.277912 51.513712,4.273727 51.508099,4.27853 51.506077,4.275589 51.502633,4.261994 51.499087,4.235871 51.512586,4.229913 51.514595,4.214053 51.515066,4.215362 51.525777,4.223494 51.535646,4.225146 51.53765,4.23229 51.540148,4.234979 51.553479,4.240839 51.561268,4.262789 51.560133,4.312271 51.553407,4.312252 51.548103,4.303891 51.548026,4.302086 51.545132,4.29904 51.533867,4.30307 51.522039,4.293454 51.520421)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1962</gg:year>
+                            <gg:name xml:lang="nl">Halsteren                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.307749 51.525228,4.300829 51.513298,4.292713 51.51529,4.277325 51.514156,4.264993 51.511791,4.24097 51.516052,4.235871 51.512586,4.229913 51.514595,4.214053 51.515066,4.215362 51.525777,4.223494 51.535646,4.225146 51.53765,4.23229 51.540148,4.234979 51.553479,4.240839 51.561268,4.262789 51.560133,4.312271 51.553407,4.312252 51.548103,4.303891 51.548026,4.302086 51.545132,4.29904 51.533867,4.307749 51.525228)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Halsteren"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Halsteren"/>
+            </rdf:Description>
+</rdf:RDF>

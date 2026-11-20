@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Brouwershaven">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Brouwershaven</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Brouwershaven</skos:prefLabel>
+        <gg:name xml:lang="nl">Brouwershaven</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10030"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0656"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zonnemaire"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dreischor"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Noordgouwe"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schouwen-Duiveland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Brouwershaven                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.91793 51.730079,3.919886 51.723361,3.913164 51.720849,3.912221 51.714275,3.911393 51.708601,3.904465 51.708064,3.903474 51.720637,3.898882 51.723815,3.901365 51.727532,3.893175 51.73444,3.892764 51.738121,3.89801 51.737109,3.909997 51.72917,3.91793 51.730079)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961</gg:year>
+                            <gg:name xml:lang="nl">Brouwershaven                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.89801 51.737109,3.909997 51.72917,3.920346 51.731457,3.934636 51.732804,3.966242 51.731394,3.981252 51.723574,3.983256 51.714968,4.003668 51.700558,4.009064 51.689654,4.013944 51.686116,4.025115 51.684987,4.024358 51.681293,4.025759 51.677983,4.017574 51.67609,4.012311 51.678006,3.989575 51.67441,3.968572 51.675596,3.961943 51.679471,3.95723 51.677616,3.959461 51.675665,3.955808 51.672294,3.949911 51.671323,3.943053 51.664227,3.938573 51.664171,3.938516 51.670463,3.93051 51.676657,3.924661 51.678652,3.917786 51.689983,3.919218 51.69935,3.914112 51.709534,3.907137 51.710435,3.908097 51.71647,3.897159 51.714624,3.87734 51.73172,3.879134 51.73435,3.871192 51.742339,3.880299 51.742816,3.89801 51.737109)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Brouwershaven"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Brouwershaven"/>
+            </rdf:Description>
+</rdf:RDF>

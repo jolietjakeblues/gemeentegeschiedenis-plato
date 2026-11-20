@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Alphen_en_Riel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Alphen en Riel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Alphen en Riel</skos:prefLabel>
+        <gg:name xml:lang="nl">Alphen en Riel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10710"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0741"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Alphen-Chaam"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Goirle"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Alphen en Riel                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.025659 51.525701,5.009742 51.498954,5.011634 51.496533,4.996215 51.480932,5.008657 51.473512,5.003396 51.465855,5.006897 51.460203,4.973347 51.462786,4.970914 51.461339,4.950907 51.461895,4.943727 51.46043,4.932217 51.460206,4.889117 51.480344,4.889654 51.483942,4.905649 51.496144,4.907495 51.512331,4.95308 51.520779,4.972765 51.542604,5.009083 51.543536,5.014111 51.545709,5.016156 51.54239,5.027339 51.531908,5.025659 51.525701)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</gg:year>
+                            <gg:name xml:lang="nl">Alphen-Chaam                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.025659 51.525701,5.009742 51.498954,5.011634 51.496533,4.996215 51.480932,5.008657 51.473512,5.003396 51.465855,5.006897 51.460203,4.973347 51.462786,4.970914 51.461339,4.950907 51.461895,4.943727 51.46043,4.932217 51.460206,4.889117 51.480344,4.883089 51.4787,4.866647 51.481505,4.859481 51.478686,4.840719 51.482735,4.837424 51.481371,4.82775 51.483752,4.82082 51.508438,4.825115 51.510616,4.821361 51.522822,4.82791 51.529326,4.840605 51.528217,4.84282 51.535778,4.863511 51.541356,4.907495 51.512331,4.95308 51.520779,4.972765 51.542604,5.009083 51.543536,5.014111 51.545709,5.016156 51.54239,5.027339 51.531908,5.025659 51.525701)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Alphen_en_Riel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Alphen_en_Riel"/>
+            </rdf:Description>
+</rdf:RDF>

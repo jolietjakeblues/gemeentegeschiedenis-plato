@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oude_Pekela">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oude Pekela</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oude Pekela</skos:prefLabel>
+        <gg:name xml:lang="nl">Oude Pekela</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10848"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0038"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Pekela"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Oude Pekela                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.028594 53.109576,7.029106 53.107323,7.043992 53.09822,7.017586 53.067036,7.012173 53.065941,7.009928 53.069746,7.00021 53.057205,6.981469 53.083071,6.95971 53.092256,6.960773 53.105094,6.968624 53.107417,6.978454 53.114837,6.986978 53.111038,7.028594 53.109576)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</gg:year>
+                            <gg:name xml:lang="nl">Pekela                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.986977 53.115083,6.984788 53.112416,6.986978 53.111038,7.028594 53.109576,7.029106 53.107323,7.043992 53.09822,7.017586 53.067036,7.012173 53.065941,7.009928 53.069746,7.00021 53.057205,6.953927 53.006501,6.912034 53.031309,6.90487 53.026817,6.902599 53.030081,6.903841 53.040041,6.919986 53.041184,6.919516 53.044785,6.932095 53.046241,6.932949 53.049285,6.925978 53.054588,6.929314 53.068745,6.946101 53.079133,6.95971 53.092256,6.960773 53.105094,6.968624 53.107417,6.978454 53.114837,6.98067 53.114178,6.984625 53.116103,6.986977 53.115083)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oude_Pekela"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oude_Pekela"/>
+            </rdf:Description>
+</rdf:RDF>

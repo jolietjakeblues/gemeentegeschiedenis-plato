@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Den_Dungen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Den Dungen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Den Dungen</skos:prefLabel>
+        <gg:name xml:lang="nl">Den Dungen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10491"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0768"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sint-Michielsgestel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Den Dungen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.351766 51.695059,5.353938 51.691914,5.379104 51.685627,5.377515 51.676638,5.382287 51.672144,5.391249 51.668638,5.391682 51.661448,5.3833 51.657043,5.383301 51.647605,5.374776 51.647605,5.373472 51.65893,5.374483 51.660548,5.359158 51.669085,5.35612 51.673488,5.345852 51.67717,5.341374 51.673483,5.332407 51.676805,5.326336 51.675184,5.321848 51.679856,5.335147 51.68211,5.329791 51.686871,5.330216 51.694062,5.335277 51.695143,5.344968 51.694788,5.351766 51.695059)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</gg:year>
+                            <gg:name xml:lang="nl">Den Dungen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.379104 51.685627,5.377515 51.676638,5.382287 51.672144,5.391249 51.668638,5.391682 51.661448,5.3833 51.657043,5.383301 51.647605,5.374776 51.647605,5.373472 51.65893,5.374483 51.660548,5.359158 51.669085,5.35612 51.673488,5.345852 51.67717,5.341374 51.673483,5.332407 51.676805,5.338909 51.680044,5.338906 51.68283,5.34642 51.688945,5.344968 51.694788,5.351766 51.695059,5.353938 51.691914,5.379104 51.685627)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Den_Dungen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Den_Dungen"/>
+            </rdf:Description>
+</rdf:RDF>

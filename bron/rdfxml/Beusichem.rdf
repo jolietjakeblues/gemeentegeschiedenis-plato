@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Beusichem">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Beusichem</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Beusichem</skos:prefLabel>
+        <gg:name xml:lang="nl">Beusichem</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11182"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0210"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Buren"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Beusichem                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.305592 51.95489,5.310704 51.943119,5.307222 51.938353,5.298942 51.933943,5.283413 51.920897,5.285139 51.928898,5.277861 51.932577,5.253286 51.93345,5.242049 51.94602,5.233445 51.952571,5.256114 51.960957,5.25305 51.96356,5.257839 51.96824,5.265564 51.963484,5.275897 51.962506,5.292923 51.960903,5.298599 51.960098,5.305592 51.95489)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1963</gg:year>
+                            <gg:name xml:lang="nl">Beusichem                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.298942 51.933943,5.283413 51.920897,5.285139 51.928898,5.277861 51.932577,5.253286 51.93345,5.242049 51.94602,5.257157 51.95233,5.252785 51.955021,5.265564 51.963484,5.275897 51.962506,5.292923 51.960903,5.298599 51.960098,5.305592 51.95489,5.310704 51.943119,5.307222 51.938353,5.298942 51.933943)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Beusichem"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Beusichem"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nuenen_en_Gerwen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nuenen en Gerwen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nuenen en Gerwen</skos:prefLabel>
+        <gg:name xml:lang="nl">Nuenen en Gerwen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10761"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nuenen__Gerwen_en_Nederwetten"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nuenen en Gerwen                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.505037 51.478614,5.509188 51.478797,5.509516 51.480994,5.512432 51.482627,5.516215 51.482441,5.518111 51.483529,5.516516 51.485621,5.518265 51.486619,5.521611 51.485797,5.529981 51.491003,5.528693 51.492943,5.542453 51.502629,5.541926 51.506198,5.547755 51.507281,5.553585 51.512298,5.562194 51.503387,5.572549 51.499776,5.56721 51.497087,5.58026 51.484123,5.580534 51.480976,5.603961 51.472935,5.587091 51.466044,5.575114 51.458334,5.564118 51.442531,5.560935 51.437682,5.55417 51.436343,5.548691 51.432216,5.544105 51.436897,5.538221 51.4405,5.537823 51.450658,5.507952 51.470377,5.504511 51.475505,5.50503 51.478575,5.505037 51.478614)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1821</gg:year>
+                            <gg:name xml:lang="nl">Nuenen, Gerwen en Nederwetten      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.544029 51.539997,5.549188 51.53145,5.553585 51.512298,5.562194 51.503387,5.572549 51.499776,5.56721 51.497087,5.58026 51.484123,5.580534 51.480976,5.603961 51.472935,5.587091 51.466044,5.575114 51.458334,5.564118 51.442531,5.560935 51.437682,5.55417 51.436343,5.548691 51.432216,5.544105 51.436897,5.538221 51.4405,5.537823 51.450658,5.507952 51.470377,5.504511 51.475505,5.505681 51.482425,5.503101 51.486742,5.512772 51.4959,5.50803 51.499501,5.513514 51.503809,5.525612 51.503616,5.530088 51.507296,5.535567 51.508907,5.544235 51.516176,5.538061 51.522387,5.542243 51.52355,5.539087 51.527599,5.532457 51.527427,5.544029 51.539997)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2749779"/>
+                                                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1821-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nuenen,_Gerwen_en_Nederwetten"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nuenen_en_Gerwen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nuenen,_Gerwen_en_Nederwetten"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nuenen_en_Gerwen"/>
+            </rdf:Description>
+</rdf:RDF>

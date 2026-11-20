@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bergharen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bergharen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bergharen</skos:prefLabel>
+        <gg:name xml:lang="nl">Bergharen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10883"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0208"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hernen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wijchen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bergharen                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.686117 51.840476,5.682544 51.842377,5.680319 51.842843,5.677344 51.842237,5.6757 51.843263,5.674867 51.842141,5.673459 51.841326,5.670821 51.841741,5.669497 51.841285,5.667442 51.842465,5.66562 51.841447,5.663557 51.841503,5.661501 51.842684,5.657618 51.842079,5.656295 51.841571,5.655876 51.840601,5.648529 51.840209,5.640463 51.838355,5.631398 51.837906,5.628651 51.839709,5.6336 51.842575,5.629289 51.850404,5.632773 51.850487,5.638766 51.858024,5.63475 51.866931,5.638096 51.868093,5.638258 51.871148,5.652938 51.873543,5.655103 51.871381,5.669475 51.870808,5.668579 51.866855,5.680134 51.857659,5.686159 51.846857,5.686117 51.840476)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Bergharen                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.669475 51.870808,5.668579 51.866855,5.680134 51.857659,5.686159 51.846857,5.686117 51.840476,5.70394 51.836924,5.716676 51.832574,5.704951 51.815708,5.679445 51.818651,5.673755 51.813272,5.664201 51.816081,5.654526 51.823115,5.655853 51.826707,5.640229 51.834382,5.641848 51.838423,5.631398 51.837906,5.628651 51.839709,5.6336 51.842575,5.629289 51.850404,5.632773 51.850487,5.638766 51.858024,5.63475 51.866931,5.638096 51.868093,5.638258 51.871148,5.652938 51.873543,5.655103 51.871381,5.669475 51.870808)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bergharen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bergharen"/>
+            </rdf:Description>
+</rdf:RDF>

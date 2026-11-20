@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bennekom">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bennekom</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bennekom</skos:prefLabel>
+        <gg:name xml:lang="nl">Bennekom</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11179"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ede"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bennekom                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.748203 52.018989,5.742215 52.01712,5.737965 52.013897,5.738497 52.007423,5.734407 52.005908,5.733493 52.000697,5.722706 51.9992,5.681311 51.993199,5.679109 51.990418,5.673868 51.990431,5.666467 51.994314,5.618702 51.99289,5.61174 51.998296,5.60415 51.994446,5.589475 52.001303,5.586589 52.00724,5.574536 52.015798,5.57687 52.016604,5.650303 52.023395,5.661825 52.023369,5.661344 52.025006,5.662728 52.026457,5.674293 52.026505,5.67328 52.029324,5.683147 52.028755,5.687739 52.02791,5.696163 52.034135,5.708736 52.034102,5.715658 52.025466,5.740072 52.021733,5.748235 52.021843,5.748203 52.018989)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bennekom"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bennekom"/>
+            </rdf:Description>
+</rdf:RDF>

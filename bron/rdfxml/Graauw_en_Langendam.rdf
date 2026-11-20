@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Graauw_en_Langendam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Graauw en Langendam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Graauw en Langendam</skos:prefLabel>
+        <gg:name xml:lang="nl">Graauw en Langendam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10312"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0665"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hulst"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Graauw en Langendam                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.145556 51.34832,4.138644 51.338628,4.129313 51.343921,4.12742 51.350103,4.131357 51.353112,4.13998 51.352756,4.145556 51.34832)),((4.088758 51.2961,4.06658 51.289468,4.065309 51.293769,4.063353 51.301927,4.065605 51.308335,4.058879 51.317698,4.066444 51.323987,4.060232 51.325445,4.059596 51.332539,4.070492 51.337877,4.068304 51.344055,4.09462 51.352531,4.095067 51.357031,4.108572 51.35673,4.135887 51.334463,4.121 51.312367,4.108384 51.307015,4.106603 51.304029,4.088758 51.2961)),((4.159936 51.368789,4.152455 51.358642,4.150283 51.359338,4.149511 51.360415,4.147596 51.363085,4.150789 51.367164,4.159936 51.368789)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1962</gg:year>
+                            <gg:name xml:lang="nl">Graauw en Langendam                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.145556 51.34832,4.138644 51.338628,4.129313 51.343921,4.12742 51.350103,4.131357 51.353112,4.13998 51.352756,4.145556 51.34832)),((4.106603 51.304029,4.089651 51.294942,4.083485 51.299997,4.070776 51.30309,4.063353 51.301927,4.065605 51.308335,4.058879 51.317698,4.066444 51.323987,4.060232 51.325445,4.059596 51.332539,4.070492 51.337877,4.068304 51.344055,4.09462 51.352531,4.095067 51.357031,4.108572 51.35673,4.135887 51.334463,4.121 51.312367,4.108384 51.307015,4.106603 51.304029)),((4.159936 51.368789,4.152455 51.358642,4.150283 51.359338,4.149511 51.360415,4.147596 51.363085,4.150789 51.367164,4.159936 51.368789)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

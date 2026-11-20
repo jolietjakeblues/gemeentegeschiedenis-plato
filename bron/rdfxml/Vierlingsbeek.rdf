@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vierlingsbeek">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vierlingsbeek</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vierlingsbeek</skos:prefLabel>
+        <gg:name xml:lang="nl">Vierlingsbeek</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10066"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0863"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Maashees_en_Overloon"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Boxmeer"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Vierlingsbeek                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.022222 51.596174,6.018695 51.591608,6.007667 51.587263,6.003178 51.575421,5.991923 51.575211,5.984896 51.578393,5.973438 51.573687,5.963446 51.582006,5.858239 51.565489,5.836768 51.567371,5.870075 51.579912,5.945598 51.608879,5.950315 51.616767,5.965363 51.607884,5.974207 51.610807,5.974553 51.615209,5.979221 51.618871,5.980784 51.627942,5.978658 51.631099,5.987807 51.634827,5.997709 51.630012,6.001037 51.630444,6.014659 51.623271,6.01821 51.619027,6.020717 51.612452,6.020537 51.599509,6.022222 51.596174)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</gg:year>
+                            <gg:name xml:lang="nl">Vierlingsbeek                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.987807 51.634827,5.997709 51.630012,6.001037 51.630444,6.014659 51.623271,6.01821 51.619027,6.020717 51.612452,6.020537 51.599509,6.024069 51.594096,6.026636 51.591925,6.034488 51.585949,6.036883 51.581891,6.036247 51.577759,6.035142 51.571114,6.036664 51.566611,6.03892 51.563003,6.045643 51.55919,6.040153 51.558502,6.033528 51.559078,6.030984 51.55253,6.028174 51.557759,6.001102 51.571298,5.924293 51.553159,5.904833 51.553606,5.888631 51.561857,5.858239 51.565489,5.8704 51.569754,5.868861 51.574255,5.873349 51.575764,5.870075 51.579912,5.945598 51.608879,5.939301 51.613404,5.987807 51.634827)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</gg:year>
+                            <gg:name xml:lang="nl">Vierlingsbeek                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.991247 51.632832,5.993496 51.628146,6.000175 51.630808,6.014659 51.623271,6.01821 51.619027,6.020717 51.612452,6.020537 51.599509,6.024069 51.594096,6.026636 51.591925,6.034488 51.585949,6.036883 51.581891,6.036247 51.577759,6.035142 51.571114,6.036664 51.566611,6.03892 51.563003,6.045643 51.55919,6.040153 51.558502,6.033528 51.559078,6.030984 51.55253,6.028174 51.557759,6.001102 51.571298,5.924293 51.553159,5.904833 51.553606,5.888631 51.561857,5.868611 51.56425,5.868861 51.574255,5.878852 51.577719,5.876856 51.579974,5.890472 51.58486,5.889187 51.586034,5.893245 51.587635,5.892532 51.588447,5.89717 51.590224,5.899165 51.587968,5.926698 51.597822,5.925274 51.599447,5.930784 51.601488,5.9295 51.602753,5.944002 51.608258,5.946466 51.609055,5.958091 51.603605,5.965319 51.604469,5.96646 51.603385,5.975175 51.607566,5.974324 51.608739,5.990149 51.6154,5.988163 51.618106,5.994984 51.620678,5.985563 51.628996,5.984609 51.633316,5.985637 51.634569,5.991247 51.632832)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vierlingsbeek"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vierlingsbeek"/>
+            </rdf:Description>
+</rdf:RDF>

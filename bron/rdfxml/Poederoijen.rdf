@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Poederoijen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Poederoijen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Poederoijen</skos:prefLabel>
+        <gg:name xml:lang="nl">Poederoijen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10135"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1155"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Aalst_Ge"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Brakel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Poederoijen                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.10011 51.792083,5.097273 51.789335,5.095872 51.789711,5.087487 51.786454,5.081579 51.781316,5.07434 51.780398,5.067803 51.782627,5.06227 51.786297,5.056698 51.79509,5.047377 51.800906,5.041131 51.802506,5.023698 51.806768,5.016712 51.809982,5.012906 51.814284,5.01157 51.818055,5.038859 51.814993,5.045235 51.815641,5.053244 51.81126,5.068327 51.811032,5.068232 51.804021,5.071584 51.801423,5.095411 51.793755,5.10011 51.792083)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Poederoijen                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.045235 51.815641,5.053244 51.81126,5.068327 51.811032,5.068232 51.804021,5.071584 51.801423,5.095411 51.793755,5.103691 51.790809,5.117595 51.792729,5.119322 51.794711,5.13338 51.795191,5.148751 51.794325,5.160942 51.791293,5.159119 51.779245,5.152464 51.777164,5.156542 51.773038,5.146123 51.77068,5.138568 51.774529,5.13218 51.776762,5.105163 51.787217,5.095872 51.789711,5.087487 51.786454,5.081579 51.781316,5.07434 51.780398,5.067803 51.782627,5.06227 51.786297,5.056698 51.79509,5.047377 51.800906,5.041131 51.802506,5.023698 51.806768,5.016712 51.809982,5.012906 51.814284,5.01157 51.818055,5.038859 51.814993,5.045235 51.815641)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Poederoijen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Poederoijen"/>
+            </rdf:Description>
+</rdf:RDF>

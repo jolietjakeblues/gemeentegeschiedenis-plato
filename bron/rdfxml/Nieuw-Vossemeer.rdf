@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nieuw-Vossemeer">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nieuw-Vossemeer</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nieuw-Vossemeer</skos:prefLabel>
+        <gg:name xml:lang="nl">Nieuw-Vossemeer</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10401"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0818"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Steenbergen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nieuw-Vossemeer                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.240839 51.561268,4.232684 51.564334,4.231849 51.56882,4.211357 51.580302,4.209588 51.592869,4.205454 51.596423,4.207436 51.609029,4.241584 51.606042,4.253312 51.593122,4.243577 51.589971,4.242717 51.584029,4.257724 51.583995,4.255622 51.575705,4.249585 51.574837,4.239588 51.565121,4.240839 51.561268)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1885</gg:year>
+                            <gg:name xml:lang="nl">Nieuw-Vossemeer                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.240839 51.561268,4.234979 51.553479,4.22359 51.570266,4.197138 51.583304,4.197933 51.586009,4.19984 51.590344,4.196354 51.596691,4.183352 51.60258,4.190934 51.605175,4.190511 51.610295,4.241584 51.606042,4.253312 51.593122,4.243577 51.589971,4.242717 51.584029,4.257724 51.583995,4.255622 51.575705,4.249585 51.574837,4.239588 51.565121,4.240839 51.561268)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nieuw-Vossemeer"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nieuw-Vossemeer"/>
+            </rdf:Description>
+</rdf:RDF>

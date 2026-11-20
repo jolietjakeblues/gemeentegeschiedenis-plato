@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Lichtenvoorde">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Lichtenvoorde</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Lichtenvoorde</skos:prefLabel>
+        <gg:name xml:lang="nl">Lichtenvoorde</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10242"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0260"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Groenlo"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Lichtenvoorde                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.586392 52.037073,6.592797 52.031345,6.599936 52.031271,6.611034 52.026752,6.625165 52.026604,6.632727 52.031288,6.640898 52.031651,6.647481 52.027356,6.646788 52.023408,6.651637 52.014547,6.655378 52.012889,6.658324 52.008902,6.652806 51.994039,6.658571 51.976538,6.639549 51.962539,6.611068 51.969312,6.558023 51.972189,6.528011 51.965293,6.465112 51.975954,6.483347 51.995471,6.480619 52.003047,6.500275 52.014548,6.521601 52.016771,6.522729 52.021075,6.570582 52.028963,6.583891 52.0362,6.586392 52.037073)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Lichtenvoorde"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Lichtenvoorde"/>
+            </rdf:Description>
+</rdf:RDF>

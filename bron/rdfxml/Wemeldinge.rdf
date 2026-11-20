@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wemeldinge">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wemeldinge</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wemeldinge</skos:prefLabel>
+        <gg:name xml:lang="nl">Wemeldinge</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11145"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0723"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kapelle"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wemeldinge                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.969283 51.509744,3.958096 51.512754,3.952888 51.513409,3.952464 51.517719,3.954924 51.521975,3.960098 51.522397,3.966243 51.528675,4.00987 51.515803,4.0138 51.514501,4.019185 51.507912,4.015315 51.502473,4.016337 51.497271,3.999017 51.49374,3.995425 51.498192,3.985565 51.509671,3.976996 51.511905,3.969283 51.509744)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</gg:year>
+                            <gg:name xml:lang="nl">Wemeldinge                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.015315 51.502473,4.016337 51.497271,3.999017 51.49374,3.995425 51.498192,3.99079 51.499035,3.980227 51.495942,3.975822 51.498676,3.96615 51.499367,3.964459 51.502763,3.955382 51.502832,3.958096 51.512754,3.952888 51.513409,3.952464 51.517719,3.954924 51.521975,3.960098 51.522397,3.966243 51.528675,4.00987 51.515803,4.0138 51.514501,4.019185 51.507912,4.015315 51.502473)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wemeldinge"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wemeldinge"/>
+            </rdf:Description>
+</rdf:RDF>

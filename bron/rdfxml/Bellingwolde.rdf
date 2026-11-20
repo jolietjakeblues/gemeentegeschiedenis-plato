@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bellingwolde">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bellingwolde</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bellingwolde</skos:prefLabel>
+        <gg:name xml:lang="nl">Bellingwolde</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10340"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1019"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bellingwedde"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bellingwolde                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.189181 53.14969,7.189715 53.144559,7.181231 53.13462,7.187269 53.121677,7.184178 53.119207,7.20436 53.108836,7.201952 53.079842,7.203174 53.05196,7.213823 53.007217,7.197221 53.002167,7.163222 53.005103,7.156574 53.01383,7.139637 53.018843,7.132417 53.032071,7.127121 53.033856,7.123133 53.042273,7.104816 53.057996,7.093357 53.085303,7.097414 53.085964,7.094244 53.092661,7.097157 53.094596,7.097426 53.097648,7.116078 53.101065,7.113507 53.107753,7.12374 53.109673,7.125664 53.11297,7.116886 53.117591,7.113878 53.143339,7.122716 53.147525,7.132507 53.149361,7.141996 53.151109,7.146639 53.154996,7.174196 53.145241,7.176728 53.148618,7.189181 53.14969)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1964</gg:year>
+                            <gg:name xml:lang="nl">Bellingwolde                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.146639 53.154996,7.174196 53.145241,7.176728 53.148618,7.189181 53.14969,7.189715 53.144559,7.181231 53.13462,7.187269 53.121677,7.184178 53.119207,7.20436 53.108836,7.201952 53.079842,7.203174 53.05196,7.213823 53.007217,7.197221 53.002167,7.163222 53.005103,7.156574 53.01383,7.139637 53.018843,7.132417 53.032071,7.127121 53.033856,7.123133 53.042273,7.104816 53.057996,7.093357 53.085303,7.097414 53.085964,7.094244 53.092661,7.097157 53.094596,7.095181 53.097501,7.097752 53.105912,7.108221 53.125086,7.132507 53.149361,7.141996 53.151109,7.146639 53.154996)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1968-09-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bellingwolde_(dorp)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bellingwolde_(dorp)"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Mariekerke">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Mariekerke</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Mariekerke</skos:prefLabel>
+        <gg:name xml:lang="nl">Mariekerke</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11221"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0686"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Aagtekerke"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Meliskerke"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Grijpskerke"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Veere"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</gg:year>
+                            <gg:name xml:lang="nl">Mariekerke                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.529424 51.552213,3.52848 51.547074,3.569868 51.557794,3.575067 51.550413,3.572987 51.544717,3.573001 51.540761,3.580583 51.538631,3.583542 51.533102,3.590972 51.527463,3.592801 51.521288,3.57924 51.518022,3.58091 51.51589,3.573263 51.512535,3.576268 51.509435,3.571959 51.509098,3.576097 51.502869,3.551139 51.496635,3.548167 51.506029,3.543191 51.507928,3.541259 51.512932,3.523134 51.512195,3.516563 51.507325,3.510885 51.505256,3.493932 51.507589,3.495583 51.51292,3.4894 51.52298,3.480755 51.526345,3.476465 51.528972,3.47294 51.53395,3.472163 51.542118,3.474905 51.54549,3.487984 51.546512,3.501783 51.551051,3.501038 51.555085,3.511482 51.557141,3.525064 51.556549,3.529424 51.552213)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-07-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Mariekerke_(Nederland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Mariekerke_(Nederland)"/>
+            </rdf:Description>
+</rdf:RDF>

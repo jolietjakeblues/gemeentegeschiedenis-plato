@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vrouwenpolder">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vrouwenpolder</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vrouwenpolder</skos:prefLabel>
+        <gg:name xml:lang="nl">Vrouwenpolder</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10635"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1214"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Gapinge"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Veere"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Vrouwenpolder                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.572884 51.579778,3.547644 51.579473,3.541912 51.585587,3.554404 51.590728,3.57152 51.59585,3.607776 51.591552,3.619421 51.589032,3.62264 51.576764,3.626637 51.570441,3.633271 51.566765,3.624473 51.566722,3.619981 51.574656,3.611579 51.579203,3.583668 51.580754,3.580383 51.579894,3.572884 51.579778)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Vrouwenpolder                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.619421 51.589032,3.62264 51.576764,3.626637 51.570441,3.650123 51.556138,3.642775 51.540925,3.645983 51.539984,3.638748 51.529447,3.635299 51.525439,3.622011 51.522452,3.621988 51.526767,3.614396 51.529259,3.614392 51.533035,3.619997 51.53348,3.627903 51.534049,3.627816 51.536295,3.62406 51.536508,3.614267 51.543642,3.615596 51.546539,3.613761 51.549209,3.620209 51.553981,3.614004 51.557753,3.613446 51.564667,3.622268 51.564082,3.624473 51.566722,3.619981 51.574656,3.611579 51.579203,3.583668 51.580754,3.580383 51.579894,3.572884 51.579778,3.547644 51.579473,3.541912 51.585587,3.554404 51.590728,3.57152 51.59585,3.607776 51.591552,3.619421 51.589032)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1927</gg:year>
+                            <gg:name xml:lang="nl">Vrouwenpolder                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.619421 51.589032,3.62264 51.576764,3.626637 51.570441,3.650123 51.556138,3.642775 51.540925,3.645983 51.539984,3.638748 51.529447,3.635299 51.525439,3.622011 51.522452,3.621988 51.526767,3.614396 51.529259,3.614392 51.533035,3.619997 51.53348,3.617384 51.541352,3.60645 51.544422,3.60799 51.549301,3.613761 51.549209,3.620209 51.553981,3.614004 51.557753,3.613446 51.564667,3.622268 51.564082,3.624473 51.566722,3.611656 51.577227,3.611579 51.579203,3.583668 51.580754,3.580383 51.579894,3.572884 51.579778,3.547644 51.579473,3.541912 51.585587,3.554404 51.590728,3.57152 51.59585,3.618545 51.589222,3.619421 51.589032)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961</gg:year>
+                            <gg:name xml:lang="nl">Vrouwenpolder                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.624092 51.583978,3.62264 51.576764,3.626637 51.570441,3.650123 51.556138,3.642775 51.540925,3.645983 51.539984,3.638748 51.529447,3.635299 51.525439,3.622011 51.522452,3.621988 51.526767,3.614396 51.529259,3.614392 51.533035,3.619997 51.53348,3.617384 51.541352,3.60645 51.544422,3.60799 51.549301,3.613761 51.549209,3.620209 51.553981,3.614004 51.557753,3.613446 51.564667,3.622268 51.564082,3.624473 51.566722,3.611656 51.577227,3.611579 51.579203,3.583668 51.580754,3.580383 51.579894,3.572884 51.579778,3.547644 51.579473,3.541912 51.585587,3.554404 51.590728,3.57152 51.59585,3.629184 51.590348,3.630464 51.587131,3.624092 51.583978)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vrouwenpolder"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vrouwenpolder"/>
+            </rdf:Description>
+</rdf:RDF>

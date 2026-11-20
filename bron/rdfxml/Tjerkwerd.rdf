@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Tjerkwerd">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Tjerkwerd</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Tjerkwerd</skos:prefLabel>
+        <gg:name xml:lang="nl">Tjerkwerd</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11196"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wonseradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Tjerkwerd                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.492234 53.06776,5.495059 53.063804,5.489987 53.063898,5.488779 53.057609,5.499818 53.058228,5.502033 53.049779,5.51023 53.048154,5.516347 53.049315,5.527817 53.045259,5.53183 53.0413,5.535071 53.030063,5.534 53.021887,5.526542 53.01965,5.526524 53.014258,5.536653 53.013168,5.518435 53.000069,5.513237 53.003337,5.510704 53.00493,5.502641 52.998019,5.507541 52.992712,5.49368 52.988142,5.478939 52.989053,5.475807 52.986449,5.463453 52.989693,5.454962 52.987721,5.449752 52.989431,5.439175 52.986112,5.398821 52.984864,5.396442 53.000411,5.404492 53.016225,5.400022 53.017843,5.395702 53.024943,5.392723 53.03959,5.396155 53.050912,5.394834 53.053708,5.407651 53.054112,5.412947 53.056494,5.418909 53.053141,5.428029 53.05863,5.435745 53.066016,5.440272 53.067892,5.445124 53.067966,5.449526 53.069826,5.446336 53.071963,5.449356 53.073778,5.454181 53.072594,5.457502 53.073592,5.454337 53.075865,5.464141 53.074405,5.473942 53.071946,5.480723 53.068397,5.492234 53.06776)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Tjerkwerd"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Tjerkwerd"/>
+            </rdf:Description>
+</rdf:RDF>

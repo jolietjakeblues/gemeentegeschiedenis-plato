@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Assendelft">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Assendelft</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Assendelft</skos:prefLabel>
+        <gg:name xml:lang="nl">Assendelft</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11373"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0367"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zaanstad"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Assendelft                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.768341 52.493112,4.766242 52.485281,4.766652 52.477105,4.760987 52.461347,4.753562 52.445579,4.743681 52.447323,4.72796 52.446158,4.719424 52.44647,4.71064 52.443724,4.696057 52.435731,4.68577 52.435311,4.684825 52.43926,4.69596 52.441932,4.701771 52.446549,4.695906 52.454784,4.69747 52.458298,4.690685 52.459337,4.689713 52.464993,4.691014 52.466529,4.698441 52.471516,4.70443 52.483953,4.712568 52.49092,4.722363 52.495559,4.730902 52.495697,4.738927 52.500774,4.756403 52.493858,4.768341 52.493112)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1875</gg:year>
+                            <gg:name xml:lang="nl">Assendelft                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.753562 52.445579,4.75242 52.4329,4.724123 52.437149,4.715268 52.439256,4.706254 52.441991,4.674417 52.455375,4.691014 52.466529,4.698441 52.471516,4.70443 52.483953,4.712568 52.49092,4.722363 52.495559,4.730902 52.495697,4.738927 52.500774,4.756403 52.493858,4.768341 52.493112,4.766242 52.485281,4.766652 52.477105,4.760987 52.461347,4.753562 52.445579)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Assendelft"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Assendelft"/>
+            </rdf:Description>
+</rdf:RDF>

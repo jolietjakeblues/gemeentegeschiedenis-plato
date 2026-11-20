@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Schaijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Schaijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Schaijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Schaijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10276"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0843"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Reek"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Landerd"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Schaijk                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.574868 51.747137,5.599494 51.749252,5.600525 51.752756,5.646363 51.765697,5.656179 51.759832,5.654401 51.753185,5.658438 51.750209,5.656821 51.746078,5.66516 51.736531,5.669419 51.723038,5.663059 51.724312,5.653929 51.722355,5.653009 51.713459,5.621856 51.705166,5.596099 51.703867,5.594699 51.714116,5.576694 51.733652,5.574868 51.747137)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</gg:year>
+                            <gg:name xml:lang="nl">Schaijk                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.673743 51.765813,5.683577 51.763272,5.694319 51.76666,5.693145 51.764326,5.689644 51.760739,5.689614 51.756335,5.700188 51.756487,5.697112 51.751462,5.700007 51.751184,5.695586 51.73996,5.704549 51.738049,5.703211 51.733109,5.714507 51.733707,5.714918 51.73056,5.712876 51.728408,5.704463 51.725825,5.665222 51.722958,5.666187 51.715316,5.656774 51.714079,5.655632 51.716689,5.64984 51.716073,5.651118 51.711845,5.621856 51.705166,5.596099 51.703867,5.594699 51.714116,5.576694 51.733652,5.574868 51.747137,5.599494 51.749252,5.600525 51.752756,5.646363 51.765697,5.662529 51.756042,5.66986 51.770317,5.673743 51.765813)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</gg:year>
+                            <gg:name xml:lang="nl">Landerd                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.689644 51.760739,5.689614 51.756335,5.700188 51.756487,5.697112 51.751462,5.700007 51.751184,5.695586 51.73996,5.704549 51.738049,5.703211 51.733109,5.706248 51.732741,5.714507 51.733707,5.713767 51.731462,5.708259 51.730488,5.712876 51.728408,5.704463 51.725825,5.697861 51.712989,5.732469 51.678466,5.739781 51.652018,5.730838 51.654022,5.728856 51.65951,5.72538 51.658532,5.72598 51.661406,5.732351 51.663006,5.727532 51.675604,5.675716 51.666575,5.670087 51.667937,5.621536 51.699234,5.621856 51.705166,5.596099 51.703867,5.593949 51.708275,5.597423 51.708628,5.583325 51.727349,5.576694 51.733652,5.578866 51.733918,5.579742 51.735624,5.577135 51.735359,5.575989 51.738147,5.574868 51.747137,5.595438 51.7489,5.596174 51.751416,5.614882 51.756774,5.615457 51.755874,5.631987 51.759436,5.631273 51.761235,5.646363 51.765697,5.662529 51.756042,5.66986 51.770317,5.673743 51.765813,5.689644 51.760739)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Schaijk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Schaijk"/>
+            </rdf:Description>
+</rdf:RDF>

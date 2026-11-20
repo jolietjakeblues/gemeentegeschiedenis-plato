@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hallum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hallum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hallum</skos:prefLabel>
+        <gg:name xml:lang="nl">Hallum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11284"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ferwerderadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hallum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.845762 53.276464,5.83732 53.270578,5.812295 53.271298,5.812184 53.275252,5.767627 53.288161,5.751454 53.290817,5.733453 53.289971,5.736653 53.296252,5.723149 53.295572,5.719291 53.300884,5.724354 53.315336,5.715904 53.328837,5.746327 53.338248,5.741105 53.325471,5.755705 53.314601,5.772109 53.316918,5.842425 53.287914,5.845762 53.276464)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2755918"/>
+                                                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ferwerderadeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ferwerderadeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hallum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ferwerderadeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ferwerderadeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hallum"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Stoutenburg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Stoutenburg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Stoutenburg</skos:prefLabel>
+        <gg:name xml:lang="nl">Stoutenburg</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10438"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0343"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoevelaken"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Leusden"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</gg:year>
+                            <gg:name xml:lang="nl">Stoutenburg                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.472113 52.160804,5.482335 52.156662,5.480128 52.149383,5.497648 52.144515,5.496031 52.140382,5.511791 52.134614,5.512072 52.130299,5.49717 52.128337,5.486219 52.128976,5.482722 52.132664,5.474688 52.132131,5.469872 52.134471,5.461254 52.134117,5.453227 52.138077,5.444169 52.136464,5.431027 52.140694,5.40751 52.143217,5.415111 52.150315,5.417452 52.155708,5.439669 52.160104,5.448581 52.158392,5.446689 52.164595,5.462185 52.166204,5.472264 52.163051,5.472113 52.160804)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-06-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Stoutenburg"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Stoutenburg"/>
+            </rdf:Description>
+</rdf:RDF>

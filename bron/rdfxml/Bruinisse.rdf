@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bruinisse">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bruinisse</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bruinisse</skos:prefLabel>
+        <gg:name xml:lang="nl">Bruinisse</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11291"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0657"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schouwen-Duiveland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bruinisse                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.151883 51.644952,4.140904 51.639622,4.132943 51.640166,4.127552 51.636602,4.118099 51.638837,4.10714 51.638089,4.10138 51.64252,4.104015 51.646415,4.115123 51.652199,4.122172 51.653355,4.133912 51.652132,4.149951 51.646909,4.151883 51.644952)),((4.06857 51.632986,4.054968 51.628876,4.048144 51.630057,4.051392 51.637466,4.061678 51.641448,4.067861 51.652395,4.069814 51.664733,4.062962 51.666723,4.055853 51.672486,4.05422 51.67885,4.088562 51.666291,4.091658 51.664168,4.093343 51.66086,4.100332 51.65905,4.092555 51.653031,4.096076 51.651182,4.074104 51.641408,4.06857 51.632986)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Bruinisse                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.06857 51.632986,4.054968 51.628876,4.048144 51.630057,4.051392 51.637466,4.061678 51.641448,4.067861 51.652395,4.069814 51.664733,4.062962 51.666723,4.055853 51.672486,4.05422 51.67885,4.088562 51.666291,4.091658 51.664168,4.093343 51.66086,4.100332 51.65905,4.092555 51.653031,4.096076 51.651182,4.074104 51.641408,4.06857 51.632986)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</gg:year>
+                            <gg:name xml:lang="nl">Bruinisse                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.105163 51.672227,4.091658 51.664168,4.093343 51.66086,4.100332 51.65905,4.092555 51.653031,4.096076 51.651182,4.074104 51.641408,4.06857 51.632986,4.054968 51.628876,4.048144 51.630057,4.051392 51.637466,4.061678 51.641448,4.067861 51.652395,4.069814 51.664733,4.062962 51.666723,4.055853 51.672486,4.05422 51.67885,4.088562 51.666291,4.103605 51.676166,4.139775 51.680602,4.148054 51.684555,4.150034 51.68089,4.135837 51.676604,4.105163 51.672227)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bruinisse"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bruinisse"/>
+            </rdf:Description>
+</rdf:RDF>

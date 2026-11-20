@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Woensel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Woensel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Woensel</skos:prefLabel>
+        <gg:name xml:lang="nl">Woensel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10894"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1228"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nederwetten_en_Eckart"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Eindhoven"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Woensel                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.50503 51.478575,5.497184 51.476729,5.490966 51.473288,5.487505 51.467905,5.487211 51.462937,5.487054 51.456824,5.477827 51.447753,5.46301 51.447674,5.45466 51.442735,5.444166 51.447865,5.392957 51.461092,5.383603 51.464148,5.386625 51.472687,5.395695 51.481136,5.421757 51.48994,5.423346 51.495872,5.430116 51.497308,5.431408 51.493263,5.440041 51.487507,5.452854 51.486961,5.456023 51.488307,5.461774 51.48327,5.481506 51.48757,5.483085 51.485502,5.494026 51.485043,5.503101 51.486742,5.505681 51.482425,5.505037 51.478614,5.50503 51.478575)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1821</gg:year>
+                            <gg:name xml:lang="nl">Woensel                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.503101 51.486742,5.505681 51.482425,5.504511 51.475505,5.507952 51.470377,5.501461 51.464721,5.487211 51.462937,5.487054 51.456824,5.477827 51.447753,5.46301 51.447674,5.45466 51.442735,5.444166 51.447865,5.392957 51.461092,5.383603 51.464148,5.386625 51.472687,5.395695 51.481136,5.421757 51.48994,5.423346 51.495872,5.430116 51.497308,5.431408 51.493263,5.440041 51.487507,5.452854 51.486961,5.456023 51.488307,5.461774 51.48327,5.481506 51.48757,5.483085 51.485502,5.494026 51.485043,5.503101 51.486742)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1920-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Woensel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Woensel"/>
+            </rdf:Description>
+</rdf:RDF>

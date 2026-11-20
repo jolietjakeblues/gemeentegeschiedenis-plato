@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oostermeer">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oostermeer</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oostermeer</skos:prefLabel>
+        <gg:name xml:lang="nl">Oostermeer</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11161"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tietjerksteradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Oostermeer                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.994736 53.18356,5.999848 53.184564,6.005213 53.186064,6.008178 53.188882,6.012436 53.190435,6.017897 53.191496,6.023556 53.192314,6.030512 53.193345,6.030249 53.191524,6.033847 53.181979,6.040163 53.174307,6.054509 53.173509,6.060042 53.183093,6.060559 53.187493,6.056146 53.19237,6.054308 53.1993,6.031751 53.201939,6.033152 53.208314,6.032896 53.215207,6.030119 53.221467,6.024801 53.227945,6.086056 53.209992,6.07883 53.207428,6.085373 53.204784,6.079178 53.201136,6.104087 53.178075,6.105216 53.174025,6.113682 53.170469,6.104477 53.147431,6.080649 53.152873,6.074759 53.158478,6.061341 53.160891,6.051603 53.159597,6.048106 53.155752,6.050135 53.151608,6.01124 53.14948,5.998418 53.143801,5.996791 53.176766,5.995761 53.180002,5.994736 53.18356)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oostermeer"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oostermeer"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hefshuizen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hefshuizen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hefshuizen</skos:prefLabel>
+        <gg:name xml:lang="nl">Hefshuizen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10246"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0019"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Uithuizen"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Uithuizermeeden"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Usquert"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kantens"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Warffum"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Eemsmond"/>
+
+        
+                                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</gg:year>
+                            <gg:name xml:lang="nl">Hefshuizen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.775534 53.45732,6.798336 53.450226,6.814965 53.456859,6.828101 53.453468,6.832298 53.448475,6.829505 53.445993,6.820911 53.445556,6.818501 53.441002,6.822332 53.43853,6.839177 53.438238,6.844955 53.439966,6.83725 53.443563,6.839714 53.449644,6.879928 53.437291,6.882498 53.433305,6.876804 53.403631,6.846878 53.416848,6.794059 53.397797,6.79174 53.40043,6.785262 53.400056,6.786862 53.403003,6.782434 53.40557,6.77285 53.397504,6.737236 53.38371,6.700465 53.355901,6.693837 53.360197,6.679029 53.362334,6.669062 53.360553,6.662486 53.361701,6.645045 53.361166,6.627488 53.356586,6.626502 53.348419,6.596894 53.34225,6.582246 53.339252,6.575303 53.343364,6.569573 53.353395,6.555783 53.354428,6.557836 53.369145,6.549136 53.37525,6.539073 53.375437,6.525447 53.382935,6.528269 53.387311,6.525482 53.389944,6.523674 53.389781,6.524378 53.393638,6.539555 53.393404,6.539655 53.402748,6.547227 53.404742,6.546603 53.420653,6.547615 53.424687,6.567988 53.427005,6.637434 53.445623,6.734994 53.460836,6.748879 53.461848,6.775534 53.45732)),((6.594323 53.534302,6.590166 53.531288,6.58158 53.531643,6.580645 53.535965,6.57268 53.537032,6.566058 53.537546,6.578766 53.54434,6.609538 53.544212,6.609954 53.54295,6.598421 53.54055,6.594323 53.534302)),((6.501385 53.535411,6.50664 53.532182,6.506704 53.528857,6.497379 53.529842,6.496231 53.532098,6.489352 53.528477,6.460004 53.534027,6.452428 53.535458,6.448303 53.533633,6.445261 53.532287,6.432915 53.533113,6.435168 53.538934,6.443671 53.547306,6.497139 53.53802,6.501385 53.535411)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1979-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hefshuizen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hefshuizen"/>
+            </rdf:Description>
+</rdf:RDF>

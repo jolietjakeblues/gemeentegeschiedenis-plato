@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Woudsend">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Woudsend</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Woudsend</skos:prefLabel>
+        <gg:name xml:lang="nl">Woudsend</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11427"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wymbritseradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Woudsend                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.707546 53.022846,5.704618 53.01904,5.72066 53.012257,5.729508 53.01951,5.727973 53.013764,5.733181 53.01285,5.745035 53.004817,5.741405 52.998178,5.736026 52.996038,5.720221 52.993746,5.71556 52.988008,5.709575 52.98416,5.709552 52.981015,5.702551 52.980495,5.687089 52.983859,5.680646 52.977854,5.679426 52.973454,5.685336 52.967059,5.683968 52.962839,5.640204 52.961412,5.632201 52.94085,5.643198 52.93894,5.638997 52.932748,5.629782 52.933756,5.63095 52.929889,5.622144 52.924066,5.608499 52.921794,5.606667 52.921489,5.59995 52.9162,5.592359 52.914236,5.581261 52.925757,5.58157 52.928452,5.572375 52.934308,5.571361 52.94069,5.579231 52.937622,5.591582 52.93877,5.614725 52.955443,5.623064 52.956266,5.624038 52.961594,5.626582 52.965585,5.613568 52.990671,5.626531 52.991904,5.628306 52.989654,5.644963 52.992043,5.645595 52.992134,5.645404 52.99289,5.643267 53.001305,5.651781 53.00515,5.66728 53.006103,5.670986 53.003219,5.674711 53.00339,5.67657 53.014079,5.688202 53.015578,5.690209 53.025637,5.707546 53.022846)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                    
+                                                                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Woudsend"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wymbritseradeel_(gemeente)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wymbritseradeel_(voormalige_gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Woudsend"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wymbritseradeel_(gemeente)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wymbritseradeel_(voormalige_gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Stompwijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Stompwijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Stompwijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Stompwijk</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10742"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1197"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Leidschendam_1"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Leidschendam_2"/>
+
+        
+                                                                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Stompwijk                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.45892 52.123657,4.487626 52.097723,4.488536 52.088741,4.472565 52.084843,4.472234 52.079627,4.463041 52.079735,4.432611 52.070055,4.422943 52.065212,4.412937 52.055871,4.40522 52.062009,4.399962 52.062415,4.390774 52.055866,4.382533 52.046268,4.382556 52.038717,4.374627 52.034874,4.366457 52.041635,4.358757 52.046871,4.349716 52.053264,4.344547 52.056095,4.388815 52.078321,4.425248 52.100466,4.430887 52.102939,4.437009 52.110179,4.45892 52.123657)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1938</gg:year>
+                            <gg:name xml:lang="nl">Leidschendam                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.45892 52.123657,4.487626 52.097723,4.488536 52.088741,4.472565 52.084843,4.472234 52.079627,4.463041 52.079735,4.432611 52.070055,4.422943 52.065212,4.412937 52.055871,4.40522 52.062009,4.399962 52.062415,4.393456 52.066405,4.373402 52.050324,4.366457 52.041635,4.358757 52.046871,4.349716 52.053264,4.344547 52.056095,4.388815 52.078321,4.368388 52.091269,4.368012 52.094951,4.397148 52.11048,4.406079 52.109296,4.413333 52.104683,4.422858 52.102963,4.425248 52.100466,4.430887 52.102939,4.437009 52.110179,4.45892 52.123657)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-04-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1938-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Stompwijk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Stompwijk"/>
+            </rdf:Description>
+</rdf:RDF>

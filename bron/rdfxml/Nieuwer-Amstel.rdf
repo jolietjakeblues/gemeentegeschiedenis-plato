@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nieuwer-Amstel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nieuwer-Amstel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nieuwer-Amstel</skos:prefLabel>
+        <gg:name xml:lang="nl">Nieuwer-Amstel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10799"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1249"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rietwijkeroord"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rietwijkeroord"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Amstelveen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nieuwer-Amstel                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.885463 52.357862,4.900167 52.355676,4.917607 52.358263,4.918792 52.357279,4.932078 52.364342,4.94965 52.368992,4.960675 52.367594,4.958519 52.362823,4.952352 52.36298,4.936534 52.359236,4.923505 52.35577,4.918443 52.34865,4.916164 52.34208,4.909711 52.341784,4.906755 52.330178,4.908542 52.327669,4.908582 52.323984,4.913007 52.321665,4.913047 52.31789,4.904256 52.317136,4.903595 52.310482,4.905132 52.303927,4.901477 52.303013,4.896835 52.2985,4.898786 52.294374,4.887954 52.292981,4.887463 52.28453,4.88351 52.284154,4.87874 52.278381,4.88031 52.26922,4.879176 52.26589,4.880825 52.262571,4.873533 52.259843,4.870622 52.258213,4.869937 52.254165,4.86514 52.251088,4.855269 52.243764,4.849743 52.240683,4.837932 52.248628,4.831737 52.252194,4.814659 52.247799,4.802031 52.250433,4.793121 52.259736,4.790309 52.261879,4.825682 52.290994,4.832259 52.292553,4.838133 52.303545,4.813864 52.309542,4.816907 52.323757,4.823348 52.324777,4.838006 52.325655,4.840176 52.328181,4.848291 52.336397,4.845827 52.357957,4.865809 52.381415,4.873301 52.368685,4.874772 52.368422,4.878636 52.364394,4.885463 52.357862)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Nieuwer-Amstel                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.958519 52.362823,4.952352 52.36298,4.936534 52.359236,4.923505 52.35577,4.918443 52.34865,4.916164 52.34208,4.909711 52.341784,4.906755 52.330178,4.908542 52.327669,4.908582 52.323984,4.913007 52.321665,4.913047 52.31789,4.904256 52.317136,4.903595 52.310482,4.905132 52.303927,4.901477 52.303013,4.896835 52.2985,4.898786 52.294374,4.887954 52.292981,4.887463 52.28453,4.88351 52.284154,4.87874 52.278381,4.88031 52.26922,4.879176 52.26589,4.880825 52.262571,4.873533 52.259843,4.870622 52.258213,4.869937 52.254165,4.86514 52.251088,4.855269 52.243764,4.849743 52.240683,4.837932 52.248628,4.831737 52.252194,4.814659 52.247799,4.802031 52.250433,4.793121 52.259736,4.790309 52.261879,4.825682 52.290994,4.832259 52.292553,4.838133 52.303545,4.845963 52.310682,4.838006 52.325655,4.840176 52.328181,4.848291 52.336397,4.845827 52.357957,4.865809 52.381415,4.873301 52.368685,4.874772 52.368422,4.878636 52.364394,4.885463 52.357862,4.900167 52.355676,4.917607 52.358263,4.918792 52.357279,4.932078 52.364342,4.94965 52.368992,4.960675 52.367594,4.958519 52.362823)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1855</gg:year>
+                            <gg:name xml:lang="nl">Nieuwer-Amstel                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.885463 52.357862,4.900167 52.355676,4.917607 52.358263,4.918792 52.357279,4.932078 52.364342,4.94965 52.368992,4.960675 52.367594,4.958519 52.362823,4.952352 52.36298,4.936534 52.359236,4.923505 52.35577,4.918443 52.34865,4.916164 52.34208,4.909711 52.341784,4.906755 52.330178,4.908542 52.327669,4.908582 52.323984,4.913007 52.321665,4.913047 52.31789,4.904256 52.317136,4.903595 52.310482,4.905132 52.303927,4.901477 52.303013,4.896835 52.2985,4.898786 52.294374,4.887954 52.292981,4.887463 52.28453,4.88351 52.284154,4.87874 52.278381,4.88031 52.26922,4.879176 52.26589,4.880825 52.262571,4.873533 52.259843,4.870622 52.258213,4.869937 52.254165,4.86514 52.251088,4.855269 52.243764,4.849743 52.240683,4.837932 52.248628,4.831737 52.252194,4.814659 52.247799,4.802031 52.250433,4.793121 52.259736,4.790309 52.261879,4.825682 52.290994,4.832259 52.292553,4.838133 52.303545,4.813864 52.309542,4.816907 52.323757,4.838006 52.325655,4.840176 52.328181,4.848291 52.336397,4.845827 52.357957,4.865809 52.381415,4.873301 52.368685,4.874772 52.368422,4.878636 52.364394,4.885463 52.357862)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1921</gg:year>
+                            <gg:name xml:lang="nl">Nieuwer-Amstel                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.856094 52.321873,4.859199 52.319819,4.89586 52.320427,4.904256 52.317136,4.903595 52.310482,4.905132 52.303927,4.901477 52.303013,4.896835 52.2985,4.898786 52.294374,4.887954 52.292981,4.887463 52.28453,4.88351 52.284154,4.87874 52.278381,4.88031 52.26922,4.879176 52.26589,4.880825 52.262571,4.873533 52.259843,4.870622 52.258213,4.869937 52.254165,4.86514 52.251088,4.855269 52.243764,4.849743 52.240683,4.837932 52.248628,4.831737 52.252194,4.814659 52.247799,4.802031 52.250433,4.793121 52.259736,4.790309 52.261879,4.825682 52.290994,4.832259 52.292553,4.838133 52.303545,4.813864 52.309542,4.816907 52.323757,4.838006 52.325655,4.840176 52.328181,4.854541 52.329056,4.856094 52.321873)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nieuwer-Amstel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nieuwer-Amstel"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vogelwaarde">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vogelwaarde</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vogelwaarde</skos:prefLabel>
+        <gg:name xml:lang="nl">Vogelwaarde</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10100"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0719"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ossenisse"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hengstdijk"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Boschkapelle"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Stoppeldijk"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hontenisse"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</gg:year>
+                            <gg:name xml:lang="nl">Vogelwaarde                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.001799 51.364499,4.003501 51.360474,4.025603 51.351205,4.027098 51.344391,4.025204 51.340503,4.018134 51.327385,4.018376 51.319297,4.03895 51.30758,4.039818 51.302466,4.041553 51.297092,4.039934 51.293658,4.036111 51.287141,4.010851 51.292868,4.005621 51.290379,4.00235 51.29897,3.977001 51.302531,3.958587 51.295205,3.949129 51.299583,3.944002 51.307521,3.952669 51.319315,3.950891 51.325676,3.943204 51.337358,3.94321 51.346258,3.946042 51.352046,3.947662 51.355303,3.947327 51.356827,3.945146 51.366779,3.954905 51.362404,3.954739 51.367706,3.961338 51.381721,3.959621 51.39069,3.960932 51.399337,3.964019 51.401712,3.973271 51.404611,3.981901 51.404446,3.982653 51.394027,3.988409 51.389061,4.000832 51.377433,3.999943 51.368882,4.001799 51.364499)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-07-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vogelwaarde"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vogelwaarde"/>
+            </rdf:Description>
+</rdf:RDF>

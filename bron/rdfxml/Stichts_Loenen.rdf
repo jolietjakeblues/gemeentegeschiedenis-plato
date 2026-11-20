@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Stichts_Loenen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Stichts Loenen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Stichts Loenen</skos:prefLabel>
+        <gg:name xml:lang="nl">Stichts Loenen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11202"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Loenen_1"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Loenersloot"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ruwiel"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Loenen_2"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Stichts Loenen                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.020012 52.205563,5.020348 52.200261,5.018189 52.19612,5.004305 52.194818,4.998051 52.190753,4.998269 52.182574,4.984372 52.183247,4.985072 52.186754,4.977728 52.190234,4.978261 52.195899,4.984097 52.197537,4.986988 52.198303,4.989453 52.200687,4.99301 52.202958,4.996271 52.202151,4.998771 52.203795,4.99654 52.205151,4.99902 52.209157,5.004027 52.211718,5.011161 52.207834,5.020012 52.205563)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1820</gg:year>
+                            <gg:name xml:lang="nl">Loenen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.006922 52.230957,5.01965 52.231717,5.018696 52.223175,5.028664 52.221229,5.028572 52.214487,5.027445 52.209091,5.020012 52.205563,5.020348 52.200261,5.018189 52.19612,5.004305 52.194818,4.998051 52.190753,4.998269 52.182574,4.984372 52.183247,4.985072 52.186754,4.977728 52.190234,4.978261 52.195899,4.984097 52.197537,4.986266 52.216598,4.998844 52.21727,5.005117 52.219537,5.006922 52.230957)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-05-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1820-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Loenen_(voormalige_gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Loenen_(voormalige_gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

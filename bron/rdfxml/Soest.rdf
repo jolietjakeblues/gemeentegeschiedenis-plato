@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Soest">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Soest</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Soest</skos:prefLabel>
+        <gg:name xml:lang="nl">Soest</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11021"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0342"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Soest                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.312896 52.200897,5.308231 52.191547,5.31891 52.189666,5.323889 52.185175,5.320971 52.18059,5.337931 52.180418,5.34013 52.175026,5.34905 52.172513,5.356507 52.170717,5.361334 52.164517,5.357973 52.163258,5.350661 52.169098,5.345838 52.168647,5.343796 52.163254,5.344531 52.15885,5.33854 52.158758,5.334906 52.142218,5.331255 52.141138,5.329073 52.134306,5.333606 52.129724,5.327773 52.122981,5.302247 52.108584,5.294066 52.111454,5.279468 52.111442,5.27053 52.124196,5.263961 52.123381,5.253118 52.135862,5.256611 52.14027,5.242641 52.168656,5.266568 52.18558,5.301345 52.198013,5.30909 52.202153,5.312896 52.200897)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</gg:year>
+                            <gg:name xml:lang="nl">Soest                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.333606 52.129724,5.327773 52.122981,5.302247 52.108584,5.294066 52.111454,5.279468 52.111442,5.27053 52.124196,5.263961 52.123381,5.253118 52.135862,5.256611 52.14027,5.242641 52.168656,5.266568 52.18558,5.301345 52.198013,5.30909 52.202153,5.312896 52.200897,5.308231 52.191547,5.31891 52.189666,5.323889 52.185175,5.320971 52.18059,5.337931 52.180418,5.34013 52.175026,5.34905 52.172513,5.343499 52.168646,5.344531 52.15885,5.33854 52.158758,5.334906 52.142218,5.331255 52.141138,5.329073 52.134306,5.333606 52.129724)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2747033"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Soest_(Nederland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Soest_(Nederland)"/>
+            </rdf:Description>
+</rdf:RDF>

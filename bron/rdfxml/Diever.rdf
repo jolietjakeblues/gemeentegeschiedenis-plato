@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Diever">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Diever</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Diever</skos:prefLabel>
+        <gg:name xml:lang="nl">Diever</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10418"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0111"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vledder"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westerveld"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Diever                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.303433 52.92186,6.335905 52.903902,6.342502 52.906546,6.367475 52.899962,6.361771 52.890752,6.374002 52.886248,6.367569 52.877674,6.371315 52.87252,6.371513 52.868115,6.36011 52.862906,6.324505 52.822929,6.314733 52.816894,6.306547 52.80851,6.274652 52.815402,6.271459 52.83358,6.246313 52.837718,6.235596 52.836087,6.220789 52.837809,6.215264 52.83605,6.207685 52.835473,6.193944 52.830714,6.186088 52.823038,6.179098 52.822096,6.173421 52.811619,6.149208 52.826515,6.120113 52.85222,6.20835 52.886694,6.243381 52.915296,6.246308 52.920487,6.258742 52.92516,6.303433 52.92186)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1820</gg:year>
+                            <gg:name xml:lang="nl">Diever                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.243381 52.915296,6.246308 52.920487,6.258742 52.92516,6.303433 52.92186,6.335905 52.903902,6.342502 52.906546,6.367475 52.899962,6.361771 52.890752,6.374002 52.886248,6.367569 52.877674,6.371315 52.87252,6.371513 52.868115,6.36011 52.862906,6.324505 52.822929,6.314733 52.816894,6.306547 52.80851,6.274652 52.815402,6.271459 52.83358,6.246313 52.837718,6.235596 52.836087,6.220789 52.837809,6.226574 52.845407,6.231577 52.858493,6.236581 52.86385,6.248427 52.869696,6.274355 52.895838,6.283245 52.901793,6.243381 52.915296)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Diever"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Diever"/>
+            </rdf:Description>
+</rdf:RDF>

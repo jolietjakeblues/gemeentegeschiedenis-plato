@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Driebergen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Driebergen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Driebergen</skos:prefLabel>
+        <gg:name xml:lang="nl">Driebergen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10777"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1048"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rijsenburg"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sterkenburg"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Driebergen-Rijsenburg"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Driebergen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.287555 52.085653,5.319824 52.068779,5.329876 52.077322,5.339072 52.071484,5.333827 52.066988,5.310663 52.052325,5.305707 52.051962,5.299015 52.044946,5.299602 52.04279,5.290871 52.036132,5.285042 52.035857,5.268017 52.026134,5.267719 52.028471,5.256049 52.032773,5.256918 52.034931,5.255745 52.037266,5.251081 52.037261,5.246409 52.040042,5.249601 52.04454,5.246239 52.047592,5.250598 52.052181,5.248977 52.057931,5.252756 52.06198,5.256839 52.062075,5.257119 52.06594,5.287555 52.085653)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Driebergen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.333827 52.066988,5.310663 52.052325,5.305707 52.051962,5.299015 52.044946,5.299602 52.04279,5.290871 52.036132,5.285042 52.035857,5.268017 52.026134,5.267719 52.028471,5.256049 52.032773,5.256918 52.034931,5.258801 52.038887,5.27059 52.045281,5.283394 52.05536,5.276383 52.060387,5.271568 52.061641,5.262835 52.0557,5.261824 52.052373,5.249601 52.04454,5.246239 52.047592,5.250598 52.052181,5.248977 52.057931,5.252756 52.06198,5.256839 52.062075,5.257119 52.06594,5.287555 52.085653,5.319824 52.068779,5.329876 52.077322,5.339072 52.071484,5.333827 52.066988)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Driebergen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.287555 52.085653,5.319824 52.068779,5.329876 52.077322,5.339072 52.071484,5.333827 52.066988,5.310663 52.052325,5.305707 52.051962,5.299015 52.044946,5.299602 52.04279,5.290871 52.036132,5.29321 52.032448,5.304001 52.028502,5.309831 52.027877,5.311437 52.02599,5.289912 52.007908,5.277676 52.008437,5.26234 52.023971,5.268017 52.026134,5.267719 52.028471,5.256049 52.032773,5.256918 52.034931,5.258801 52.038887,5.27059 52.045281,5.283394 52.05536,5.276383 52.060387,5.271568 52.061641,5.262835 52.0557,5.261824 52.052373,5.249601 52.04454,5.246239 52.047592,5.250598 52.052181,5.248977 52.057931,5.252756 52.06198,5.256839 52.062075,5.257119 52.06594,5.287555 52.085653)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-05-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Driebergen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Driebergen"/>
+            </rdf:Description>
+</rdf:RDF>

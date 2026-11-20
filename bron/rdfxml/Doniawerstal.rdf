@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Doniawerstal">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Doniawerstal</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Doniawerstal</skos:prefLabel>
+        <gg:name xml:lang="nl">Doniawerstal</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10086"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0067"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Langweer"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Scharsterland"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Doniawerstal                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.771419 53.023517,5.777516 53.021969,5.779096 53.015404,5.775922 53.010382,5.779455 53.005698,5.7733 53.000326,5.782703 52.986097,5.78117 52.98116,5.784109 52.976927,5.784587 52.964075,5.78111 52.958155,5.830259 52.932911,5.808747 52.907647,5.79952 52.906421,5.788862 52.91122,5.78807 52.905921,5.771738 52.907862,5.766362 52.905003,5.764666 52.897999,5.753079 52.898484,5.753206 52.895878,5.761967 52.895132,5.760278 52.888847,5.748078 52.886727,5.692283 52.896319,5.683322 52.889781,5.66294 52.885517,5.648035 52.902175,5.652202 52.903065,5.646292 52.909009,5.660032 52.919402,5.660347 52.922187,5.650869 52.928409,5.639567 52.928434,5.63095 52.929889,5.629782 52.933756,5.638997 52.932748,5.643198 52.93894,5.632201 52.94085,5.640204 52.961412,5.683968 52.962839,5.685336 52.967059,5.679426 52.973454,5.680646 52.977854,5.687089 52.983859,5.702551 52.980495,5.709552 52.981015,5.709575 52.98416,5.71556 52.988008,5.720221 52.993746,5.736026 52.996038,5.741405 52.998178,5.745035 53.004817,5.733181 53.01285,5.759653 53.024453,5.757359 53.01754,5.749597 53.016036,5.75056 53.006418,5.762193 53.00791,5.765845 53.016615,5.771419 53.023517)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Doniawerstal"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Doniawerstal"/>
+            </rdf:Description>
+</rdf:RDF>

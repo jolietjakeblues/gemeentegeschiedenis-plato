@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Arum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Arum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Arum</skos:prefLabel>
+        <gg:name xml:lang="nl">Arum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11440"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wonseradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Arum                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.527662 53.102099,5.514596 53.102103,5.508439 53.107439,5.495286 53.10729,5.493416 53.110684,5.472224 53.117484,5.467162 53.120092,5.462931 53.119005,5.464333 53.114764,5.453416 53.107159,5.449227 53.110654,5.438552 53.106298,5.426871 53.100246,5.425458 53.095522,5.422038 53.096007,5.419219 53.094676,5.411775 53.098069,5.413386 53.098917,5.402923 53.107156,5.40554 53.108125,5.398856 53.113274,5.404982 53.121451,5.409028 53.14706,5.427564 53.14984,5.446243 53.146777,5.448642 53.152258,5.465374 53.146766,5.460133 53.140839,5.467301 53.138408,5.471493 53.14218,5.485082 53.137676,5.484924 53.133723,5.491058 53.137312,5.499422 53.135777,5.502399 53.131371,5.512269 53.134596,5.510341 53.13981,5.513934 53.142052,5.523495 53.140964,5.536502 53.142655,5.546772 53.13141,5.547053 53.126467,5.55242 53.123674,5.545398 53.123235,5.53866 53.11866,5.536543 53.111295,5.532667 53.113187,5.527133 53.110677,5.527662 53.102099)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Arum_(plaats)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Arum_(plaats)"/>
+            </rdf:Description>
+</rdf:RDF>

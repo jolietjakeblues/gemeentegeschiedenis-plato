@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Kollumerland_en_Nieuwkruisland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Kollumerland en Nieuwkruisland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Kollumerland en Nieuwkruisland</skos:prefLabel>
+        <gg:name xml:lang="nl">Kollumerland en Nieuwkruisland</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10984"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0079"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kollum"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Burum"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oudwoude"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Noardeast-Fryslan"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Kollumerland en Nieuwkruisland     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.285384 53.337253,6.2821 53.309242,6.294649 53.306722,6.289454 53.302178,6.287768 53.300484,6.278123 53.298309,6.270084 53.286597,6.25732 53.285702,6.25359 53.271711,6.258377 53.263769,6.246383 53.263585,6.232545 53.25335,6.219222 53.253982,6.216663 53.261188,6.186308 53.264809,6.189194 53.258769,6.175338 53.254997,6.161489 53.25976,6.145838 53.255996,6.139615 53.260079,6.0966 53.250546,6.072969 53.243674,6.04625 53.24005,6.048967 53.260972,6.053326 53.261846,6.055807 53.286543,6.072929 53.288333,6.073968 53.315913,6.07702 53.319131,6.086957 53.32114,6.091557 53.317968,6.10281 53.317901,6.105921 53.315457,6.115546 53.316747,6.121376 53.315453,6.12336 53.308612,6.134157 53.308366,6.135868 53.303233,6.131149 53.299219,6.134841 53.295871,6.15192 53.303312,6.157766 53.311452,6.177641 53.315276,6.179039 53.317873,6.205785 53.31976,6.215424 53.329399,6.25551 53.329835,6.285384 53.337253)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</gg:year>
+                            <gg:name xml:lang="nl">Kollumerland en Nieuwkruisland     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.221428 53.344902,6.226295 53.340376,6.232763 53.340959,6.237381 53.33913,6.244611 53.340336,6.251581 53.343521,6.259408 53.344453,6.268954 53.341328,6.285384 53.337253,6.2821 53.309242,6.294649 53.306722,6.289454 53.302178,6.287768 53.300484,6.278123 53.298309,6.270084 53.286597,6.25732 53.285702,6.25359 53.271711,6.258377 53.263769,6.246383 53.263585,6.232545 53.25335,6.219222 53.253982,6.216663 53.261188,6.186308 53.264809,6.189194 53.258769,6.175338 53.254997,6.161489 53.25976,6.145838 53.255996,6.139615 53.260079,6.0966 53.250546,6.072969 53.243674,6.04625 53.24005,6.048967 53.260972,6.053326 53.261846,6.055807 53.286543,6.072929 53.288333,6.073968 53.315913,6.07702 53.319131,6.086957 53.32114,6.091557 53.317968,6.10281 53.317901,6.105921 53.315457,6.115546 53.316747,6.121376 53.315453,6.12336 53.308612,6.134157 53.308366,6.135868 53.303233,6.131149 53.299219,6.134841 53.295871,6.15192 53.303312,6.157766 53.311452,6.177641 53.315276,6.179039 53.317873,6.174885 53.328683,6.179313 53.332787,6.192729 53.327756,6.195194 53.331154,6.1785 53.345732,6.178579 53.350044,6.217413 53.346907,6.221428 53.344902)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2752523"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kollumerland_en_Nieuwkruisland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kollumerland_en_Nieuwkruisland"/>
+            </rdf:Description>
+</rdf:RDF>

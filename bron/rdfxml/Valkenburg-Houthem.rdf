@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Valkenburg-Houthem">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Valkenburg-Houthem</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Valkenburg-Houthem</skos:prefLabel>
+        <gg:name xml:lang="nl">Valkenburg-Houthem</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11077"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0982"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Valkenburg_Li"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Valkenburg_aan_de_Geul"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</gg:year>
+                            <gg:name xml:lang="nl">Valkenburg-Houthem                 </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.832993 50.887828,5.833619 50.879107,5.843669 50.875202,5.850288 50.869423,5.860382 50.870191,5.866771 50.869895,5.873587 50.869597,5.88817 50.86513,5.875266 50.85368,5.877788 50.850433,5.859877 50.834597,5.851348 50.833463,5.841011 50.835931,5.805033 50.844516,5.800409 50.851454,5.803269 50.853691,5.819067 50.857499,5.809356 50.867153,5.773337 50.87438,5.772363 50.8769,5.776973 50.884435,5.789343 50.885202,5.792878 50.883302,5.801558 50.884619,5.800742 50.888757,5.806578 50.889725,5.8189 50.885185,5.820916 50.888054,5.835186 50.894202,5.835586 50.891414,5.832993 50.887828)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-07-15</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Valkenburg-Houthem"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Valkenburg-Houthem"/>
+            </rdf:Description>
+</rdf:RDF>

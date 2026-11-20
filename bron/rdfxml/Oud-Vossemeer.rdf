@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oud-Vossemeer">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oud-Vossemeer</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oud-Vossemeer</skos:prefLabel>
+        <gg:name xml:lang="nl">Oud-Vossemeer</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10134"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0696"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vrijberge"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tholen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Oud-Vossemeer                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.197138 51.583304,4.22359 51.570266,4.231991 51.557585,4.233171 51.550854,4.225146 51.53765,4.22376 51.535479,4.193132 51.554587,4.184577 51.556387,4.179422 51.554986,4.171604 51.556163,4.166301 51.554939,4.154387 51.563534,4.157731 51.567884,4.1546 51.571627,4.157544 51.580108,4.152958 51.583442,4.153576 51.587298,4.17271 51.591983,4.17805 51.591477,4.186123 51.589652,4.192769 51.586803,4.197138 51.583304)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1813</gg:year>
+                            <gg:name xml:lang="nl">Oud-Vossemeer                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.134245 51.603503,4.159176 51.605116,4.167273 51.604661,4.175261 51.602856,4.183352 51.60258,4.196354 51.596691,4.19984 51.590344,4.197933 51.586009,4.197138 51.583304,4.22359 51.570266,4.231991 51.557585,4.233171 51.550854,4.225146 51.53765,4.22376 51.535479,4.193132 51.554587,4.184577 51.556387,4.179422 51.554986,4.171604 51.556163,4.166301 51.554939,4.154387 51.563534,4.157731 51.567884,4.1546 51.571627,4.157544 51.580108,4.149742 51.585779,4.137667 51.584122,4.131521 51.587203,4.131551 51.596552,4.134245 51.603503)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1878</gg:year>
+                            <gg:name xml:lang="nl">Oud-Vossemeer                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.19984 51.590344,4.197933 51.586009,4.197138 51.583304,4.22359 51.570266,4.234979 51.553479,4.23229 51.540148,4.225146 51.53765,4.223494 51.535646,4.193132 51.554587,4.184577 51.556387,4.179422 51.554986,4.171604 51.556163,4.166301 51.554939,4.154387 51.563534,4.157731 51.567884,4.1546 51.571627,4.157544 51.580108,4.149742 51.585779,4.137667 51.584122,4.131521 51.587203,4.131551 51.596552,4.134245 51.603503,4.159176 51.605116,4.167273 51.604661,4.175261 51.602856,4.183352 51.60258,4.196354 51.596691,4.19984 51.590344)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1971-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oud-Vossemeer"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oud-Vossemeer"/>
+            </rdf:Description>
+</rdf:RDF>

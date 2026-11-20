@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Westkapelle-Binnen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Westkapelle-Binnen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Westkapelle-Binnen</skos:prefLabel>
+        <gg:name xml:lang="nl">Westkapelle-Binnen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10931"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westkapelle"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Westkapelle-Binnen                 </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.449239 51.525197,3.445859 51.523343,3.439416 51.522553,3.435569 51.519264,3.433001 51.520701,3.428324 51.525568,3.427649 51.53032,3.432177 51.52918,3.436211 51.528203,3.440851 51.52812,3.442065 51.526855,3.446657 51.527895,3.449239 51.525197)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1816</gg:year>
+                            <gg:name xml:lang="nl">Westkapelle                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.456201 51.551296,3.458406 51.546927,3.467473 51.543929,3.472163 51.542118,3.478872 51.530001,3.476465 51.528972,3.459883 51.522316,3.456336 51.520999,3.449239 51.525197,3.445859 51.523343,3.455121 51.515675,3.462851 51.516881,3.463102 51.510951,3.477263 51.516848,3.477708 51.506246,3.470207 51.506483,3.468714 51.500884,3.462145 51.502934,3.452341 51.509874,3.446732 51.513018,3.433001 51.520701,3.428324 51.525568,3.427496 51.531398,3.428038 51.535543,3.433561 51.541209,3.436338 51.543683,3.456201 51.551296)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Westkapelle_(Nederland)"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Westkapelle_(Nederland)"/>
+            </rdf:Description>
+</rdf:RDF>

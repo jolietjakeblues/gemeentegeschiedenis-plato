@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Mijdrecht">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Mijdrecht</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Mijdrecht</skos:prefLabel>
+        <gg:name xml:lang="nl">Mijdrecht</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11379"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0336"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Ronde_Venen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Mijdrecht                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.855269 52.243764,4.884849 52.217559,4.893249 52.212201,4.873942 52.198907,4.841707 52.179528,4.81398 52.198181,4.806782 52.200573,4.78343 52.196681,4.78134 52.199816,4.77164 52.213697,4.769642 52.220608,4.774278 52.224047,4.78171 52.226423,4.803378 52.225903,4.823105 52.228425,4.838107 52.234428,4.841725 52.23786,4.845814 52.238688,4.85184 52.236738,4.849743 52.240683,4.855269 52.243764)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</gg:year>
+                            <gg:name xml:lang="nl">De Ronde Venen                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.877716 52.252671,4.885367 52.249468,4.89091 52.251469,4.896202 52.249604,4.904827 52.250987,4.918201 52.246457,4.921604 52.243145,4.927906 52.242541,4.930919 52.234194,4.944649 52.237302,4.942982 52.228308,4.93395 52.224139,4.938576 52.215258,4.97553 52.222404,4.966792 52.248887,4.979741 52.226013,4.981544 52.220896,4.971174 52.218703,4.96392 52.196747,4.959519 52.198079,4.95866 52.196099,4.949732 52.196785,4.944146 52.18481,4.930361 52.174421,4.930835 52.171008,4.924305 52.166309,4.920679 52.163688,4.908147 52.160222,4.894109 52.160883,4.86501 52.17478,4.841707 52.179528,4.81398 52.198181,4.806782 52.200573,4.804491 52.219167,4.797312 52.219761,4.796818 52.223893,4.803378 52.225903,4.823105 52.228425,4.838107 52.234428,4.841725 52.23786,4.845814 52.238688,4.85184 52.236738,4.849743 52.240683,4.855269 52.243764,4.86514 52.251088,4.871599 52.249768,4.877716 52.252671)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1989-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Mijdrecht"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Mijdrecht"/>
+            </rdf:Description>
+</rdf:RDF>

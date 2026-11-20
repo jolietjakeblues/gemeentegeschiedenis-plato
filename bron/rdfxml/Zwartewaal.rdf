@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zwartewaal">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zwartewaal</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zwartewaal</skos:prefLabel>
+        <gg:name xml:lang="nl">Zwartewaal</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10703"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0641"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vierpolders"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Brielle"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zwartewaal                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.197176 51.873209,4.185415 51.867696,4.181052 51.862527,4.170108 51.864572,4.163916 51.868013,4.155954 51.867121,4.149873 51.877035,4.159501 51.880822,4.164375 51.888514,4.167577 51.893671,4.160504 51.897283,4.168929 51.902764,4.167763 51.908235,4.187986 51.901971,4.201568 51.893929,4.215123 51.886694,4.226442 51.881502,4.220085 51.880181,4.210404 51.878287,4.205156 51.87347,4.197176 51.873209)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Zwartewaal                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.226442 51.881502,4.220085 51.880181,4.210404 51.878287,4.205156 51.87347,4.197176 51.873209,4.193122 51.878202,4.192677 51.88404,4.201568 51.893929,4.215123 51.886694,4.226442 51.881502)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</gg:year>
+                            <gg:name xml:lang="nl">Zwartewaal                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.215123 51.886694,4.21906 51.886104,4.225157 51.886254,4.226442 51.881502,4.220085 51.880181,4.210404 51.878287,4.205156 51.87347,4.197176 51.873209,4.193122 51.878202,4.192677 51.88404,4.201568 51.893929,4.215123 51.886694)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1980-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zwartewaal"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zwartewaal"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dubbeldam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dubbeldam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dubbeldam</skos:prefLabel>
+        <gg:name xml:lang="nl">Dubbeldam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10781"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0507"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Mijl"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wieldrecht"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Mijl"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wieldrecht"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dordrecht"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Dubbeldam                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.62785 51.798312,4.624277 51.786693,4.61451 51.798495,4.62785 51.798312)),((4.613211 51.789677,4.622378 51.779041,4.609231 51.785156,4.594734 51.785329,4.593698 51.80303,4.609199 51.795403,4.613211 51.789677)),((4.649309 51.79641,4.661965 51.795472,4.665542 51.79837,4.716233 51.782222,4.724403 51.798268,4.73377 51.792118,4.745347 51.783284,4.740161 51.77103,4.739811 51.765096,4.726778 51.754866,4.713145 51.746429,4.705685 51.741802,4.693292 51.737954,4.685785 51.736561,4.675433 51.732004,4.660224 51.73254,4.660591 51.736767,4.667939 51.738969,4.681136 51.737611,4.681373 51.740939,4.672936 51.743404,4.674494 51.745661,4.682148 51.746966,4.67833 51.750359,4.683204 51.753534,4.675931 51.755557,4.650051 51.743892,4.639743 51.728006,4.628851 51.721554,4.62518 51.724677,4.628213 51.733685,4.631076 51.744221,4.627452 51.753096,4.623366 51.763496,4.627041 51.768914,4.62789 51.778717,4.628121 51.782224,4.635418 51.796563,4.639665 51.802702,4.649165 51.805279,4.649309 51.79641)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Dubbeldam                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.649601 51.778725,4.649309 51.79641,4.661965 51.795472,4.665542 51.79837,4.716233 51.782222,4.724403 51.798268,4.73377 51.792118,4.745347 51.783284,4.740161 51.77103,4.739811 51.765096,4.726778 51.754866,4.713145 51.746429,4.705685 51.741802,4.693292 51.737954,4.685785 51.736561,4.675433 51.732004,4.660224 51.73254,4.660591 51.736767,4.667939 51.738969,4.681136 51.737611,4.702419 51.760888,4.670252 51.757545,4.671182 51.771888,4.668464 51.778793,4.649601 51.778725)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Dubbeldam                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.665542 51.79837,4.716233 51.782222,4.724403 51.798268,4.73377 51.792118,4.745347 51.783284,4.740161 51.77103,4.739811 51.765096,4.726778 51.754866,4.713145 51.746429,4.705685 51.741802,4.693292 51.737954,4.685785 51.736561,4.675433 51.732004,4.660224 51.73254,4.660591 51.736767,4.667939 51.738969,4.681136 51.737611,4.681373 51.740939,4.672936 51.743404,4.674494 51.745661,4.682148 51.746966,4.67833 51.750359,4.683204 51.753534,4.675931 51.755557,4.650051 51.743892,4.639743 51.728006,4.652961 51.769708,4.66285 51.767432,4.671182 51.771888,4.668464 51.778793,4.634412 51.778669,4.639085 51.785261,4.647938 51.793317,4.642951 51.796881,4.661965 51.795472,4.665542 51.79837)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1857</gg:year>
+                            <gg:name xml:lang="nl">Dubbeldam                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.665542 51.79837,4.716233 51.782222,4.724403 51.798268,4.73377 51.792118,4.745347 51.783284,4.740161 51.77103,4.739811 51.765096,4.726778 51.754866,4.713145 51.746429,4.705685 51.741802,4.693292 51.737954,4.685785 51.736561,4.675433 51.732004,4.660224 51.73254,4.660591 51.736767,4.667939 51.738969,4.681136 51.737611,4.681373 51.740939,4.672936 51.743404,4.674494 51.745661,4.682148 51.746966,4.67833 51.750359,4.683204 51.753534,4.675931 51.755557,4.650051 51.743892,4.639743 51.728006,4.628851 51.721554,4.62518 51.724677,4.628213 51.733685,4.631076 51.744221,4.627452 51.753096,4.623366 51.763496,4.627041 51.768914,4.62789 51.778717,4.634412 51.778669,4.639085 51.785261,4.647938 51.793317,4.642951 51.796881,4.661965 51.795472,4.665542 51.79837)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1872</gg:year>
+                            <gg:name xml:lang="nl">Dubbeldam                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.625384 51.789847,4.623139 51.785428,4.621434 51.786198,4.616275 51.788529,4.617407 51.798604,4.625384 51.798386,4.625384 51.789847)),((4.717461 51.79715,4.73377 51.792118,4.745347 51.783284,4.740161 51.77103,4.739811 51.765096,4.726778 51.754866,4.713145 51.746429,4.705685 51.741802,4.693292 51.737954,4.685785 51.736561,4.675433 51.732004,4.660224 51.73254,4.660591 51.736767,4.667939 51.738969,4.681136 51.737611,4.681373 51.740939,4.672936 51.743404,4.674494 51.745661,4.682148 51.746966,4.67833 51.750359,4.683204 51.753534,4.675931 51.755557,4.650051 51.743892,4.639743 51.728006,4.628851 51.721554,4.62518 51.724677,4.628213 51.733685,4.631076 51.744221,4.627452 51.753096,4.623366 51.763496,4.627041 51.768914,4.62789 51.778717,4.649627 51.778676,4.666695 51.780669,4.690726 51.791691,4.697216 51.793797,4.70853 51.793323,4.71408 51.800277,4.70725 51.801316,4.711471 51.809879,4.706688 51.81938,4.734397 51.818908,4.733379 51.809105,4.726107 51.800705,4.717461 51.79715)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1903</gg:year>
+                            <gg:name xml:lang="nl">Dubbeldam                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.717461 51.79715,4.73377 51.792118,4.745347 51.783284,4.740161 51.77103,4.739811 51.765096,4.726778 51.754866,4.713145 51.746429,4.705685 51.741802,4.693292 51.737954,4.685785 51.736561,4.675433 51.732004,4.660224 51.73254,4.660591 51.736767,4.667939 51.738969,4.681136 51.737611,4.681373 51.740939,4.672936 51.743404,4.674494 51.745661,4.682148 51.746966,4.67833 51.750359,4.683204 51.753534,4.675931 51.755557,4.650051 51.743892,4.639743 51.728006,4.628851 51.721554,4.62518 51.724677,4.628213 51.733685,4.631076 51.744221,4.627452 51.753096,4.623366 51.763496,4.627041 51.768914,4.62789 51.778717,4.649627 51.778676,4.666695 51.780669,4.690726 51.791691,4.697216 51.793797,4.70853 51.793323,4.71408 51.800277,4.70725 51.801316,4.711471 51.809879,4.706688 51.81938,4.734397 51.818908,4.733379 51.809105,4.726107 51.800705,4.717461 51.79715)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961</gg:year>
+                            <gg:name xml:lang="nl">Dubbeldam                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.695133 51.79729,4.706045 51.794747,4.717461 51.79715,4.73377 51.792118,4.745347 51.783284,4.740161 51.77103,4.739811 51.765096,4.726778 51.754866,4.713145 51.746429,4.705685 51.741802,4.693292 51.737954,4.685785 51.736561,4.675433 51.732004,4.660224 51.73254,4.660591 51.736767,4.667939 51.738969,4.681136 51.737611,4.681373 51.740939,4.672936 51.743404,4.674494 51.745661,4.682148 51.746966,4.67833 51.750359,4.683204 51.753534,4.675931 51.755557,4.650051 51.743892,4.639743 51.728006,4.628851 51.721554,4.62518 51.724677,4.628213 51.733685,4.631076 51.744221,4.627452 51.753096,4.623366 51.763496,4.627041 51.768914,4.62789 51.778717,4.649627 51.778676,4.669627 51.77853,4.669749 51.779969,4.689889 51.78018,4.690442 51.781892,4.686659 51.782858,4.687143 51.789063,4.691485 51.789448,4.695133 51.79729)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dubbeldam"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dubbeldam"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dussen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dussen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dussen</skos:prefLabel>
+        <gg:name xml:lang="nl">Dussen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10261"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0769"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dussen__Munster_en_Muilkerk"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Werkendam"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1909</gg:year>
+                            <gg:name xml:lang="nl">Dussen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.886186 51.759521,4.89908 51.759305,4.907482 51.75916,4.908522 51.756738,4.908831 51.756695,4.919255 51.755253,4.931557 51.75611,4.953319 51.752328,4.971573 51.751585,4.980317 51.745503,4.993632 51.746268,4.995133 51.740161,5.002657 51.740725,5.002442 51.731916,4.987692 51.730248,4.994414 51.7229,4.987356 51.719101,4.96169 51.724584,4.948797 51.725795,4.931725 51.7251,4.907306 51.721228,4.88443 51.722121,4.8717 51.721526,4.877196 51.734673,4.876013 51.736915,4.857984 51.743487,4.8824 51.757369,4.886186 51.759521)),((4.886186 51.759521,4.882682 51.762022,4.876966 51.757507,4.87536 51.756238,4.855554 51.753094,4.85581 51.755971,4.849845 51.758191,4.846377 51.757546,4.849567 51.78156,4.88769 51.78065,4.886186 51.759521)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</gg:year>
+                            <gg:name xml:lang="nl">Dussen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.908522 51.756738,4.919255 51.755253,4.931557 51.75611,4.953319 51.752328,4.990104 51.752278,4.988153 51.743643,4.996588 51.739267,4.994414 51.7229,4.987356 51.719101,4.96169 51.724584,4.948797 51.725795,4.931725 51.7251,4.907306 51.721228,4.88443 51.722121,4.862154 51.721034,4.851045 51.718108,4.841493 51.718243,4.845596 51.726082,4.877196 51.734673,4.876013 51.736915,4.856221 51.733322,4.852848 51.736992,4.857984 51.743487,4.886186 51.759521,4.907482 51.75916,4.908522 51.756738)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1908-08-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dussen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dussen"/>
+            </rdf:Description>
+</rdf:RDF>

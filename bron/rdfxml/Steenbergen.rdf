@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Steenbergen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Steenbergen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Steenbergen</skos:prefLabel>
+        <gg:name xml:lang="nl">Steenbergen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10731"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0851 (Steenbergen), 1376 (Steenbergen en Kruisland)"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuw-Vossemeer"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dinteloord_en_Prinsenland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Steenbergen en Kruisland           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.25234 51.626193,4.273156 51.619561,4.281695 51.6129,4.304407 51.611045,4.323789 51.603402,4.360267 51.605346,4.365328 51.598559,4.374159 51.597377,4.38602 51.602783,4.406853 51.600622,4.413109 51.591596,4.426384 51.591705,4.429891 51.589667,4.428436 51.583362,4.435888 51.578929,4.435546 51.574611,4.439365 51.571316,4.435434 51.559329,4.426092 51.557814,4.423434 51.553927,4.40657 51.553607,4.372877 51.544959,4.312271 51.553407,4.262789 51.560133,4.240839 51.561268,4.239588 51.565121,4.249585 51.574837,4.255622 51.575705,4.257724 51.583995,4.242717 51.584029,4.243577 51.589971,4.253312 51.593122,4.241584 51.606042,4.207436 51.609029,4.215958 51.625655,4.228838 51.630278,4.25234 51.626193)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1885</gg:year>
+                            <gg:name xml:lang="nl">Steenbergen en Kruisland           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.304407 51.611045,4.323789 51.603402,4.360267 51.605346,4.365328 51.598559,4.374159 51.597377,4.38602 51.602783,4.406853 51.600622,4.413109 51.591596,4.426384 51.591705,4.429891 51.589667,4.428436 51.583362,4.435888 51.578929,4.435546 51.574611,4.439365 51.571316,4.435434 51.559329,4.426092 51.557814,4.423434 51.553927,4.40657 51.553607,4.372877 51.544959,4.312271 51.553407,4.262789 51.560133,4.240839 51.561268,4.239588 51.565121,4.249585 51.574837,4.255622 51.575705,4.257724 51.583995,4.242717 51.584029,4.243577 51.589971,4.253312 51.593122,4.241584 51.606042,4.190511 51.610295,4.190872 51.612995,4.183725 51.615709,4.191302 51.635024,4.21068 51.634231,4.249423 51.633086,4.25234 51.626193,4.273156 51.619561,4.281695 51.6129,4.304407 51.611045)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</gg:year>
+                            <gg:name xml:lang="nl">Steenbergen                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.304407 51.611045,4.323789 51.603402,4.360267 51.605346,4.365328 51.598559,4.374159 51.597377,4.38602 51.602783,4.406853 51.600622,4.413109 51.591596,4.426384 51.591705,4.429891 51.589667,4.428436 51.583362,4.435888 51.578929,4.435546 51.574611,4.439365 51.571316,4.435434 51.559329,4.426092 51.557814,4.423434 51.553927,4.40657 51.553607,4.372877 51.544959,4.312271 51.553407,4.262789 51.560133,4.240839 51.561268,4.239588 51.565121,4.249585 51.574837,4.255622 51.575705,4.257724 51.583995,4.242717 51.584029,4.243577 51.589971,4.253312 51.593122,4.241584 51.606042,4.190511 51.610295,4.190872 51.612995,4.21068 51.634231,4.249423 51.633086,4.25234 51.626193,4.273156 51.619561,4.281695 51.6129,4.304407 51.611045)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</gg:year>
+                            <gg:name xml:lang="nl">Steenbergen                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.396138 51.641792,4.408331 51.632456,4.420926 51.631123,4.422482 51.625922,4.433163 51.619357,4.424653 51.612096,4.423641 51.605346,4.428351 51.60107,4.426384 51.591705,4.429891 51.589667,4.428436 51.583362,4.435888 51.578929,4.435546 51.574611,4.439365 51.571316,4.435434 51.559329,4.426092 51.557814,4.423434 51.553927,4.40657 51.553607,4.372877 51.544959,4.312271 51.553407,4.262789 51.560133,4.240839 51.561268,4.234979 51.553479,4.22359 51.570266,4.197138 51.583304,4.197933 51.586009,4.19984 51.590344,4.196354 51.596691,4.183352 51.60258,4.190934 51.605175,4.190511 51.610295,4.190872 51.612995,4.21068 51.634231,4.249423 51.633086,4.268101 51.631289,4.367592 51.658357,4.396138 51.641792)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                            </rdf:Description>
+</rdf:RDF>

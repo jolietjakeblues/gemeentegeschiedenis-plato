@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dinteloord_en_Prinsenland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dinteloord en Prinsenland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dinteloord en Prinsenland</skos:prefLabel>
+        <gg:name xml:lang="nl">Dinteloord en Prinsenland</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11193"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0764"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Steenbergen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Dinteloord en Prinsenland          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.367592 51.658357,4.396138 51.641792,4.408331 51.632456,4.420926 51.631123,4.422482 51.625922,4.433163 51.619357,4.424653 51.612096,4.423641 51.605346,4.428351 51.60107,4.426384 51.591705,4.413109 51.591596,4.406853 51.600622,4.38602 51.602783,4.374159 51.597377,4.365328 51.598559,4.360267 51.605346,4.323789 51.603402,4.304407 51.611045,4.281695 51.6129,4.273156 51.619561,4.25234 51.626193,4.26917 51.628962,4.268101 51.631289,4.367592 51.658357)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1885</gg:year>
+                            <gg:name xml:lang="nl">Dinteloord en Prinsenland          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.396138 51.641792,4.408331 51.632456,4.420926 51.631123,4.422482 51.625922,4.433163 51.619357,4.424653 51.612096,4.423641 51.605346,4.428351 51.60107,4.426384 51.591705,4.413109 51.591596,4.406853 51.600622,4.38602 51.602783,4.374159 51.597377,4.365328 51.598559,4.360267 51.605346,4.323789 51.603402,4.304407 51.611045,4.281695 51.6129,4.273156 51.619561,4.25234 51.626193,4.249423 51.633086,4.268101 51.631289,4.367592 51.658357,4.396138 51.641792)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dinteloord_en_Prinsenland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dinteloord_en_Prinsenland"/>
+            </rdf:Description>
+</rdf:RDF>

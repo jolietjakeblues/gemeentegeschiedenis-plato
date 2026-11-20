@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/s-Gravenpolder">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">'s-Gravenpolder</rdfs:label>
+        <skos:prefLabel xml:lang="nl">'s-Gravenpolder</skos:prefLabel>
+        <gg:name xml:lang="nl">'s-Gravenpolder</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11059"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0666"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oost-_en_Middelzwake"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Borsele"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">'s-Gravenpolder                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.913434 51.450438,3.916017 51.452369,3.912191 51.454369,3.907574 51.454009,3.904732 51.455419,3.897729 51.457258,3.88999 51.458002,3.888705 51.45895,3.885563 51.457704,3.880659 51.45728,3.875908 51.45517,3.875279 51.453776,3.868494 51.451941,3.867472 51.450783,3.861749 51.448901,3.8592 51.45019,3.857233 51.453041,3.872075 51.461056,3.882036 51.468826,3.885795 51.468335,3.893459 51.467265,3.897584 51.468756,3.908891 51.466293,3.91911 51.461837,3.924583 51.457231,3.921255 51.453323,3.928846 51.449913,3.920477 51.446212,3.913434 51.450438)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1816</gg:year>
+                            <gg:name xml:lang="nl">'s-Gravenpolder                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.908891 51.466293,3.91911 51.461837,3.924583 51.457231,3.921255 51.453323,3.928846 51.449913,3.920477 51.446212,3.913434 51.450438,3.908899 51.448313,3.900077 51.449729,3.891078 51.447726,3.886033 51.448021,3.871543 51.44244,3.86237 51.445736,3.85634 51.445388,3.854511 51.44842,3.8592 51.45019,3.857233 51.453041,3.872075 51.461056,3.882036 51.468826,3.885795 51.468335,3.893459 51.467265,3.897584 51.468756,3.908891 51.466293)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/%27s-Gravenpolder_(dorp)"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

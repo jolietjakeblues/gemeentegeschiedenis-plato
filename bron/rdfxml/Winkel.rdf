@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Winkel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Winkel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Winkel</skos:prefLabel>
+        <gg:name xml:lang="nl">Winkel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10923"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0465"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Niedorp"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Winkel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.945089 52.752463,4.943781 52.749942,4.931965 52.746842,4.932176 52.740731,4.926463 52.734868,4.895384 52.746966,4.89354 52.75289,4.880613 52.75643,4.871618 52.765558,4.861479 52.770906,4.861741 52.773783,4.871597 52.779937,4.874218 52.783903,4.882039 52.786992,4.886785 52.786742,4.897993 52.791911,4.898327 52.774658,4.915164 52.761157,4.928162 52.75671,4.945089 52.752463)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Winkel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.908863 52.787462,4.924262 52.775121,4.930932 52.774967,4.943483 52.764769,4.945089 52.752463,4.943781 52.749942,4.931965 52.746842,4.932176 52.740731,4.926463 52.734868,4.895384 52.746966,4.89354 52.75289,4.880613 52.75643,4.871618 52.765558,4.861479 52.770906,4.861741 52.773783,4.871597 52.779937,4.874218 52.783903,4.882039 52.786992,4.886785 52.786742,4.897993 52.791911,4.908863 52.787462)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1938</gg:year>
+                            <gg:name xml:lang="nl">Winkel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.897993 52.791911,4.908863 52.787462,4.916571 52.787492,4.947223 52.761188,4.945089 52.752463,4.943781 52.749942,4.931965 52.746842,4.932176 52.740731,4.926463 52.734868,4.895384 52.746966,4.89354 52.75289,4.880613 52.75643,4.871618 52.765558,4.861479 52.770906,4.861741 52.773783,4.871597 52.779937,4.874218 52.783903,4.882039 52.786992,4.886785 52.786742,4.897993 52.791911)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Winkel_(Niedorp)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Winkel_(Niedorp)"/>
+            </rdf:Description>
+</rdf:RDF>

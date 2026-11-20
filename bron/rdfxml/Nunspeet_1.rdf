@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nunspeet_1">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nunspeet [1]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nunspeet [1]</skos:prefLabel>
+        <gg:name xml:lang="nl">Nunspeet [1]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10512"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ermelo"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nunspeet                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.750752 52.267616,5.744681 52.273914,5.753424 52.278875,5.753475 52.285121,5.741332 52.287393,5.739924 52.296256,5.744852 52.304749,5.746329 52.313576,5.703617 52.326955,5.712287 52.328998,5.714226 52.333307,5.710735 52.337451,5.704146 52.339356,5.704323 52.34367,5.698227 52.353213,5.700304 52.356353,5.692704 52.361226,5.67738 52.375016,5.692832 52.379741,5.710359 52.386614,5.723637 52.374894,5.72391 52.372197,5.727875 52.372185,5.730831 52.374693,5.740967 52.375113,5.747924 52.381832,5.765844 52.381956,5.762389 52.390326,5.776232 52.394146,5.785961 52.397798,5.789755 52.394909,5.808755 52.399966,5.810946 52.39852,5.815371 52.400302,5.819575 52.394445,5.819375 52.389053,5.835855 52.377218,5.863466 52.350057,5.880005 52.332732,5.873955 52.329522,5.872743 52.326022,5.844346 52.303396,5.839651 52.303144,5.839174 52.299461,5.851547 52.277033,5.846384 52.273638,5.850265 52.266433,5.841321 52.265658,5.819253 52.271044,5.809994 52.268022,5.750752 52.267616)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2749754"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nunspeet"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nunspeet"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nunspeet"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nunspeet"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Giessenburg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Giessenburg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Giessenburg</skos:prefLabel>
+        <gg:name xml:lang="nl">Giessenburg</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10255"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0510"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Peursum"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Giessen-Nieuwkerk"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Giessenlanden"/>
+
+        
+                                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</gg:year>
+                            <gg:name xml:lang="nl">Giessenlanden                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.970995 51.908521,4.972558 51.896662,4.995904 51.901776,4.995814 51.895484,5.000276 51.883454,4.993236 51.874622,5.021831 51.876152,5.019407 51.870752,5.027482 51.859631,5.003534 51.859016,4.994228 51.860783,4.995294 51.855034,4.989554 51.847554,4.98621 51.848262,4.987342 51.851592,4.979799 51.851116,4.981624 51.857954,4.963733 51.861756,4.958784 51.863176,4.95591 51.860019,4.93614 51.862821,4.942266 51.845227,4.935446 51.845112,4.933303 51.841778,4.921146 51.838674,4.907501 51.839158,4.868409 51.831711,4.865478 51.834305,4.847202 51.833863,4.835558 51.860594,4.853894 51.869128,4.864587 51.873581,4.870223 51.875943,4.878028 51.879213,4.893988 51.880629,4.891316 51.885831,4.908591 51.886801,4.924995 51.901878,4.91785 51.918208,4.932454 51.925816,4.934607 51.928611,4.937647 51.929881,4.946223 51.930183,4.957165 51.911078,4.970995 51.908521)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1957-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Giessenburg"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Giessenburg"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Haarlem">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Haarlem</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Haarlem</skos:prefLabel>
+        <gg:name xml:lang="nl">Haarlem</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10357"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0392"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schoten"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Spaarndam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Haarlem                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.649161 52.390689,4.657605 52.386427,4.645275 52.368374,4.640145 52.367803,4.623544 52.368326,4.616912 52.369721,4.618159 52.374043,4.616097 52.374389,4.617895 52.380783,4.616125 52.38122,4.619992 52.386908,4.622788 52.386656,4.626477 52.39423,4.64233 52.39505,4.649161 52.390689)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1885</gg:year>
+                            <gg:name xml:lang="nl">Haarlem                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.649161 52.390689,4.657605 52.386427,4.645275 52.368374,4.640145 52.367803,4.623544 52.368326,4.616912 52.369721,4.618159 52.374043,4.616097 52.374389,4.617895 52.380783,4.616125 52.38122,4.619992 52.386908,4.622788 52.386656,4.626477 52.39423,4.636622 52.411102,4.657982 52.40818,4.649161 52.390689)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1928</gg:year>
+                            <gg:name xml:lang="nl">Haarlem                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.680472 52.389441,4.684781 52.386411,4.684972 52.383626,4.682943 52.381906,4.67783 52.380168,4.663583 52.380172,4.664292 52.372716,4.662091 52.372613,4.662217 52.355896,4.655467 52.355765,4.654391 52.358724,4.636769 52.359063,4.627965 52.358827,4.625009 52.359977,4.604438 52.361011,4.607317 52.364265,4.604215 52.365324,4.604589 52.369101,4.59923 52.3732,4.599993 52.379856,4.60376 52.382757,4.60831 52.382967,4.608969 52.387285,4.622786 52.386746,4.62295 52.394297,4.629878 52.41016,4.636622 52.411102,4.641415 52.414548,4.650883 52.428538,4.673194 52.421754,4.674133 52.418254,4.68237 52.417944,4.681435 52.412007,4.670916 52.408079,4.671695 52.405387,4.668349 52.4033,4.668981 52.400517,4.677398 52.397961,4.670984 52.394777,4.675032 52.389768,4.680472 52.389441)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1964</gg:year>
+                            <gg:name xml:lang="nl">Haarlem                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.680472 52.389441,4.684781 52.386411,4.684972 52.383626,4.675113 52.375568,4.672938 52.373847,4.670197 52.370775,4.669818 52.366998,4.673201 52.357491,4.675046 52.352289,4.671569 52.349482,4.656127 52.342467,4.647383 52.338817,4.636981 52.337853,4.640349 52.346952,4.634513 52.353566,4.636769 52.359063,4.627965 52.358827,4.625009 52.359977,4.604438 52.361011,4.607317 52.364265,4.604215 52.365324,4.604589 52.369101,4.59923 52.3732,4.599993 52.379856,4.60376 52.382757,4.60831 52.382967,4.608969 52.387285,4.622786 52.386746,4.62295 52.394297,4.629878 52.41016,4.636622 52.411102,4.641415 52.414548,4.650883 52.428538,4.673194 52.421754,4.674133 52.418254,4.68237 52.417944,4.681435 52.412007,4.670916 52.408079,4.671695 52.405387,4.668349 52.4033,4.668981 52.400517,4.677398 52.397961,4.670984 52.394777,4.675032 52.389768,4.680472 52.389441)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2755002"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Haarlem"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Haarlem"/>
+            </rdf:Description>
+</rdf:RDF>

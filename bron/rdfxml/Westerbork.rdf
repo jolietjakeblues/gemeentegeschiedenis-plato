@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Westerbork">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Westerbork</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Westerbork</skos:prefLabel>
+        <gg:name xml:lang="nl">Westerbork</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11095"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0134"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Middenveld"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Westerbork                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.58636 52.91477,6.619055 52.914257,6.628273 52.909039,6.669604 52.904109,6.675479 52.901709,6.687075 52.871834,6.714156 52.863627,6.743595 52.859971,6.744298 52.858704,6.727263 52.850359,6.719595 52.847209,6.704042 52.843427,6.707531 52.831166,6.697835 52.824532,6.691325 52.825142,6.681652 52.824169,6.663975 52.823461,6.664656 52.821387,6.679646 52.816552,6.669964 52.805062,6.620186 52.759571,6.577208 52.720822,6.549404 52.721726,6.548153 52.724794,6.581416 52.793849,6.582682 52.802195,6.576223 52.810079,6.573148 52.811547,6.559699 52.813388,6.558547 52.814658,6.576047 52.825449,6.578854 52.830454,6.577723 52.832532,6.554823 52.852981,6.563549 52.895854,6.58636 52.91477)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Westerbork_(dorp)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Westerbork_(dorp)"/>
+            </rdf:Description>
+</rdf:RDF>

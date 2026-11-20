@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ternaard">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ternaard</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ternaard</skos:prefLabel>
+        <gg:name xml:lang="nl">Ternaard</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10129"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westdongeradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ternaard                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.989892 53.33982,5.979577 53.337526,5.973149 53.332419,5.963932 53.332654,5.955371 53.334407,5.947078 53.332353,5.949582 53.329296,5.944161 53.327989,5.940058 53.330292,5.934011 53.329748,5.908516 53.350796,5.915545 53.353429,5.923805 53.352631,5.929547 53.353938,5.929585 53.356982,5.935964 53.358286,5.943955 53.361294,5.951593 53.361449,5.951312 53.364304,5.941778 53.36511,5.935148 53.369137,5.931088 53.375245,5.933335 53.376757,5.928439 53.383468,5.963468 53.389634,5.976136 53.388164,5.98463 53.380891,5.999523 53.376248,6.00149 53.380235,6.01039 53.379428,6.01932 53.380713,6.024681 53.37372,6.016268 53.372028,6.016418 53.361695,6.023511 53.35384,6.022482 53.34513,6.015079 53.342024,6.010282 53.342498,6.007935 53.346374,5.988513 53.342609,5.989892 53.33982)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ternaard"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Westdongeradeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ternaard"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Westdongeradeel"/>
+            </rdf:Description>
+</rdf:RDF>

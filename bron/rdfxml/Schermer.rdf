@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Schermer">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Schermer</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Schermer</skos:prefLabel>
+        <gg:name xml:lang="nl">Schermer</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10308"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0458"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oterleek"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schermerhorn"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zuid-_en_Noord-Schermer"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Alkmaar"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</gg:year>
+                            <gg:name xml:lang="nl">Schermer                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.868885 52.633257,4.865857 52.627043,4.861278 52.627022,4.859732 52.620455,4.865348 52.62012,4.863068 52.61319,4.872378 52.612422,4.872799 52.614311,4.884779 52.612565,4.921857 52.610738,4.925444 52.606528,4.918339 52.608298,4.900099 52.602383,4.888846 52.59236,4.885977 52.585069,4.884973 52.582548,4.875302 52.576845,4.868819 52.576098,4.861373 52.569594,4.834349 52.572168,4.825086 52.569787,4.824739 52.57383,4.810266 52.575109,4.809413 52.572678,4.79129 52.57115,4.790519 52.573573,4.792108 52.576098,4.787069 52.57778,4.789379 52.581476,4.792487 52.580773,4.794935 52.585279,4.770078 52.590095,4.778701 52.606856,4.792334 52.603061,4.793606 52.607291,4.800369 52.620446,4.79426 52.62446,4.798418 52.633828,4.815722 52.632204,4.831372 52.632728,4.836566 52.642638,4.841272 52.644367,4.86429 52.634585,4.868885 52.633257)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</gg:year>
+                            <gg:name xml:lang="nl">Schermer                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.868885 52.633257,4.865857 52.627043,4.861278 52.627022,4.859732 52.620455,4.865348 52.62012,4.863068 52.61319,4.872378 52.612422,4.872799 52.614311,4.884779 52.612565,4.921857 52.610738,4.925444 52.606528,4.918339 52.608298,4.900099 52.602383,4.888846 52.59236,4.885977 52.585069,4.884973 52.582548,4.875302 52.576845,4.868819 52.576098,4.861373 52.569594,4.834349 52.572168,4.825086 52.569787,4.824739 52.57383,4.810266 52.575109,4.809413 52.572678,4.79129 52.57115,4.790519 52.573573,4.792108 52.576098,4.787069 52.57778,4.789379 52.581476,4.792487 52.580773,4.794935 52.585279,4.770078 52.590095,4.763534 52.583321,4.752598 52.584521,4.753406 52.589918,4.761663 52.600746,4.773046 52.599547,4.778701 52.606856,4.782411 52.605437,4.783826 52.609938,4.787966 52.60951,4.797079 52.623486,4.794539 52.62572,4.798418 52.633828,4.815722 52.632204,4.831372 52.632728,4.836566 52.642638,4.841272 52.644367,4.86429 52.634585,4.868885 52.633257)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</gg:year>
+                            <gg:name xml:lang="nl">Schermer                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.86429 52.634585,4.87348 52.631929,4.884567 52.631077,4.888356 52.622645,4.884779 52.612565,4.921857 52.610738,4.925444 52.606528,4.918339 52.608298,4.900099 52.602383,4.888846 52.59236,4.885977 52.585069,4.884973 52.582548,4.875302 52.576845,4.868819 52.576098,4.861373 52.569594,4.834349 52.572168,4.825086 52.569787,4.824739 52.57383,4.810266 52.575109,4.809413 52.572678,4.79129 52.57115,4.790519 52.573573,4.792108 52.576098,4.787069 52.57778,4.789379 52.581476,4.792487 52.580773,4.794935 52.585279,4.770078 52.590095,4.763534 52.583321,4.752598 52.584521,4.753406 52.589918,4.761663 52.600746,4.773046 52.599547,4.778701 52.606856,4.782411 52.605437,4.783826 52.609938,4.787966 52.60951,4.797079 52.623486,4.794539 52.62572,4.798418 52.633828,4.815722 52.632204,4.831372 52.632728,4.836566 52.642638,4.841272 52.644367,4.86429 52.634585)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</gg:year>
+                            <gg:name xml:lang="nl">Schermer                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.86429 52.634585,4.87348 52.631929,4.884567 52.631077,4.888356 52.622645,4.884779 52.612565,4.921857 52.610738,4.925444 52.606528,4.918339 52.608298,4.900099 52.602383,4.888846 52.59236,4.885977 52.585069,4.884973 52.582548,4.875302 52.576845,4.868819 52.576098,4.861373 52.569594,4.834349 52.572168,4.825086 52.569787,4.824739 52.57383,4.810266 52.575109,4.809413 52.572678,4.79129 52.57115,4.792988 52.565497,4.790069 52.563235,4.790749 52.556588,4.782638 52.556637,4.778355 52.557154,4.772121 52.560088,4.753045 52.563673,4.748132 52.566882,4.752598 52.584521,4.753406 52.589918,4.761663 52.600746,4.763829 52.604173,4.771308 52.618232,4.772782 52.618419,4.78669 52.638083,4.798418 52.633828,4.815722 52.632204,4.831372 52.632728,4.836566 52.642638,4.841272 52.644367,4.86429 52.634585)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2747618"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-08-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Schermer_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Schermer_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

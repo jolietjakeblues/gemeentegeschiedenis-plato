@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bakel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bakel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bakel</skos:prefLabel>
+        <gg:name xml:lang="nl">Bakel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10749"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bakel_en_Milheeze"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bakel                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.826974 51.568757,5.836768 51.567371,5.853161 51.506363,5.785191 51.491694,5.747728 51.488489,5.747565 51.486063,5.73187 51.485931,5.722974 51.490002,5.720352 51.485784,5.726948 51.48226,5.730059 51.47488,5.713761 51.470252,5.715987 51.45964,5.684622 51.459993,5.676564 51.460014,5.690303 51.470406,5.702099 51.469565,5.692644 51.476152,5.681511 51.490743,5.675195 51.493725,5.677109 51.500372,5.682491 51.508628,5.684121 51.515635,5.671078 51.526274,5.679451 51.52868,5.695286 51.526123,5.710435 51.528778,5.719509 51.528034,5.719812 51.5301,5.730184 51.529531,5.770993 51.549628,5.806694 51.574944,5.818475 51.569957,5.826974 51.568757)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1819-05-08</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bakel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bakel_en_Milheeze"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bakel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bakel_en_Milheeze"/>
+            </rdf:Description>
+</rdf:RDF>

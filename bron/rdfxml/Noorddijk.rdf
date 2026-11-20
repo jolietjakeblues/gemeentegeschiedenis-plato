@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Noorddijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Noorddijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Noorddijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Noorddijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10979"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1127"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Groningen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Noorddijk                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.547954 53.247839,6.549377 53.24504,6.568381 53.238743,6.633462 53.246443,6.643298 53.229176,6.641074 53.224796,6.644363 53.219459,6.666156 53.196942,6.660896 53.19619,6.640713 53.186517,6.645869 53.183767,6.639785 53.180326,6.605551 53.191732,6.601502 53.191414,6.600548 53.20005,6.608404 53.202667,6.599465 53.209497,6.596181 53.2098,6.589814 53.223074,6.557614 53.233906,6.525933 53.230886,6.524014 53.237644,6.531844 53.239187,6.521581 53.253393,6.531656 53.254735,6.54371 53.245993,6.547954 53.247839)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Noorddijk_(Groningen)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Noorddijk_(Groningen)"/>
+            </rdf:Description>
+</rdf:RDF>

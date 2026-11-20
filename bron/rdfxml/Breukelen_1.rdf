@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Breukelen_1">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Breukelen [1]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Breukelen [1]</skos:prefLabel>
+        <gg:name xml:lang="nl">Breukelen [1]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10807"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Breukelen-Nijenrode"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Breukelen-Sint_Pieters"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Portengen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ruwiel"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Laag-Nieuwkoop"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Breukelen                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.010549 52.182455,5.01558 52.167702,5.025216 52.159291,5.021889 52.155057,5.018436 52.148485,5.012469 52.145679,5.00112 52.14034,4.998787 52.139883,4.992818 52.137526,4.982184 52.134344,4.980614 52.130294,4.970289 52.125584,4.976366 52.115809,4.973751 52.114451,4.967838 52.12225,4.958255 52.131743,4.95633 52.134522,4.957493 52.135066,4.939068 52.151805,4.935809 52.156107,4.924305 52.166309,4.930835 52.171008,4.930361 52.174421,4.939483 52.181296,4.950468 52.181328,4.969477 52.181218,4.971569 52.176371,4.977274 52.176032,4.980509 52.173976,4.984745 52.17435,4.990317 52.172481,4.99745 52.17592,4.998269 52.182574,5.010549 52.182455)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Breukelen-Nijenrode                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.99745 52.17592,5.000587 52.168201,5.005519 52.155544,5.003335 52.154548,5.012469 52.145679,5.00112 52.14034,4.998787 52.139883,4.992756 52.144627,4.968017 52.165393,4.954631 52.15897,4.954051 52.158692,4.95598 52.155643,4.939068 52.151805,4.935809 52.156107,4.950223 52.161554,4.945054 52.167017,4.950621 52.168856,4.957439 52.171108,4.950468 52.181328,4.969477 52.181218,4.971569 52.176371,4.977274 52.176032,4.980509 52.173976,4.984745 52.17435,4.990317 52.172481,4.99745 52.17592)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Breukelen-Nijenrode"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Breukelen_(Utrecht)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Breukelen-Nijenrode"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Breukelen_(Utrecht)"/>
+            </rdf:Description>
+</rdf:RDF>

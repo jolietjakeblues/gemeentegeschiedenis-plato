@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hardegarijp">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hardegarijp</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hardegarijp</skos:prefLabel>
+        <gg:name xml:lang="nl">Hardegarijp</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11403"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tietjerksteradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hardegarijp                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.949373 53.233038,5.955099 53.222455,5.97188 53.223363,5.974498 53.223958,5.976767 53.199039,5.969607 53.199935,5.975161 53.186413,5.968454 53.185297,5.959812 53.182467,5.953075 53.179053,5.950152 53.17476,5.946269 53.170184,5.932847 53.1668,5.922335 53.166847,5.89321 53.16675,5.861217 53.16733,5.859605 53.170302,5.852602 53.186594,5.853272 53.186795,5.861458 53.189255,5.860297 53.192584,5.855074 53.207701,5.852027 53.216608,5.852022 53.224573,5.870422 53.224782,5.872624 53.227887,5.877489 53.229644,5.892833 53.229742,5.8955 53.227631,5.912461 53.228042,5.910899 53.23241,5.917375 53.233674,5.949373 53.233038)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hardegarijp"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hardegarijp"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zweeloo">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zweeloo</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zweeloo</skos:prefLabel>
+        <gg:name xml:lang="nl">Zweeloo</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10872"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0138"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sleen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Coevorden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zweeloo                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.767844 52.847289,6.824818 52.819203,6.823581 52.81769,6.848844 52.801205,6.833444 52.774968,6.835366 52.770361,6.832685 52.76545,6.836829 52.760816,6.840892 52.75825,6.83657 52.752999,6.840047 52.75062,6.838714 52.746142,6.835521 52.743665,6.836391 52.738621,6.843522 52.734849,6.858225 52.691974,6.851136 52.692331,6.807413 52.698883,6.807526 52.702387,6.803744 52.70441,6.789029 52.702337,6.784257 52.710482,6.786694 52.717285,6.777766 52.734466,6.775802 52.742579,6.763455 52.750272,6.753233 52.759737,6.735833 52.767215,6.726577 52.769836,6.718441 52.770287,6.711885 52.769102,6.691454 52.7598,6.620186 52.759571,6.669964 52.805062,6.679646 52.816552,6.664656 52.821387,6.663975 52.823461,6.681652 52.824169,6.691325 52.825142,6.697835 52.824532,6.707531 52.831166,6.704042 52.843427,6.719595 52.847209,6.727263 52.850359,6.744298 52.858704,6.767844 52.847289)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1820</gg:year>
+                            <gg:name xml:lang="nl">Zweeloo                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.620186 52.759571,6.669964 52.805062,6.679646 52.816552,6.664656 52.821387,6.663975 52.823461,6.681652 52.824169,6.691325 52.825142,6.697835 52.824532,6.707531 52.831166,6.704042 52.843427,6.719595 52.847209,6.727263 52.850359,6.744298 52.858704,6.753337 52.839098,6.771461 52.811476,6.766538 52.777649,6.762323 52.770867,6.769647 52.758739,6.769223 52.754699,6.763455 52.750272,6.753233 52.759737,6.735833 52.767215,6.726577 52.769836,6.718441 52.770287,6.711884 52.769102,6.691454 52.7598,6.620186 52.759571)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</gg:year>
+                            <gg:name xml:lang="nl">Zweeloo                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.740394 52.84293,6.745308 52.83865,6.753337 52.839098,6.771461 52.811476,6.766538 52.777649,6.762323 52.770867,6.769647 52.758739,6.769223 52.754699,6.763455 52.750272,6.753233 52.759737,6.735833 52.767215,6.726577 52.769836,6.718441 52.770287,6.711884 52.769102,6.691454 52.7598,6.620186 52.759571,6.669964 52.805062,6.679646 52.816552,6.681652 52.824169,6.691325 52.825142,6.697835 52.824532,6.707531 52.831166,6.704042 52.843427,6.719595 52.847209,6.727263 52.850359,6.731223 52.848786,6.72826 52.844146,6.740394 52.84293)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zweeloo"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zweeloo"/>
+            </rdf:Description>
+</rdf:RDF>

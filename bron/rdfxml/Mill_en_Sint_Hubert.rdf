@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Mill_en_Sint_Hubert">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Mill en Sint Hubert</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Mill en Sint Hubert</skos:prefLabel>
+        <gg:name xml:lang="nl">Mill en Sint Hubert</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10535"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0815"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Escharen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Mill en Sint Hubert                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.760441 51.721615,5.783484 51.708775,5.788563 51.710466,5.790728 51.709829,5.823044 51.700186,5.840502 51.681243,5.824521 51.673394,5.812892 51.666606,5.806823 51.666897,5.806059 51.662406,5.793484 51.66236,5.785564 51.649264,5.746147 51.63474,5.739781 51.652018,5.732469 51.678466,5.730818 51.689527,5.760441 51.721615)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</gg:year>
+                            <gg:name xml:lang="nl">Mill en Sint Hubert                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.712876 51.728408,5.726572 51.721089,5.729785 51.724944,5.741923 51.722481,5.741906 51.720324,5.746822 51.71977,5.749169 51.723628,5.758429 51.723329,5.783484 51.708775,5.788563 51.710466,5.823044 51.700186,5.840502 51.681243,5.824521 51.673394,5.812892 51.666606,5.806823 51.666897,5.806059 51.662406,5.793484 51.66236,5.785564 51.649264,5.746147 51.63474,5.739781 51.652018,5.732469 51.678466,5.697861 51.712989,5.704463 51.725825,5.712876 51.728408)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</gg:year>
+                            <gg:name xml:lang="nl">Mill en Sint Hubert                </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.712876 51.728408,5.726572 51.721089,5.729785 51.724944,5.741923 51.722481,5.746822 51.71977,5.750042 51.724254,5.753364 51.723345,5.758429 51.723329,5.760895 51.72404,5.761902 51.723318,5.763785 51.723492,5.764516 51.724388,5.76698 51.72474,5.779826 51.720743,5.782276 51.719476,5.784604 51.720996,5.790106 51.721247,5.789869 51.710911,5.788563 51.710466,5.783484 51.708775,5.798338 51.703421,5.801647 51.701432,5.811344 51.701936,5.818416 51.700293,5.823044 51.700186,5.840502 51.681243,5.824521 51.673394,5.812892 51.666606,5.806823 51.666897,5.806059 51.662406,5.793484 51.66236,5.785564 51.649264,5.746147 51.63474,5.739781 51.652018,5.732469 51.678466,5.697861 51.712989,5.704463 51.725825,5.712876 51.728408)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2750800"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Mill_en_Sint_Hubert"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Mill_en_Sint_Hubert"/>
+            </rdf:Description>
+</rdf:RDF>

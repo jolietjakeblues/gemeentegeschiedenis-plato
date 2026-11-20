@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Gemeentegeschiedenis in PLATO">
+  <rect width="512" height="512" rx="96" fill="#F6F2E8"/>
+  <g fill="none" stroke="#12414A" stroke-width="14" stroke-linecap="round">
+    <path d="M104,92 C180,92 180,152 256,152"/> <path d="M104,212 C180,212 180,152 256,152"/> <path d="M256,240 C332,240 332,152 408,152"/>
+    <path d="M256,152 L408,152"/>
+  </g>
+  <g stroke="#12414A" stroke-width="6">
+    <circle cx="104" cy="92" r="19" fill="#7FA89A"/> <circle cx="104" cy="212" r="19" fill="#7FA89A"/> <circle cx="256" cy="240" r="19" fill="#7FA89A"/>
+    <circle cx="256" cy="152" r="21" fill="#C98A2B"/>
+    <circle cx="408" cy="152" r="25" fill="#C98A2B"/>
+  </g>
+  <g stroke="#12414A" stroke-width="3">
+    <path d="M72,300 H440 M104,293 V307 M256,293 V307 M408,293 V307"/>
+  </g>
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" fill="#12414A">
+    <text x="72" y="335" font-size="22">1812</text>
+    <text x="440" y="335" font-size="22" text-anchor="end">2027</text>
+    <text x="256" y="405" font-size="39" font-weight="700" text-anchor="middle">gemeentegeschiedenis</text>
+    <text x="262" y="456" font-size="30" font-weight="700" text-anchor="middle" letter-spacing="12" fill="#C98A2B">PLATO</text>
+  </g>
+</svg>

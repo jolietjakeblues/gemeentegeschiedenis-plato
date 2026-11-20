@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Meerkerk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Meerkerk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Meerkerk</skos:prefLabel>
+        <gg:name xml:lang="nl">Meerkerk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10618"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0557"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Leerbroek"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuwland_bij_Leerdam"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zederik"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Meerkerk                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.000674 51.921656,5.006213 51.919876,5.01449 51.920891,5.031588 51.927865,5.036013 51.938305,5.041843 51.936615,5.063088 51.934698,5.076495 51.930419,5.06062 51.914108,5.050193 51.909135,5.052999 51.90303,5.058003 51.894416,5.043337 51.893385,5.023108 51.879842,5.019407 51.870752,5.005882 51.873136,5.003034 51.866655,4.995329 51.867798,4.993236 51.874622,5.000276 51.883454,4.995814 51.895484,4.995904 51.901776,4.972558 51.896662,4.970995 51.908521,4.957165 51.911078,4.946223 51.930183,4.963592 51.938516,4.965312 51.941129,4.991577 51.947692,4.999035 51.943132,5.000674 51.921656)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Meerkerk                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.946223 51.930183,4.963592 51.938516,4.965312 51.941129,4.991577 51.947692,4.999035 51.943132,5.000674 51.921656,5.006213 51.919876,5.011797 51.912614,5.021698 51.910398,5.013186 51.902911,4.995904 51.901776,4.972558 51.896662,4.970995 51.908521,4.957165 51.911078,4.946223 51.930183)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</gg:year>
+                            <gg:name xml:lang="nl">Zederik                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.0542 51.976378,5.064173 51.9658,5.056372 51.958138,5.053342 51.954714,5.067154 51.955831,5.102415 51.947023,5.084366 51.927474,5.076495 51.930419,5.06062 51.914108,5.050193 51.909135,5.052999 51.90303,5.058003 51.894416,5.023108 51.879842,5.021831 51.876152,4.993236 51.874622,5.000276 51.883454,4.995814 51.895484,4.995904 51.901776,4.972558 51.896662,4.970995 51.908521,4.957165 51.911078,4.946223 51.930183,4.937647 51.929881,4.926373 51.951769,4.934299 51.95917,4.938632 51.962332,4.946623 51.963531,4.950999 51.962379,4.956858 51.958266,4.963553 51.95802,4.969799 51.959121,4.974301 51.959946,4.978777 51.963737,4.990178 51.974382,4.994821 51.975926,5.003116 51.976043,5.007931 51.97462,5.016274 51.968984,5.023711 51.96703,5.031561 51.968043,5.037215 51.970666,5.043288 51.975808,5.048974 51.974476,5.0542 51.976378)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Meerkerk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Meerkerk"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wedde">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wedde</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wedde</skos:prefLabel>
+        <gg:name xml:lang="nl">Wedde</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10247"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1220"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bellingwedde"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wedde                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.082306 53.138667,7.105192 53.13915,7.113878 53.143339,7.116886 53.117591,7.125664 53.11297,7.12374 53.109673,7.113507 53.107753,7.116078 53.101065,7.097426 53.097648,7.097157 53.094596,7.094244 53.092661,7.097414 53.085964,7.093357 53.085303,7.104816 53.057996,7.0887 53.054092,7.087027 53.057082,7.08013 53.056191,7.067739 53.063646,7.036009 53.061031,7.017586 53.067036,7.043992 53.09822,7.029106 53.107323,7.028594 53.109576,7.048526 53.126917,7.082306 53.138667)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1964</gg:year>
+                            <gg:name xml:lang="nl">Wedde                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.093357 53.085303,7.104816 53.057996,7.0887 53.054092,7.087027 53.057082,7.08013 53.056191,7.067739 53.063646,7.036009 53.061031,7.017586 53.067036,7.043992 53.09822,7.029106 53.107323,7.028594 53.109576,7.048526 53.126917,7.082306 53.138667,7.105192 53.13915,7.113878 53.143339,7.122716 53.147525,7.132507 53.149361,7.108221 53.125086,7.097752 53.105912,7.095181 53.097501,7.097157 53.094596,7.094244 53.092661,7.097414 53.085964,7.093357 53.085303)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1968-09-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wedde_(Groningen)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wedde_(Groningen)"/>
+            </rdf:Description>
+</rdf:RDF>

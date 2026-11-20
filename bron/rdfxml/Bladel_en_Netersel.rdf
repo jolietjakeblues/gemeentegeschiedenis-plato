@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bladel_en_Netersel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bladel en Netersel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bladel en Netersel</skos:prefLabel>
+        <gg:name xml:lang="nl">Bladel en Netersel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11006"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0754"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bladel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bladel en Netersel                 </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.221556 51.428076,5.241597 51.366081,5.249529 51.354495,5.247393 51.348739,5.223464 51.337023,5.224908 51.334688,5.221331 51.331806,5.240331 51.312956,5.202262 51.328002,5.191127 51.348389,5.194419 51.350731,5.194387 51.358192,5.190499 51.360972,5.192066 51.363851,5.196951 51.36323,5.197221 51.367275,5.188574 51.374362,5.180234 51.376684,5.179074 51.379109,5.187696 51.378136,5.194574 51.382102,5.199985 51.393707,5.192324 51.404301,5.189187 51.431801,5.209599 51.433811,5.221556 51.428076)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</gg:year>
+                            <gg:name xml:lang="nl">Bladel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.209599 51.433811,5.221556 51.428076,5.23492 51.430521,5.270922 51.409709,5.277965 51.409626,5.27826 51.40675,5.284873 51.405677,5.291481 51.407211,5.297082 51.409642,5.30858 51.40965,5.30344 51.39086,5.284774 51.386081,5.273327 51.367824,5.271753 51.365305,5.284161 51.33934,5.263256 51.321791,5.258816 51.31918,5.258543 51.314146,5.240331 51.312956,5.202262 51.328002,5.191127 51.348389,5.194419 51.350731,5.194387 51.358192,5.190499 51.360972,5.192066 51.363851,5.196951 51.36323,5.197221 51.367275,5.188574 51.374362,5.180234 51.376684,5.179074 51.379109,5.187696 51.378136,5.194574 51.382102,5.199985 51.393707,5.192324 51.404301,5.189187 51.431801,5.209599 51.433811)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2758877"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bladel_en_Netersel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bladel_en_Netersel"/>
+            </rdf:Description>
+</rdf:RDF>

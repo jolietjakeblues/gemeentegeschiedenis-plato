@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ottersum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ottersum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ottersum</skos:prefLabel>
+        <gg:name xml:lang="nl">Ottersum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10862"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0955"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Gennep"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ottersum                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.933636 51.742238,5.941017 51.742024,5.951057 51.745931,5.952723 51.74026,5.961235 51.737881,5.988614 51.739092,6.031412 51.724932,6.032358 51.720163,6.044069 51.719379,6.042681 51.713544,6.029516 51.713707,6.022908 51.706822,6.0324 51.692747,6.027002 51.689451,6.028803 51.683868,6.000613 51.684469,5.99456 51.685938,5.998661 51.689782,5.986917 51.698472,5.981729 51.699937,5.985251 51.703784,5.98901 51.703585,5.992125 51.709322,5.980457 51.713247,5.980908 51.714593,5.985843 51.715736,5.988812 51.721294,5.971885 51.721739,5.971845 51.718683,5.967355 51.718346,5.96804 51.715376,5.948642 51.714752,5.929456 51.719696,5.92079 51.721174,5.930741 51.730297,5.932142 51.73847,5.933636 51.742238)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1973-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ottersum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ottersum"/>
+            </rdf:Description>
+</rdf:RDF>

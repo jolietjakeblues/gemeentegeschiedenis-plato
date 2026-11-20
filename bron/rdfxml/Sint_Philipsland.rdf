@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sint_Philipsland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sint Philipsland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sint Philipsland</skos:prefLabel>
+        <gg:name xml:lang="nl">Sint Philipsland</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10394"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0712"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tholen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Sint Philipsland                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.152217 51.611515,4.122994 51.61354,4.121848 51.618382,4.116336 51.624435,4.130562 51.63223,4.146535 51.634468,4.155719 51.636722,4.167547 51.637386,4.177649 51.626973,4.174383 51.619478,4.169403 51.616729,4.157736 51.615618,4.152217 51.611515)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Sint Philipsland                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.167391 51.616349,4.151791 51.611241,4.14151 51.6123,4.118535 51.612952,4.115203 51.623614,4.11267 51.626373,4.094767 51.631211,4.09383 51.638751,4.095055 51.641372,4.115123 51.652199,4.122172 51.653355,4.133912 51.652132,4.17706 51.638204,4.182949 51.628646,4.17857 51.619521,4.167391 51.616349)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1885</gg:year>
+                            <gg:name xml:lang="nl">Sint Philipsland                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.191302 51.635024,4.183725 51.615709,4.167391 51.616349,4.151791 51.611241,4.14151 51.6123,4.118535 51.612952,4.115203 51.623614,4.11267 51.626373,4.094767 51.631211,4.09383 51.638751,4.095055 51.641372,4.115123 51.652199,4.122172 51.653355,4.133912 51.652132,4.183749 51.636565,4.191302 51.635024)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</gg:year>
+                            <gg:name xml:lang="nl">Sint Philipsland                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.21068 51.634231,4.190872 51.612995,4.183725 51.615709,4.167391 51.616349,4.151791 51.611241,4.14151 51.6123,4.118535 51.612952,4.115203 51.623614,4.11267 51.626373,4.094767 51.631211,4.09383 51.638751,4.095055 51.641372,4.115123 51.652199,4.122172 51.653355,4.133912 51.652132,4.183749 51.636565,4.191302 51.635024,4.21068 51.634231)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sint_Philipsland_(dorp)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Sint_Philipsland_(dorp)"/>
+            </rdf:Description>
+</rdf:RDF>

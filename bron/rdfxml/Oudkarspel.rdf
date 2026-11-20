@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oudkarspel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oudkarspel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oudkarspel</skos:prefLabel>
+        <gg:name xml:lang="nl">Oudkarspel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11051"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1146"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Langedijk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Oudkarspel                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.770096 52.725802,4.785049 52.725609,4.786743 52.720765,4.797266 52.719739,4.798041 52.717137,4.803668 52.716895,4.806006 52.719153,4.813717 52.718022,4.81524 52.714704,4.829889 52.714864,4.830217 52.712349,4.820483 52.709786,4.799222 52.706268,4.793656 52.702106,4.771932 52.700378,4.771827 52.697322,4.766703 52.693521,4.755621 52.692744,4.73867 52.688698,4.73711 52.694172,4.733846 52.704759,4.741362 52.706777,4.742952 52.709392,4.748451 52.707714,4.76434 52.714179,4.762968 52.716958,4.76572 52.721196,4.775341 52.721156,4.770562 52.724187,4.770096 52.725802)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oudkarspel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oudkarspel"/>
+            </rdf:Description>
+</rdf:RDF>

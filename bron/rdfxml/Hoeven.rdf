@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hoeven">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hoeven</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hoeven</skos:prefLabel>
+        <gg:name xml:lang="nl">Hoeven</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10065"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0799"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Halderberge"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hoeven                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.572568 51.632277,4.579662 51.631337,4.584797 51.626878,4.591752 51.625577,4.597227 51.626333,4.610791 51.610154,4.609816 51.60808,4.599669 51.610439,4.582287 51.589287,4.587936 51.588067,4.586045 51.580773,4.588456 51.574947,4.586593 51.566035,4.588368 51.56353,4.566668 51.551245,4.543354 51.541101,4.524066 51.539612,4.524464 51.556604,4.533918 51.56764,4.540546 51.575778,4.563559 51.587538,4.556884 51.589559,4.553606 51.595198,4.54432 51.597828,4.544141 51.607445,4.547879 51.608281,4.548379 51.61251,4.530422 51.615346,4.53438 51.619869,4.545484 51.620669,4.558012 51.630466,4.566812 51.631068,4.572568 51.632277)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1954</gg:year>
+                            <gg:name xml:lang="nl">Hoeven                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.584797 51.626878,4.591752 51.625577,4.597227 51.626333,4.610791 51.610154,4.609816 51.60808,4.599669 51.610439,4.582287 51.589287,4.587936 51.588067,4.586045 51.580773,4.588456 51.574947,4.586593 51.566035,4.588368 51.56353,4.570115 51.559988,4.563982 51.55626,4.566668 51.551245,4.543354 51.541101,4.524066 51.539612,4.524464 51.556604,4.533918 51.56764,4.540546 51.575778,4.563559 51.587538,4.556884 51.589559,4.553606 51.595198,4.54432 51.597828,4.544141 51.607445,4.547879 51.608281,4.548379 51.61251,4.530422 51.615346,4.53438 51.619869,4.545484 51.620669,4.558012 51.630466,4.566812 51.631068,4.572568 51.632277,4.579662 51.631337,4.584797 51.626878)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hoeven_(Halderberge)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hoeven_(Halderberge)"/>
+            </rdf:Description>
+</rdf:RDF>

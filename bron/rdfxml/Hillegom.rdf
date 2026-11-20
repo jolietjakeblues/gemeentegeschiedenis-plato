@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hillegom">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hillegom</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hillegom</skos:prefLabel>
+        <gg:name xml:lang="nl">Hillegom</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11236"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0534"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Vennip"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Vennip"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hillegom                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.643732 52.293944,4.644124 52.288015,4.630895 52.290268,4.630876 52.291346,4.643732 52.293944)),((4.600976 52.316138,4.608661 52.312773,4.611445 52.312881,4.600435 52.305259,4.592748 52.292354,4.58621 52.280985,4.570125 52.271078,4.547907 52.283865,4.541461 52.28373,4.560948 52.307686,4.568721 52.315559,4.579106 52.317069,4.583377 52.316109,4.600976 52.316138)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Hillegom                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.583377 52.316109,4.600976 52.316138,4.608661 52.312773,4.611445 52.312881,4.600435 52.305259,4.592748 52.292354,4.582334 52.292733,4.573429 52.282696,4.58621 52.280985,4.570125 52.271078,4.547907 52.283865,4.541461 52.28373,4.560948 52.307686,4.568721 52.315559,4.579106 52.317069,4.583377 52.316109)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1856</gg:year>
+                            <gg:name xml:lang="nl">Hillegom                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.600976 52.316138,4.608661 52.312773,4.611445 52.312881,4.600435 52.305259,4.58621 52.280985,4.570125 52.271078,4.547907 52.283865,4.541461 52.28373,4.560948 52.307686,4.568721 52.315559,4.579106 52.317069,4.583377 52.316109,4.600976 52.316138)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Hillegom                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.583547 52.318474,4.584276 52.31844,4.588312 52.318051,4.590077 52.317883,4.591098 52.317757,4.592268 52.317819,4.594995 52.317669,4.595927 52.317794,4.596238 52.317758,4.59709 52.317594,4.598639 52.317309,4.599912 52.31697,4.601137 52.316604,4.601456 52.316574,4.601641 52.316485,4.601846 52.316367,4.602017 52.316265,4.602376 52.316181,4.602651 52.316126,4.602779 52.316023,4.602904 52.315913,4.603178 52.3158,4.605502 52.315189,4.605744 52.315016,4.610037 52.313951,4.611685 52.313588,4.611704 52.313345,4.611707 52.312958,4.611606 52.31249,4.611476 52.312127,4.611222 52.311747,4.610017 52.310615,4.608609 52.309487,4.60737 52.308467,4.60643 52.307689,4.605774 52.30719,4.60486 52.306349,4.604433 52.305939,4.603925 52.305361,4.603102 52.304287,4.602207 52.303047,4.600881 52.301245,4.600051 52.300149,4.599302 52.299207,4.598192 52.297661,4.597696 52.296895,4.597225 52.296302,4.597022 52.295981,4.596648 52.294895,4.596423 52.294291,4.596333 52.29338,4.59633 52.292315,4.59624 52.291894,4.59609 52.29148,4.595888 52.291107,4.594212 52.289209,4.592305 52.28704,4.591987 52.286752,4.591075 52.285705,4.590967 52.285347,4.589072 52.281449,4.58884 52.281048,4.58863 52.280725,4.588422 52.280462,4.588098 52.280197,4.586267 52.27911,4.584313 52.277997,4.58272 52.27704,4.581314 52.27621,4.580768 52.27592,4.57989 52.275393,4.578411 52.274531,4.577276 52.273879,4.575812 52.273011,4.574602 52.272321,4.573438 52.271608,4.572662 52.271152,4.57246 52.271545,4.572219 52.271705,4.571813 52.271638,4.57046 52.272275,4.56992 52.272303,4.567485 52.27356,4.564584 52.275388,4.56282 52.27648,4.560392 52.278051,4.556181 52.280644,4.553906 52.282002,4.55363 52.282143,4.553563 52.282091,4.551971 52.282889,4.551784 52.282769,4.551352 52.28297,4.551168 52.283192,4.550699 52.283465,4.548648 52.284327,4.54868 52.284766,4.547889 52.284819,4.547649 52.284954,4.546893 52.285009,4.544088 52.286125,4.543644 52.286264,4.543172 52.286403,4.542858 52.286533,4.542574 52.286619,4.542314 52.287287,4.542563 52.287709,4.542973 52.288134,4.543859 52.289179,4.544561 52.289937,4.54515 52.290696,4.545706 52.291224,4.546569 52.291754,4.54755 52.292278,4.548084 52.292594,4.548446 52.292745,4.548629 52.292872,4.548791 52.29301,4.548963 52.293186,4.549139 52.293518,4.54918 52.293753,4.549296 52.294024,4.54929 52.294361,4.549323 52.294764,4.549468 52.294999,4.549759 52.295303,4.550177 52.295702,4.550972 52.296533,4.551298 52.296795,4.552047 52.297254,4.552521 52.297577,4.553183 52.29809,4.55356 52.298435,4.553764 52.298626,4.55413 52.299057,4.554479 52.299447,4.555411 52.299153,4.563629 52.309228,4.566528 52.312748,4.56686 52.312959,4.56886 52.316347,4.568893 52.316382,4.56897 52.316502,4.569421 52.31639,4.569652 52.316335,4.572712 52.315624,4.572791 52.315419,4.573222 52.315331,4.576709 52.316404,4.576969 52.316452,4.580564 52.317568,4.581749 52.317917,4.582305 52.318101,4.583173 52.318357,4.583547 52.318474)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2754072"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hillegom"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hillegom"/>
+            </rdf:Description>
+</rdf:RDF>

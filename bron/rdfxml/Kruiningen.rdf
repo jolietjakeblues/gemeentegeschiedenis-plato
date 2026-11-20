@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Kruiningen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Kruiningen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Kruiningen</skos:prefLabel>
+        <gg:name xml:lang="nl">Kruiningen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10077"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0685"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Reimerswaal"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Kruiningen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.072052 51.458177,4.067322 51.447606,4.07815 51.446289,4.070053 51.442692,4.071179 51.43857,4.060853 51.437554,4.057792 51.434013,4.049311 51.433826,4.041353 51.430588,4.032684 51.436781,4.01654 51.43794,4.006683 51.440431,3.991733 51.449513,3.996875 51.450743,3.994245 51.45206,4.023427 51.467328,4.030738 51.473166,4.034255 51.47105,4.042151 51.47177,4.050428 51.464404,4.06182 51.463635,4.072052 51.458177)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</gg:year>
+                            <gg:name xml:lang="nl">Kruiningen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.00935 51.485412,4.009951 51.479845,4.021717 51.481152,4.030738 51.473166,4.034255 51.47105,4.042151 51.47177,4.050428 51.464404,4.06182 51.463635,4.072052 51.458177,4.067322 51.447606,4.07815 51.446289,4.070053 51.442692,4.071179 51.43857,4.060853 51.437554,4.057792 51.434013,4.049311 51.433826,4.041353 51.430588,4.032684 51.436781,4.01654 51.43794,4.006683 51.440431,3.987189 51.452245,4.003638 51.460173,4.003069 51.483629,4.00935 51.485412)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</gg:year>
+                            <gg:name xml:lang="nl">Reimerswaal                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.134047 51.432969,4.145444 51.431653,4.15302 51.433351,4.170362 51.440995,4.177857 51.440443,4.190189 51.436435,4.197913 51.438043,4.218904 51.432771,4.233415 51.433365,4.250532 51.439017,4.25667 51.446717,4.261321 51.444785,4.2727 51.426556,4.263588 51.422872,4.260738 51.416013,4.266334 51.398897,4.261984 51.388787,4.272441 51.384213,4.273578 51.37883,4.242051 51.375828,4.240383 51.379317,4.251446 51.379246,4.238003 51.388283,4.238722 51.393954,4.232541 51.399736,4.226426 51.408485,4.220508 51.403841,4.203208 51.400341,4.186185 51.408257,4.16686 51.399876,4.157168 51.396897,4.143542 51.395944,4.127841 51.397304,4.059816 51.413899,4.047854 51.419785,4.044688 51.424783,4.041353 51.430588,4.032684 51.436781,4.01654 51.43794,4.006683 51.440431,3.987189 51.452245,4.003638 51.460173,4.002546 51.505558,4.010672 51.508351,4.0138 51.514501,4.019185 51.507912,4.046481 51.500677,4.054827 51.486209,4.050568 51.479239,4.082409 51.458293,4.088607 51.447845,4.134047 51.432969)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kruiningen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kruiningen"/>
+            </rdf:Description>
+</rdf:RDF>

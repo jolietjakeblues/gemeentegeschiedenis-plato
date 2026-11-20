@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zoelen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zoelen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zoelen</skos:prefLabel>
+        <gg:name xml:lang="nl">Zoelen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10897"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0300"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wadenoijen"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wadenoijen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Buren"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zoelen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.410177 51.934962,5.4173 51.931365,5.422091 51.921746,5.421069 51.915814,5.421498 51.907096,5.412775 51.900896,5.416836 51.890019,5.414509 51.884447,5.406229 51.88328,5.401435 51.880854,5.397077 51.875551,5.401869 51.874292,5.40608 51.873842,5.412179 51.873841,5.420604 51.877435,5.427143 51.882466,5.429753 51.877701,5.418855 51.868537,5.409272 51.86746,5.401576 51.867641,5.386041 51.869799,5.375298 51.862069,5.356573 51.85838,5.340027 51.856577,5.334799 51.858372,5.334935 51.866642,5.329846 51.872032,5.337106 51.872935,5.333902 51.880393,5.337823 51.880485,5.335053 51.890101,5.342457 51.894509,5.349433 51.890916,5.3673 51.892718,5.372383 51.89901,5.370638 51.902066,5.372816 51.907909,5.357842 51.917164,5.353472 51.930016,5.360741 51.929928,5.37179 51.933615,5.377025 51.932986,5.390693 51.941166,5.409889 51.939546,5.410177 51.934962)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Zoelen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.353472 51.930016,5.360741 51.929928,5.37179 51.933615,5.377025 51.932986,5.390693 51.941166,5.409889 51.939546,5.410177 51.934962,5.4173 51.931365,5.422091 51.921746,5.421069 51.915814,5.415689 51.9124,5.410456 51.911503,5.399407 51.898831,5.404924 51.888314,5.401292 51.885348,5.380521 51.884989,5.381393 51.879686,5.373261 51.87636,5.353366 51.876895,5.343928 51.875274,5.340873 51.880396,5.337823 51.880485,5.335053 51.890101,5.342457 51.894509,5.349433 51.890916,5.3673 51.892718,5.372383 51.89901,5.370638 51.902066,5.372816 51.907909,5.357842 51.917164,5.353472 51.930016)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1957</gg:year>
+                            <gg:name xml:lang="nl">Zoelen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.419632 51.938735,5.42806 51.93253,5.435475 51.931718,5.446674 51.93441,5.45147 51.93225,5.452189 51.926767,5.458141 51.92155,5.432989 51.918237,5.421069 51.915814,5.415689 51.9124,5.410456 51.911503,5.399407 51.898831,5.404924 51.888314,5.401292 51.885348,5.380521 51.884989,5.381393 51.879686,5.384298 51.87654,5.381394 51.873394,5.386041 51.869799,5.375298 51.862069,5.356573 51.85838,5.340027 51.856577,5.334799 51.858372,5.334935 51.866642,5.329846 51.872032,5.337106 51.872935,5.333902 51.880393,5.337823 51.880485,5.335053 51.890101,5.342457 51.894509,5.349433 51.890916,5.3673 51.892718,5.372383 51.89901,5.370638 51.902066,5.372816 51.907909,5.357842 51.917164,5.353472 51.930016,5.360741 51.929928,5.37179 51.933615,5.377025 51.932986,5.390693 51.941166,5.409889 51.939546,5.419632 51.938735)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zoelen_(Nederland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zoelen_(Nederland)"/>
+            </rdf:Description>
+</rdf:RDF>

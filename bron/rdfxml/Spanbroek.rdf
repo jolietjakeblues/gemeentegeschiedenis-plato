@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Spanbroek">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Spanbroek</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Spanbroek</skos:prefLabel>
+        <gg:name xml:lang="nl">Spanbroek</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10063"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1186"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Opmeer"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Opmeer"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Spanbroek                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.946991 52.681024,4.945318 52.670862,4.966284 52.673724,4.966172 52.669949,4.958486 52.669832,4.957047 52.665782,4.952309 52.666574,4.953964 52.663614,4.945155 52.65765,4.934866 52.666509,4.934626 52.675495,4.937361 52.682785,4.906358 52.691561,4.897604 52.694042,4.896602 52.704283,4.909765 52.704696,4.983059 52.73058,4.99249 52.719018,4.957246 52.705955,4.974781 52.697839,4.959775 52.689338,4.956432 52.683305,4.946991 52.681024)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Spanbroek                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.974781 52.697839,4.959775 52.689338,4.956432 52.683305,4.946991 52.681024,4.945318 52.670862,4.966284 52.673724,4.966172 52.669949,4.958486 52.669832,4.957047 52.665782,4.952309 52.666574,4.953964 52.663614,4.945155 52.65765,4.934866 52.666509,4.934626 52.675495,4.937361 52.682785,4.906358 52.691561,4.957246 52.705955,4.974781 52.697839)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1959-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Spanbroek"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Spanbroek"/>
+            </rdf:Description>
+</rdf:RDF>

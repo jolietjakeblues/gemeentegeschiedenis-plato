@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Jorwerd">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Jorwerd</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Jorwerd</skos:prefLabel>
+        <gg:name xml:lang="nl">Jorwerd</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11251"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Baarderadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Jorwerd                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.721421 53.093453,5.713046 53.099197,5.718705 53.10225,5.710415 53.106149,5.706422 53.110683,5.701036 53.108274,5.695697 53.112326,5.697914 53.122011,5.690396 53.12203,5.696886 53.128475,5.694772 53.133325,5.699611 53.133959,5.698848 53.139937,5.697254 53.142364,5.686481 53.138354,5.678189 53.143381,5.680899 53.146928,5.674746 53.150819,5.670162 53.148246,5.663998 53.150683,5.665367 53.154556,5.6565 53.154576,5.663517 53.159406,5.654119 53.160719,5.657661 53.165074,5.65964 53.165712,5.66371 53.170824,5.669089 53.170183,5.672852 53.173858,5.676138 53.173221,5.684693 53.177693,5.697531 53.174336,5.698552 53.170739,5.71156 53.170345,5.72273 53.164473,5.723904 53.161684,5.727496 53.162213,5.729924 53.166699,5.764358 53.171538,5.763703 53.147818,5.754503 53.120439,5.758473 53.113059,5.754272 53.110825,5.721421 53.093453)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Jorwerd"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Jorwerd"/>
+            </rdf:Description>
+</rdf:RDF>

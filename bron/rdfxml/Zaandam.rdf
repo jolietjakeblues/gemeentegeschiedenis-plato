@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zaandam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zaandam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zaandam</skos:prefLabel>
+        <gg:name xml:lang="nl">Zaandam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11044"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0471"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zaanstad"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zaandam                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.810882 52.48281,4.836115 52.477987,4.845334 52.47039,4.848749 52.467979,4.849207 52.466633,4.841705 52.466329,4.839342 52.455174,4.848402 52.448115,4.851706 52.442468,4.856606 52.438625,4.858587 52.432792,4.861305 52.426872,4.853633 52.429085,4.848695 52.436163,4.838145 52.433059,4.835846 52.428734,4.810278 52.427534,4.810818 52.431221,4.793744 52.432575,4.797854 52.433135,4.787423 52.454114,4.807248 52.456819,4.811985 52.465919,4.809585 52.469413,4.813049 52.474642,4.809922 52.477413,4.810882 52.48281)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1878</gg:year>
+                            <gg:name xml:lang="nl">Zaandam                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.861538 52.419593,4.857585 52.418228,4.855958 52.419119,4.816057 52.424057,4.807377 52.424554,4.791749 52.427802,4.793744 52.432575,4.797854 52.433135,4.787423 52.454114,4.807248 52.456819,4.811985 52.465919,4.809585 52.469413,4.813049 52.474642,4.809922 52.477413,4.810882 52.48281,4.836115 52.477987,4.845334 52.47039,4.848749 52.467979,4.849207 52.466633,4.841705 52.466329,4.839342 52.455174,4.848402 52.448115,4.851706 52.442468,4.856606 52.438625,4.858587 52.432792,4.861305 52.426872,4.859436 52.423269,4.861538 52.419593)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</gg:year>
+                            <gg:name xml:lang="nl">Zaanstad                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.778581 52.519408,4.787167 52.516396,4.788305 52.508493,4.79379 52.505914,4.796714 52.496492,4.794734 52.49046,4.804315 52.489609,4.810882 52.48281,4.836115 52.477987,4.845334 52.47039,4.848749 52.467979,4.849207 52.466633,4.841705 52.466329,4.839342 52.455174,4.848402 52.448115,4.851706 52.442468,4.856606 52.438625,4.858587 52.432792,4.861305 52.426872,4.859436 52.423269,4.861538 52.419593,4.857585 52.418228,4.855958 52.419119,4.816057 52.424057,4.807377 52.424554,4.77792 52.42845,4.766138 52.429827,4.724123 52.437149,4.715268 52.439256,4.706254 52.441991,4.674417 52.455375,4.691014 52.466529,4.698441 52.471516,4.70443 52.483953,4.712568 52.49092,4.722363 52.495559,4.730902 52.495697,4.738927 52.500774,4.754981 52.510926,4.749503 52.512874,4.746803 52.516185,4.756927 52.519115,4.769041 52.516752,4.773297 52.517943,4.778581 52.519408)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zaandam"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zaandam"/>
+            </rdf:Description>
+</rdf:RDF>

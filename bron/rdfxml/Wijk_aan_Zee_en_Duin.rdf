@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wijk_aan_Zee_en_Duin">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wijk aan Zee en Duin</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wijk aan Zee en Duin</skos:prefLabel>
+        <gg:name xml:lang="nl">Wijk aan Zee en Duin</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11366"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1229"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Beverwijk"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Beverwijk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Wijk aan Zee en Duin               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.58392 52.496859,4.606497 52.494224,4.623818 52.497393,4.648848 52.497641,4.656233 52.496338,4.665292 52.500708,4.669737 52.499027,4.677196 52.49305,4.694764 52.490188,4.695842 52.487139,4.70443 52.483953,4.698441 52.471516,4.689531 52.476586,4.676322 52.474171,4.671179 52.482768,4.665878 52.482826,4.659451 52.488719,4.655531 52.485369,4.655574 52.482763,4.645566 52.482611,4.645045 52.478563,4.62606 52.478353,4.622769 52.481388,4.610279 52.480138,4.605511 52.483342,4.579969 52.487396,4.58392 52.496859)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1875</gg:year>
+                            <gg:name xml:lang="nl">Wijk aan Zee en Duin               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.669737 52.499027,4.677196 52.49305,4.694764 52.490188,4.695842 52.487139,4.70443 52.483953,4.698441 52.471516,4.691014 52.466529,4.676322 52.474171,4.671179 52.482768,4.665878 52.482826,4.659451 52.488719,4.655531 52.485369,4.655574 52.482763,4.645566 52.482611,4.645045 52.478563,4.62606 52.478353,4.622769 52.481388,4.610279 52.480138,4.605511 52.483342,4.579969 52.487396,4.58392 52.496859,4.606497 52.494224,4.623818 52.497393,4.648848 52.497641,4.656233 52.496338,4.665292 52.500708,4.669737 52.499027)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1817-05-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-05-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wijk_aan_Zee_en_Duin"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wijk_aan_Zee_en_Duin"/>
+            </rdf:Description>
+</rdf:RDF>

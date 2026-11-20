@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Deurne_en_Liessel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Deurne en Liessel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Deurne en Liessel</skos:prefLabel>
+        <gg:name xml:lang="nl">Deurne en Liessel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10379"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1041"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Deurne"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Deurne en Liessel                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.730059 51.47488,5.726948 51.48226,5.720352 51.485784,5.722974 51.490002,5.73187 51.485931,5.747565 51.486063,5.747728 51.488489,5.785191 51.491694,5.853161 51.506363,5.860232 51.493751,5.875138 51.446947,5.900428 51.418974,5.929784 51.385132,5.896243 51.366048,5.871699 51.353568,5.866419 51.356556,5.854919 51.355075,5.851855 51.378458,5.816108 51.410955,5.811364 51.410882,5.796988 51.426574,5.791245 51.427583,5.786452 51.438476,5.778697 51.43985,5.768138 51.449863,5.759809 51.451777,5.751125 51.463221,5.736899 51.465781,5.730059 51.47488)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1926</gg:year>
+                            <gg:name xml:lang="nl">Deurne                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.860232 51.493751,5.875138 51.446947,5.900428 51.418974,5.929784 51.385132,5.896243 51.366048,5.871699 51.353568,5.866419 51.356556,5.854919 51.355075,5.851855 51.378458,5.816108 51.410955,5.811364 51.410882,5.792388 51.41059,5.784653 51.413673,5.75864 51.431826,5.738715 51.440158,5.715418 51.440495,5.704488 51.440705,5.694841 51.439203,5.684622 51.459993,5.715987 51.45964,5.713761 51.470252,5.730059 51.47488,5.726948 51.48226,5.720352 51.485784,5.722974 51.490002,5.73187 51.485931,5.747565 51.486063,5.747728 51.488489,5.785191 51.491694,5.853161 51.506363,5.860232 51.493751)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1926-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Deurne_en_Liessel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Deurne_en_Liessel"/>
+            </rdf:Description>
+</rdf:RDF>

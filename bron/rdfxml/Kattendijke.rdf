@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Kattendijke">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Kattendijke</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Kattendijke</skos:prefLabel>
+        <gg:name xml:lang="nl">Kattendijke</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11218"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0679"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Goes"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Kattendijke                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.966243 51.528675,3.960098 51.522397,3.954924 51.521975,3.952464 51.517719,3.952888 51.513409,3.958096 51.512754,3.969283 51.509744,3.967377 51.506215,3.953115 51.50622,3.955382 51.502832,3.941449 51.497086,3.940449 51.505884,3.939934 51.508485,3.93208 51.515309,3.919007 51.518562,3.910936 51.51864,3.903276 51.523757,3.885015 51.51813,3.874345 51.518352,3.868916 51.516933,3.86582 51.51905,3.854207 51.51728,3.845243 51.526691,3.848771 51.528895,3.847593 51.53814,3.859949 51.539381,3.86882 51.541384,3.87511 51.542994,3.891307 51.541494,3.903165 51.544792,3.921682 51.542868,3.932539 51.527991,3.938212 51.526353,3.944479 51.528678,3.96133 51.529065,3.966243 51.528675)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</gg:year>
+                            <gg:name xml:lang="nl">Kattendijke                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.921682 51.542868,3.932539 51.527991,3.938212 51.526353,3.944479 51.528678,3.96133 51.529065,3.966243 51.528675,3.960098 51.522397,3.954924 51.521975,3.952464 51.517719,3.952888 51.513409,3.958096 51.512754,3.955382 51.502832,3.941449 51.497086,3.940449 51.505884,3.938015 51.505404,3.928917 51.51509,3.93079 51.519608,3.914748 51.51662,3.894589 51.516185,3.885015 51.51813,3.874345 51.518352,3.868916 51.516933,3.86582 51.51905,3.854207 51.51728,3.845243 51.526691,3.848771 51.528895,3.847593 51.53814,3.859949 51.539381,3.86882 51.541384,3.87511 51.542994,3.891307 51.541494,3.903165 51.544792,3.921682 51.542868)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kattendijke"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kattendijke"/>
+            </rdf:Description>
+</rdf:RDF>

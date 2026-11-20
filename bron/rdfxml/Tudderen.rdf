@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Tudderen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Tudderen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Tudderen</skos:prefLabel>
+        <gg:name xml:lang="nl">Tudderen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10794"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1204"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/voorheen_Duits_grondgebied"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Duitsland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1950</gg:year>
+                            <gg:name xml:lang="nl">Tudderen (Drostambt)               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.933762 51.045242,5.938369 51.03704,5.951363 51.038686,5.95806 51.038293,5.950008 51.03276,5.950098 51.028444,5.968152 51.02458,5.970224 51.019356,5.964475 51.004103,5.992549 50.983016,5.970888 50.981779,5.960229 50.98345,5.955317 50.989317,5.932213 50.986641,5.929048 50.98396,5.919605 50.980048,5.896935 50.977453,5.893997 50.982141,5.900293 50.984899,5.904192 50.989736,5.905619 51.002674,5.894137 51.007848,5.894623 51.01324,5.882404 51.016529,5.874563 51.029686,5.879208 51.037486,5.872825 51.040659,5.866812 51.05201,5.891659 51.054871,5.912349 51.068173,5.921396 51.06103,5.924979 51.050227,5.933762 51.045242)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-04-23</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/T%C3%BCddern"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

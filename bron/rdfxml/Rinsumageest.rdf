@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Rinsumageest">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Rinsumageest</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Rinsumageest</skos:prefLabel>
+        <gg:name xml:lang="nl">Rinsumageest</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11096"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dantumadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Rinsumageest                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.995338 53.312945,5.971861 53.305184,5.966806 53.307302,5.960126 53.306763,5.957547 53.303921,5.938662 53.292971,5.941166 53.290105,5.926173 53.284845,5.907976 53.276932,5.891629 53.26884,5.86622 53.281518,5.858744 53.283435,5.898797 53.297827,5.893486 53.305308,5.889275 53.304427,5.884049 53.306515,5.886492 53.310189,5.901802 53.310843,5.901854 53.315156,5.920578 53.312648,5.923082 53.308863,5.935128 53.312313,5.948492 53.31315,5.954265 53.318604,5.960706 53.317765,5.966893 53.320341,5.972282 53.319327,5.985967 53.321506,5.989631 53.315197,5.995338 53.312945)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Rinsumageest"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Rinsumageest"/>
+            </rdf:Description>
+</rdf:RDF>

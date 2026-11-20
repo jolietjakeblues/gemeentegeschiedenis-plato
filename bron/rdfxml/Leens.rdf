@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Leens">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Leens</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Leens</skos:prefLabel>
+        <gg:name xml:lang="nl">Leens</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11050"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0023"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ulrum"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Leens                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.367335 53.369411,6.37797 53.374535,6.378351 53.378037,6.407971 53.372397,6.410716 53.367791,6.420119 53.365195,6.430362 53.353964,6.455916 53.348798,6.470954 53.355582,6.481815 53.35153,6.483797 53.340909,6.477575 53.33827,6.477782 53.334583,6.457189 53.32749,6.456343 53.323633,6.450339 53.323597,6.449727 53.317043,6.439278 53.313181,6.436411 53.318687,6.436088 53.323902,6.416133 53.324164,6.413298 53.318527,6.407983 53.315877,6.372172 53.318152,6.366138 53.316764,6.361965 53.311406,6.348216 53.313853,6.352845 53.319567,6.349839 53.326061,6.35563 53.336618,6.368471 53.346757,6.365624 53.35361,6.370467 53.361837,6.367335 53.369411)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Leens"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Leens"/>
+            </rdf:Description>
+</rdf:RDF>

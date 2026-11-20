@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Olst-Wijhe">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Olst-Wijhe</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Olst-Wijhe</skos:prefLabel>
+        <gg:name xml:lang="nl">Olst-Wijhe</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10409"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1773"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Olst"/>
+
+        
+                                                                            
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/6544248"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-03-26</gg:startDate>
+                                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Olst-Wijhe"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Olst-Wijhe"/>
+            </rdf:Description>
+</rdf:RDF>

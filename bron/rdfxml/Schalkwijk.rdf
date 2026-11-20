@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Schalkwijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Schalkwijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Schalkwijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Schalkwijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10378"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1169"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tull_en_t_Waal"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Houten"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Schalkwijk                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.125995 52.019074,5.174313 51.998768,5.179696 51.999676,5.18797 52.005623,5.203147 51.998277,5.217271 51.998209,5.244534 51.987908,5.237413 51.984304,5.243104 51.979997,5.233495 51.980434,5.22652 51.977279,5.219558 51.970708,5.216671 51.964502,5.212318 51.96144,5.203154 51.960886,5.194272 51.96258,5.178383 51.969024,5.162213 51.97232,5.155949 51.973656,5.151134 51.975984,5.14777 51.979123,5.14275 51.992055,5.138944 51.995912,5.133395 51.998597,5.127853 52.000203,5.118677 52.000542,5.121833 52.008548,5.125995 52.019074)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Schalkwijk                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.125995 52.019074,5.174313 51.998768,5.179696 51.999676,5.18797 52.005623,5.203147 51.998277,5.217271 51.998209,5.244534 51.987908,5.237413 51.984304,5.243104 51.979997,5.233495 51.980434,5.22652 51.977279,5.219558 51.970708,5.216671 51.964502,5.209378 51.969165,5.206764 51.967813,5.202094 51.971131,5.162891 51.982388,5.162992 51.991287,5.124757 52.006577,5.121833 52.008548,5.125995 52.019074)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1962-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Schalkwijk_(Utrecht)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Schalkwijk_(Utrecht)"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Koudekerke_Walcheren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Koudekerke [Walcheren]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Koudekerke [Walcheren]</skos:prefLabel>
+        <gg:name xml:lang="nl">Koudekerke [Walcheren]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11428"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1098"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Valkenisse_Walcheren"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Koudekerke                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.553427 51.500627,3.557587 51.501052,3.562849 51.499156,3.576097 51.502869,3.587226 51.501962,3.596839 51.502919,3.598109 51.496286,3.605226 51.49109,3.61633 51.49072,3.613117 51.484467,3.614352 51.478642,3.610923 51.477961,3.593374 51.481199,3.591039 51.485658,3.581262 51.481641,3.57262 51.474495,3.567026 51.473958,3.563462 51.469497,3.563757 51.465725,3.573722 51.464892,3.574293 51.461394,3.564052 51.458358,3.550711 51.450147,3.505084 51.474863,3.52367 51.478039,3.528906 51.483786,3.538606 51.489605,3.546514 51.489909,3.546212 51.497367,3.554503 51.498936,3.553427 51.500627)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</gg:year>
+                            <gg:name xml:lang="nl">Koudekerke                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.587226 51.501962,3.591025 51.4933,3.591039 51.485658,3.581262 51.481641,3.57262 51.474495,3.567026 51.473958,3.563462 51.469497,3.563757 51.465725,3.573722 51.464892,3.574293 51.461394,3.564052 51.458358,3.550711 51.450147,3.505084 51.474863,3.52367 51.478039,3.528906 51.483786,3.538606 51.489605,3.546514 51.489909,3.546212 51.497367,3.554503 51.498936,3.553427 51.500627,3.557587 51.501052,3.562849 51.499156,3.576097 51.502869,3.587226 51.501962)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Koudekerke_(Walcheren)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Koudekerke_(Walcheren)"/>
+            </rdf:Description>
+</rdf:RDF>

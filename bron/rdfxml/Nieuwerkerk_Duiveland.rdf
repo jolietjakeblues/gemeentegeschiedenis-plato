@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nieuwerkerk_Duiveland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nieuwerkerk [Duiveland]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nieuwerkerk [Duiveland]</skos:prefLabel>
+        <gg:name xml:lang="nl">Nieuwerkerk [Duiveland]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10911"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1122"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Capelle_en_Botland"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Duiveland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nieuwerkerk                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.003962 51.637732,4.002432 51.640819,3.995723 51.640467,3.992137 51.64306,3.995569 51.645464,3.992295 51.647425,3.990275 51.646583,3.981105 51.650199,3.977757 51.649795,3.970746 51.649711,3.965182 51.650098,3.960055 51.65049,3.956438 51.649355,3.954969 51.654245,3.955438 51.657887,3.949698 51.65918,3.945761 51.658983,3.947638 51.660957,3.954434 51.665445,3.969259 51.667514,3.971414 51.672574,3.977567 51.674626,3.989575 51.67441,3.992021 51.674799,4.012311 51.678006,4.017574 51.67609,4.02232 51.676954,4.022314 51.672369,4.031203 51.670045,4.027622 51.659306,4.027523 51.648158,4.021867 51.644047,4.021523 51.641076,4.011917 51.638626,4.003962 51.637732)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1813</gg:year>
+                            <gg:name xml:lang="nl">Nieuwerkerk                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.02232 51.676954,4.022314 51.672369,4.031203 51.670045,4.027622 51.659306,4.027523 51.648158,4.021867 51.644047,4.021523 51.641076,4.011917 51.638626,4.00299 51.637622,3.996438 51.634578,3.976784 51.634792,3.957476 51.637794,3.948648 51.63373,3.943647 51.64104,3.94394 51.645449,3.937915 51.648611,3.939247 51.652133,3.947638 51.660957,3.954434 51.665445,3.969259 51.667514,3.971414 51.672574,3.977567 51.674626,3.989575 51.67441,3.992021 51.674799,4.012311 51.678006,4.017574 51.67609,4.02232 51.676954)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1961-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

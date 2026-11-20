@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Kerkrade">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Kerkrade</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Kerkrade</skos:prefLabel>
+        <gg:name xml:lang="nl">Kerkrade</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10313"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0928"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Eijgelshoven"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Kerkrade                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.048119 50.895698,6.050336 50.89173,6.057004 50.890883,6.058955 50.888265,6.076952 50.894361,6.077533 50.885638,6.086131 50.881002,6.087303 50.873894,6.076702 50.858496,6.074991 50.848439,6.057448 50.852857,6.055681 50.85835,6.02472 50.848008,6.020026 50.847405,6.007744 50.863292,6.019926 50.871226,6.030503 50.875932,6.028582 50.880797,6.033185 50.884816,6.033808 50.888768,6.048119 50.895698)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Kerkrade                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.081186 50.901797,6.079156 50.899112,6.077939 50.893816,6.078269 50.887342,6.088498 50.877752,6.087185 50.875513,6.089118 50.871815,6.087537 50.870567,6.087515 50.869128,6.084026 50.863846,6.081459 50.863142,6.081433 50.861435,6.078151 50.860376,6.075521 50.845919,6.062941 50.849768,6.057557 50.850609,6.056932 50.856455,6.051358 50.853971,6.046362 50.852201,6.036533 50.85001,6.026832 50.846738,6.024692 50.845941,6.020431 50.845874,6.017521 50.840676,6.016288 50.844009,6.010393 50.849075,6.001982 50.85721,6.009538 50.859417,6.00813 50.860323,6.020303 50.867628,6.018201 50.869797,6.021764 50.870587,6.024057 50.872102,6.03271 50.871155,6.033923 50.876632,6.03551 50.878331,6.035254 50.8804,6.038739 50.885684,6.041748 50.887465,6.044292 50.886461,6.046326 50.889596,6.042661 50.891684,6.042988 50.894739,6.044301 50.897068,6.044051 50.899497,6.048589 50.898752,6.057691 50.899059,6.057584 50.901487,6.06 50.901473,6.06027 50.900482,6.065403 50.901531,6.065286 50.90324,6.080804 50.904766,6.081186 50.901797)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2752922"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kerkrade"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kerkrade"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Overschie">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Overschie</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Overschie</skos:prefLabel>
+        <gg:name xml:lang="nl">Overschie</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10683"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1149"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schiebroek"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rotterdam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Overschie                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.489353 51.968031,4.479085 51.957705,4.482156 51.956919,4.471055 51.944789,4.456515 51.944584,4.456848 51.935508,4.461927 51.928987,4.462443 51.918025,4.442249 51.917504,4.439023 51.918827,4.431706 51.914273,4.436859 51.911169,4.432532 51.902774,4.427584 51.903093,4.428194 51.908581,4.425065 51.912151,4.416129 51.922145,4.41169 51.925704,4.408139 51.928551,4.406231 51.935996,4.395389 51.93968,4.405117 51.947043,4.395912 51.955505,4.392116 51.962664,4.404679 51.967084,4.426472 51.975534,4.431351 51.971978,4.445393 51.961664,4.448808 51.972298,4.459573 51.972563,4.460775 51.977786,4.465259 51.97917,4.489353 51.968031)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Overschie                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.461927 51.928987,4.462443 51.918025,4.442249 51.917504,4.439023 51.918827,4.431706 51.914273,4.436859 51.911169,4.432532 51.902774,4.427584 51.903093,4.428194 51.908581,4.425065 51.912151,4.416129 51.922145,4.41169 51.925704,4.408139 51.928551,4.406231 51.935996,4.395389 51.93968,4.405117 51.947043,4.395912 51.955505,4.392116 51.962664,4.404679 51.967084,4.426472 51.975534,4.431351 51.971978,4.445393 51.961664,4.456515 51.944584,4.456848 51.935508,4.461927 51.928987)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1896</gg:year>
+                            <gg:name xml:lang="nl">Overschie                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.461927 51.928987,4.462443 51.918025,4.442249 51.917504,4.439023 51.918827,4.425065 51.912151,4.416129 51.922145,4.41169 51.925704,4.408139 51.928551,4.406231 51.935996,4.395389 51.93968,4.405117 51.947043,4.395912 51.955505,4.392116 51.962664,4.404679 51.967084,4.426472 51.975534,4.431351 51.971978,4.445393 51.961664,4.456515 51.944584,4.456848 51.935508,4.461927 51.928987)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1903</gg:year>
+                            <gg:name xml:lang="nl">Overschie                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.429952 51.928371,4.41169 51.925704,4.408139 51.928551,4.406231 51.935996,4.395389 51.93968,4.405117 51.947043,4.395912 51.955505,4.392116 51.962664,4.404679 51.967084,4.426472 51.975534,4.431351 51.971978,4.445393 51.961664,4.456515 51.944584,4.439654 51.937169,4.429952 51.928371)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Overschie"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Overschie"/>
+            </rdf:Description>
+</rdf:RDF>

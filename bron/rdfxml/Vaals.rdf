@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Vaals">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Vaals</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Vaals</skos:prefLabel>
+        <gg:name xml:lang="nl">Vaals</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10007"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0981"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Vaals                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.976599 50.804397,5.973852 50.800276,6.033698 50.779102,6.017355 50.765799,6.021329 50.7558,6.013413 50.757281,5.976256 50.75505,5.97419 50.759734,5.964733 50.762838,5.951545 50.762184,5.934918 50.758399,5.920763 50.772129,5.925066 50.776513,5.930733 50.776217,5.935384 50.773858,5.94362 50.774987,5.943256 50.791978,5.946442 50.797446,5.951092 50.794906,5.9641 50.803112,5.976599 50.804397)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Vaals                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.977856 50.802863,5.977079 50.797563,5.981586 50.795023,5.989935 50.793632,5.997258 50.789638,5.997078 50.786762,6.000474 50.786205,6.001302 50.784493,6.005968 50.783479,6.010177 50.780131,6.018229 50.778019,6.022031 50.776111,6.026558 50.775367,6.027949 50.773471,6.027218 50.771857,6.024053 50.768459,6.022458 50.765861,6.019867 50.762909,6.021592 50.75436,6.013802 50.754582,5.993368 50.752444,5.984586 50.75267,5.98149 50.754304,5.975545 50.754873,5.975865 50.757748,5.974326 50.759284,5.970798 50.760471,5.961588 50.760607,5.960756 50.762139,5.954773 50.759652,5.950239 50.759674,5.942272 50.757106,5.941138 50.757111,5.936317 50.756864,5.935483 50.758217,5.932506 50.758141,5.931665 50.758954,5.932676 50.760567,5.931275 50.761922,5.927326 50.763649,5.925939 50.766262,5.922856 50.769243,5.924903 50.774716,5.931993 50.774863,5.933829 50.774225,5.937197 50.771332,5.944868 50.772734,5.945328 50.775608,5.945953 50.780369,5.94423 50.790445,5.944974 50.793318,5.947838 50.795641,5.952919 50.793549,5.96593 50.802024,5.968616 50.801292,5.970745 50.801371,5.977856 50.802863)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2745904"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Vaals_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Vaals_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

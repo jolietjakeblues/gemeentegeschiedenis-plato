@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Egmond-Binnen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Egmond-Binnen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Egmond-Binnen</skos:prefLabel>
+        <gg:name xml:lang="nl">Egmond-Binnen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10989"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0387"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wimmenum"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Egmond"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Egmond-Binnen                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.695524 52.629679,4.71073 52.630215,4.714673 52.623497,4.707932 52.620044,4.689873 52.622815,4.682457 52.615582,4.680789 52.609101,4.671793 52.59943,4.670939 52.588371,4.656238 52.585046,4.654655 52.582609,4.606456 52.571517,4.615827 52.609236,4.617641 52.615269,4.627679 52.615424,4.628049 52.61965,4.667438 52.622052,4.677214 52.629391,4.695524 52.629679)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Egmond-Binnen                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.695695 52.637588,4.695524 52.629679,4.71073 52.630215,4.714673 52.623497,4.707932 52.620044,4.689873 52.622815,4.682457 52.615582,4.680789 52.609101,4.671793 52.59943,4.670939 52.588371,4.656238 52.585046,4.654655 52.582609,4.606456 52.571517,4.615827 52.609236,4.617641 52.615269,4.627679 52.615424,4.628049 52.61965,4.62815 52.622347,4.619282 52.62274,4.620381 52.62751,4.623004 52.638042,4.6683 52.64156,4.678017 52.643686,4.686937 52.640233,4.706734 52.640258,4.706627 52.637651,4.695695 52.637588)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1865</gg:year>
+                            <gg:name xml:lang="nl">Egmond-Binnen                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.695695 52.637588,4.695524 52.629679,4.71073 52.630215,4.714673 52.623497,4.707932 52.620044,4.689873 52.622815,4.682457 52.615582,4.680789 52.609101,4.671793 52.59943,4.670939 52.588371,4.656238 52.585046,4.654655 52.582609,4.606456 52.571517,4.615827 52.609236,4.636865 52.613595,4.637298 52.622855,4.620381 52.62751,4.623004 52.638042,4.6683 52.64156,4.678017 52.643686,4.686937 52.640233,4.706734 52.640258,4.706627 52.637651,4.695695 52.637588)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</gg:year>
+                            <gg:name xml:lang="nl">Egmond-Binnen                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.714673 52.623497,4.707932 52.620044,4.689873 52.622815,4.682457 52.615582,4.680789 52.609101,4.671793 52.59943,4.670939 52.588371,4.656238 52.585046,4.654655 52.582609,4.606456 52.571517,4.615827 52.609236,4.636865 52.613595,4.637298 52.622855,4.620381 52.62751,4.623004 52.638042,4.6683 52.64156,4.678017 52.643686,4.686937 52.640233,4.710427 52.64028,4.708269 52.636493,4.710901 52.628689,4.714673 52.623497)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Egmond-Binnen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Egmond-Binnen"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Maartensdijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Maartensdijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Maartensdijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Maartensdijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10691"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0334"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westbroek"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Bilt"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Maartensdijk                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.211382 52.200341,5.212746 52.188389,5.171134 52.114439,5.16982 52.114526,5.164462 52.105618,5.160811 52.106061,5.159203 52.106597,5.150789 52.096783,5.152992 52.094001,5.145133 52.090211,5.143939 52.094972,5.145379 52.09866,5.144345 52.100995,5.114075 52.110546,5.132815 52.126496,5.138853 52.143676,5.152957 52.156378,5.164834 52.177703,5.188815 52.176757,5.211382 52.200341)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1954</gg:year>
+                            <gg:name xml:lang="nl">Maartensdijk                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.212746 52.188389,5.171134 52.114439,5.16982 52.114526,5.164462 52.105618,5.160811 52.106061,5.159203 52.106597,5.137998 52.113655,5.140027 52.116445,5.136809 52.117427,5.137673 52.119676,5.109862 52.130759,5.156206 52.178045,5.164834 52.177703,5.188815 52.176757,5.211382 52.200341,5.212746 52.188389)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1958</gg:year>
+                            <gg:name xml:lang="nl">Maartensdijk                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.212746 52.188389,5.171134 52.114439,5.16982 52.114526,5.164462 52.105618,5.160811 52.106061,5.159203 52.106597,5.137998 52.113655,5.140027 52.116445,5.136809 52.117427,5.137673 52.119676,5.109862 52.130759,5.105176 52.132635,5.115626 52.143535,5.0916 52.153724,5.11546 52.170768,5.110891 52.17687,5.114387 52.179035,5.121402 52.17941,5.125789 52.17924,5.156206 52.178045,5.164834 52.177703,5.188815 52.176757,5.211382 52.200341,5.212746 52.188389)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Maartensdijk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Maartensdijk"/>
+            </rdf:Description>
+</rdf:RDF>

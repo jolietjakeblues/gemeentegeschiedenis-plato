@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dantumawoude">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dantumawoude</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dantumawoude</skos:prefLabel>
+        <gg:name xml:lang="nl">Dantumawoude</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10650"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dantumadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Dantumawoude                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.891629 53.26884,5.907976 53.276932,5.926173 53.284845,5.941166 53.290105,5.938662 53.292971,5.957547 53.303921,5.960126 53.306763,5.966806 53.307302,5.971861 53.305184,5.995338 53.312945,6.002313 53.310191,6.012076 53.31095,6.022718 53.320418,6.028946 53.320272,6.02529 53.308719,6.021192 53.289329,6.018339 53.268029,6.02072 53.257168,6.003211 53.253453,5.99615 53.24778,5.979166 53.258712,5.964209 53.25574,5.960658 53.25119,5.944628 53.263065,5.938248 53.26062,5.933199 53.262927,5.914983 53.257177,5.891629 53.26884)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2757834"/>
+                                                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dantumadeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dantumadeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dantumawoude"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dantumadeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dantumadeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dantumawoude"/>
+            </rdf:Description>
+</rdf:RDF>

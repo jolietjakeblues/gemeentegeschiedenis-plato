@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Westdorpe">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Westdorpe</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Westdorpe</skos:prefLabel>
+        <gg:name xml:lang="nl">Westdorpe</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10915"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0724"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sas_van_Gent"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Westdorpe                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.862875 51.254254,3.868883 51.250198,3.882603 51.251185,3.885819 51.244844,3.869455 51.232944,3.868172 51.228432,3.856035 51.223149,3.855941 51.217394,3.848143 51.215133,3.833768 51.221145,3.824234 51.215264,3.814474 51.216031,3.808074 51.223137,3.806523 51.230757,3.799052 51.231464,3.796587 51.236465,3.820604 51.250277,3.826547 51.25665,3.82579 51.262034,3.834493 51.250463,3.851367 51.247091,3.859603 51.249267,3.862875 51.254254)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1892</gg:year>
+                            <gg:name xml:lang="nl">Westdorpe                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.862875 51.254254,3.868883 51.250198,3.882603 51.251185,3.885819 51.244844,3.869455 51.232944,3.868172 51.228432,3.856035 51.223149,3.855941 51.217394,3.848143 51.215133,3.833768 51.221145,3.824234 51.215264,3.814474 51.216031,3.808074 51.223137,3.806523 51.230757,3.799052 51.231464,3.796587 51.236465,3.820604 51.250277,3.826547 51.25665,3.82579 51.262034,3.81538 51.26477,3.825204 51.270836,3.821985 51.281131,3.833844 51.278054,3.840925 51.272125,3.84798 51.258374,3.862875 51.254254)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1930</gg:year>
+                            <gg:name xml:lang="nl">Westdorpe                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.862875 51.254254,3.868883 51.250198,3.882603 51.251185,3.885819 51.244844,3.869455 51.232944,3.868172 51.228432,3.856035 51.223149,3.855941 51.217394,3.848143 51.215133,3.847247 51.211975,3.833007 51.214033,3.824287 51.209511,3.820717 51.209283,3.811233 51.218684,3.811191 51.224078,3.803847 51.233598,3.826547 51.25665,3.82579 51.262034,3.81538 51.26477,3.825204 51.270836,3.821985 51.281131,3.833844 51.278054,3.840925 51.272125,3.84798 51.258374,3.862875 51.254254)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Westdorpe"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Westdorpe"/>
+            </rdf:Description>
+</rdf:RDF>

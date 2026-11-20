@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heusden_Ge">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heusden [Ge]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heusden [Ge]</skos:prefLabel>
+        <gg:name xml:lang="nl">Heusden [Ge]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10916"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kesteren"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heusden [Ge]                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.600026 51.923176,5.590165 51.940972,5.589608 51.944633,5.595878 51.944333,5.601427 51.942678,5.610143 51.940685,5.618427 51.93959,5.621329 51.938326,5.631354 51.936688,5.639658 51.939367,5.646547 51.948789,5.644519 51.950322,5.650495 51.952286,5.661394 51.950463,5.658766 51.948852,5.648856 51.945728,5.647085 51.941238,5.662947 51.94282,5.665247 51.93859,5.658691 51.936538,5.657504 51.932586,5.645287 51.932074,5.641915 51.927048,5.616016 51.923056,5.60118 51.921467,5.600026 51.923176)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Kesteren                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.553107 51.933049,5.557508 51.933233,5.563688 51.934678,5.566931 51.936763,5.572372 51.937027,5.578063 51.938452,5.582782 51.941716,5.585488 51.944004,5.589608 51.944633,5.595878 51.944333,5.601427 51.942678,5.610143 51.940685,5.618427 51.93959,5.621329 51.938326,5.631354 51.936688,5.639658 51.939367,5.646547 51.948789,5.644519 51.950322,5.650495 51.952286,5.661394 51.950463,5.658766 51.948852,5.648856 51.945728,5.647085 51.941238,5.662947 51.94282,5.665247 51.93859,5.658691 51.936538,5.657504 51.932586,5.645287 51.932074,5.641915 51.927048,5.616016 51.923056,5.60118 51.921467,5.600026 51.923176,5.570943 51.921068,5.568169 51.918107,5.554651 51.918037,5.553107 51.933049)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                    
+                                                                            <gg:resourceGeonames rdf:resource="http://sws.geonames.org/6544269"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Kesteren_(Neder-Betuwe)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Neder-Betuwe_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Kesteren_(Neder-Betuwe)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Neder-Betuwe_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

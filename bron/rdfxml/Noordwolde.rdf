@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Noordwolde">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Noordwolde</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Noordwolde</skos:prefLabel>
+        <gg:name xml:lang="nl">Noordwolde</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11322"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Weststellingwerf"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Noordwolde                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.997732 52.847951,6.014308 52.85027,6.025792 52.857101,6.041439 52.856442,6.075256 52.869892,6.070923 52.876043,6.070404 52.883321,6.073743 52.894406,6.083331 52.900094,6.096074 52.904996,6.109941 52.910337,6.142868 52.923254,6.195186 52.938009,6.200538 52.937883,6.210455 52.92739,6.211245 52.921993,6.246308 52.920487,6.243381 52.915296,6.20835 52.886694,6.120113 52.85222,6.079931 52.836554,6.055295 52.836515,6.052436 52.833924,6.05517 52.828337,6.059692 52.823279,6.032104 52.813636,6.026243 52.81852,6.016014 52.819024,5.996515 52.814273,5.992571 52.818606,5.985165 52.819453,5.971492 52.839741,5.983138 52.847378,5.997732 52.847951)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2744609"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Noordwolde_(Friesland)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Weststellingwerf"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Noordwolde_(Friesland)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Weststellingwerf"/>
+            </rdf:Description>
+</rdf:RDF>

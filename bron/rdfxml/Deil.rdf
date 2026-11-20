@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Deil">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Deil</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Deil</skos:prefLabel>
+        <gg:name xml:lang="nl">Deil</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10057"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0217"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Geldermalsen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Deil                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.246451 51.887332,5.255322 51.883657,5.264037 51.883307,5.274503 51.880172,5.270459 51.871449,5.260293 51.871978,5.251619 51.859295,5.244223 51.856949,5.235376 51.854781,5.228406 51.855401,5.212887 51.852413,5.192294 51.848425,5.151229 51.847002,5.150133 51.86228,5.142707 51.866399,5.138752 51.872773,5.144831 51.876291,5.145111 51.878269,5.150472 51.880707,5.155423 51.87811,5.167912 51.878134,5.169197 51.88281,5.167147 51.886222,5.167254 51.893952,5.177857 51.894511,5.189673 51.883475,5.20363 51.879993,5.203173 51.885385,5.20389 51.887543,5.221614 51.886761,5.231025 51.895672,5.243085 51.895148,5.246451 51.887332)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Deil"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Deil"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Stad_Ommen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Stad Ommen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Stad Ommen</skos:prefLabel>
+        <gg:name xml:lang="nl">Stad Ommen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10381"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1192"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ommen_1"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ommen_2"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1819</gg:year>
+                            <gg:name xml:lang="nl">Stad-Ommen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.353323 52.589295,6.405982 52.588226,6.417884 52.567092,6.453798 52.527407,6.449695 52.516119,6.44382 52.516891,6.440533 52.514943,6.433206 52.516625,6.426979 52.514973,6.423331 52.516443,6.416692 52.516051,6.414997 52.519211,6.418996 52.520075,6.418696 52.52619,6.424659 52.529104,6.365153 52.570414,6.363099 52.577621,6.357947 52.578113,6.353323 52.589295)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1867</gg:year>
+                            <gg:name xml:lang="nl">Stad-Ommen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.453798 52.527407,6.449695 52.516119,6.44382 52.516891,6.440533 52.514943,6.433206 52.516625,6.426979 52.514973,6.423331 52.516443,6.416692 52.516051,6.414997 52.519211,6.418996 52.520075,6.418696 52.52619,6.424659 52.529104,6.438025 52.53339,6.453798 52.527407)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-07-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1923-05-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Stad_Ommen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Stad_Ommen"/>
+            </rdf:Description>
+</rdf:RDF>

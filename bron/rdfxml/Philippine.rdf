@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Philippine">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Philippine</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Philippine</skos:prefLabel>
+        <gg:name xml:lang="nl">Philippine</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10486"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0699"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sas_van_Gent"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Philippine                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.677904 51.296815,3.684674 51.296016,3.686411 51.291726,3.696488 51.286748,3.741171 51.276151,3.759636 51.27686,3.751889 51.26902,3.717911 51.273302,3.715828 51.271474,3.695827 51.273612,3.689914 51.278471,3.684392 51.280458,3.677904 51.296815)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1892</gg:year>
+                            <gg:name xml:lang="nl">Philippine                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.730023 51.28714,3.741206 51.283164,3.776694 51.289054,3.789428 51.285724,3.781328 51.279589,3.786579 51.268783,3.779452 51.267696,3.768672 51.276716,3.759636 51.27686,3.751889 51.26902,3.717911 51.273302,3.715828 51.271474,3.695827 51.273612,3.689914 51.278471,3.684392 51.280458,3.677904 51.296815,3.684674 51.296016,3.686411 51.291726,3.696488 51.286748,3.71123 51.283545,3.718032 51.28571,3.723593 51.298376,3.726925 51.301391,3.730023 51.28714)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1953</gg:year>
+                            <gg:name xml:lang="nl">Philippine                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.726925 51.301391,3.730023 51.28714,3.741206 51.283164,3.776694 51.289054,3.789428 51.285724,3.781328 51.279589,3.786579 51.268783,3.779452 51.267696,3.768672 51.276716,3.759636 51.27686,3.751889 51.26902,3.717911 51.273302,3.715828 51.271474,3.695827 51.273612,3.689914 51.278471,3.684392 51.280458,3.677904 51.296815,3.684674 51.296016,3.686411 51.291726,3.696488 51.286748,3.702174 51.288089,3.701863 51.296535,3.701041 51.303266,3.703692 51.305283,3.700496 51.310271,3.708645 51.311018,3.720373 51.30804,3.726925 51.301391)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Philippine"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Philippine"/>
+            </rdf:Description>
+</rdf:RDF>

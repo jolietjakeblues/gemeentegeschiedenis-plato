@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zalk_en_Veecaten">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zalk en Veecaten</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zalk en Veecaten</skos:prefLabel>
+        <gg:name xml:lang="nl">Zalk en Veecaten</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10633"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1232"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/IJsselmuiden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zalk en Veecaten                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.011512 52.513573,6.017337 52.508869,6.024058 52.505058,6.019309 52.502567,6.009451 52.503248,5.999211 52.497639,5.984956 52.488904,5.978854 52.495046,5.969446 52.496261,5.966162 52.492862,5.963061 52.492158,5.951911 52.495357,5.951731 52.504346,5.956368 52.509806,5.955252 52.514665,5.95777 52.515731,5.964813 52.51354,5.972193 52.514672,5.985095 52.519989,6.003012 52.527368,6.01026 52.529308,6.013903 52.526412,6.012975 52.523272,6.010709 52.519329,6.011512 52.513573)),((6.021683 52.53455,6.026769 52.529579,6.028152 52.523281,6.027317 52.516544,6.030878 52.508167,6.021501 52.511633,6.016854 52.516331,6.01824 52.520548,6.01991 52.523954,6.020981 52.526734,6.018683 52.530881,6.011784 52.532805,6.003216 52.531412,5.983207 52.522976,5.983254 52.526481,5.983993 52.526657,5.986995 52.530686,5.990685 52.531116,5.992951 52.535149,5.998869 52.536737,6.009919 52.53641,6.021683 52.53455)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1937-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zalk_en_Veecaten"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zalk_en_Veecaten"/>
+            </rdf:Description>
+</rdf:RDF>

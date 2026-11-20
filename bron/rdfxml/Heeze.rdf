@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heeze">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heeze</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heeze</skos:prefLabel>
+        <gg:name xml:lang="nl">Heeze</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10462"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0793"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heeze-Leende"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heeze                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.567293 51.408998,5.576039 51.403771,5.60799 51.413332,5.637759 51.389812,5.597264 51.363015,5.59595 51.358164,5.590631 51.356555,5.590182 51.352421,5.58501 51.351441,5.577834 51.351993,5.572697 51.359552,5.567531 51.360009,5.569264 51.362613,5.54027 51.365711,5.504069 51.359551,5.501765 51.356587,5.491856 51.355158,5.486126 51.361096,5.492164 51.364236,5.494343 51.375021,5.499516 51.376184,5.500394 51.382925,5.508445 51.385164,5.535628 51.39511,5.545434 51.405344,5.563544 51.405948,5.567293 51.408998)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</gg:year>
+                            <gg:name xml:lang="nl">Heeze-Leende                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.60799 51.413332,5.637759 51.389812,5.597264 51.363015,5.59595 51.358164,5.590631 51.356555,5.590182 51.352421,5.58501 51.351441,5.59258 51.343069,5.599566 51.332989,5.564798 51.321991,5.514658 51.29554,5.484418 51.300962,5.48818 51.31624,5.472434 51.333062,5.47201 51.336567,5.476611 51.341328,5.487097 51.345454,5.492707 51.351022,5.491856 51.355158,5.486126 51.361096,5.492164 51.364236,5.494343 51.375021,5.499516 51.376184,5.500394 51.382925,5.508445 51.385164,5.535628 51.39511,5.545434 51.405344,5.563544 51.405948,5.567293 51.408998,5.576039 51.403771,5.60799 51.413332)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heeze"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heeze"/>
+            </rdf:Description>
+</rdf:RDF>

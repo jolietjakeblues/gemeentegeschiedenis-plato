@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Schellinkhout">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Schellinkhout</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Schellinkhout</skos:prefLabel>
+        <gg:name xml:lang="nl">Schellinkhout</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10772"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0442"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wijdenes"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Venhuizen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Schellinkhout                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.158153 52.6525,5.158761 52.649265,5.163785 52.649275,5.164417 52.641278,5.180366 52.642654,5.188207 52.640331,5.189212 52.646714,5.207253 52.643237,5.19931 52.634957,5.188082 52.635298,5.177607 52.632494,5.159787 52.622216,5.145018 52.622636,5.1431 52.622273,5.12688 52.618105,5.125686 52.620259,5.127883 52.623319,5.121187 52.631752,5.105242 52.630547,5.097852 52.631338,5.105663 52.634053,5.102049 52.644649,5.113118 52.646653,5.135985 52.652814,5.140852 52.654532,5.158153 52.6525)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Schellinkhout                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.097852 52.631338,5.105663 52.634053,5.102049 52.644649,5.113118 52.646653,5.135985 52.652814,5.140852 52.654532,5.143392 52.649504,5.140489 52.640242,5.143198 52.63126,5.139217 52.629904,5.1431 52.622273,5.12688 52.618105,5.125686 52.620259,5.127883 52.623319,5.121187 52.631752,5.105242 52.630547,5.097852 52.631338)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Schellinkhout"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Schellinkhout"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Fijnaart_en_Heijningen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Fijnaart en Heijningen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Fijnaart en Heijningen</skos:prefLabel>
+        <gg:name xml:lang="nl">Fijnaart en Heijningen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10206"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0778"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zevenbergen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Fijnaart en Heijningen             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.396213 51.684581,4.411102 51.684886,4.425388 51.679521,4.426507 51.674496,4.456957 51.656134,4.458629 51.652103,4.477705 51.652073,4.487583 51.656733,4.493445 51.667295,4.511107 51.665901,4.522511 51.659154,4.521286 51.65519,4.512766 51.647396,4.499166 51.63354,4.497458 51.624898,4.48958 51.621602,4.480332 51.62189,4.466288 51.616567,4.449569 51.615085,4.433163 51.619357,4.422482 51.625922,4.420926 51.631123,4.408331 51.632456,4.396138 51.641792,4.367592 51.658357,4.387883 51.675431,4.386467 51.680633,4.396213 51.684581)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Fijnaart_en_Heijningen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Fijnaart_en_Heijningen"/>
+            </rdf:Description>
+</rdf:RDF>

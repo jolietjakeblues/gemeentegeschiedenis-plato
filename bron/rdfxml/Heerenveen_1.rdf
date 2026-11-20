@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heerenveen_1">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heerenveen [1]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heerenveen [1]</skos:prefLabel>
+        <gg:name xml:lang="nl">Heerenveen [1]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10680"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schoterland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heerenveen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.970724 52.957912,5.957673 52.955719,5.931406 52.947086,5.924425 52.943121,5.90197 52.935351,5.890662 52.948007,5.8938 52.948654,5.899325 52.950338,5.904388 52.950675,5.906332 52.951566,5.923088 52.95895,5.933061 52.959175,5.940577 52.965071,5.950268 52.966374,5.958345 52.969391,5.964334 52.968621,5.970724 52.957912)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2754668"/>
+                                                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heerenveen_(gemeente)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heerenveen_(gemeente)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Schoterland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heerenveen_(gemeente)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heerenveen_(gemeente)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Schoterland"/>
+            </rdf:Description>
+</rdf:RDF>

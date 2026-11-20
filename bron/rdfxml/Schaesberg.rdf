@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Schaesberg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Schaesberg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Schaesberg</skos:prefLabel>
+        <gg:name xml:lang="nl">Schaesberg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11335"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0960"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Landgraaf"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Schaesberg                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.991861 50.90868,6.021012 50.909064,6.030667 50.897954,6.020516 50.893605,6.027264 50.888265,6.033808 50.888768,6.033185 50.884816,6.028582 50.880797,6.030503 50.875932,6.019926 50.871226,6.010858 50.88359,6.010486 50.887637,5.997928 50.894446,5.998308 50.901635,5.987079 50.901784,5.984557 50.904583,5.987593 50.908523,5.991861 50.90868)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</gg:year>
+                            <gg:name xml:lang="nl">Schaesberg                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.020516 50.893605,6.027264 50.888265,6.033808 50.888768,6.033185 50.884816,6.028582 50.880797,6.030503 50.875932,6.019926 50.871226,6.010858 50.88359,6.010486 50.887637,5.997928 50.894446,5.991861 50.90868,6.021012 50.909064,6.030667 50.897954,6.020516 50.893605)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Landgraaf                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.043628 50.929792,6.046585 50.927708,6.051726 50.929117,6.056665 50.926392,6.055322 50.922085,6.062413 50.920695,6.063994 50.921854,6.069233 50.920296,6.072822 50.922522,6.082894 50.920843,6.089678 50.918106,6.094694 50.920592,6.093931 50.917181,6.090489 50.915314,6.086729 50.911112,6.082718 50.909159,6.080804 50.904766,6.065286 50.90324,6.065403 50.901531,6.06027 50.900482,6.06 50.901473,6.057584 50.901487,6.057691 50.899059,6.048589 50.898752,6.044051 50.899497,6.044301 50.897068,6.042988 50.894739,6.042661 50.891684,6.046326 50.889596,6.044292 50.886461,6.041748 50.887465,6.038739 50.885684,6.035254 50.8804,6.03551 50.878331,6.033923 50.876632,6.03271 50.871155,6.024057 50.872102,6.021764 50.870587,6.018201 50.869797,6.016825 50.873041,6.011753 50.876214,6.010988 50.882691,6.010299 50.884312,6.000171 50.892097,5.997748 50.89157,5.995475 50.902459,5.994369 50.904802,5.992389 50.905621,5.994858 50.909564,6.004188 50.916166,6.008347 50.918841,6.013277 50.925825,6.019655 50.9346,6.043628 50.929792)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1982-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Schaesberg_(Landgraaf)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Schaesberg_(Landgraaf)"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oostvoorne">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oostvoorne</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oostvoorne</skos:prefLabel>
+        <gg:name xml:lang="nl">Oostvoorne</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10009"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0581"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westvoorne"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Oostvoorne                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.158432 51.91461,4.147244 51.909189,4.148122 51.903715,4.14625 51.903066,4.152596 51.894233,4.155093 51.882663,4.126647 51.876609,4.129908 51.884644,4.121868 51.886445,4.122565 51.892655,4.087354 51.899462,4.086693 51.902242,4.042799 51.907321,4.046142 51.912214,4.051747 51.914345,4.054641 51.919682,4.059862 51.9201,4.06752 51.91677,4.085653 51.923085,4.100875 51.924601,4.10659 51.923046,4.119572 51.926692,4.136152 51.92651,4.139683 51.92502,4.155134 51.918261,4.158432 51.91461)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</gg:year>
+                            <gg:name xml:lang="nl">Oostvoorne                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.092121 51.930708,4.100875 51.924601,4.10659 51.923046,4.119572 51.926692,4.136152 51.92651,4.139683 51.92502,4.155134 51.918261,4.147244 51.909189,4.148134 51.903265,4.141716 51.898883,4.155093 51.882663,4.126647 51.876609,4.121555 51.887251,4.12215 51.891932,4.087806 51.898928,4.084386 51.901587,4.042799 51.907321,4.046142 51.912214,4.051747 51.914345,4.040604 51.922398,4.035848 51.920995,4.035566 51.915868,4.02994 51.914455,4.024189 51.921939,4.025144 51.924018,4.069902 51.934686,4.081273 51.933734,4.092121 51.930708),(4.044735 51.925232,4.060693 51.916604,4.067499 51.922433,4.074259 51.924936,4.083019 51.923685,4.091568 51.924679,4.08152 51.930231,4.063641 51.930031,4.044735 51.925232)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</gg:year>
+                            <gg:name xml:lang="nl">Westvoorne                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.10809 51.936726,4.1135 51.935706,4.11551 51.936626,4.144276 51.932439,4.14415 51.931719,4.142914 51.929099,4.141556 51.930882,4.1382 51.931296,4.128573 51.932362,4.117578 51.930356,4.109563 51.930989,4.107296 51.928896,4.106251 51.92475,4.115428 51.92413,4.124496 51.927374,4.13318 51.928816,4.140308 51.928712,4.142107 51.926753,4.142359 51.926661,4.148569 51.924395,4.153282 51.922197,4.151078 51.917769,4.147393 51.914314,4.144901 51.915097,4.139335 51.913374,4.137983 51.912956,4.136307 51.910511,4.136404 51.907006,4.137665 51.906035,4.150659 51.896011,4.151902 51.893057,4.157586 51.887094,4.161172 51.883446,4.159791 51.880825,4.141089 51.879549,4.138608 51.879972,4.137487 51.878522,4.131301 51.876389,4.131211 51.87441,4.129987 51.872262,4.128996 51.870521,4.123532 51.868575,4.120835 51.866388,4.121825 51.862174,4.117671 51.860151,4.117722 51.858354,4.098253 51.853827,4.093609 51.853776,4.089556 51.853372,4.08513 51.850806,4.084047 51.848097,4.063249 51.844628,4.066253 51.851044,4.05689 51.863344,4.051085 51.868445,4.047497 51.871597,4.039298 51.878695,4.031139 51.884354,4.030194 51.88677,4.031557 51.889753,4.04496 51.903121,4.04799 51.908729,4.056772 51.91647,4.044625 51.924062,4.040453 51.922576,4.039533 51.919329,4.03977 51.916276,4.03748 51.915081,4.030767 51.920757,4.028234 51.922795,4.025434 51.924021,4.069043 51.934227,4.08182 51.934909,4.094234 51.933068,4.101729 51.92524,4.10293 51.929029,4.10809 51.936726),(4.083088 51.931327,4.078547 51.932445,4.07 51.931361,4.054824 51.928223,4.046891 51.926066,4.053655 51.923536,4.055748 51.921582,4.060983 51.916607,4.065602 51.917738,4.075308 51.923869,4.077425 51.92605,4.08455 51.92604,4.093172 51.924517,4.096152 51.927067,4.083088 51.931327)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1980-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oostvoorne"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oostvoorne"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Koudekerk_ZH">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Koudekerk [ZH]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Koudekerk [ZH]</skos:prefLabel>
+        <gg:name xml:lang="nl">Koudekerk [ZH]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10029"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0540"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoogmade"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Koudekerk_aan_den_Rijn"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Koudekerk                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.619123 52.13164,4.612888 52.128993,4.593136 52.131019,4.579033 52.127507,4.56897 52.126719,4.557799 52.130596,4.563876 52.133694,4.568174 52.138308,4.569077 52.152786,4.616478 52.157958,4.61873 52.154468,4.616611 52.14178,4.626596 52.138789,4.619123 52.13164)),((4.580176 52.169311,4.561092 52.165763,4.556256 52.174268,4.576674 52.177017,4.580176 52.169311)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Koudekerk                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.616478 52.157958,4.61873 52.154468,4.616611 52.14178,4.626596 52.138789,4.619123 52.13164,4.612888 52.128993,4.593136 52.131019,4.579033 52.127507,4.56897 52.126719,4.557799 52.130596,4.563876 52.133694,4.568174 52.138308,4.569077 52.152786,4.616478 52.157958)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1938-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Koudekerk_aan_den_Rijn"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Koudekerk_aan_den_Rijn"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sint_Odilienberg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sint Odiliënberg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sint Odiliënberg</skos:prefLabel>
+        <gg:name xml:lang="nl">Sint Odiliënberg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10278"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0967"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Posterholt"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Sint Odiliënberg                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.989507 51.175306,5.987743 51.17163,5.99515 51.169524,6.000087 51.164464,5.998611 51.160966,6.00345 51.159413,5.998546 51.156113,6.001253 51.155469,5.999045 51.150627,6.008453 51.148779,6.027358 51.151643,6.03504 51.149083,6.044224 51.151728,6.04444 51.146783,6.0431 51.143015,6.015291 51.136697,6.016384 51.133095,6.008297 51.126667,5.999707 51.125274,5.996635 51.119807,5.988673 51.122545,5.983372 51.121314,5.98127 51.124471,5.985459 51.128045,5.97904 51.128797,5.979355 51.131043,5.976528 51.133394,5.959563 51.136356,5.96717 51.139105,5.986361 51.142423,5.983458 51.149989,5.98665 51.153658,5.977407 51.168447,5.974217 51.176194,5.978787 51.175721,5.983822 51.178032,5.989507 51.175306)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sint_Odili%C3%ABnberg"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

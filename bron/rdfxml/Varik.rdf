@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Varik">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Varik</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Varik</skos:prefLabel>
+        <gg:name xml:lang="nl">Varik</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11064"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0284"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ophemert"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Neerijnen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Varik                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.401576 51.867641,5.409272 51.86746,5.418855 51.868537,5.407668 51.853259,5.403747 51.848855,5.401133 51.842923,5.389669 51.837531,5.373858 51.823509,5.361537 51.809664,5.353563 51.806966,5.346604 51.806874,5.340658 51.80786,5.335143 51.812173,5.325272 51.819358,5.31816 51.82286,5.306407 51.825369,5.316117 51.830948,5.321911 51.836974,5.315226 51.843621,5.320444 51.848029,5.314338 51.854227,5.324638 51.858457,5.326238 51.856121,5.334799 51.858372,5.340027 51.856577,5.356573 51.85838,5.375298 51.862069,5.386041 51.869799,5.401576 51.867641)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Varik                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.321911 51.836974,5.335988 51.834554,5.341931 51.83968,5.348318 51.836806,5.374434 51.839688,5.389669 51.837531,5.373858 51.823509,5.361537 51.809664,5.353563 51.806966,5.346604 51.806874,5.340658 51.80786,5.335143 51.812173,5.325272 51.819358,5.31816 51.82286,5.306407 51.825369,5.316117 51.830948,5.321911 51.836974)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Varik"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Varik"/>
+            </rdf:Description>
+</rdf:RDF>

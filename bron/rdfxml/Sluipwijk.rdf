@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sluipwijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sluipwijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sluipwijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Sluipwijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11402"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1182"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Reeuwijk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Sluipwijk                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.735187 52.03004,4.739027 52.01413,4.736062 52.014777,4.721203 52.014783,4.718516 52.019173,4.715678 52.02383,4.715384 52.029898,4.735187 52.03004)),((4.76609 52.055386,4.765499 52.045496,4.759055 52.037193,4.766148 52.030219,4.769051 52.031044,4.771123 52.028718,4.769388 52.02772,4.777653 52.020033,4.769828 52.016936,4.769075 52.01873,4.757163 52.01633,4.754904 52.015609,4.742688 52.030093,4.747331 52.041714,4.738562 52.043373,4.734958 52.040567,4.722057 52.045618,4.728484 52.054643,4.731666 52.056368,4.745767 52.049165,4.755238 52.059823,4.76609 52.055386)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1827</gg:year>
+                            <gg:name xml:lang="nl">Sluipwijk                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.76609 52.055386,4.765499 52.045496,4.759055 52.037193,4.766148 52.030219,4.769051 52.031044,4.771123 52.028718,4.769388 52.02772,4.777653 52.020033,4.769828 52.016936,4.769075 52.01873,4.757163 52.01633,4.745707 52.012672,4.736062 52.014777,4.721203 52.014783,4.718516 52.019173,4.715678 52.02383,4.715384 52.029898,4.742688 52.030093,4.747331 52.041714,4.738562 52.043373,4.734958 52.040567,4.722057 52.045618,4.728484 52.054643,4.731666 52.056368,4.745767 52.049165,4.755238 52.059823,4.76609 52.055386)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Sluipwijk                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.76609 52.055386,4.765499 52.045496,4.759055 52.037193,4.766148 52.030219,4.769051 52.031044,4.771123 52.028718,4.769388 52.02772,4.777653 52.020033,4.769828 52.016936,4.769075 52.01873,4.757163 52.01633,4.742688 52.030093,4.747331 52.041714,4.738562 52.043373,4.734958 52.040567,4.722057 52.045618,4.728484 52.054643,4.731666 52.056368,4.745767 52.049165,4.755238 52.059823,4.76609 52.055386)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sluipwijk_(dorp)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Sluipwijk_(dorp)"/>
+            </rdf:Description>
+</rdf:RDF>

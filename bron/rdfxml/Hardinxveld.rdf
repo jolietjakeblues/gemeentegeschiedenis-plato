@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hardinxveld">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hardinxveld</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hardinxveld</skos:prefLabel>
+        <gg:name xml:lang="nl">Hardinxveld</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10167"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1070"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hardinxveld-Giessendam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hardinxveld                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.921146 51.838674,4.924423 51.830417,4.914998 51.82993,4.899373 51.826002,4.88782 51.821279,4.877102 51.819974,4.829796 51.821827,4.811525 51.821469,4.800957 51.819888,4.800713 51.827438,4.811876 51.828032,4.819654 51.832474,4.832987 51.833617,4.851118 51.833971,4.865478 51.834305,4.868409 51.831711,4.907501 51.839158,4.909476 51.844469,4.92207 51.847486,4.921146 51.838674)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1957</gg:year>
+                            <gg:name xml:lang="nl">Hardinxveld-Giessendam             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.847189 51.833894,4.847202 51.833863,4.865478 51.834305,4.868409 51.831711,4.907501 51.839158,4.921146 51.838674,4.924423 51.830417,4.914998 51.82993,4.899373 51.826002,4.88782 51.821279,4.877102 51.819974,4.829796 51.821827,4.811525 51.821469,4.800957 51.819888,4.800713 51.827438,4.800334 51.845413,4.808131 51.848508,4.835558 51.860594,4.847189 51.833894)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1957-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hardinxveld"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hardinxveld"/>
+            </rdf:Description>
+</rdf:RDF>

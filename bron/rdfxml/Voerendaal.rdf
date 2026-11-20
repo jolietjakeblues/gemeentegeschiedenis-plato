@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Voerendaal">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Voerendaal</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Voerendaal</skos:prefLabel>
+        <gg:name xml:lang="nl">Voerendaal</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11341"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0986"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Klimmen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Voerendaal                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.926929 50.900102,5.936045 50.901678,5.945381 50.897858,5.943481 50.893552,5.956073 50.888817,5.953129 50.880561,5.958953 50.880443,5.959153 50.87361,5.985003 50.851097,5.963355 50.845903,5.954991 50.847023,5.947885 50.846429,5.938754 50.842697,5.932211 50.84165,5.926059 50.849858,5.918675 50.849803,5.904388 50.867396,5.905159 50.872786,5.901084 50.876849,5.901843 50.88125,5.897927 50.886931,5.914035 50.891263,5.92362 50.896702,5.926929 50.900102)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Voerendaal                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.926821 50.903069,5.92637 50.900914,5.930051 50.899638,5.941578 50.888887,5.941986 50.887357,5.945802 50.885631,5.960832 50.871534,5.96011 50.870549,5.965738 50.866206,5.968403 50.863496,5.967537 50.862422,5.970345 50.859801,5.967317 50.856221,5.96673 50.854695,5.962877 50.853187,5.961182 50.853914,5.959315 50.852215,5.955897 50.851423,5.954148 50.847746,5.957117 50.846653,5.955961 50.845041,5.95112 50.843896,5.948142 50.84418,5.941432 50.841066,5.934171 50.839393,5.931057 50.840127,5.926327 50.848419,5.917241 50.848551,5.90799 50.846615,5.901422 50.843319,5.892332 50.842999,5.888257 50.846882,5.887158 50.850303,5.884052 50.852024,5.876691 50.854123,5.877568 50.856546,5.870324 50.856397,5.871208 50.859449,5.872374 50.862321,5.874946 50.863748,5.870304 50.868083,5.872314 50.870142,5.870198 50.871589,5.870919 50.872574,5.865277 50.876463,5.863203 50.882045,5.8672 50.883826,5.868896 50.88292,5.882102 50.882145,5.886384 50.883925,5.888507 50.883107,5.890802 50.885074,5.894924 50.885146,5.891259 50.887949,5.904533 50.893104,5.902996 50.895448,5.915138 50.900786,5.914585 50.902137,5.917592 50.904011,5.919424 50.902654,5.921412 50.902465,5.924843 50.904067,5.926821 50.903069)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2745368"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Voerendaal_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Voerendaal_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

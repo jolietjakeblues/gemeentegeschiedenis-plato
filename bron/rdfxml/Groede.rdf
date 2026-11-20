@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Groede">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Groede</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Groede</skos:prefLabel>
+        <gg:name xml:lang="nl">Groede</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11312"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0667"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oostburg"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Groede                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.487743 51.400498,3.489801 51.395947,3.508841 51.394277,3.514707 51.391405,3.523022 51.391897,3.53187 51.389881,3.532408 51.390789,3.548058 51.391126,3.559199 51.389234,3.559591 51.386633,3.569779 51.386972,3.572224 51.390516,3.583334 51.385744,3.583519 51.381072,3.575919 51.377088,3.574977 51.371859,3.559481 51.36784,3.548927 51.369562,3.538948 51.367696,3.538565 51.359419,3.529023 51.357469,3.525195 51.352733,3.513381 51.350206,3.509651 51.346639,3.49895 51.345028,3.492809 51.347715,3.484443 51.348658,3.481537 51.352926,3.473494 51.352974,3.47473 51.357759,3.471502 51.366247,3.458522 51.374305,3.457882 51.382656,3.461648 51.388742,3.461734 51.393508,3.485353 51.399201,3.487743 51.400498)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Groede"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Groede"/>
+            </rdf:Description>
+</rdf:RDF>

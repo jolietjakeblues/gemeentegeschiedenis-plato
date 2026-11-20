@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Schinveld">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Schinveld</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Schinveld</skos:prefLabel>
+        <gg:name xml:lang="nl">Schinveld</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10492"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0963"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Onderbanken"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Schinveld                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.952354 50.968297,5.956515 50.970974,5.960777 50.970233,5.970888 50.981779,6.027466 50.984985,6.015201 50.96276,6.008491 50.961268,6.006737 50.957861,6.01594 50.954306,6.018309 50.940181,5.995575 50.953246,5.9986 50.956017,5.997934 50.959436,5.978327 50.962145,5.972026 50.959211,5.968485 50.960577,5.968936 50.962462,5.955877 50.965404,5.952354 50.968297)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Onderbanken                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.957682 50.984721,5.968853 50.978463,5.982573 50.982348,5.985122 50.981257,6.020174 50.982868,6.027854 50.982197,6.024179 50.973857,6.015594 50.960241,6.011448 50.958915,6.006304 50.957414,5.981857 50.95997,5.975282 50.957756,5.970045 50.960119,5.971494 50.96209,5.967224 50.962111,5.967195 50.959864,5.958744 50.955502,5.951283 50.950594,5.943005 50.948567,5.927968 50.952503,5.919047 50.95641,5.922058 50.958284,5.919796 50.959642,5.923955 50.96232,5.919455 50.967105,5.916607 50.967028,5.914335 50.967488,5.917499 50.97026,5.914954 50.9718,5.925091 50.97427,5.920149 50.977888,5.934327 50.984744,5.956572 50.987153,5.957682 50.984721)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1982-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Schinveld"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Schinveld"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Jutphaas">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Jutphaas</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Jutphaas</skos:prefLabel>
+        <gg:name xml:lang="nl">Jutphaas</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10374"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0322"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oudenrijn"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tolsteeg"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuwegein"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Jutphaas                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.086062 52.086479,5.096304 52.082101,5.107101 52.078825,5.124159 52.073592,5.125262 52.06833,5.125717 52.0668,5.125188 52.057541,5.12346 52.053762,5.124797 52.049631,5.128739 52.048561,5.123849 52.037315,5.120829 52.030387,5.12858 52.025641,5.107889 52.025773,5.098001 52.022693,5.085902 52.023562,5.080394 52.019503,5.071498 52.020738,5.060126 52.021875,5.058345 52.026364,5.046355 52.031903,5.030201 52.047495,5.02826 52.053241,5.01891 52.055549,5.013783 52.058499,5.015222 52.060751,5.030976 52.05999,5.034281 52.066292,5.033364 52.071502,5.03736 52.08275,5.072083 52.082578,5.082296 52.082515,5.086062 52.086479)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Jutphaas                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.125262 52.06833,5.125717 52.0668,5.125188 52.057541,5.12346 52.053762,5.124797 52.049631,5.128739 52.048561,5.123849 52.037315,5.120829 52.030387,5.12858 52.025641,5.107889 52.025773,5.098001 52.022693,5.085902 52.023562,5.080394 52.019503,5.071498 52.020738,5.060126 52.021875,5.058345 52.026364,5.046355 52.031903,5.030201 52.047495,5.02826 52.053241,5.01891 52.055549,5.013783 52.058499,5.015222 52.060751,5.030976 52.05999,5.037689 52.059381,5.04089 52.0602,5.062346 52.057295,5.066451 52.05425,5.094154 52.054053,5.097349 52.055948,5.105334 52.054968,5.108384 52.070162,5.125262 52.06833)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1824</gg:year>
+                            <gg:name xml:lang="nl">Jutphaas                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.030976 52.05999,5.037689 52.059381,5.04089 52.0602,5.062346 52.057295,5.066451 52.05425,5.094154 52.054053,5.097349 52.055948,5.098454 52.065478,5.096304 52.082101,5.123634 52.073806,5.125717 52.0668,5.125188 52.057541,5.12346 52.053762,5.124797 52.049631,5.128739 52.048561,5.123849 52.037315,5.120829 52.030387,5.12858 52.025641,5.107889 52.025773,5.098001 52.022693,5.085902 52.023562,5.080394 52.019503,5.071498 52.020738,5.060126 52.021875,5.058345 52.026364,5.046355 52.031903,5.030201 52.047495,5.02826 52.053241,5.01891 52.055549,5.013783 52.058499,5.015222 52.060751,5.030976 52.05999)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1897</gg:year>
+                            <gg:name xml:lang="nl">Jutphaas                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.103925 52.076547,5.110145 52.061551,5.117828 52.069119,5.125717 52.0668,5.125188 52.057541,5.12346 52.053762,5.124797 52.049631,5.128739 52.048561,5.123849 52.037315,5.120829 52.030387,5.12858 52.025641,5.107889 52.025773,5.098001 52.022693,5.085902 52.023562,5.080394 52.019503,5.071498 52.020738,5.060126 52.021875,5.058345 52.026364,5.046355 52.031903,5.030201 52.047495,5.02826 52.053241,5.01891 52.055549,5.013783 52.058499,5.015222 52.060751,5.030976 52.05999,5.037689 52.059381,5.04089 52.0602,5.062346 52.057295,5.066451 52.05425,5.094154 52.054053,5.097349 52.055948,5.098454 52.065478,5.096304 52.082101,5.103925 52.076547)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1954</gg:year>
+                            <gg:name xml:lang="nl">Jutphaas                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.109004 52.057414,5.12346 52.053762,5.124797 52.049631,5.128739 52.048561,5.120829 52.030387,5.12858 52.025641,5.107889 52.025773,5.098001 52.022693,5.085902 52.023562,5.080394 52.019503,5.08161 52.012046,5.076123 52.005201,5.067275 52.000054,5.06059 51.998238,5.061698 52.00606,5.073915 52.008431,5.077087 52.013113,5.074158 52.015352,5.055302 52.024109,5.058345 52.026364,5.046355 52.031903,5.030201 52.047495,5.02826 52.053241,5.01891 52.055549,5.013783 52.058499,5.015222 52.060751,5.061636 52.054686,5.067161 52.056859,5.07106 52.062172,5.096602 52.058732,5.109004 52.057414)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1971-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Jutphaas"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Jutphaas"/>
+            </rdf:Description>
+</rdf:RDF>

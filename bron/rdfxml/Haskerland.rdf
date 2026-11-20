@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Haskerland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Haskerland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Haskerland</skos:prefLabel>
+        <gg:name xml:lang="nl">Haskerland</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10022"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0073"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Haske"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Joure"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Scharsterland"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Haskerland                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.894587 53.016228,5.894255 53.013264,5.883379 53.013399,5.887824 53.011224,5.889081 53.00394,5.884457 53.00342,5.8879 52.991903,5.879945 52.986455,5.901981 52.96111,5.899735 52.959952,5.906332 52.951566,5.904388 52.950675,5.899325 52.950338,5.8938 52.948654,5.868599 52.943456,5.858285 52.938914,5.850984 52.937775,5.841598 52.936283,5.837572 52.93531,5.830259 52.932911,5.78111 52.958155,5.784587 52.964075,5.784109 52.976927,5.78117 52.98116,5.782703 52.986097,5.816931 52.999009,5.815945 53.004764,5.824906 53.006978,5.81918 53.015536,5.825176 53.019019,5.819844 53.022363,5.833016 53.027886,5.836131 53.026437,5.853205 53.034189,5.85405 53.029513,5.876548 53.028704,5.876805 53.025019,5.864298 53.026148,5.864981 53.020574,5.894587 53.016228)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1935</gg:year>
+                            <gg:name xml:lang="nl">Haskerland                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.876548 53.028704,5.876805 53.025019,5.864298 53.026148,5.864981 53.020574,5.894587 53.016228,5.894255 53.013264,5.883379 53.013399,5.887824 53.011224,5.889081 53.00394,5.884457 53.00342,5.8879 52.991903,5.879945 52.986455,5.901981 52.96111,5.899735 52.959952,5.906332 52.951566,5.904388 52.950675,5.914343 52.937242,5.912989 52.93599,5.937157 52.906405,5.905341 52.893247,5.892252 52.892135,5.886881 52.890181,5.884901 52.885965,5.868016 52.877138,5.850315 52.860763,5.826493 52.824816,5.820074 52.820796,5.817348 52.815054,5.810208 52.813013,5.811453 52.819029,5.819705 52.828436,5.841424 52.862504,5.811399 52.874657,5.842966 52.882179,5.845547 52.887471,5.842997 52.899433,5.832679 52.90774,5.808747 52.907647,5.830259 52.932911,5.78111 52.958155,5.784587 52.964075,5.784109 52.976927,5.78117 52.98116,5.782703 52.986097,5.816931 52.999009,5.815945 53.004764,5.824906 53.006978,5.81918 53.015536,5.825176 53.019019,5.819844 53.022363,5.833016 53.027886,5.836131 53.026437,5.853205 53.034189,5.85405 53.029513,5.876548 53.028704)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1945</gg:year>
+                            <gg:name xml:lang="nl">Haskerland                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.876548 53.028704,5.876805 53.025019,5.864298 53.026148,5.864981 53.020574,5.894587 53.016228,5.894255 53.013264,5.883379 53.013399,5.887824 53.011224,5.889081 53.00394,5.884457 53.00342,5.8879 52.991903,5.879945 52.986455,5.901981 52.96111,5.899735 52.959952,5.906332 52.951566,5.904388 52.950675,5.914343 52.937242,5.912989 52.93599,5.937157 52.906405,5.905341 52.893247,5.892252 52.892135,5.886881 52.890181,5.884901 52.885965,5.868016 52.877138,5.850315 52.860763,5.811399 52.874657,5.842966 52.882179,5.845547 52.887471,5.842997 52.899433,5.832679 52.90774,5.808747 52.907647,5.830259 52.932911,5.78111 52.958155,5.784587 52.964075,5.784109 52.976927,5.78117 52.98116,5.782703 52.986097,5.816931 52.999009,5.815945 53.004764,5.824906 53.006978,5.81918 53.015536,5.825176 53.019019,5.819844 53.022363,5.833016 53.027886,5.836131 53.026437,5.853205 53.034189,5.85405 53.029513,5.876548 53.028704)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Scharsterland                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.833016 53.027886,5.836131 53.026437,5.853205 53.034189,5.85405 53.029513,5.863883 53.029115,5.864298 53.026148,5.864981 53.020574,5.894587 53.016228,5.894255 53.013264,5.883379 53.013399,5.887824 53.011224,5.889081 53.00394,5.884457 53.00342,5.8879 52.991903,5.879945 52.986455,5.884503 52.981404,5.883404 52.976376,5.904388 52.950675,5.914343 52.937242,5.912989 52.93599,5.937157 52.906405,5.905341 52.893247,5.892252 52.892135,5.886881 52.890181,5.884901 52.885965,5.842997 52.899433,5.832679 52.90774,5.808747 52.907647,5.79952 52.906421,5.788862 52.91122,5.78807 52.905921,5.771738 52.907862,5.766362 52.905003,5.764666 52.897999,5.753079 52.898484,5.753206 52.895878,5.761967 52.895132,5.760278 52.888847,5.748078 52.886727,5.69436 52.895864,5.69417 52.889934,5.683322 52.889781,5.66294 52.885517,5.648035 52.902175,5.652202 52.903065,5.646292 52.909009,5.660032 52.919402,5.660347 52.922187,5.650869 52.928409,5.639567 52.928434,5.63095 52.929889,5.629782 52.933756,5.638997 52.932748,5.683486 52.935791,5.683968 52.962839,5.685336 52.967059,5.679426 52.973454,5.680646 52.977854,5.687089 52.983859,5.702551 52.980495,5.709552 52.981015,5.709575 52.98416,5.71556 52.988008,5.720221 52.993746,5.736026 52.996038,5.741405 52.998178,5.745035 53.004817,5.733181 53.01285,5.759653 53.024453,5.757359 53.01754,5.749597 53.016036,5.75056 53.006418,5.762193 53.00791,5.765845 53.016615,5.771419 53.023517,5.777516 53.021969,5.778547 53.020708,5.783786 53.023207,5.805398 53.023403,5.819085 53.035935,5.833016 53.027886)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Haskerland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Haskerland"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Arnemuiden">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Arnemuiden</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Arnemuiden</skos:prefLabel>
+        <gg:name xml:lang="nl">Arnemuiden</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11419"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0649"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kleverskerke"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Middelburg_Ze"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Arnemuiden                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.669706 51.51114,3.669997 51.51112,3.678637 51.511247,3.697338 51.512059,3.697668 51.503163,3.693345 51.499324,3.689767 51.494867,3.679871 51.493734,3.67889 51.496866,3.667178 51.498043,3.65331 51.49532,3.644846 51.490699,3.644256 51.494826,3.631845 51.502911,3.645007 51.512818,3.669706 51.51114)),((3.729019 51.512513,3.713542 51.510224,3.705261 51.512083,3.702011 51.51815,3.709296 51.519873,3.719646 51.52056,3.721778 51.517444,3.73057 51.51739,3.729019 51.512513)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Arnemuiden                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.729019 51.512513,3.713542 51.510224,3.705261 51.512083,3.702011 51.51815,3.709296 51.519873,3.719646 51.52056,3.721778 51.517444,3.73057 51.51739,3.729019 51.512513)),((3.693345 51.499324,3.689767 51.494867,3.679871 51.493734,3.67889 51.496866,3.667178 51.498043,3.65331 51.49532,3.644846 51.490699,3.644256 51.494826,3.631845 51.502911,3.645007 51.512818,3.649628 51.516303,3.656511 51.52099,3.67673 51.535133,3.683487 51.524084,3.697338 51.512059,3.697668 51.503163,3.693345 51.499324)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1872</gg:year>
+                            <gg:name xml:lang="nl">Arnemuiden                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.729019 51.512513,3.713542 51.510224,3.705261 51.512083,3.702011 51.51815,3.709296 51.519873,3.719646 51.52056,3.721778 51.517444,3.73057 51.51739,3.729019 51.512513)),((3.702004 51.502776,3.697714 51.498039,3.693345 51.499324,3.689767 51.494867,3.679871 51.493734,3.67889 51.496866,3.667178 51.498043,3.65331 51.49532,3.644846 51.490699,3.644256 51.494826,3.631845 51.502911,3.645007 51.512818,3.649628 51.516303,3.656511 51.52099,3.67673 51.535133,3.683487 51.524084,3.697338 51.512059,3.697668 51.503163,3.702004 51.502776)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1955</gg:year>
+                            <gg:name xml:lang="nl">Arnemuiden                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.683487 51.524084,3.697338 51.512059,3.702904 51.513488,3.705048 51.517834,3.709005 51.519959,3.71887 51.522078,3.722025 51.526438,3.742262 51.516836,3.740978 51.512502,3.706629 51.506259,3.704077 51.505144,3.697714 51.498039,3.697285 51.490211,3.691655 51.490579,3.692763 51.491764,3.68108 51.492223,3.67889 51.496866,3.667178 51.498043,3.65331 51.49532,3.644846 51.490699,3.644256 51.494826,3.631845 51.502911,3.645007 51.512818,3.649628 51.516303,3.656511 51.52099,3.67673 51.535133,3.683487 51.524084)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</gg:year>
+                            <gg:name xml:lang="nl">Arnemuiden                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.683487 51.524084,3.697338 51.512059,3.702904 51.513488,3.705048 51.517834,3.709005 51.519959,3.71887 51.522078,3.722025 51.526438,3.742262 51.516836,3.740978 51.512502,3.706629 51.506259,3.704077 51.505144,3.697714 51.498039,3.697285 51.490211,3.691655 51.490579,3.692763 51.491764,3.678623 51.492457,3.678391 51.494791,3.662633 51.496358,3.657794 51.498623,3.647237 51.499725,3.639862 51.507976,3.656511 51.52099,3.67673 51.535133,3.683487 51.524084)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Arnemuiden"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Arnemuiden"/>
+            </rdf:Description>
+</rdf:RDF>

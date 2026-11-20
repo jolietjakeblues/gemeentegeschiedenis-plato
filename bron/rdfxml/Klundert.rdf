@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Klundert">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Klundert</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Klundert</skos:prefLabel>
+        <gg:name xml:lang="nl">Klundert</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10656"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0804"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zevenbergen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Klundert                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.617244 51.706198,4.623949 51.703275,4.626618 51.699427,4.64553 51.692897,4.6537 51.688544,4.65887 51.681835,4.609576 51.664169,4.588637 51.671219,4.599249 51.676145,4.606622 51.684554,4.603682 51.687321,4.576021 51.67338,4.555575 51.668832,4.552377 51.661977,4.561246 51.659074,4.566282 51.652368,4.564631 51.647772,4.572568 51.632277,4.566812 51.631068,4.553604 51.64239,4.527665 51.646517,4.518159 51.644919,4.512766 51.647396,4.521286 51.65519,4.522511 51.659154,4.511107 51.665901,4.493445 51.667295,4.489098 51.667801,4.489221 51.683443,4.507603 51.682594,4.519412 51.685109,4.546178 51.684405,4.574875 51.688923,4.609701 51.698957,4.617244 51.706198)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Klundert"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Klundert"/>
+            </rdf:Description>
+</rdf:RDF>

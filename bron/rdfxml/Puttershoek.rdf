@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Puttershoek">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Puttershoek</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Puttershoek</skos:prefLabel>
+        <gg:name xml:lang="nl">Puttershoek</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10222"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0593"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Binnenmaas"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Puttershoek                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.538618 51.809925,4.550025 51.812524,4.555051 51.815256,4.558566 51.813394,4.573496 51.805768,4.585988 51.804506,4.593698 51.80303,4.594734 51.785329,4.570496 51.79523,4.550327 51.804077,4.538618 51.809925)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Binnenmaas                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.510971 51.829677,4.53508 51.828327,4.544054 51.82938,4.548735 51.827346,4.551996 51.823594,4.555051 51.815256,4.558566 51.813394,4.573496 51.805768,4.585988 51.804506,4.593698 51.80303,4.594299 51.793596,4.588901 51.795537,4.584861 51.79452,4.583308 51.792173,4.577336 51.793749,4.577855 51.780989,4.551753 51.781885,4.544942 51.774106,4.537791 51.77684,4.534689 51.779964,4.517653 51.784154,4.514701 51.786918,4.504832 51.787564,4.50102 51.782411,4.484215 51.782103,4.48546 51.777798,4.479971 51.776947,4.473893 51.77654,4.465437 51.786182,4.459183 51.787211,4.440858 51.78329,4.432522 51.779986,4.421856 51.784034,4.422006 51.790597,4.426345 51.797823,4.428103 51.810602,4.44435 51.817296,4.445723 51.820992,4.446984 51.830081,4.454983 51.829156,4.473393 51.82984,4.488565 51.832924,4.498578 51.83282,4.510971 51.829677)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Puttershoek"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Puttershoek"/>
+            </rdf:Description>
+</rdf:RDF>

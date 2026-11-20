@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Beerta">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Beerta</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Beerta</skos:prefLabel>
+        <gg:name xml:lang="nl">Beerta</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11043"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0006"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Finsterwolde"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuweschans"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Reiderland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Beerta                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.207218 53.18402,7.187697 53.171553,7.154188 53.160457,7.146639 53.154996,7.141996 53.151109,7.132507 53.149361,7.122716 53.147525,7.113878 53.143339,7.105192 53.13915,7.082306 53.138667,7.081945 53.140919,7.067877 53.155857,7.065583 53.158405,7.090197 53.179718,7.145299 53.18827,7.168893 53.212547,7.15838 53.215399,7.152896 53.238757,7.19937 53.232402,7.210167 53.232688,7.219586 53.196954,7.207218 53.18402)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</gg:year>
+                            <gg:name xml:lang="nl">Beerta                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.152896 53.238757,7.19937 53.232402,7.210167 53.232688,7.219586 53.196954,7.207218 53.18402,7.225683 53.178436,7.204193 53.172562,7.189181 53.14969,7.176728 53.148618,7.174196 53.145241,7.146639 53.154996,7.141996 53.151109,7.132507 53.149361,7.122716 53.147525,7.113878 53.143339,7.105192 53.13915,7.082306 53.138667,7.081945 53.140919,7.067877 53.155857,7.065583 53.158405,7.060606 53.161171,7.064083 53.181434,7.062553 53.184421,7.071591 53.186002,7.072337 53.189766,7.068869 53.192961,7.075769 53.220185,7.082118 53.221713,7.065325 53.232734,7.076585 53.237249,7.080265 53.243219,7.077439 53.247573,7.090049 53.251978,7.103624 53.246662,7.11857 53.245728,7.145089 53.242018,7.152896 53.238757)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Beerta"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Beerta"/>
+            </rdf:Description>
+</rdf:RDF>

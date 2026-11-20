@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ureterp">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ureterp</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ureterp</skos:prefLabel>
+        <gg:name xml:lang="nl">Ureterp</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10005"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Opsterland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ureterp                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.234664 53.038908,6.1869 53.067995,6.183266 53.064788,6.177247 53.068059,6.158584 53.064089,6.155301 53.060448,6.149372 53.068886,6.136516 53.069828,6.120124 53.088881,6.13996 53.116481,6.162627 53.114449,6.173511 53.129924,6.181808 53.126095,6.205445 53.112007,6.232132 53.109665,6.260974 53.110627,6.269774 53.110113,6.27955 53.106176,6.290545 53.096388,6.296206 53.095806,6.3131 53.089926,6.308994 53.079353,6.32973 53.072093,6.280236 53.059711,6.278915 53.053521,6.234664 53.038908)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2749277"/>
+                                                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Opsterland"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ureterp"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Opsterland"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ureterp"/>
+            </rdf:Description>
+</rdf:RDF>

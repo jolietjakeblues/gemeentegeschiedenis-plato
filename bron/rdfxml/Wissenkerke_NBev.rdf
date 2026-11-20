@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wissenkerke_NBev">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wissenkerke [NBev]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wissenkerke [NBev]</skos:prefLabel>
+        <gg:name xml:lang="nl">Wissenkerke [NBev]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10243"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0727 (Wissenkerke), 1253 (Wissekerke)"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/s-Gravenhoek"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kampensnieuwland"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Noord-Beveland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wissekerke                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.721852 51.592424,3.725749 51.587139,3.749674 51.591189,3.752282 51.588798,3.777066 51.594569,3.782356 51.59336,3.772008 51.555639,3.764659 51.555447,3.75578 51.553705,3.744501 51.55058,3.72717 51.543413,3.70222 51.528042,3.698347 51.527537,3.693718 51.531875,3.694056 51.534397,3.696529 51.537669,3.693634 51.541853,3.704715 51.572468,3.701333 51.580238,3.695527 51.57919,3.685248 51.596572,3.695339 51.596718,3.705384 51.594436,3.710713 51.590826,3.721852 51.592424)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1816</gg:year>
+                            <gg:name xml:lang="nl">Wissekerke                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.790115 51.602546,3.793972 51.595497,3.787332 51.595496,3.787129 51.593066,3.782356 51.59336,3.772008 51.555639,3.764659 51.555447,3.75578 51.553705,3.744501 51.55058,3.72717 51.543413,3.70222 51.528042,3.698347 51.527537,3.693718 51.531875,3.694056 51.534397,3.696529 51.537669,3.693634 51.541853,3.692421 51.547319,3.683193 51.555007,3.671112 51.561752,3.649996 51.567014,3.647777 51.575972,3.648652 51.579491,3.646786 51.590521,3.649537 51.594069,3.663255 51.593912,3.672554 51.596116,3.68322 51.596542,3.695339 51.596718,3.705384 51.594436,3.710713 51.590826,3.760827 51.598007,3.772241 51.597716,3.790115 51.602546)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961</gg:year>
+                            <gg:name xml:lang="nl">Wissenkerke                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.790115 51.602546,3.793972 51.595497,3.787332 51.595496,3.787129 51.593066,3.782356 51.59336,3.772008 51.555639,3.764659 51.555447,3.75578 51.553705,3.744501 51.55058,3.72717 51.543413,3.70222 51.528042,3.698347 51.527537,3.693718 51.531875,3.694056 51.534397,3.696529 51.537669,3.693634 51.541853,3.692421 51.547319,3.683193 51.555007,3.671112 51.561752,3.651805 51.568749,3.64308 51.578059,3.637144 51.586062,3.630464 51.587131,3.629184 51.590348,3.68322 51.596542,3.695339 51.596718,3.705384 51.594436,3.710713 51.590826,3.760827 51.598007,3.772241 51.597716,3.790115 51.602546)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-01</gg:endDate>
+                            </rdf:Description>
+</rdf:RDF>

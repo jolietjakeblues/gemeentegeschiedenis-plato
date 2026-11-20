@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wommels">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wommels</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wommels</skos:prefLabel>
+        <gg:name xml:lang="nl">Wommels</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11290"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hennaarderadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wommels                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.602571 53.14561,5.608685 53.146528,5.610184 53.143889,5.61661 53.143787,5.627706 53.123547,5.641277 53.119655,5.638726 53.117683,5.653022 53.111236,5.645309 53.110959,5.642437 53.106588,5.636397 53.101272,5.63169 53.107562,5.626015 53.110809,5.617159 53.110826,5.611438 53.105508,5.618997 53.099784,5.620238 53.095214,5.611079 53.097135,5.604117 53.096006,5.600611 53.090302,5.592708 53.090506,5.594906 53.087267,5.592673 53.083084,5.58598 53.080042,5.573005 53.082039,5.564793 53.080884,5.558244 53.085476,5.559482 53.096437,5.527842 53.099174,5.527133 53.110677,5.532667 53.113187,5.536543 53.111295,5.53866 53.11866,5.545398 53.123235,5.55242 53.123674,5.547053 53.126467,5.546772 53.13141,5.553636 53.129154,5.55693 53.131036,5.562587 53.125996,5.571101 53.125714,5.5756 53.129661,5.583954 53.126951,5.592029 53.128555,5.587422 53.133955,5.602534 53.138242,5.602571 53.14561)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wommels"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wommels"/>
+            </rdf:Description>
+</rdf:RDF>

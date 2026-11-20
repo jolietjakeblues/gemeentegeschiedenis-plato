@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Veenwouden">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Veenwouden</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Veenwouden</skos:prefLabel>
+        <gg:name xml:lang="nl">Veenwouden</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10032"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dantumadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Veenwouden                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.914983 53.257177,5.933199 53.262927,5.938248 53.26062,5.944628 53.263065,5.960658 53.25119,5.964209 53.25574,5.979166 53.258712,5.99615 53.24778,6.003211 53.253453,6.02072 53.257168,6.018339 53.268029,6.021192 53.289329,6.02529 53.308719,6.028946 53.320272,6.07702 53.319131,6.073968 53.315913,6.072929 53.288333,6.055807 53.286543,6.053326 53.261846,6.048967 53.260972,6.04625 53.24005,6.018946 53.237142,6.009631 53.235124,6.00012 53.229781,5.97188 53.223363,5.955099 53.222455,5.942375 53.245967,5.925174 53.248112,5.926117 53.251612,5.914983 53.257177)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Veenwouden"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Veenwouden"/>
+            </rdf:Description>
+</rdf:RDF>

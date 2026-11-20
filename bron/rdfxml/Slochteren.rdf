@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Slochteren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Slochteren</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Slochteren</skos:prefLabel>
+        <gg:name xml:lang="nl">Slochteren</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10747"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0040"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Harkstede"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Siddeburen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Midden-Groningen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Slochteren                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.717944 53.168071,6.731421 53.191914,6.737814 53.197586,6.733688 53.211351,6.728844 53.217826,6.725594 53.223678,6.724933 53.22841,6.723698 53.23334,6.725193 53.238086,6.732478 53.24115,6.737121 53.241098,6.738084 53.243154,6.732893 53.24483,6.729858 53.253221,6.741905 53.259916,6.750637 53.261165,6.803164 53.231555,6.810812 53.234911,6.852941 53.210802,6.838677 53.200641,6.820692 53.195375,6.822091 53.187899,6.810924 53.180483,6.766906 53.174617,6.765021 53.16709,6.772576 53.164846,6.748794 53.164669,6.717944 53.168071)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1822</gg:year>
+                            <gg:name xml:lang="nl">Slochteren                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.852941 53.210802,6.838677 53.200641,6.820692 53.195375,6.822091 53.187899,6.810924 53.180483,6.766906 53.174617,6.765021 53.16709,6.772576 53.164846,6.748794 53.164669,6.717944 53.168071,6.682587 53.195957,6.666156 53.196942,6.644363 53.219459,6.641074 53.224796,6.643298 53.229176,6.652386 53.232675,6.670588 53.230325,6.680987 53.237493,6.682999 53.24466,6.691748 53.246632,6.705343 53.240463,6.716169 53.241781,6.717321 53.235388,6.723698 53.23334,6.725193 53.238086,6.732478 53.24115,6.737121 53.241098,6.738084 53.243154,6.732893 53.24483,6.729858 53.253221,6.741905 53.259916,6.750637 53.261165,6.803164 53.231555,6.810812 53.234911,6.852941 53.210802)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1826</gg:year>
+                            <gg:name xml:lang="nl">Slochteren                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.815373 53.292585,6.826345 53.293262,6.829457 53.287653,6.846054 53.286195,6.849984 53.291539,6.858416 53.292515,6.862984 53.290122,6.887239 53.293237,6.889609 53.288084,6.896594 53.281976,6.886661 53.276618,6.908487 53.274816,6.90863 53.266097,6.914598 53.261079,6.915752 53.255582,6.911224 53.254651,6.908335 53.244982,6.91502 53.243369,6.915448 53.238511,6.910695 53.235426,6.910818 53.226168,6.913347 53.221462,6.902798 53.219529,6.894292 53.220355,6.88538 53.222444,6.880607 53.218639,6.875824 53.218878,6.852941 53.210802,6.838677 53.200641,6.820692 53.195375,6.822091 53.187899,6.810924 53.180483,6.766906 53.174617,6.765021 53.16709,6.772576 53.164846,6.748794 53.164669,6.717944 53.168071,6.682587 53.195957,6.666156 53.196942,6.644363 53.219459,6.641074 53.224796,6.643298 53.229176,6.652386 53.232675,6.670588 53.230325,6.680987 53.237493,6.682999 53.24466,6.691748 53.246632,6.705343 53.240463,6.716169 53.241781,6.717321 53.235388,6.723698 53.23334,6.725193 53.238086,6.732478 53.24115,6.737121 53.241098,6.738084 53.243154,6.732893 53.24483,6.729858 53.253221,6.741905 53.259916,6.750637 53.261165,6.754773 53.263994,6.770635 53.267856,6.772413 53.276552,6.782796 53.282363,6.785987 53.283674,6.793462 53.278375,6.810846 53.282663,6.806571 53.289454,6.815373 53.292585)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1963</gg:year>
+                            <gg:name xml:lang="nl">Slochteren                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.887239 53.293237,6.889609 53.288084,6.896594 53.281976,6.886661 53.276618,6.908487 53.274816,6.90863 53.266097,6.914598 53.261079,6.915752 53.255582,6.911224 53.254651,6.908335 53.244982,6.91502 53.243369,6.915448 53.238511,6.910695 53.235426,6.910818 53.226168,6.913347 53.221462,6.902798 53.219529,6.894292 53.220355,6.88538 53.222444,6.880607 53.218639,6.875824 53.218878,6.852941 53.210802,6.838677 53.200641,6.820692 53.195375,6.822091 53.187899,6.810924 53.180483,6.766906 53.174617,6.765021 53.16709,6.772576 53.164846,6.748794 53.164669,6.717944 53.168071,6.682587 53.195957,6.666156 53.196942,6.644363 53.219459,6.641074 53.224796,6.643298 53.229176,6.782796 53.282363,6.815373 53.292585,6.826345 53.293262,6.829457 53.287653,6.846054 53.286195,6.849984 53.291539,6.858416 53.292515,6.862984 53.290122,6.887239 53.293237)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2747142"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Slochteren_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Slochteren_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

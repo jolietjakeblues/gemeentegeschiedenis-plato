@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Veessen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Veessen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Veessen</skos:prefLabel>
+        <gg:name xml:lang="nl">Veessen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10966"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heerde"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Veessen                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.059504 52.359541,6.054456 52.370467,6.055925 52.374552,6.064747 52.379923,6.062749 52.38356,6.074767 52.390491,6.080189 52.395737,6.080861 52.40061,6.086665 52.400761,6.091123 52.405231,6.090662 52.409434,6.095223 52.413299,6.100894 52.413277,6.096149 52.424937,6.09865 52.427076,6.091452 52.436059,6.080736 52.435604,6.082273 52.438805,6.076302 52.440133,6.07175 52.442098,6.076043 52.446165,6.077978 52.450784,6.092738 52.452541,6.094471 52.450553,6.098589 52.450439,6.099132 52.447649,6.09876 52.442798,6.104583 52.439078,6.113313 52.433362,6.115467 52.430204,6.112474 52.418088,6.11299 52.413681,6.108914 52.407055,6.117886 52.401456,6.119969 52.400156,6.125666 52.398144,6.125189 52.39599,6.122547 52.387288,6.122618 52.382704,6.121389 52.379476,6.113567 52.377187,6.084417 52.372599,6.077479 52.370303,6.075522 52.367168,6.074295 52.36385,6.073952 52.360616,6.059504 52.359541)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Veessen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Veessen"/>
+            </rdf:Description>
+</rdf:RDF>

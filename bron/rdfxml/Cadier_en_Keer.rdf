@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Cadier_en_Keer">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Cadier en Keer</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Cadier en Keer</skos:prefLabel>
+        <gg:name xml:lang="nl">Cadier en Keer</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11447"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0901"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Cadier"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Margraten"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1829</gg:year>
+                            <gg:name xml:lang="nl">Cadier en Keer                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.757495 50.847555,5.77097 50.845893,5.77307 50.84229,5.774181 50.83941,5.802322 50.827178,5.802421 50.822413,5.791497 50.822722,5.787747 50.815723,5.774127 50.81595,5.770784 50.823421,5.761428 50.824711,5.74536 50.820627,5.742824 50.822972,5.746299 50.83195,5.747355 50.839946,5.756186 50.843694,5.757495 50.847555)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</gg:year>
+                            <gg:name xml:lang="nl">Cadier en Keer                     </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.77097 50.845893,5.77307 50.84229,5.774181 50.83941,5.802322 50.827178,5.802421 50.822413,5.791497 50.822722,5.787747 50.815723,5.774127 50.81595,5.770784 50.823421,5.761428 50.824711,5.74536 50.820627,5.742824 50.822972,5.746299 50.83195,5.744646 50.838427,5.740256 50.839878,5.741131 50.842932,5.749079 50.842638,5.756186 50.843694,5.757495 50.847555,5.77097 50.845893)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1828-08-05</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1982-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Cadier_en_Keer"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Cadier_en_Keer"/>
+            </rdf:Description>
+</rdf:RDF>

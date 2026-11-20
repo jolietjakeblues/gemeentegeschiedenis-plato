@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Meijel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Meijel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Meijel</skos:prefLabel>
+        <gg:name xml:lang="nl">Meijel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10925"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0941"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Peel_en_Maas"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Meijel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.871699 51.353568,5.896243 51.366048,5.911139 51.350251,5.902395 51.32584,5.909851 51.312953,5.91082 51.309892,5.885926 51.315485,5.874908 51.317959,5.862882 51.320256,5.850283 51.322643,5.833375 51.339429,5.835598 51.346611,5.871699 51.353568)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Meijel                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.895953 51.364928,5.897786 51.363074,5.898022 51.362782,5.89816 51.362819,5.899412 51.36147,5.903375 51.357661,5.911341 51.349792,5.911405 51.343351,5.911415 51.342926,5.91139 51.342604,5.91134 51.342313,5.911212 51.341835,5.90641 51.32951,5.906302 51.329547,5.905809 51.328434,5.905011 51.326289,5.904901 51.325907,5.901164 51.324595,5.901322 51.324275,5.902198 51.322657,5.903223 51.320886,5.905563 51.316834,5.906489 51.315196,5.906942 51.314391,5.907494 51.313529,5.909629 51.309673,5.910737 51.307686,5.909263 51.308107,5.907005 51.308769,5.889208 51.313947,5.889199 51.313965,5.886647 51.314709,5.884568 51.315306,5.877368 51.316474,5.864562 51.31855,5.852091 51.32065,5.849673 51.322848,5.845031 51.326849,5.841897 51.329533,5.838225 51.332741,5.836098 51.334587,5.833045 51.337254,5.832923 51.337272,5.83213 51.337942,5.840248 51.346923,5.870373 51.352526,5.872426 51.352907,5.874236 51.353215,5.87864 51.355556,5.889735 51.361813,5.889733 51.361684,5.892346 51.363098,5.89466 51.364346,5.895953 51.364928)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Meijel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Meijel"/>
+            </rdf:Description>
+</rdf:RDF>

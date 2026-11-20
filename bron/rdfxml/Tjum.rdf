@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Tjum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Tjum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Tjum</skos:prefLabel>
+        <gg:name xml:lang="nl">Tjum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10404"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Franekeradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Tjum                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.530611 53.168901,5.523706 53.160642,5.539853 53.160623,5.542119 53.167,5.554228 53.166354,5.552114 53.160966,5.559436 53.159967,5.567822 53.163369,5.57888 53.161824,5.580356 53.157599,5.588724 53.156776,5.590022 53.14671,5.602571 53.14561,5.602534 53.138242,5.587422 53.133955,5.592029 53.128555,5.583954 53.126951,5.5756 53.129661,5.571101 53.125714,5.562587 53.125996,5.55693 53.131036,5.553636 53.129154,5.546772 53.13141,5.536502 53.142655,5.523495 53.140964,5.513934 53.142052,5.510341 53.13981,5.512269 53.134596,5.502399 53.131371,5.499422 53.135777,5.491058 53.137312,5.49339 53.140676,5.496503 53.142223,5.496643 53.145113,5.497984 53.147279,5.497725 53.150331,5.501245 53.152016,5.504948 53.154499,5.50474 53.157046,5.498012 53.158199,5.494298 53.159768,5.495974 53.164905,5.502047 53.167943,5.510277 53.169732,5.516255 53.168558,5.521497 53.171427,5.530611 53.168901)),((5.495327 53.171274,5.491829 53.170372,5.47734 53.170955,5.475682 53.173525,5.483685 53.181438,5.485788 53.18512,5.497761 53.187446,5.504062 53.19409,5.507948 53.192468,5.506142 53.188696,5.509129 53.186986,5.502511 53.173424,5.495327 53.171274)),((5.600579 53.226664,5.609668 53.217932,5.60724 53.211556,5.619768 53.202996,5.606733 53.199966,5.607891 53.192416,5.616091 53.187009,5.606634 53.180557,5.59975 53.179761,5.588987 53.181127,5.589604 53.18508,5.581684 53.18698,5.579123 53.18294,5.561486 53.186562,5.563627 53.19788,5.545163 53.193971,5.536224 53.192077,5.526806 53.194604,5.520982 53.198205,5.523541 53.203055,5.526836 53.203859,5.527904 53.210148,5.537773 53.207171,5.538239 53.212292,5.558925 53.219543,5.566395 53.215758,5.588435 53.223271,5.592252 53.221756,5.593665 53.221195,5.600579 53.226664)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2755843"/>
+                                                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Franekeradeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Waadhoeke"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Franekeradeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/page/Waadhoeke"/>
+            </rdf:Description>
+</rdf:RDF>

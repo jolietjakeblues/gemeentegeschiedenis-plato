@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Roordahuizum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Roordahuizum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Roordahuizum</skos:prefLabel>
+        <gg:name xml:lang="nl">Roordahuizum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10815"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Idaarderadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Roordahuizum                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.909782 53.118526,5.885393 53.111645,5.874988 53.114543,5.86967 53.119893,5.860163 53.118409,5.850633 53.114639,5.837346 53.1145,5.834523 53.116794,5.832638 53.118134,5.829785 53.117573,5.82755 53.115488,5.830368 53.112623,5.824954 53.109026,5.822685 53.103515,5.817313 53.103916,5.812872 53.102599,5.814734 53.098976,5.820092 53.097244,5.820369 53.093246,5.805144 53.088162,5.796389 53.079597,5.791325 53.080693,5.79291 53.090572,5.789808 53.094087,5.783842 53.094646,5.775079 53.099617,5.768063 53.099729,5.768389 53.102873,5.760946 53.105503,5.76127 53.108377,5.756044 53.108483,5.754272 53.110825,5.758473 53.113059,5.754503 53.120439,5.777512 53.121175,5.79959 53.118136,5.812042 53.123664,5.822442 53.132972,5.824159 53.140244,5.832578 53.145155,5.819559 53.158412,5.83333 53.160069,5.859605 53.170302,5.861217 53.16733,5.89321 53.16675,5.896396 53.157931,5.901032 53.158001,5.904242 53.151427,5.908867 53.150688,5.905088 53.1472,5.91326 53.143211,5.907552 53.14081,5.917739 53.130611,5.910096 53.128667,5.914379 53.124605,5.906893 53.1232,5.909782 53.118526)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2753394"/>
+                                                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Boornsterhem"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Boornsterhem"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Idaarderadeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Roordahuizum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Boornsterhem"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Boornsterhem"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Idaarderadeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Roordahuizum"/>
+            </rdf:Description>
+</rdf:RDF>

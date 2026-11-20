@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nieuw-Beijerland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nieuw-Beijerland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nieuw-Beijerland</skos:prefLabel>
+        <gg:name xml:lang="nl">Nieuw-Beijerland</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10092"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0566"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Korendijk_2"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nieuw-Beijerland                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.35565 51.820864,4.364406 51.818514,4.379605 51.826376,4.389929 51.831857,4.398374 51.830491,4.394938 51.828394,4.402508 51.827199,4.402422 51.824502,4.391171 51.815059,4.38036 51.792584,4.389868 51.78871,4.386149 51.779959,4.358134 51.781964,4.340483 51.780639,4.336105 51.781948,4.336694 51.787796,4.344484 51.789394,4.356 51.786529,4.357985 51.794817,4.363291 51.79738,4.363281 51.804212,4.357247 51.808114,4.344658 51.806924,4.333705 51.810242,4.327387 51.813781,4.35565 51.820864)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</gg:year>
+                            <gg:name xml:lang="nl">Nieuw-Beijerland                   </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.384257 51.819404,4.389574 51.815135,4.394216 51.815084,4.391161 51.808946,4.388907 51.799399,4.385145 51.792535,4.393602 51.79027,4.395673 51.788399,4.392538 51.785946,4.386149 51.779959,4.358134 51.781964,4.340483 51.780639,4.336105 51.781948,4.336694 51.787796,4.344484 51.789394,4.356 51.786529,4.357985 51.794817,4.363291 51.79738,4.363281 51.804212,4.357247 51.808114,4.344658 51.806924,4.333705 51.810242,4.327387 51.813781,4.35565 51.820864,4.364406 51.818514,4.379605 51.826376,4.384471 51.822822,4.384257 51.819404)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nieuw-Beijerland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nieuw-Beijerland"/>
+            </rdf:Description>
+</rdf:RDF>

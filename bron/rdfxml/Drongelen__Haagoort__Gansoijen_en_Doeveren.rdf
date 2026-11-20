@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Drongelen__Haagoort__Gansoijen_en_Doeveren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Drongelen, Haagoort, Gansoijen en Doeveren</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Drongelen, Haagoort, Gansoijen en Doeveren</skos:prefLabel>
+        <gg:name xml:lang="nl">Drongelen, Haagoort, Gansoijen en Doeveren</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10111"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1263"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Drongelen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Drongelen,Haagoord,Gansoyen,Doevere</gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.096876 51.723738,5.092424 51.718424,5.085461 51.720923,5.077787 51.721442,5.068994 51.716475,5.050067 51.712467,5.033849 51.714127,5.015938 51.710207,5.012423 51.715319,5.031621 51.721401,5.047843 51.719652,5.059499 51.728763,5.065887 51.726084,5.083203 51.733861,5.089022 51.729471,5.096876 51.723738)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1908-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Drongelen,_Haagoort,_Gansoijen_en_Doeveren"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Drongelen,_Haagoort,_Gansoijen_en_Doeveren"/>
+            </rdf:Description>
+</rdf:RDF>

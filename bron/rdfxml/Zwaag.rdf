@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zwaag">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zwaag</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zwaag</skos:prefLabel>
+        <gg:name xml:lang="nl">Zwaag</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10218"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0475"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hoorn"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zwaag                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.072406 52.657606,5.057214 52.653521,5.044567 52.664539,5.044635 52.674874,5.068527 52.683119,5.080772 52.687195,5.092561 52.671587,5.06942 52.661822,5.072406 52.657606)),((5.141597 52.706478,5.122694 52.700416,5.122651 52.707606,5.111618 52.714198,5.106016 52.717543,5.114912 52.721553,5.125056 52.726124,5.119156 52.731029,5.110176 52.738492,5.122145 52.742474,5.12064 52.746425,5.127434 52.749495,5.135897 52.745739,5.155176 52.712706,5.156816 52.710373,5.141597 52.706478)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1868</gg:year>
+                            <gg:name xml:lang="nl">Zwaag                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.072406 52.657606,5.057214 52.653521,5.044567 52.664539,5.044635 52.674874,5.068527 52.683119,5.080772 52.687195,5.092561 52.671587,5.06942 52.661822,5.072406 52.657606)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</gg:year>
+                            <gg:name xml:lang="nl">Zwaag                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.080772 52.687195,5.092561 52.671587,5.06205 52.659106,5.059075 52.661614,5.037686 52.656161,5.033793 52.66244,5.029432 52.671594,5.032381 52.672591,5.03623 52.671974,5.044635 52.674874,5.068527 52.683119,5.080772 52.687195)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1979-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zwaag_(Hoorn)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zwaag_(Hoorn)"/>
+            </rdf:Description>
+</rdf:RDF>

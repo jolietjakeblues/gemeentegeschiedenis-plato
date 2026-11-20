@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Oostdongeradeel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Oostdongeradeel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Oostdongeradeel</skos:prefLabel>
+        <gg:name xml:lang="nl">Oostdongeradeel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11102"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0084"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ee"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Anjum"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Metslawier"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Dongeradeel"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Oostdongeradeel                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.088267 53.401641,6.119359 53.399839,6.143602 53.393489,6.154988 53.374458,6.144066 53.368597,6.139604 53.353978,6.149947 53.344389,6.175646 53.337484,6.191244 53.336661,6.188715 53.329849,6.179313 53.332787,6.174885 53.328683,6.179039 53.317873,6.177641 53.315276,6.157766 53.311452,6.15192 53.303312,6.134841 53.295871,6.131149 53.299219,6.135868 53.303233,6.134157 53.308366,6.12336 53.308612,6.121376 53.315453,6.115546 53.316747,6.105921 53.315457,6.10281 53.317901,6.091557 53.317968,6.086957 53.32114,6.07702 53.319131,6.022718 53.320418,6.01381 53.327025,5.990563 53.328222,5.983095 53.330865,5.985083 53.333461,5.991141 53.337294,5.988513 53.342609,6.007935 53.346374,6.010282 53.342498,6.015079 53.342024,6.022482 53.34513,6.023511 53.35384,6.016418 53.361695,6.016268 53.372028,6.035859 53.375968,6.039263 53.382419,6.048124 53.382101,6.053026 53.37839,6.064332 53.380663,6.065765 53.385777,6.088267 53.401641)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</gg:year>
+                            <gg:name xml:lang="nl">Oostdongeradeel                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.143602 53.393489,6.154988 53.374458,6.144066 53.368597,6.139604 53.353978,6.149947 53.344389,6.175646 53.337484,6.191244 53.336661,6.188715 53.329849,6.179313 53.332787,6.174885 53.328683,6.179039 53.317873,6.177641 53.315276,6.157766 53.311452,6.15192 53.303312,6.134841 53.295871,6.131149 53.299219,6.135868 53.303233,6.134157 53.308366,6.12336 53.308612,6.121376 53.315453,6.115546 53.316747,6.105921 53.315457,6.10281 53.317901,6.091557 53.317968,6.086957 53.32114,6.07702 53.319131,6.022718 53.320418,6.024507 53.329754,6.015534 53.332047,5.983095 53.330865,5.985083 53.333461,5.991141 53.337294,5.988513 53.342609,6.007935 53.346374,6.010282 53.342498,6.015079 53.342024,6.022482 53.34513,6.023511 53.35384,6.016418 53.361695,6.016268 53.372028,6.035859 53.375968,6.039263 53.382419,6.048124 53.382101,6.053026 53.37839,6.064332 53.380663,6.065765 53.385777,6.088267 53.401641,6.119359 53.399839,6.143602 53.393489)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</gg:year>
+                            <gg:name xml:lang="nl">Oostdongeradeel                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.191649 53.406566,6.187832 53.403446,6.180624 53.403943,6.16214 53.396157,6.159819 53.392488,6.168204 53.349303,6.173013 53.341275,6.179313 53.332787,6.174885 53.328683,6.179039 53.317873,6.177641 53.315276,6.157766 53.311452,6.15192 53.303312,6.134841 53.295871,6.131149 53.299219,6.135868 53.303233,6.134157 53.308366,6.12336 53.308612,6.121376 53.315453,6.115546 53.316747,6.105921 53.315457,6.10281 53.317901,6.091557 53.317968,6.086957 53.32114,6.07702 53.319131,6.022718 53.320418,6.024507 53.329754,6.015534 53.332047,5.983095 53.330865,5.985083 53.333461,5.991141 53.337294,5.988513 53.342609,6.007935 53.346374,6.010282 53.342498,6.015079 53.342024,6.022482 53.34513,6.023511 53.35384,6.016418 53.361695,6.016268 53.372028,6.035859 53.375968,6.039263 53.382419,6.048124 53.382101,6.053026 53.37839,6.064332 53.380663,6.065765 53.385777,6.088267 53.401641,6.139925 53.398095,6.149717 53.399201,6.178281 53.407373,6.191649 53.406566)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Oostdongeradeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Oostdongeradeel"/>
+            </rdf:Description>
+</rdf:RDF>

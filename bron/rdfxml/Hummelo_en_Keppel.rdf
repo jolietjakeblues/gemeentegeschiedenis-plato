@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hummelo_en_Keppel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hummelo en Keppel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hummelo en Keppel</skos:prefLabel>
+        <gg:name xml:lang="nl">Hummelo en Keppel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11235"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0256"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hummelo"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Keppel"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bronckhorst"/>
+
+        
+                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</gg:year>
+                            <gg:name xml:lang="nl">Hummelo en Keppel                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.184447 52.038954,6.216498 52.030283,6.220762 52.03232,6.23393 52.027372,6.235912 52.032032,6.258779 52.023865,6.258577 52.02099,6.278467 52.002774,6.287566 51.99902,6.285734 51.994809,6.291072 51.992341,6.277495 51.983186,6.261488 51.983486,6.254846 51.986322,6.248671 51.983131,6.256017 51.979122,6.249818 51.974674,6.24286 51.976163,6.233284 51.98549,6.223042 51.982687,6.232137 51.978667,6.230472 51.975263,6.21597 51.978153,6.160538 51.979519,6.164013 51.986867,6.159942 51.995613,6.164469 51.996392,6.163785 51.998913,6.157685 51.999852,6.15976 52.001996,6.154975 52.003196,6.160143 52.007296,6.161685 52.01223,6.166984 52.015431,6.173129 52.016918,6.176541 52.020401,6.174289 52.02491,6.176307 52.031908,6.175527 52.037306,6.184447 52.038954)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hummelo_en_Keppel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hummelo_en_Keppel"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ruinerwold">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ruinerwold</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ruinerwold</skos:prefLabel>
+        <gg:name xml:lang="nl">Ruinerwold</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10944"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0128"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Wolden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ruinerwold                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.298469 52.762467,6.303813 52.762966,6.315149 52.752543,6.315458 52.746159,6.320239 52.741179,6.314565 52.731966,6.309013 52.728414,6.318965 52.723034,6.324364 52.726317,6.327059 52.720814,6.27726 52.702952,6.276588 52.699003,6.278334 52.697552,6.275887 52.693616,6.278088 52.6927,6.286872 52.69551,6.285666 52.687161,6.276806 52.687857,6.2757 52.68436,6.264947 52.686507,6.254868 52.685412,6.254186 52.688293,6.243246 52.688552,6.239603 52.691365,6.240555 52.694683,6.2351 52.695621,6.236389 52.701094,6.231859 52.704002,6.22661 52.700355,6.220236 52.69968,6.210961 52.702082,6.209953 52.711435,6.223499 52.723384,6.235352 52.739297,6.252389 52.754723,6.268539 52.754964,6.273487 52.757893,6.298469 52.762467)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ruinerwold"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ruinerwold"/>
+            </rdf:Description>
+</rdf:RDF>

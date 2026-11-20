@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Pernis">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Pernis</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Pernis</skos:prefLabel>
+        <gg:name xml:lang="nl">Pernis</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11245"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1152"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/s-Gravenambacht"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Langebakkersoord"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Langebakkersoord"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/s-Gravenambacht"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rotterdam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Pernis                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.365444 51.8943,4.394565 51.891403,4.400493 51.892712,4.40368 51.893098,4.432037 51.871309,4.421657 51.867809,4.408802 51.871388,4.409353 51.87274,4.388579 51.879667,4.373527 51.877291,4.357906 51.88084,4.354603 51.879193,4.351071 51.88123,4.344544 51.880133,4.327344 51.877243,4.324322 51.888362,4.342516 51.891499,4.360063 51.894522,4.365444 51.8943)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Pernis                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.344544 51.880133,4.342516 51.891499,4.360063 51.894522,4.365444 51.8943,4.394565 51.891403,4.400493 51.892712,4.40368 51.893098,4.409353 51.87274,4.388579 51.879667,4.373527 51.877291,4.357906 51.88084,4.354603 51.879193,4.351071 51.88123,4.344544 51.880133)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1827</gg:year>
+                            <gg:name xml:lang="nl">Pernis                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.40368 51.893098,4.409353 51.87274,4.388579 51.879667,4.373527 51.877291,4.357906 51.88084,4.354603 51.879193,4.351071 51.88123,4.327344 51.877243,4.324322 51.888362,4.360063 51.894522,4.365444 51.8943,4.394565 51.891403,4.400493 51.892712,4.40368 51.893098)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1832</gg:year>
+                            <gg:name xml:lang="nl">Pernis                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.40368 51.893098,4.432037 51.871309,4.421657 51.867809,4.408802 51.871388,4.409353 51.87274,4.388579 51.879667,4.373527 51.877291,4.357906 51.88084,4.354603 51.879193,4.351071 51.88123,4.327344 51.877243,4.324322 51.888362,4.360063 51.894522,4.365444 51.8943,4.394565 51.891403,4.400493 51.892712,4.40368 51.893098)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1934-05-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Pernis"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Pernis"/>
+            </rdf:Description>
+</rdf:RDF>

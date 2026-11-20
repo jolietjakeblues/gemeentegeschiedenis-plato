@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Dalen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Dalen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Dalen</skos:prefLabel>
+        <gg:name xml:lang="nl">Dalen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11004"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0110"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oosterhesselen"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Schoonebeek"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Coevorden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Dalen                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.777766 52.734466,6.786694 52.717285,6.784257 52.710482,6.789029 52.702337,6.803744 52.70441,6.807526 52.702387,6.807413 52.698883,6.851136 52.692331,6.858225 52.691974,6.869463 52.691834,7.06154 52.690495,7.058421 52.662004,7.057495 52.641523,7.043444 52.629405,7.015795 52.632753,7.005588 52.636398,7.00463 52.638479,6.989262 52.638417,6.98361 52.64146,6.977279 52.642084,6.968836 52.637433,6.954062 52.637449,6.951622 52.635323,6.933151 52.635206,6.927611 52.637345,6.921091 52.6368,6.918028 52.637918,6.91731 52.642781,6.89815 52.648509,6.883944 52.64797,6.877207 52.649762,6.873357 52.649541,6.867351 52.64674,6.862926 52.646974,6.855807 52.672769,6.822304 52.665628,6.821416 52.661055,6.762913 52.662195,6.750428 52.674293,6.607811 52.676921,6.608582 52.683385,6.609834 52.691191,6.609743 52.71447,6.596608 52.705078,6.596006 52.720812,6.577208 52.720822,6.620186 52.759571,6.691454 52.7598,6.711884 52.769102,6.718441 52.770287,6.726577 52.769836,6.735833 52.767215,6.753233 52.759737,6.763455 52.750272,6.775802 52.742579,6.777766 52.734466)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1820</gg:year>
+                            <gg:name xml:lang="nl">Dalen                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.784257 52.710482,6.789029 52.702337,6.803744 52.70441,6.807526 52.702387,6.807413 52.698883,6.851136 52.692331,6.858225 52.691974,6.869463 52.691834,7.06154 52.690495,7.058421 52.662004,7.057495 52.641523,7.043444 52.629405,7.015795 52.632753,7.005588 52.636398,7.00463 52.638479,6.989262 52.638417,6.98361 52.64146,6.977279 52.642084,6.968836 52.637433,6.954062 52.637449,6.951622 52.635323,6.933151 52.635206,6.927611 52.637345,6.921091 52.6368,6.918028 52.637918,6.91731 52.642781,6.89815 52.648509,6.883944 52.64797,6.877207 52.649762,6.873357 52.649541,6.867351 52.64674,6.862926 52.646974,6.855807 52.672769,6.822304 52.665628,6.821416 52.661055,6.762913 52.662195,6.750428 52.674293,6.607811 52.676921,6.608582 52.683385,6.713098 52.706353,6.709998 52.711511,6.721283 52.732237,6.751374 52.738097,6.764753 52.739741,6.767199 52.737466,6.777766 52.734466,6.786694 52.717285,6.784257 52.710482)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Dalen                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.784257 52.710482,6.789029 52.702337,6.803744 52.70441,6.807526 52.702387,6.807413 52.698883,6.851136 52.692331,6.858225 52.691974,6.869463 52.691834,6.886974 52.680469,6.890426 52.690583,6.898731 52.691196,6.908936 52.682617,6.915491 52.683971,6.952098 52.673608,6.96495 52.669124,6.997068 52.665997,7.058421 52.662004,7.057495 52.641523,7.043444 52.629405,7.015795 52.632753,7.005588 52.636398,7.00463 52.638479,6.989262 52.638417,6.98361 52.64146,6.977279 52.642084,6.968836 52.637433,6.954062 52.637449,6.951622 52.635323,6.933151 52.635206,6.927611 52.637345,6.921091 52.6368,6.918028 52.637918,6.91731 52.642781,6.89815 52.648509,6.883944 52.64797,6.877207 52.649762,6.873357 52.649541,6.867351 52.64674,6.862926 52.646974,6.855807 52.672769,6.822304 52.665628,6.821416 52.661055,6.762913 52.662195,6.750428 52.674293,6.607811 52.676921,6.608582 52.683385,6.713098 52.706353,6.709998 52.711511,6.721283 52.732237,6.751374 52.738097,6.764753 52.739741,6.767199 52.737466,6.777766 52.734466,6.786694 52.717285,6.784257 52.710482)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1885</gg:year>
+                            <gg:name xml:lang="nl">Dalen                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.784257 52.710482,6.789029 52.702337,6.803744 52.70441,6.807526 52.702387,6.807413 52.698883,6.851136 52.692331,6.855807 52.672769,6.822304 52.665628,6.821416 52.661055,6.762913 52.662195,6.750428 52.674293,6.607811 52.676921,6.608582 52.683385,6.713098 52.706353,6.709998 52.711511,6.721283 52.732237,6.751374 52.738097,6.764753 52.739741,6.767199 52.737466,6.777766 52.734466,6.786694 52.717285,6.784257 52.710482)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Dalen_(dorp)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Dalen_(dorp)"/>
+            </rdf:Description>
+</rdf:RDF>

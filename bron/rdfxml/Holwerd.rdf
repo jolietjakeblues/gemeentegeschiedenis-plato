@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Holwerd">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Holwerd</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Holwerd</skos:prefLabel>
+        <gg:name xml:lang="nl">Holwerd</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11172"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westdongeradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Holwerd                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.989892 53.33982,5.991141 53.337294,5.985083 53.333461,5.983095 53.330865,5.990563 53.328222,5.985967 53.321506,5.972282 53.319327,5.966893 53.320341,5.960706 53.317765,5.954265 53.318604,5.948492 53.31315,5.935128 53.312313,5.927721 53.319895,5.927168 53.323671,5.911637 53.32994,5.916327 53.332974,5.896033 53.343215,5.888073 53.342979,5.881071 53.34777,5.885599 53.349728,5.850985 53.370533,5.888086 53.382784,5.922194 53.382367,5.928439 53.383468,5.933335 53.376757,5.931088 53.375245,5.935148 53.369137,5.941778 53.36511,5.951312 53.364304,5.951593 53.361449,5.943955 53.361294,5.935964 53.358286,5.929585 53.356982,5.929547 53.353938,5.923805 53.352631,5.915545 53.353429,5.908516 53.350796,5.934011 53.329748,5.940058 53.330292,5.944161 53.327989,5.949582 53.329296,5.947078 53.332353,5.955371 53.334407,5.963932 53.332654,5.973149 53.332419,5.979577 53.337526,5.989892 53.33982)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Holwerd"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Holwerd"/>
+            </rdf:Description>
+</rdf:RDF>

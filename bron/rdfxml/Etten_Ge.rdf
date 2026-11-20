@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Etten_Ge">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Etten [Ge]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Etten [Ge]</skos:prefLabel>
+        <gg:name xml:lang="nl">Etten [Ge]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10107"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Gendringen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Etten [Ge]                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.387546 51.891695,6.383756 51.889847,6.38665 51.886777,6.388397 51.886826,6.386395 51.883008,6.387853 51.882195,6.387374 51.880473,6.385866 51.878668,6.384502 51.876771,6.382006 51.876792,6.377969 51.879959,6.375816 51.879721,6.373045 51.881432,6.37102 51.883238,6.370966 51.884567,6.368046 51.887046,6.366072 51.88742,6.364465 51.889529,6.359508 51.896048,6.356279 51.896166,6.353761 51.895187,6.351387 51.89613,6.349631 51.894403,6.347576 51.89451,6.346601 51.89254,6.343793 51.892614,6.342524 51.892322,6.341405 51.892991,6.339909 51.892594,6.340474 51.89208,6.339227 51.891577,6.337343 51.889868,6.326211 51.886171,6.325707 51.887081,6.330905 51.892523,6.328481 51.8947,6.316309 51.896235,6.307847 51.901605,6.308882 51.909597,6.315771 51.912419,6.316418 51.91556,6.309523 51.919569,6.293684 51.919872,6.289547 51.923769,6.290495 51.927537,6.298687 51.937182,6.30449 51.936507,6.305455 51.926792,6.323638 51.920267,6.325925 51.925372,6.350723 51.915643,6.348342 51.913056,6.363056 51.907901,6.379043 51.907947,6.385145 51.901333,6.382882 51.897577,6.387546 51.891695)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Etten_(Gelderland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Etten_(Gelderland)"/>
+            </rdf:Description>
+</rdf:RDF>

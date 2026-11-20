@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Workum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Workum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Workum</skos:prefLabel>
+        <gg:name xml:lang="nl">Workum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10768"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0100"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nijefurd"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Workum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.398821 52.984864,5.439175 52.986112,5.449752 52.989431,5.454962 52.987721,5.463453 52.989693,5.475807 52.986449,5.471772 52.979353,5.472952 52.973781,5.494306 52.964611,5.498529 52.962797,5.535859 52.955207,5.531227 52.949642,5.519334 52.952621,5.513676 52.951459,5.515901 52.94903,5.507857 52.945354,5.503396 52.946347,5.491777 52.939798,5.492808 52.935753,5.488045 52.934319,5.48463 52.936838,5.471532 52.931996,5.454434 52.935601,5.445506 52.93255,5.437335 52.940013,5.431239 52.942801,5.4302 52.945138,5.414727 52.943794,5.407147 52.956736,5.405665 52.972013,5.398821 52.984864)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Nijefurd                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.401658 53.008498,5.427709 52.985846,5.439175 52.986112,5.449752 52.989431,5.454962 52.987721,5.463453 52.989693,5.475807 52.986449,5.478939 52.989053,5.49368 52.988142,5.507541 52.992712,5.511706 52.990821,5.486039 52.96784,5.498529 52.962797,5.535859 52.955207,5.541511 52.954751,5.541494 52.949719,5.521687 52.943542,5.498733 52.926132,5.501554 52.924692,5.490096 52.921198,5.473455 52.926692,5.470922 52.924268,5.478645 52.919859,5.471193 52.910429,5.482332 52.906197,5.478902 52.900628,5.467457 52.900007,5.466559 52.896683,5.475624 52.896676,5.47785 52.894967,5.4759 52.886342,5.48318 52.886156,5.488091 52.890016,5.493284 52.886867,5.490008 52.883814,5.502921 52.879489,5.501581 52.878232,5.502316 52.875356,5.494884 52.873206,5.491309 52.868536,5.484478 52.868901,5.479275 52.866209,5.473185 52.865585,5.465914 52.868555,5.456853 52.867303,5.429087 52.870641,5.427748 52.868664,5.432201 52.866057,5.43383 52.862192,5.432195 52.859946,5.429225 52.859947,5.438125 52.852215,5.438863 52.84907,5.418821 52.844943,5.411994 52.846023,5.376812 52.86265,5.366119 52.867052,5.3575 52.875408,5.354377 52.881607,5.358977 52.889786,5.365957 52.89473,5.373534 52.898955,5.398056 52.904167,5.403112 52.910188,5.406384 52.915309,5.393007 52.937148,5.395388 52.941012,5.403272 52.942628,5.407292 52.949637,5.407147 52.956736,5.405665 52.972013,5.398821 52.984864,5.396442 53.000411,5.401658 53.008498)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Workum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Workum"/>
+            </rdf:Description>
+</rdf:RDF>

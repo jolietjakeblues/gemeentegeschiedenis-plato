@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heerjansdam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heerjansdam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heerjansdam</skos:prefLabel>
+        <gg:name xml:lang="nl">Heerjansdam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10540"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0526"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kleine_Lindt"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kleine_Lindt"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zwijndrecht"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heerjansdam                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.573043 51.814753,4.569019 51.812748,4.564493 51.814424,4.557597 51.8266,4.550989 51.830958,4.558088 51.839368,4.569286 51.846008,4.581691 51.842139,4.590154 51.8395,4.58434 51.83191,4.590315 51.830423,4.586318 51.82671,4.583953 51.821031,4.573043 51.814753)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Heerjansdam                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.581691 51.842139,4.590154 51.8395,4.58434 51.83191,4.573747 51.832017,4.567562 51.829097,4.562023 51.830497,4.557597 51.8266,4.550989 51.830958,4.558088 51.839368,4.569286 51.846008,4.581691 51.842139)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Heerjansdam                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.573043 51.814753,4.569019 51.812748,4.564493 51.814424,4.557597 51.8266,4.550989 51.830958,4.558088 51.839368,4.569286 51.846008,4.581691 51.842139,4.590154 51.8395,4.58434 51.83191,4.590315 51.830423,4.586318 51.82671,4.583953 51.821031,4.573043 51.814753)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Heerjansdam                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.571006 51.847182,4.574303 51.846114,4.578214 51.84478,4.582045 51.843534,4.585731 51.842416,4.58781 51.84191,4.588613 51.841736,4.5891 51.841637,4.589134 51.841629,4.589465 51.841536,4.589843 51.84144,4.590785 51.841204,4.591852 51.840948,4.592736 51.840743,4.593769 51.840491,4.594509 51.840323,4.5947 51.840296,4.593429 51.839033,4.592097 51.837769,4.590821 51.836535,4.590364 51.836117,4.589216 51.835097,4.587175 51.833134,4.586631 51.83263,4.589268 51.83219,4.589607 51.8321,4.589824 51.832026,4.590087 51.831966,4.590324 51.831933,4.590494 51.831912,4.590675 51.831872,4.590735 51.831829,4.590846 51.831805,4.591094 51.83174,4.59118 51.831699,4.591318 51.831616,4.591386 51.831545,4.59156 51.831466,4.591643 51.831396,4.591688 51.831344,4.591789 51.831276,4.591905 51.831176,4.591969 51.831083,4.592008 51.830983,4.592032 51.830873,4.592019 51.830766,4.591973 51.830683,4.591893 51.830591,4.591792 51.830469,4.591661 51.830374,4.591519 51.830255,4.591374 51.830128,4.59113 51.829957,4.590984 51.82986,4.590722 51.829657,4.590521 51.829524,4.590178 51.829334,4.5899 51.829183,4.589711 51.829104,4.589325 51.828971,4.588344 51.828351,4.587937 51.828015,4.587786 51.827783,4.587744 51.827454,4.587902 51.827081,4.588411 51.826664,4.586009 51.822442,4.585718 51.822626,4.582522 51.819954,4.580543 51.818335,4.580849 51.818307,4.58115 51.818362,4.581311 51.818011,4.582131 51.818108,4.582607 51.818132,4.583056 51.818108,4.583733 51.817973,4.583401 51.817621,4.58303 51.817706,4.580956 51.817072,4.57515 51.81534,4.566708 51.812851,4.566404 51.813008,4.564458 51.814334,4.562656 51.816119,4.561202 51.817907,4.560161 51.819697,4.559737 51.821492,4.559261 51.823286,4.55814 51.825076,4.557237 51.826867,4.555587 51.828654,4.554499 51.829423,4.553419 51.82999,4.553699 51.830247,4.554612 51.83111,4.555239 51.831715,4.556118 51.832581,4.556621 51.833104,4.557021 51.833594,4.557453 51.834154,4.557859 51.834723,4.558822 51.835918,4.558893 51.836051,4.558962 51.836325,4.559066 51.836869,4.559003 51.836887,4.558998 51.836972,4.558872 51.836984,4.558815 51.836877,4.558652 51.836922,4.55895 51.837376,4.559561 51.838204,4.55987 51.838673,4.560087 51.838895,4.560411 51.839094,4.560662 51.839267,4.561359 51.839683,4.561665 51.839854,4.562002 51.839998,4.562341 51.840176,4.562684 51.840375,4.562936 51.840514,4.563028 51.840558,4.563265 51.840685,4.563381 51.8408,4.563549 51.840879,4.563823 51.841034,4.564042 51.841134,4.564148 51.841157,4.564441 51.841304,4.564696 51.84144,4.564936 51.841626,4.56521 51.841774,4.565413 51.841956,4.56572 51.842118,4.565939 51.842257,4.565982 51.842303,4.566159 51.8425,4.566363 51.842648,4.566432 51.842708,4.566577 51.84286,4.56666 51.842908,4.566807 51.842987,4.567104 51.843274,4.567888 51.843929,4.567861 51.84401,4.568471 51.844531,4.569517 51.84539,4.56997 51.845815,4.570455 51.846333,4.570796 51.846847,4.571006 51.847182)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heerjansdam"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heerjansdam"/>
+            </rdf:Description>
+</rdf:RDF>

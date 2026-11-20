@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Uithuizermeeden">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Uithuizermeeden</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Uithuizermeeden</skos:prefLabel>
+        <gg:name xml:lang="nl">Uithuizermeeden</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10246"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0044"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hefshuizen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Uithuizermeeden                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.8692 53.431672,6.860332 53.427557,6.848236 53.425818,6.802919 53.406589,6.786965 53.401564,6.782434 53.40557,6.770142 53.402118,6.77285 53.397504,6.753351 53.394222,6.752053 53.395944,6.740906 53.395261,6.743563 53.388941,6.737236 53.38371,6.70872 53.380163,6.696114 53.390635,6.698809 53.395188,6.707884 53.396976,6.719092 53.394786,6.723403 53.398063,6.703601 53.404392,6.692501 53.410264,6.732878 53.46059,6.734994 53.460836,6.748879 53.461848,6.775534 53.45732,6.820635 53.441785,6.849873 53.438558,6.8692 53.431672)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</gg:year>
+                            <gg:name xml:lang="nl">Uithuizermeeden                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.775534 53.45732,6.798336 53.450226,6.814965 53.456859,6.828101 53.453468,6.832298 53.448475,6.829505 53.445993,6.820911 53.445556,6.818501 53.441002,6.822332 53.43853,6.839177 53.438238,6.844955 53.439966,6.83725 53.443563,6.839252 53.444887,6.8692 53.431672,6.860332 53.427557,6.848236 53.425818,6.802919 53.406589,6.786965 53.401564,6.782434 53.40557,6.770142 53.402118,6.77285 53.397504,6.753351 53.394222,6.752053 53.395944,6.740906 53.395261,6.743563 53.388941,6.737236 53.38371,6.70872 53.380163,6.696114 53.390635,6.698809 53.395188,6.707884 53.396976,6.719092 53.394786,6.723403 53.398063,6.703601 53.404392,6.692501 53.410264,6.732878 53.46059,6.734994 53.460836,6.748879 53.461848,6.775534 53.45732)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</gg:year>
+                            <gg:name xml:lang="nl">Hefshuizen                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.775534 53.45732,6.798336 53.450226,6.814965 53.456859,6.828101 53.453468,6.832298 53.448475,6.829505 53.445993,6.820911 53.445556,6.818501 53.441002,6.822332 53.43853,6.839177 53.438238,6.844955 53.439966,6.83725 53.443563,6.839714 53.449644,6.879928 53.437291,6.882498 53.433305,6.876804 53.403631,6.846878 53.416848,6.794059 53.397797,6.782434 53.40557,6.770142 53.402118,6.77285 53.397504,6.753351 53.394222,6.752053 53.395944,6.740906 53.395261,6.743563 53.388941,6.737236 53.38371,6.70872 53.380163,6.696114 53.390635,6.689235 53.386845,6.680547 53.387838,6.677551 53.393172,6.672339 53.394845,6.664521 53.394838,6.663151 53.389192,6.655938 53.389268,6.65332 53.392261,6.641142 53.392209,6.633022 53.392113,6.632681 53.395891,6.637086 53.397463,6.651154 53.400371,6.65455 53.403391,6.654467 53.41076,6.637434 53.445623,6.734994 53.460836,6.748879 53.461848,6.775534 53.45732)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1979-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Uithuizermeeden"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Uithuizermeeden"/>
+            </rdf:Description>
+</rdf:RDF>

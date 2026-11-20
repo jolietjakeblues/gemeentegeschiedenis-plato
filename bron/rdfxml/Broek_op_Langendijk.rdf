@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Broek_op_Langendijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Broek op Langendijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Broek op Langendijk</skos:prefLabel>
+        <gg:name xml:lang="nl">Broek op Langendijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10955"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1031"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oudorp"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sint_Pancras"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Langedijk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Broek op Langedijk                 </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.824627 52.686619,4.82535 52.676377,4.823038 52.672143,4.809435 52.672257,4.79901 52.666903,4.797734 52.662853,4.797215 52.657458,4.800634 52.655947,4.798329 52.651532,4.7957 52.649182,4.784313 52.639059,4.798418 52.633828,4.79426 52.62446,4.800369 52.620446,4.793606 52.607291,4.792334 52.603061,4.778701 52.606856,4.783896 52.6156,4.781091 52.615586,4.780287 52.620345,4.769939 52.621101,4.76262 52.626994,4.761187 52.634266,4.764963 52.63887,4.771828 52.644478,4.771079 52.645193,4.776333 52.649893,4.787442 52.647973,4.788735 52.650675,4.78131 52.653334,4.783197 52.65577,4.771192 52.658225,4.768386 52.668546,4.772637 52.671174,4.774972 52.673343,4.770763 52.678264,4.801895 52.683364,4.805855 52.68581,4.811935 52.684581,4.824627 52.686619)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Broek op Langedijk                 </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.824627 52.686619,4.82535 52.676377,4.823038 52.672143,4.809435 52.672257,4.79901 52.666903,4.774972 52.673343,4.770763 52.678264,4.801895 52.683364,4.805855 52.68581,4.811935 52.684581,4.824627 52.686619)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Broek_op_Langedijk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Broek_op_Langedijk"/>
+            </rdf:Description>
+</rdf:RDF>

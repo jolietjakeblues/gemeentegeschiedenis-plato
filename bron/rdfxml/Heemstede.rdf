@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heemstede">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heemstede</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heemstede</skos:prefLabel>
+        <gg:name xml:lang="nl">Heemstede</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11288"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0397"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bennebroek"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Berkenrode"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Berkenrode"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heemstede                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.608524 52.320592,4.608661 52.312773,4.600976 52.316138,4.583377 52.316109,4.58818 52.326298,4.594256 52.339282,4.599487 52.350462,4.604438 52.361011,4.613302 52.374641,4.616097 52.374389,4.618159 52.374043,4.616912 52.369721,4.623544 52.368326,4.640145 52.367803,4.636769 52.359063,4.634513 52.353566,4.640349 52.346952,4.636981 52.337853,4.614677 52.32944,4.610913 52.32654,4.610539 52.322762,4.608524 52.320592)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Heemstede                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.616097 52.374389,4.618159 52.374043,4.616912 52.369721,4.623544 52.368326,4.640145 52.367803,4.636769 52.359063,4.634513 52.353566,4.640349 52.346952,4.636981 52.337853,4.614677 52.32944,4.610913 52.32654,4.610539 52.322762,4.608524 52.320592,4.597577 52.325822,4.58818 52.326298,4.594256 52.339282,4.605733 52.337471,4.60881 52.337761,4.612288 52.348659,4.599487 52.350462,4.604438 52.361011,4.613302 52.374641,4.616097 52.374389)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Heemstede                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.610539 52.322762,4.608524 52.320592,4.597577 52.325822,4.58818 52.326298,4.594256 52.339282,4.599487 52.350462,4.604438 52.361011,4.613302 52.374641,4.616097 52.374389,4.618159 52.374043,4.616912 52.369721,4.623544 52.368326,4.640145 52.367803,4.636769 52.359063,4.634513 52.353566,4.640349 52.346952,4.636981 52.337853,4.614677 52.32944,4.610913 52.32654,4.610539 52.322762)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1928</gg:year>
+                            <gg:name xml:lang="nl">Heemstede                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.625009 52.359977,4.627965 52.358827,4.636769 52.359063,4.634513 52.353566,4.640349 52.346952,4.636981 52.337853,4.614677 52.32944,4.610913 52.32654,4.610539 52.322762,4.608524 52.320592,4.597577 52.325822,4.58818 52.326298,4.604438 52.361011,4.625009 52.359977)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2754691"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heemstede_(Noord-Holland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heemstede_(Noord-Holland)"/>
+            </rdf:Description>
+</rdf:RDF>

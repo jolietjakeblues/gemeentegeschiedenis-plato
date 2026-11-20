@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Eethen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Eethen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Eethen</skos:prefLabel>
+        <gg:name xml:lang="nl">Eethen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10010"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0771"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Drongelen"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Meeuwen"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Genderen"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Aalburg"/>
+
+        
+                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1924</gg:year>
+                            <gg:name xml:lang="nl">Eethen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.126941 51.73037,5.134051 51.72733,5.11914 51.727836,5.120039 51.722535,5.110769 51.723862,5.106004 51.722143,5.096876 51.723738,5.092424 51.718424,5.085461 51.720923,5.077787 51.721442,5.093236 51.726965,5.108544 51.732575,5.130664 51.73748,5.141515 51.738761,5.136773 51.732459,5.126941 51.73037)),((5.052627 51.757597,5.054 51.748253,5.06095 51.748272,5.067756 51.748291,5.069758 51.751982,5.08121 51.750304,5.081369 51.748237,5.096186 51.740994,5.104553 51.745869,5.110948 51.741929,5.123406 51.740879,5.109535 51.736173,5.104278 51.734669,5.091473 51.731005,5.075456 51.723683,5.060458 51.716182,5.053094 51.714004,5.036461 51.713056,5.016492 51.713265,4.987356 51.719101,4.994414 51.7229,4.987692 51.730248,5.002442 51.731916,5.002657 51.740725,4.995133 51.740161,4.993632 51.746268,4.980317 51.745503,4.971573 51.751585,4.974417 51.757348,4.989628 51.756951,4.996159 51.755445,5.016441 51.754702,5.020788 51.754535,5.025134 51.754369,5.040624 51.755225,5.052627 51.757597)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1923-05-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1973-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Eethen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Eethen"/>
+            </rdf:Description>
+</rdf:RDF>

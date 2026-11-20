@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ee">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ee</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ee</skos:prefLabel>
+        <gg:name xml:lang="nl">Ee</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11156"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oostdongeradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ee                                 </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.022482 53.34513,6.026907 53.340453,6.037655 53.336209,6.048593 53.344523,6.053318 53.341642,6.058753 53.343515,6.065365 53.339291,6.078483 53.344355,6.080119 53.3472,6.096797 53.35521,6.097735 53.35471,6.103488 53.356388,6.107583 53.354539,6.111157 53.358436,6.11556 53.357746,6.115841 53.353269,6.12512 53.356448,6.139604 53.353978,6.149947 53.344389,6.175646 53.337484,6.191244 53.336661,6.188715 53.329849,6.179313 53.332787,6.174885 53.328683,6.179039 53.317873,6.177641 53.315276,6.157766 53.311452,6.15192 53.303312,6.134841 53.295871,6.131149 53.299219,6.135868 53.303233,6.134157 53.308366,6.12336 53.308612,6.121376 53.315453,6.115546 53.316747,6.105921 53.315457,6.10281 53.317902,6.091557 53.317968,6.086957 53.32114,6.07702 53.319131,6.022718 53.320418,6.01381 53.327025,5.990563 53.328222,5.983095 53.330865,5.985083 53.333461,5.991141 53.337294,5.988513 53.342609,6.007935 53.346374,6.010282 53.342498,6.015079 53.342024,6.022482 53.34513)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ee_(Dongeradeel)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ee_(Dongeradeel)"/>
+            </rdf:Description>
+</rdf:RDF>

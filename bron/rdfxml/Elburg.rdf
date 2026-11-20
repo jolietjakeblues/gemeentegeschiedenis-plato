@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Elburg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Elburg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Elburg</skos:prefLabel>
+        <gg:name xml:lang="nl">Elburg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11113"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0230"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Doornspijk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Elburg                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.839574 52.468158,5.864624 52.457634,5.86047 52.454415,5.862725 52.445149,5.850333 52.441693,5.850758 52.440074,5.841607 52.436873,5.843758 52.431563,5.84431 52.428145,5.822067 52.423825,5.816874 52.43409,5.810712 52.43555,5.818571 52.442262,5.824394 52.451049,5.827673 52.455351,5.839574 52.468158)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1956</gg:year>
+                            <gg:name xml:lang="nl">Elburg                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.864624 52.457634,5.86047 52.454415,5.862725 52.445149,5.850333 52.441693,5.850758 52.440074,5.841607 52.436873,5.843758 52.431563,5.84431 52.428145,5.822067 52.423825,5.816874 52.43409,5.810712 52.43555,5.818571 52.442262,5.824394 52.451049,5.818825 52.453226,5.821361 52.456812,5.827673 52.455351,5.839574 52.468158,5.864624 52.457634)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</gg:year>
+                            <gg:name xml:lang="nl">Elburg                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.868148 52.456991,5.876613 52.450755,5.868869 52.442068,5.893774 52.420754,5.915699 52.410232,5.904776 52.406146,5.922219 52.39025,5.91232 52.385531,5.872919 52.355501,5.868721 52.360911,5.863849 52.358414,5.819375 52.389053,5.819575 52.394445,5.815371 52.400302,5.810946 52.39852,5.808755 52.399966,5.789755 52.394909,5.785961 52.397798,5.776232 52.394146,5.764061 52.396881,5.75472 52.40437,5.810712 52.43555,5.818571 52.442262,5.824394 52.451049,5.818825 52.453226,5.821361 52.456812,5.827673 52.455351,5.839574 52.468158,5.868148 52.456991)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2756231"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Elburg"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Elburg"/>
+            </rdf:Description>
+</rdf:RDF>

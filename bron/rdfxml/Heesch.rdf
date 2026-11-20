@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heesch">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heesch</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heesch</skos:prefLabel>
+        <gg:name xml:lang="nl">Heesch</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10149"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0791"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heeswijk-Dinther"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nistelrode"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bernheze"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heesch                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.562929 51.730347,5.527988 51.712597,5.518116 51.701014,5.520711 51.698314,5.512269 51.679358,5.495225 51.686476,5.49972 51.691056,5.476016 51.698626,5.479063 51.703028,5.463585 51.703579,5.463591 51.707084,5.479519 51.713994,5.467533 51.727216,5.500714 51.7413,5.503183 51.744623,5.51666 51.748295,5.540988 51.748535,5.545026 51.743676,5.549224 51.7434,5.562929 51.730347)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</gg:year>
+                            <gg:name xml:lang="nl">Heesch                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.520711 51.698314,5.512269 51.679358,5.495225 51.686476,5.49972 51.691056,5.474426 51.698987,5.477616 51.703119,5.491512 51.706613,5.491233 51.711108,5.480096 51.712915,5.475634 51.725053,5.477227 51.725501,5.472749 51.729999,5.493903 51.73897,5.506806 51.745609,5.51666 51.748295,5.540988 51.748535,5.545026 51.743676,5.549224 51.7434,5.562929 51.730347,5.527988 51.712597,5.518116 51.701014,5.520711 51.698314)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</gg:year>
+                            <gg:name xml:lang="nl">Heesch                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.559035 51.734308,5.567426 51.732947,5.576694 51.733652,5.583325 51.727349,5.597423 51.708628,5.593949 51.708275,5.596099 51.703867,5.596937 51.697573,5.58894 51.688149,5.571265 51.680269,5.560363 51.665274,5.560354 51.662937,5.566413 51.660142,5.569283 51.655014,5.565667 51.65421,5.567248 51.651871,5.563485 51.650349,5.559723 51.649006,5.540048 51.642022,5.539612 51.641124,5.540912 51.640943,5.537714 51.635194,5.536559 51.635375,5.530352 51.636731,5.527453 51.633319,5.524129 51.632874,5.520947 51.631349,5.502616 51.636133,5.497857 51.639283,5.49265 51.636592,5.48313 51.642892,5.476626 51.641639,5.472301 51.646406,5.46912 51.64497,5.464788 51.645962,5.437055 51.652538,5.427236 51.660452,5.430275 51.665395,5.439528 51.667368,5.443285 51.666288,5.457785 51.695403,5.45952 51.694952,5.460094 51.692255,5.470362 51.691799,5.469643 51.694227,5.471813 51.694045,5.475446 51.702941,5.484127 51.703564,5.491512 51.706613,5.500195 51.707504,5.498905 51.712719,5.483278 51.712553,5.482703 51.714261,5.47952 51.714623,5.475634 51.725053,5.477227 51.725501,5.472749 51.729999,5.493903 51.73897,5.503029 51.741028,5.522728 51.743524,5.531993 51.742973,5.538936 51.741077,5.552237 51.735756,5.559035 51.734308)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-01-28</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heesch"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heesch"/>
+            </rdf:Description>
+</rdf:RDF>

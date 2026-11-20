@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Otterlo">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Otterlo</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Otterlo</skos:prefLabel>
+        <gg:name xml:lang="nl">Otterlo</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11389"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ede"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Otterlo                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.772392 52.019721,5.769088 52.034212,5.765176 52.045762,5.74367 52.058705,5.728448 52.070907,5.720714 52.071034,5.72627 52.075954,5.728461 52.080579,5.741507 52.079679,5.721945 52.105262,5.725496 52.106517,5.708702 52.112192,5.70663 52.116075,5.708412 52.120594,5.699684 52.123417,5.69937 52.128588,5.691996 52.125161,5.684116 52.1308,5.686779 52.135917,5.710286 52.134596,5.720234 52.136726,5.720738 52.145533,5.765163 52.147016,5.773669 52.150674,5.809024 52.150283,5.846436 52.150952,5.85926 52.147756,5.864712 52.124814,5.884346 52.10451,5.902567 52.102364,5.909539 52.099457,5.950241 52.098101,5.944421 52.076108,5.954556 52.070127,5.944247 52.062177,5.940498 52.053835,5.928233 52.052274,5.922623 52.046458,5.905273 52.046176,5.898877 52.047822,5.881679 52.048165,5.853429 52.051156,5.843207 52.049489,5.834409 52.044399,5.812484 52.022639,5.807586 52.013129,5.772392 52.019721)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Otterlo"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Otterlo"/>
+            </rdf:Description>
+</rdf:RDF>

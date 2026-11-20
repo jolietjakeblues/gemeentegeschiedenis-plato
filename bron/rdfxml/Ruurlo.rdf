@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ruurlo">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ruurlo</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ruurlo</skos:prefLabel>
+        <gg:name xml:lang="nl">Ruurlo</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10879"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0278"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Berkelland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ruurlo                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.423639 52.095967,6.432941 52.100558,6.442938 52.103615,6.456422 52.105921,6.461925 52.104073,6.470398 52.104355,6.478615 52.100144,6.490755 52.095267,6.496246 52.093058,6.50162 52.086176,6.511992 52.080864,6.530914 52.061985,6.522948 52.035455,6.522729 52.021075,6.521601 52.016771,6.500275 52.014548,6.480619 52.003047,6.462396 52.014451,6.46308 52.018669,6.439158 52.02365,6.431741 52.036749,6.427763 52.041189,6.425667 52.045073,6.420414 52.044849,6.416116 52.048123,6.409943 52.065075,6.407527 52.074265,6.401504 52.078811,6.401943 52.085279,6.407391 52.087479,6.419404 52.089532,6.423639 52.095967)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ruurlo"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ruurlo"/>
+            </rdf:Description>
+</rdf:RDF>

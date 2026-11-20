@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Nieuwland_Walcheren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Nieuwland [Walcheren]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Nieuwland [Walcheren]</skos:prefLabel>
+        <gg:name xml:lang="nl">Nieuwland [Walcheren]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11340"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nieuw-_en_Sint_Joosland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Nieuwland [Walcheren]              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.679871 51.493734,3.678841 51.491581,3.676221 51.489374,3.674885 51.487266,3.675132 51.484137,3.671959 51.482965,3.670872 51.481102,3.664004 51.478992,3.65999 51.476282,3.658092 51.475451,3.656109 51.476867,3.653972 51.478924,3.6489 51.480375,3.64539 51.482329,3.644846 51.490699,3.65331 51.49532,3.667178 51.498043,3.67889 51.496866,3.679871 51.493734)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1816</gg:year>
+                            <gg:name xml:lang="nl">Nieuw- en Sint Joosland            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.644846 51.490699,3.65331 51.49532,3.667178 51.498043,3.67889 51.496866,3.679871 51.493734,3.689767 51.494867,3.695407 51.482632,3.700691 51.479922,3.699154 51.474775,3.693265 51.470554,3.686162 51.464158,3.686444 51.460476,3.680499 51.461648,3.657655 51.456816,3.652789 51.452338,3.655007 51.450753,3.649146 51.449767,3.647269 51.453695,3.654556 51.458838,3.645546 51.479921,3.644846 51.490699)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Nieuw-_en_Sint_Joosland"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Nieuw-_en_Sint_Joosland"/>
+            </rdf:Description>
+</rdf:RDF>

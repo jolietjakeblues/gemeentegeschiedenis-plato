@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Noordeloos">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Noordeloos</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Noordeloos</skos:prefLabel>
+        <gg:name xml:lang="nl">Noordeloos</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10296"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0574"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nederslingeland"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Peursum"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Giessenlanden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Noordeloos                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.968287 51.887209,4.955987 51.882311,4.936779 51.885924,4.928382 51.883285,4.918039 51.872278,4.916466 51.869935,4.894586 51.865801,4.893756 51.862022,4.878855 51.857464,4.870223 51.875943,4.878028 51.879213,4.890796 51.880346,4.893988 51.880629,4.891316 51.885831,4.908591 51.886801,4.924995 51.901878,4.91785 51.918208,4.932454 51.925816,4.934607 51.928611,4.937647 51.929881,4.946223 51.930183,4.957165 51.911078,4.970995 51.908521,4.972558 51.896662,4.968287 51.887209)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Noordeloos                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.946223 51.930183,4.957165 51.911078,4.970995 51.908521,4.972558 51.896662,4.968287 51.887209,4.955987 51.882311,4.936779 51.885924,4.928382 51.883285,4.918039 51.872278,4.908591 51.886801,4.924995 51.901878,4.91785 51.918208,4.932454 51.925816,4.934607 51.928611,4.937647 51.929881,4.946223 51.930183)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Noordeloos"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Noordeloos"/>
+            </rdf:Description>
+</rdf:RDF>

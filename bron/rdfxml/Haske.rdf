@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Haske">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Haske</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Haske</skos:prefLabel>
+        <gg:name xml:lang="nl">Haske</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10687"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Haskerland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Haske                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.814626 52.940946,5.821776 52.952235,5.821 52.952702,5.832326 52.972214,5.842669 52.985189,5.834897 52.988501,5.837781 52.992916,5.841797 52.992329,5.847292 52.997447,5.837597 52.997912,5.830281 52.999796,5.824906 53.006978,5.81918 53.015536,5.825176 53.019019,5.819844 53.022363,5.833016 53.027886,5.836131 53.026437,5.853205 53.034189,5.85405 53.029513,5.876548 53.028704,5.876805 53.025019,5.864298 53.026148,5.864981 53.020574,5.894587 53.016228,5.894255 53.013264,5.883379 53.013399,5.887824 53.011224,5.889081 53.00394,5.884457 53.00342,5.8879 52.991903,5.879945 52.986455,5.901981 52.96111,5.899735 52.959952,5.906332 52.951566,5.904388 52.950675,5.899325 52.950338,5.8938 52.948654,5.868599 52.943456,5.858285 52.938914,5.850984 52.937775,5.841598 52.936283,5.837572 52.93531,5.830259 52.932911,5.814626 52.940946)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource=""/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+            </rdf:Description>
+</rdf:RDF>

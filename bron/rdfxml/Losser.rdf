@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Losser">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Losser</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Losser</skos:prefLabel>
+        <gg:name xml:lang="nl">Losser</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11166"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0168"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Losser                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.970711 52.377361,7.010384 52.361722,7.071075 52.370762,7.073948 52.349776,7.04912 52.321811,7.049192 52.315877,7.028949 52.292069,7.028038 52.287227,7.029108 52.27256,7.043149 52.256093,7.066855 52.239937,7.066951 52.238587,7.061615 52.232999,7.055189 52.229495,7.034175 52.223407,7.020815 52.222334,7.010491 52.224185,7.001319 52.225569,6.993548 52.225225,6.988402 52.224576,6.981787 52.219722,6.967562 52.227194,6.965753 52.23396,6.969654 52.236605,6.974476 52.244541,6.974913 52.24858,6.971435 52.253751,6.971546 52.265076,6.939179 52.282225,6.926054 52.282113,6.918361 52.282047,6.919732 52.283558,6.903575 52.291957,6.88444 52.301898,6.895347 52.316502,6.906826 52.317613,6.929739 52.33116,6.939712 52.331029,6.952312 52.330503,6.955427 52.331451,6.954412 52.335959,6.963819 52.344643,6.972978 52.346319,6.963934 52.360283,6.970711 52.377361),(6.939229 52.296248,6.944399 52.297348,6.949811 52.301142,6.953101 52.307121,6.950742 52.310928,6.952615 52.314139,6.951394 52.316942,6.946119 52.317102,6.946644 52.319522,6.936521 52.319475,6.927346 52.317168,6.928675 52.30897,6.925378 52.306946,6.925463 52.305147,6.930144 52.300591,6.939229 52.296248)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1956</gg:year>
+                            <gg:name xml:lang="nl">Losser                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.970711 52.377361,7.010384 52.361722,7.071075 52.370762,7.073948 52.349776,7.04912 52.321811,7.049192 52.315877,7.028949 52.292069,7.028038 52.287227,7.029108 52.27256,7.043149 52.256093,7.066855 52.239937,7.066951 52.238587,7.061615 52.232999,7.055189 52.229495,7.034175 52.223407,7.020815 52.222334,7.010491 52.224185,7.001319 52.225569,6.993548 52.225225,6.988402 52.224576,6.981787 52.219722,6.967562 52.227194,6.965753 52.23396,6.969654 52.236605,6.974476 52.244541,6.974913 52.24858,6.971435 52.253751,6.971546 52.265076,6.939179 52.282225,6.940589 52.284813,6.937117 52.290342,6.939229 52.296248,6.944399 52.297348,6.949811 52.301142,6.953101 52.307121,6.950742 52.310928,6.952615 52.314139,6.951394 52.316942,6.946119 52.317102,6.946644 52.319522,6.936521 52.319475,6.939712 52.331029,6.952312 52.330503,6.955427 52.331451,6.954412 52.335959,6.963819 52.344643,6.972978 52.346319,6.963934 52.360283,6.970711 52.377361)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2751423"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Losser_(Overijssel)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Losser_(Overijssel)"/>
+            </rdf:Description>
+</rdf:RDF>

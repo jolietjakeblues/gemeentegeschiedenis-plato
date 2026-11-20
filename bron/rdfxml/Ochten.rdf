@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ochten">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ochten</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ochten</skos:prefLabel>
+        <gg:name xml:lang="nl">Ochten</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10832"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/IJzendoorn"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Echteld"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ochten                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.487656 51.924135,5.486482 51.919013,5.494477 51.919276,5.49943 51.923495,5.506115 51.92268,5.512654 51.921864,5.547247 51.920654,5.550724 51.917323,5.554651 51.918037,5.568169 51.918107,5.570943 51.921068,5.600026 51.923176,5.60118 51.921467,5.616016 51.923056,5.619125 51.905883,5.622009 51.901563,5.567968 51.904175,5.556049 51.903474,5.544274 51.901782,5.536132 51.900355,5.516209 51.894176,5.510686 51.893373,5.503128 51.892123,5.480467 51.892413,5.46216 51.890988,5.446176 51.887491,5.448217 51.892524,5.444587 51.893784,5.446634 51.904389,5.440822 51.904392,5.44055 51.919942,5.458141 51.92155,5.463232 51.923435,5.478636 51.920907,5.487656 51.924135)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Echteld                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.600026 51.923176,5.60118 51.921467,5.616016 51.923056,5.619125 51.905883,5.622009 51.901563,5.567968 51.904175,5.556049 51.903474,5.544274 51.901782,5.536132 51.900355,5.536832 51.903089,5.538341 51.908981,5.550724 51.917323,5.554651 51.918037,5.568169 51.918107,5.570943 51.921068,5.600026 51.923176)),((5.487656 51.924135,5.486482 51.919013,5.494477 51.919276,5.49943 51.923495,5.506115 51.92268,5.503472 51.912616,5.504948 51.90868,5.510686 51.893373,5.503128 51.892123,5.480467 51.892413,5.46216 51.890988,5.446176 51.887491,5.448217 51.892524,5.444587 51.893784,5.446634 51.904389,5.440822 51.904392,5.44055 51.919942,5.458141 51.92155,5.463232 51.923435,5.478636 51.920907,5.487656 51.924135)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Echteld"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ochten"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Echteld"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ochten"/>
+            </rdf:Description>
+</rdf:RDF>

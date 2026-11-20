@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Mijnsheerenland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Mijnsheerenland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Mijnsheerenland</skos:prefLabel>
+        <gg:name xml:lang="nl">Mijnsheerenland</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11112"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0564"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Westmaas"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Binnenmaas"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Mijnsheerenland                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.47081 51.814179,4.495826 51.810597,4.504497 51.812101,4.523535 51.809995,4.538618 51.809925,4.550327 51.804077,4.541179 51.79709,4.535096 51.796776,4.522568 51.79992,4.517363 51.799163,4.510863 51.790485,4.51436 51.789522,4.514701 51.786918,4.504832 51.787564,4.50102 51.782411,4.484215 51.782103,4.48546 51.777798,4.479971 51.776947,4.473893 51.77654,4.465437 51.786182,4.459183 51.787211,4.440858 51.78329,4.432522 51.779986,4.421856 51.784034,4.422006 51.790597,4.426345 51.797823,4.429423 51.823557,4.445723 51.820992,4.457719 51.816054,4.47081 51.814179)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Mijnsheerenland                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.429423 51.823557,4.445723 51.820992,4.457719 51.816054,4.47081 51.814179,4.495826 51.810597,4.504497 51.812101,4.523535 51.809995,4.538618 51.809925,4.550327 51.804077,4.541179 51.79709,4.535096 51.796776,4.522568 51.79992,4.517363 51.799163,4.510863 51.790485,4.492246 51.793671,4.484028 51.79145,4.461841 51.791906,4.455971 51.795366,4.426345 51.797823,4.429423 51.823557)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Mijnsheerenland"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Mijnsheerenland"/>
+            </rdf:Description>
+</rdf:RDF>

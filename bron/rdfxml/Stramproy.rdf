@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Stramproy">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Stramproy</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Stramproy</skos:prefLabel>
+        <gg:name xml:lang="nl">Stramproy</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11186"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0973"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Weert"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Stramproy                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.748253 51.209745,5.753377 51.206314,5.750741 51.198681,5.746426 51.195728,5.743949 51.189983,5.738341 51.186225,5.70956 51.16583,5.705349 51.143702,5.691589 51.142181,5.658384 51.18581,5.654393 51.188156,5.651995 51.194004,5.653299 51.196788,5.718584 51.203362,5.729502 51.209173,5.732922 51.207275,5.744804 51.207868,5.748253 51.209745)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Stramproy                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.748253 51.209745,5.753377 51.206314,5.750741 51.198681,5.746426 51.195728,5.743949 51.189983,5.738341 51.186225,5.714012 51.184318,5.710701 51.181271,5.706284 51.183621,5.689279 51.185824,5.677108 51.183787,5.675692 51.186038,5.658384 51.18581,5.654393 51.188156,5.651995 51.194004,5.653299 51.196788,5.718584 51.203362,5.729502 51.209173,5.732922 51.207275,5.744804 51.207868,5.748253 51.209745)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Stramproy"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Stramproy"/>
+            </rdf:Description>
+</rdf:RDF>

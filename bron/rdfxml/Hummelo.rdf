@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hummelo">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hummelo</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hummelo</skos:prefLabel>
+        <gg:name xml:lang="nl">Hummelo</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11235"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ambt_Doetinchem"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hummelo_en_Keppel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hummelo                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.230472 51.975263,6.234806 51.978626,6.226514 51.982886,6.229969 51.98577,6.237514 51.983453,6.238683 51.989908,6.248171 51.993393,6.247953 51.995657,6.236986 51.997029,6.236275 52.000912,6.230008 52.001764,6.224067 52.006008,6.216102 52.00706,6.216662 52.018474,6.216498 52.030283,6.220762 52.03232,6.23393 52.027372,6.235912 52.032032,6.258779 52.023865,6.258577 52.02099,6.278467 52.002774,6.287566 51.99902,6.285734 51.994809,6.291072 51.992341,6.299814 51.985442,6.303783 51.980198,6.317665 51.975774,6.349196 51.973274,6.369452 51.974454,6.366553 51.968366,6.387469 51.966572,6.389041 51.971772,6.382893 51.976768,6.401313 51.980296,6.414205 51.971196,6.39627 51.950227,6.380266 51.93697,6.380873 51.931572,6.36325 51.92354,6.347827 51.922948,6.331313 51.925778,6.320299 51.934495,6.306714 51.938557,6.302288 51.942637,6.303273 51.948112,6.296374 51.952211,6.304145 51.955207,6.304119 51.96105,6.301012 51.965658,6.289974 51.966732,6.279307 51.971847,6.274848 51.967117,6.268737 51.967163,6.270375 51.961667,6.272254 51.961024,6.275922 51.955244,6.272513 51.944663,6.265706 51.946152,6.262205 51.945639,6.230472 51.975263)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Hummelo en Keppel                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.258779 52.023865,6.258577 52.02099,6.278467 52.002774,6.287566 51.99902,6.285734 51.994809,6.291072 51.992341,6.277495 51.983186,6.261488 51.983486,6.254846 51.986322,6.248671 51.983131,6.256017 51.979122,6.249818 51.974674,6.24286 51.976163,6.233284 51.98549,6.223042 51.982687,6.232137 51.978667,6.230472 51.975263,6.21597 51.978153,6.160538 51.979519,6.164013 51.986867,6.159942 51.995613,6.164469 51.996392,6.163785 51.998913,6.157685 51.999852,6.15976 52.001996,6.154975 52.003196,6.1558 52.008853,6.159875 52.017096,6.152031 52.018405,6.152253 52.022898,6.162079 52.026609,6.164352 52.031628,6.164004 52.036753,6.175527 52.037306,6.184447 52.038954,6.216498 52.030283,6.220762 52.03232,6.23393 52.027372,6.235912 52.032032,6.258779 52.023865)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hummelo"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hummelo_en_Keppel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hummelo"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hummelo_en_Keppel"/>
+            </rdf:Description>
+</rdf:RDF>

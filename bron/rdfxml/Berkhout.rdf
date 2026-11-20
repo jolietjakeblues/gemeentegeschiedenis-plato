@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Berkhout">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Berkhout</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Berkhout</skos:prefLabel>
+        <gg:name xml:lang="nl">Berkhout</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10354"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0374"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wester-Koggenland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Berkhout                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.026492 52.669608,5.03621 52.655977,5.035394 52.647167,5.036816 52.635578,5.028254 52.634833,5.016802 52.62653,5.013217 52.631282,4.999192 52.630518,4.969519 52.62889,4.954446 52.629645,4.941146 52.630315,4.920384 52.652164,4.923536 52.661522,4.921748 52.662953,4.934866 52.666509,4.945155 52.65765,4.953964 52.663614,4.952309 52.666574,4.957047 52.665782,4.958486 52.669832,4.966172 52.669949,4.966284 52.673724,4.967301 52.675615,4.970833 52.677335,4.975286 52.675553,4.97854 52.675384,4.985508 52.673341,5.003552 52.672502,5.004472 52.66882,5.01826 52.664011,5.026492 52.669608)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</gg:year>
+                            <gg:name xml:lang="nl">Berkhout                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.004472 52.66882,5.01826 52.664011,5.026492 52.669608,5.029432 52.671594,5.033793 52.66244,5.037686 52.656161,5.04068 52.651407,5.037619 52.646095,5.029238 52.640948,5.018929 52.637142,5.013217 52.631282,4.999192 52.630518,4.969519 52.62889,4.954446 52.629645,4.941146 52.630315,4.920384 52.652164,4.923536 52.661522,4.921748 52.662953,4.934866 52.666509,4.945155 52.65765,4.953964 52.663614,4.952309 52.666574,4.957047 52.665782,4.958486 52.669832,4.966172 52.669949,4.966284 52.673724,4.967301 52.675615,4.970833 52.677335,4.975286 52.675553,4.97854 52.675384,4.985508 52.673341,5.003552 52.672502,5.004472 52.66882)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</gg:year>
+                            <gg:name xml:lang="nl">Wester-Koggenland                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.003552 52.672502,5.004472 52.66882,5.01826 52.664011,5.02433 52.662861,5.033793 52.66244,5.04068 52.651407,5.037619 52.646095,5.029238 52.640948,5.018929 52.637142,5.013217 52.631282,5.016802 52.62653,5.016582 52.617542,5.016946 52.609365,5.007201 52.609604,5.00741 52.602415,5.003918 52.596652,4.94728 52.592951,4.951049 52.599795,4.959736 52.602073,4.95226 52.611752,4.933282 52.605211,4.925444 52.606528,4.921857 52.610738,4.884779 52.612565,4.888356 52.622645,4.884567 52.631077,4.87348 52.631929,4.87532 52.638767,4.895354 52.643974,4.899225 52.641294,4.921099 52.640483,4.933746 52.646104,4.918217 52.661412,4.935751 52.666782,4.941315 52.672015,4.932713 52.674589,4.933001 52.675399,4.949585 52.672945,4.951385 52.670345,4.962012 52.672091,4.962869 52.67524,4.970833 52.677335,4.975286 52.675553,4.97854 52.675384,4.985508 52.673341,5.003552 52.672502)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1979-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Berkhout"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Berkhout"/>
+            </rdf:Description>
+</rdf:RDF>

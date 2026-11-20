@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bozum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bozum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bozum</skos:prefLabel>
+        <gg:name xml:lang="nl">Bozum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10422"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Baarderadeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bozum                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.657661 53.165074,5.654119 53.160719,5.663517 53.159406,5.6565 53.154576,5.665367 53.154556,5.663998 53.150683,5.670162 53.148246,5.674746 53.150819,5.680899 53.146928,5.678189 53.143381,5.686481 53.138354,5.697254 53.142364,5.698848 53.139937,5.699611 53.133959,5.694772 53.133325,5.696886 53.128475,5.690396 53.12203,5.697914 53.122011,5.695697 53.112326,5.701036 53.108274,5.706422 53.110683,5.710415 53.106149,5.718705 53.10225,5.713046 53.099197,5.721421 53.093453,5.711692 53.088304,5.699354 53.074498,5.67976 53.067538,5.676663 53.072848,5.681161 53.076072,5.680579 53.07832,5.675207 53.078243,5.677462 53.080753,5.672283 53.087505,5.674085 53.089118,5.666077 53.097225,5.669678 53.100002,5.662395 53.105141,5.65702 53.105243,5.657344 53.109286,5.638726 53.117683,5.641277 53.119655,5.627706 53.123547,5.61661 53.143787,5.610184 53.143889,5.604407 53.154053,5.609935 53.153594,5.614446 53.158527,5.626388 53.155269,5.629095 53.158229,5.634019 53.156602,5.64289 53.16512,5.650501 53.162767,5.657661 53.165074)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                                                                <gg:resourceGeonames rdf:resource="http://sws.geonames.org/6544300"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Baarderadeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bozum"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Littenseradeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Littenseradeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Baarderadeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bozum"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Littenseradeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Littenseradeel"/>
+            </rdf:Description>
+</rdf:RDF>

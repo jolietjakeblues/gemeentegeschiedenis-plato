@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zeist">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zeist</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zeist</skos:prefLabel>
+        <gg:name xml:lang="nl">Zeist</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10324"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0355"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zeist                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.223368 52.162968,5.235048 52.166399,5.23533 52.169545,5.237826 52.166313,5.242641 52.168656,5.256611 52.14027,5.253118 52.135862,5.263961 52.123381,5.27053 52.124196,5.279468 52.111442,5.294066 52.111454,5.302247 52.108584,5.308525 52.10769,5.317878 52.100955,5.296144 52.094648,5.313956 52.089717,5.32987 52.082176,5.329876 52.077322,5.319824 52.068779,5.287555 52.085653,5.257119 52.06594,5.256839 52.062075,5.252756 52.06198,5.248977 52.057931,5.250598 52.052181,5.245787 52.052175,5.241399 52.056664,5.218072 52.056273,5.217909 52.060677,5.22315 52.063201,5.200645 52.074492,5.190571 52.076813,5.179344 52.075715,5.175544 52.077236,5.170297 52.076418,5.164313 52.076946,5.170126 52.081451,5.17828 52.084791,5.184843 52.085432,5.190245 52.084632,5.201919 52.083842,5.207005 52.088883,5.205244 52.091487,5.20858 52.096525,5.206234 52.099218,5.218334 52.102652,5.215084 52.112803,5.22836 52.115429,5.223368 52.162968)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</gg:year>
+                            <gg:name xml:lang="nl">Zeist                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.23533 52.169545,5.237826 52.166313,5.242641 52.168656,5.256611 52.14027,5.253118 52.135862,5.263961 52.123381,5.27053 52.124196,5.279468 52.111442,5.294066 52.111454,5.302247 52.108584,5.308525 52.10769,5.317878 52.100955,5.296144 52.094648,5.313956 52.089717,5.32987 52.082176,5.329876 52.077322,5.319824 52.068779,5.287555 52.085653,5.257119 52.06594,5.256839 52.062075,5.252756 52.06198,5.248977 52.057931,5.220545 52.057804,5.217909 52.060677,5.22315 52.063201,5.200645 52.074492,5.190571 52.076813,5.179344 52.075715,5.175544 52.077236,5.170297 52.076418,5.164313 52.076946,5.170126 52.081451,5.17828 52.084791,5.184843 52.085432,5.190245 52.084632,5.201919 52.083842,5.207005 52.088883,5.205244 52.091487,5.20858 52.096525,5.206234 52.099218,5.218334 52.102652,5.215084 52.112803,5.22836 52.115429,5.223368 52.162968,5.235048 52.166399,5.23533 52.169545)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</gg:year>
+                            <gg:name xml:lang="nl">Zeist                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.23533 52.169545,5.237826 52.166313,5.242641 52.168656,5.256611 52.14027,5.253118 52.135862,5.263961 52.123381,5.27053 52.124196,5.279468 52.111442,5.294066 52.111454,5.302247 52.108584,5.308525 52.10769,5.317878 52.100955,5.296144 52.094648,5.313956 52.089717,5.32987 52.082176,5.329876 52.077322,5.319824 52.068779,5.287555 52.085653,5.257119 52.06594,5.256839 52.062075,5.252756 52.06198,5.248977 52.057931,5.220545 52.057804,5.217909 52.060677,5.22315 52.063201,5.200645 52.074492,5.190571 52.076813,5.190245 52.084632,5.201919 52.083842,5.207005 52.088883,5.205244 52.091487,5.20858 52.096525,5.206234 52.099218,5.218334 52.102652,5.215084 52.112803,5.22836 52.115429,5.223368 52.162968,5.235048 52.166399,5.23533 52.169545)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2743976"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zeist"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zeist"/>
+            </rdf:Description>
+</rdf:RDF>

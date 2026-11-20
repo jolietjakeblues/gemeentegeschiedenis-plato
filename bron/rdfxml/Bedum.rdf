@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bedum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bedum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bedum</skos:prefLabel>
+        <gg:name xml:lang="nl">Bedum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10425"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0005"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Het_Hogeland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bedum                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.596894 53.34225,6.60484 53.336509,6.605364 53.333808,6.596902 53.331826,6.604261 53.32663,6.608305 53.326319,6.612455 53.32448,6.617292 53.315175,6.622577 53.311077,6.637259 53.310296,6.644438 53.30438,6.654944 53.304539,6.626608 53.263408,6.634799 53.256404,6.633462 53.246443,6.568381 53.238743,6.549377 53.24504,6.547954 53.247839,6.559183 53.24755,6.558909 53.254023,6.55067 53.259675,6.557453 53.272189,6.561637 53.31025,6.56937 53.335066,6.571789 53.341152,6.575303 53.343364,6.582246 53.339252,6.596894 53.34225)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</gg:year>
+                            <gg:name xml:lang="nl">Bedum                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.575303 53.343364,6.582246 53.339252,6.596894 53.34225,6.60484 53.336509,6.605364 53.333808,6.596902 53.331826,6.604261 53.32663,6.608305 53.326319,6.612455 53.32448,6.617292 53.315175,6.622577 53.311077,6.637259 53.310296,6.644438 53.30438,6.654944 53.304539,6.626608 53.263408,6.634799 53.256404,6.633462 53.246443,6.607536 53.24617,6.606439 53.249776,6.58687 53.25186,6.588101 53.258408,6.568737 53.257252,6.566856 53.259696,6.55067 53.259675,6.557453 53.272189,6.561637 53.31025,6.56937 53.335066,6.571789 53.341152,6.575303 53.343364)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2759355"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bedum_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bedum_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

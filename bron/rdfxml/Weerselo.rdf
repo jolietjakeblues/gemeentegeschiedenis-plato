@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Weerselo">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Weerselo</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Weerselo</skos:prefLabel>
+        <gg:name xml:lang="nl">Weerselo</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10893"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0188"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Denekamp"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Weerselo                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.963934 52.360283,6.972978 52.346319,6.963819 52.344643,6.954412 52.335959,6.955427 52.331451,6.952312 52.330503,6.939712 52.331029,6.929739 52.33116,6.906826 52.317613,6.895347 52.316502,6.88444 52.301898,6.903575 52.291957,6.919732 52.283558,6.918361 52.282047,6.869715 52.269274,6.838958 52.27415,6.833703 52.27026,6.822889 52.266616,6.805864 52.266252,6.801747 52.278045,6.783899 52.284702,6.777545 52.287743,6.778074 52.295288,6.777341 52.29997,6.779878 52.301379,6.789597 52.302702,6.795615 52.3029,6.803464 52.305323,6.803521 52.311705,6.777706 52.316326,6.771057 52.31946,6.766267 52.325808,6.758882 52.32895,6.760773 52.337917,6.776644 52.343305,6.785908 52.357847,6.821252 52.361199,6.854223 52.359267,6.858081 52.356073,6.883698 52.365192,6.883937 52.365277,6.918676 52.376248,6.927869 52.382961,6.936689 52.38734,6.970711 52.377361,6.963934 52.360283)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1841</gg:year>
+                            <gg:name xml:lang="nl">Weerselo                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.963934 52.360283,6.972978 52.346319,6.963819 52.344643,6.954412 52.335959,6.955427 52.331451,6.952312 52.330503,6.939712 52.331029,6.929739 52.33116,6.906826 52.317613,6.895347 52.316502,6.88444 52.301898,6.903575 52.291957,6.919732 52.283558,6.918361 52.282047,6.869715 52.269274,6.838958 52.27415,6.833703 52.27026,6.822889 52.266616,6.818737 52.269633,6.82264 52.277046,6.818851 52.277722,6.820368 52.279321,6.803122 52.280788,6.7972 52.283555,6.783899 52.284702,6.777545 52.287743,6.778074 52.295288,6.777341 52.29997,6.779878 52.301379,6.789597 52.302702,6.795615 52.3029,6.803464 52.305323,6.803521 52.311705,6.777706 52.316326,6.771057 52.31946,6.766267 52.325808,6.758882 52.32895,6.760773 52.337917,6.776644 52.343305,6.785908 52.357847,6.821252 52.361199,6.854223 52.359267,6.858081 52.356073,6.883698 52.365192,6.883937 52.365277,6.918676 52.376248,6.927869 52.382961,6.936689 52.38734,6.970711 52.377361,6.963934 52.360283)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</gg:year>
+                            <gg:name xml:lang="nl">Weerselo                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.963934 52.360283,6.972978 52.346319,6.963819 52.344643,6.954412 52.335959,6.955427 52.331451,6.952312 52.330503,6.939712 52.331029,6.929739 52.33116,6.906826 52.317613,6.895347 52.316502,6.88444 52.301898,6.919732 52.283558,6.918361 52.282047,6.869715 52.269274,6.838958 52.27415,6.850019 52.280756,6.847727 52.286807,6.823825 52.291055,6.821385 52.297197,6.827999 52.30224,6.826052 52.3055,6.803521 52.311705,6.777706 52.316326,6.771057 52.31946,6.766267 52.325808,6.758882 52.32895,6.760773 52.337917,6.776644 52.343305,6.785908 52.357847,6.821252 52.361199,6.854223 52.359267,6.858081 52.356073,6.883698 52.365192,6.883937 52.365277,6.918676 52.376248,6.927869 52.382961,6.936689 52.38734,6.970711 52.377361,6.963934 52.360283)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</gg:year>
+                            <gg:name xml:lang="nl">Weerselo                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.963934 52.360283,6.972978 52.346319,6.963819 52.344643,6.954412 52.335959,6.955427 52.331451,6.952312 52.330503,6.939712 52.331029,6.935165 52.331089,6.932837 52.327434,6.906003 52.327871,6.895347 52.316502,6.88444 52.301898,6.891506 52.298393,6.90196 52.291068,6.917185 52.286197,6.918361 52.282047,6.869715 52.269274,6.838958 52.27415,6.850019 52.280756,6.847727 52.286807,6.823825 52.291055,6.821385 52.297197,6.827999 52.30224,6.826052 52.3055,6.803521 52.311705,6.777706 52.316326,6.771057 52.31946,6.766267 52.325808,6.758882 52.32895,6.760773 52.337917,6.776644 52.343305,6.785908 52.357847,6.821252 52.361199,6.854223 52.359267,6.858081 52.356073,6.883698 52.365192,6.883937 52.365277,6.918676 52.376248,6.927869 52.382961,6.936689 52.38734,6.970711 52.377361,6.963934 52.360283)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Weerselo"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Weerselo"/>
+            </rdf:Description>
+</rdf:RDF>

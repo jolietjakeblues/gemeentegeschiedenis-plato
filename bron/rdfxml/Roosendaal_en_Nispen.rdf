@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Roosendaal_en_Nispen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Roosendaal en Nispen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Roosendaal en Nispen</skos:prefLabel>
+        <gg:name xml:lang="nl">Roosendaal en Nispen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10407"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0838"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Roosendaal"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Roosendaal en Nispen               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.439365 51.571316,4.450556 51.567271,4.45179 51.563416,4.4805 51.562923,4.484762 51.566192,4.492268 51.56589,4.492474 51.562746,4.50174 51.560928,4.501082 51.557687,4.481711 51.560056,4.480641 51.548631,4.518967 51.54245,4.520252 51.535538,4.515679 51.525976,4.512122 51.523612,4.509459 51.519727,4.502832 51.519677,4.497969 51.517842,4.493971 51.508643,4.495113 51.50182,4.486311 51.488089,4.49052 51.486413,4.489126 51.484065,4.483255 51.482492,4.485201 51.478731,4.474542 51.479008,4.461729 51.471986,4.439604 51.47001,4.438499 51.474676,4.404067 51.509359,4.40657 51.553607,4.423434 51.553927,4.426092 51.557814,4.435434 51.559329,4.439365 51.571316)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</gg:year>
+                            <gg:name xml:lang="nl">Roosendaal                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.45179 51.563416,4.4805 51.562923,4.484762 51.566192,4.492268 51.56589,4.492474 51.562746,4.50174 51.560928,4.501082 51.557687,4.481711 51.560056,4.480641 51.548631,4.518967 51.54245,4.520252 51.535538,4.515679 51.525976,4.512122 51.523612,4.509459 51.519727,4.502832 51.519677,4.497969 51.517842,4.493971 51.508643,4.495113 51.50182,4.486311 51.488089,4.49052 51.486413,4.489126 51.484065,4.483255 51.482492,4.485201 51.478731,4.474542 51.479008,4.461729 51.471986,4.439604 51.47001,4.414994 51.463156,4.390473 51.452611,4.378146 51.457,4.364283 51.459217,4.341571 51.520862,4.326395 51.528995,4.32535 51.536716,4.317475 51.5406,4.302086 51.545132,4.303891 51.548026,4.312252 51.548103,4.312271 51.553407,4.372877 51.544959,4.40657 51.553607,4.423434 51.553927,4.426092 51.557814,4.435434 51.559329,4.439365 51.571316,4.450556 51.567271,4.45179 51.563416)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Roosendaal_en_Nispen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Roosendaal_en_Nispen"/>
+            </rdf:Description>
+</rdf:RDF>

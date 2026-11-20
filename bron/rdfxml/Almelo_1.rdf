@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Almelo_1">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Almelo [1]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Almelo [1]</skos:prefLabel>
+        <gg:name xml:lang="nl">Almelo [1]</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11053"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ambt_Almelo"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Stad_Almelo"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Almelo                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.696175 52.391592,6.707133 52.374752,6.714274 52.372874,6.713454 52.370007,6.722456 52.356872,6.721621 52.348612,6.712268 52.340178,6.691829 52.32881,6.679716 52.325977,6.640107 52.325618,6.634373 52.325565,6.619228 52.324285,6.616104 52.32847,6.608475 52.338689,6.619851 52.36257,6.631481 52.36892,6.649178 52.376732,6.664976 52.379619,6.667257 52.382291,6.671552 52.383503,6.681797 52.382223,6.687305 52.389713,6.696175 52.391592)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                    
+                                                        <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2759886"/>
+                                                                    <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Almelo"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Almelo"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Stad_Almelo"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Almelo"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Almelo"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Stad_Almelo"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Neuzen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Neuzen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Neuzen</skos:prefLabel>
+        <gg:name xml:lang="nl">Neuzen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10704"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0715"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ter_Neuzen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Terneuzen                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.799278 51.282802,3.811718 51.279554,3.820734 51.27581,3.823777 51.270637,3.81538 51.26477,3.79807 51.263906,3.786579 51.268783,3.781328 51.279589,3.781907 51.279417,3.786124 51.281812,3.799278 51.282802)),((3.801509 51.342527,3.808388 51.330394,3.811739 51.341407,3.848994 51.334803,3.853155 51.334858,3.849972 51.327084,3.856987 51.318996,3.86091 51.317519,3.862655 51.312507,3.869788 51.309364,3.869799 51.300374,3.864125 51.298502,3.860872 51.28857,3.848862 51.283288,3.851781 51.277483,3.840925 51.272125,3.833844 51.278054,3.821985 51.281131,3.81273 51.287659,3.816067 51.290671,3.814327 51.295412,3.818322 51.304367,3.825584 51.305903,3.82946 51.314226,3.82572 51.315831,3.820724 51.317974,3.812338 51.315703,3.800739 51.331638,3.794181 51.33038,3.783083 51.331756,3.782406 51.34694,3.801509 51.342527)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1877-07-15</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Terneuzen_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Terneuzen_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

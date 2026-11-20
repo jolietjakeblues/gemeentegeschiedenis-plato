@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hoogland">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hoogland</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hoogland</skos:prefLabel>
+        <gg:name xml:lang="nl">Hoogland</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10545"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0320"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Duist"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Amersfoort"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hoogland                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.312896 52.200897,5.329715 52.202704,5.327661 52.207647,5.328093 52.212141,5.336873 52.211246,5.343307 52.214754,5.356479 52.210893,5.357944 52.207568,5.369356 52.205413,5.373452 52.207122,5.387204 52.205325,5.416018 52.198221,5.436054 52.195608,5.436626 52.183474,5.437193 52.167745,5.436314 52.165948,5.421992 52.169009,5.40913 52.169641,5.403724 52.176742,5.397291 52.177732,5.385742 52.17207,5.387496 52.168474,5.375511 52.165777,5.363671 52.167394,5.362939 52.169101,5.356507 52.170717,5.34905 52.172513,5.34013 52.175026,5.337931 52.180418,5.320971 52.18059,5.323889 52.185175,5.31891 52.189666,5.308231 52.191547,5.312896 52.200897)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1858</gg:year>
+                            <gg:name xml:lang="nl">Hoogland                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.333636 52.226794,5.339639 52.224639,5.353396 52.225273,5.357934 52.224016,5.39335 52.221233,5.392472 52.218357,5.40125 52.212874,5.436054 52.195608,5.436626 52.183474,5.437193 52.167745,5.436314 52.165948,5.421992 52.169009,5.40913 52.169641,5.403724 52.176742,5.397291 52.177732,5.385742 52.17207,5.387496 52.168474,5.375511 52.165777,5.363671 52.167394,5.362939 52.169101,5.356507 52.170717,5.34905 52.172513,5.34013 52.175026,5.337931 52.180418,5.320971 52.18059,5.323889 52.185175,5.31891 52.189666,5.308231 52.191547,5.312896 52.200897,5.329715 52.202704,5.327661 52.207647,5.328093 52.212141,5.333636 52.226794)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1941</gg:year>
+                            <gg:name xml:lang="nl">Hoogland                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.333636 52.226794,5.339639 52.224639,5.353396 52.225273,5.357934 52.224016,5.39335 52.221233,5.392472 52.218357,5.40125 52.212874,5.436054 52.195608,5.436626 52.183474,5.437193 52.167745,5.436314 52.165948,5.421992 52.169009,5.399482 52.169642,5.394805 52.173418,5.375511 52.165777,5.363671 52.167394,5.362939 52.169101,5.34905 52.172513,5.34013 52.175026,5.337931 52.180418,5.320971 52.18059,5.323889 52.185175,5.31891 52.189666,5.308231 52.191547,5.312896 52.200897,5.329715 52.202704,5.327661 52.207647,5.328093 52.212141,5.333636 52.226794)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1960</gg:year>
+                            <gg:name xml:lang="nl">Hoogland                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.333636 52.226794,5.339639 52.224639,5.353396 52.225273,5.357934 52.224016,5.39335 52.221233,5.392472 52.218357,5.40125 52.212874,5.436054 52.195608,5.436626 52.183474,5.432965 52.178172,5.426677 52.177006,5.419808 52.179885,5.423312 52.173592,5.421992 52.169009,5.399482 52.169642,5.394805 52.173418,5.375511 52.165777,5.363671 52.167394,5.362939 52.169101,5.34905 52.172513,5.34013 52.175026,5.337931 52.180418,5.320971 52.18059,5.323889 52.185175,5.31891 52.189666,5.308231 52.191547,5.312896 52.200897,5.329715 52.202704,5.327661 52.207647,5.328093 52.212141,5.333636 52.226794)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hoogland_(Amersfoort)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hoogland_(Amersfoort)"/>
+            </rdf:Description>
+</rdf:RDF>

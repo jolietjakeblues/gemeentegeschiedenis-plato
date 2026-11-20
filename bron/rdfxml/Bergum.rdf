@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bergum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bergum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bergum</skos:prefLabel>
+        <gg:name xml:lang="nl">Bergum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Fr"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11241"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tietjerksteradeel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bergum                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.031751 53.201939,6.030512 53.193345,6.023556 53.192314,6.017897 53.191496,6.012436 53.190435,6.008178 53.188882,6.005213 53.186064,5.999848 53.184564,5.994736 53.18356,5.995761 53.180002,5.996791 53.176766,5.998418 53.143801,5.99751 53.143399,5.984771 53.137754,5.978216 53.139224,5.967748 53.138646,5.95927 53.141652,5.952753 53.134674,5.959525 53.127004,5.913632 53.112297,5.906893 53.1232,5.914379 53.124605,5.910096 53.128667,5.917739 53.130611,5.907552 53.14081,5.91326 53.143211,5.905088 53.1472,5.908867 53.150688,5.904242 53.151427,5.901032 53.158001,5.896396 53.157931,5.89321 53.16675,5.922335 53.166847,5.932847 53.1668,5.946269 53.170184,5.950152 53.17476,5.953075 53.179053,5.959812 53.182467,5.968454 53.185297,5.975161 53.186413,5.969607 53.199935,5.976767 53.199039,5.974498 53.223958,6.00012 53.229781,6.009631 53.235124,6.018946 53.237142,6.024801 53.227945,6.030119 53.221467,6.032896 53.215207,6.033152 53.208314,6.031751 53.201939)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                                            <gg:resourceGeonames rdf:resource="http://sws.geonames.org/6544304"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bergum_(Friesland)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Tietjerksteradeel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Tietjerksteradeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bergum_(Friesland)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Tietjerksteradeel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Tietjerksteradeel"/>
+            </rdf:Description>
+</rdf:RDF>

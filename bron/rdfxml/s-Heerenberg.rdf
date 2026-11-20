@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/s-Heerenberg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">'s-Heerenberg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">'s-Heerenberg</skos:prefLabel>
+        <gg:name xml:lang="nl">'s-Heerenberg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10350"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bergh"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">'s Heerenberg                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.20414 51.935989,6.214073 51.93237,6.208271 51.929502,6.235825 51.907818,6.244696 51.893536,6.239458 51.892766,6.240426 51.88872,6.288016 51.89208,6.291453 51.881229,6.287933 51.881462,6.287376 51.869953,6.278798 51.872975,6.269483 51.871877,6.262848 51.866713,6.232531 51.868284,6.224949 51.86654,6.208255 51.866748,6.200222 51.880197,6.189414 51.884945,6.189793 51.889887,6.169332 51.899553,6.16478 51.896796,6.154583 51.903695,6.154126 51.910979,6.16257 51.911822,6.171371 51.916438,6.183283 51.932447,6.18902 51.936183,6.190265 51.940759,6.20414 51.935989)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1821</gg:year>
+                            <gg:name xml:lang="nl">Bergh                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.275922 51.955244,6.286349 51.952827,6.294023 51.94387,6.302288 51.942637,6.306714 51.938557,6.30449 51.936507,6.298687 51.937182,6.290495 51.927537,6.289547 51.923769,6.293684 51.919872,6.309523 51.919569,6.316418 51.91556,6.315771 51.912419,6.308882 51.909597,6.307847 51.901605,6.316309 51.896235,6.328481 51.8947,6.330905 51.892523,6.325707 51.887081,6.329206 51.880761,6.327413 51.878349,6.330679 51.874817,6.326039 51.868202,6.331654 51.86591,6.328082 51.861714,6.33316 51.854662,6.32751 51.848235,6.320412 51.848921,6.305583 51.84769,6.296534 51.866727,6.278798 51.872975,6.269483 51.871877,6.262848 51.866713,6.232531 51.868284,6.224949 51.86654,6.208255 51.866748,6.200222 51.880197,6.189414 51.884945,6.189793 51.889887,6.169332 51.899553,6.16478 51.896796,6.154583 51.903695,6.154126 51.910979,6.16257 51.911822,6.171371 51.916438,6.183283 51.932447,6.18902 51.936183,6.190265 51.940759,6.20414 51.935989,6.203505 51.941027,6.228751 51.945613,6.236876 51.944566,6.244934 51.940013,6.262205 51.945639,6.265706 51.946152,6.272513 51.944663,6.275922 51.955244)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                                                    
+                                                                            <gg:resourceGeonames rdf:resource="http://sws.geonames.org/6544256"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1821-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/%27s-Heerenberg"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bergh"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Montferland_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource=""/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bergh"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Montferland_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

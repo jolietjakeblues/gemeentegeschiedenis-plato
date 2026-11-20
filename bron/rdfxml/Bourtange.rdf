@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Bourtange">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Bourtange</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Bourtange</skos:prefLabel>
+        <gg:name xml:lang="nl">Bourtange</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10332"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vlagtwedde"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Bourtange                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.066097 52.928491,7.099773 52.929264,7.1203 52.935478,7.121542 52.950778,7.118784 52.961157,7.122923 52.969522,7.134023 52.977402,7.15823 52.995428,7.156592 53.001962,7.163222 53.005103,7.197221 53.002167,7.213823 53.007217,7.220693 53.004056,7.209763 52.995684,7.185254 52.939699,7.089067 52.846283,7.090082 52.834225,7.074534 52.835165,7.073421 52.840933,7.075864 52.858066,7.063976 52.869469,7.052035 52.867929,7.04283 52.868057,7.018474 52.868123,7.015241 52.869066,7.046433 52.912048,7.025996 52.914218,7.036685 52.925576,7.066097 52.928491)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1822-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Bourtange"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Bourtange"/>
+            </rdf:Description>
+</rdf:RDF>

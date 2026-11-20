@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Barradeel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Barradeel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Barradeel</skos:prefLabel>
+        <gg:name xml:lang="nl">Barradeel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10156"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0062"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Almenum"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Minnertsga"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sexbierum"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Franekeradeel"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Barradeel                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.602959 53.253437,5.609516 53.246596,5.629526 53.235145,5.613467 53.228707,5.600579 53.226664,5.593665 53.221195,5.592252 53.221756,5.588435 53.223271,5.566395 53.215758,5.558925 53.219543,5.538239 53.212292,5.537773 53.207171,5.527904 53.210148,5.526836 53.203859,5.523541 53.203055,5.520982 53.198205,5.515443 53.197492,5.507948 53.192468,5.504062 53.19409,5.497761 53.187446,5.485788 53.18512,5.483685 53.181438,5.458558 53.182714,5.446435 53.177868,5.447462 53.163311,5.452097 53.163488,5.451493 53.159265,5.460911 53.15899,5.460751 53.15279,5.467624 53.151348,5.465374 53.146766,5.448642 53.152258,5.446243 53.146777,5.427564 53.14984,5.409028 53.14706,5.412623 53.159459,5.417405 53.156673,5.425477 53.156311,5.427573 53.160084,5.434751 53.161699,5.433271 53.175178,5.425793 53.17536,5.423105 53.180573,5.419067 53.180574,5.42895 53.192252,5.444088 53.212194,5.453378 53.218479,5.46147 53.223506,5.478562 53.234457,5.521741 53.249871,5.536164 53.261535,5.550388 53.258192,5.57377 53.259686,5.587251 53.258675,5.602959 53.253437)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1934</gg:year>
+                            <gg:name xml:lang="nl">Barradeel                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.536164 53.261535,5.550388 53.258192,5.57377 53.259686,5.587251 53.258675,5.602959 53.253437,5.609516 53.246596,5.629526 53.235145,5.613467 53.228707,5.600579 53.226664,5.593665 53.221195,5.591301 53.222133,5.588435 53.223271,5.566395 53.215758,5.558925 53.219543,5.538239 53.212292,5.537773 53.207171,5.527904 53.210148,5.526836 53.203859,5.523541 53.203055,5.520982 53.198205,5.515443 53.197492,5.507948 53.192468,5.504062 53.19409,5.497761 53.187446,5.485788 53.18512,5.483685 53.181438,5.458558 53.182714,5.446297 53.186135,5.438066 53.182814,5.437761 53.178141,5.417718 53.176531,5.42895 53.192252,5.444088 53.212194,5.453378 53.218479,5.46147 53.223506,5.478562 53.234457,5.521741 53.249871,5.536164 53.261535)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1956</gg:year>
+                            <gg:name xml:lang="nl">Barradeel                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.536164 53.261535,5.550388 53.258192,5.57377 53.259686,5.587251 53.258675,5.602959 53.253437,5.609516 53.246596,5.629526 53.235145,5.613467 53.228707,5.600579 53.226664,5.593665 53.221195,5.591301 53.222133,5.588435 53.223271,5.566395 53.215758,5.558925 53.219543,5.538239 53.212292,5.537773 53.207171,5.527904 53.210148,5.526836 53.203859,5.523541 53.203055,5.520982 53.198205,5.515443 53.197492,5.507948 53.192468,5.504062 53.19409,5.497761 53.187446,5.485788 53.18512,5.483685 53.181438,5.458558 53.182714,5.42895 53.192252,5.444088 53.212194,5.453378 53.218479,5.46147 53.223506,5.478562 53.234457,5.521741 53.249871,5.536164 53.261535)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Barradeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Barradeel"/>
+            </rdf:Description>
+</rdf:RDF>

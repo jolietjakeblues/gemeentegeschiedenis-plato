@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Beek_en_Donk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Beek en Donk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Beek en Donk</skos:prefLabel>
+        <gg:name xml:lang="nl">Beek en Donk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10173"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0746"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Laarbeek"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Beek en Donk                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.649718 51.570368,5.6601 51.545895,5.664546 51.54211,5.661871 51.528903,5.643435 51.530562,5.639663 51.526166,5.642242 51.523374,5.639331 51.518167,5.63659 51.517544,5.634297 51.519706,5.627821 51.521158,5.625649 51.519184,5.616027 51.525406,5.615925 51.533766,5.600807 51.53694,5.595461 51.534074,5.595331 51.53713,5.587256 51.536425,5.584721 51.550092,5.609686 51.554631,5.615464 51.556777,5.618191 51.554255,5.649718 51.570368)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</gg:year>
+                            <gg:name xml:lang="nl">Laarbeek                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.649718 51.570368,5.6601 51.545895,5.664546 51.54211,5.679451 51.52868,5.671078 51.526274,5.684121 51.515635,5.682491 51.508628,5.677109 51.500372,5.654972 51.507526,5.630995 51.495084,5.622512 51.497618,5.606354 51.491627,5.604202 51.493339,5.598287 51.490923,5.592975 51.494348,5.59242 51.499023,5.587955 51.498851,5.583215 51.501646,5.572549 51.499776,5.562194 51.503387,5.553585 51.512298,5.549188 51.53145,5.544029 51.539997,5.530107 51.558891,5.540204 51.559956,5.579731 51.563224,5.609139 51.560655,5.609686 51.554631,5.615464 51.556777,5.618191 51.554255,5.649718 51.570368)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Beek_en_Donk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Beek_en_Donk"/>
+            </rdf:Description>
+</rdf:RDF>

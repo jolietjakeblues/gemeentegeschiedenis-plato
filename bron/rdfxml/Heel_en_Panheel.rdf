@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heel_en_Panheel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heel en Panheel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heel en Panheel</skos:prefLabel>
+        <gg:name xml:lang="nl">Heel en Panheel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11208"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0915"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heel_1"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Pol_en_Panheel"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heel_2"/>
+
+        
+                                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1977</gg:year>
+                            <gg:name xml:lang="nl">Heel en Panheel                    </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.926496 51.179751,5.920139 51.174207,5.91355 51.173248,5.90109 51.171417,5.893673 51.173157,5.893551 51.175045,5.882094 51.173387,5.877489 51.17071,5.872209 51.17172,5.868695 51.177488,5.861098 51.175721,5.857111 51.177446,5.857713 51.18032,5.852712 51.180789,5.851446 51.182862,5.871856 51.192396,5.868605 51.196185,5.873257 51.203087,5.872444 51.207405,5.8788 51.213042,5.892596 51.218196,5.894561 51.214682,5.892515 51.210826,5.897029 51.204873,5.892569 51.202735,5.898996 51.188864,5.901709 51.188403,5.902076 51.182918,5.909217 51.181987,5.926496 51.179751)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</gg:year>
+                            <gg:name xml:lang="nl">Heel                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.881387 51.160895,5.878292 51.152189,5.875276 51.150853,5.870725 51.15294,5.865158 51.153682,5.861865 51.153156,5.859893 51.155951,5.86683 51.163203,5.867305 51.167606,5.870055 51.170831,5.861098 51.175721,5.852712 51.180789,5.851446 51.182862,5.871856 51.192396,5.868605 51.196185,5.873257 51.203087,5.872444 51.207405,5.8788 51.213042,5.892596 51.218196,5.894561 51.214682,5.897681 51.212061,5.918278 51.21107,5.930923 51.203371,5.93964 51.202431,5.949363 51.201845,5.94461 51.199261,5.933948 51.19302,5.929031 51.188548,5.925252 51.183442,5.923212 51.180216,5.918848 51.173853,5.917103 51.171345,5.891461 51.167054,5.886146 51.16474,5.881387 51.160895)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1821-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heel_en_Panheel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heel_en_Panheel"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ouderkerk_aan_den_IJssel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ouderkerk aan den IJssel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ouderkerk aan den IJssel</skos:prefLabel>
+        <gg:name xml:lang="nl">Ouderkerk aan den IJssel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10095"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0587"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Krimpen_aan_den_IJssel"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Stormpolder"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Ouderkerk"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Ouderkerk aan den IJssel           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.576293 51.908169,4.581516 51.900564,4.573464 51.903924,4.558898 51.9058,4.569901 51.908034,4.576293 51.908169)),((4.649552 51.916202,4.639458 51.911374,4.632951 51.909355,4.616981 51.908442,4.612267 51.912097,4.603412 51.911499,4.586227 51.905271,4.57943 51.911516,4.564026 51.911409,4.558972 51.909666,4.574859 51.91517,4.580582 51.920243,4.596613 51.926194,4.608962 51.926726,4.613977 51.930984,4.632485 51.937127,4.636908 51.950907,4.642539 51.95346,4.636722 51.962052,4.625998 51.968095,4.629592 51.970725,4.642235 51.971795,4.647903 51.97228,4.676088 51.956993,4.674915 51.939189,4.685892 51.934761,4.688724 51.930283,4.681086 51.925923,4.668109 51.919193,4.65754 51.916611,4.649552 51.916202)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Ouderkerk aan den IJssel           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.642235 51.971795,4.647903 51.97228,4.676088 51.956993,4.674915 51.939189,4.685892 51.934761,4.688724 51.930283,4.681086 51.925923,4.668109 51.919193,4.65754 51.916611,4.649552 51.916202,4.639458 51.911374,4.613977 51.930984,4.632485 51.937127,4.636908 51.950907,4.642539 51.95346,4.636722 51.962052,4.625998 51.968095,4.629592 51.970725,4.642235 51.971795)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</gg:year>
+                            <gg:name xml:lang="nl">Ouderkerk                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.705666 52.001931,4.715909 51.998664,4.722447 51.99969,4.732989 51.995794,4.706684 51.982881,4.701485 51.980155,4.676088 51.956993,4.674915 51.939189,4.685892 51.934761,4.688724 51.930283,4.681086 51.925923,4.668109 51.919193,4.65754 51.916611,4.649552 51.916202,4.639458 51.911374,4.613977 51.930984,4.632485 51.937127,4.636908 51.950907,4.642539 51.95346,4.636722 51.962052,4.625998 51.968095,4.629592 51.970725,4.642235 51.971795,4.647903 51.97228,4.668032 51.978517,4.667805 51.983639,4.679146 51.993685,4.683782 51.995151,4.688425 51.996257,4.693232 51.996106,4.695709 51.99603,4.700038 51.998573,4.705666 52.001931)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2749015"/>
+                                                <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ouderkerk_aan_den_IJssel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ouderkerk_aan_den_IJssel"/>
+            </rdf:Description>
+</rdf:RDF>

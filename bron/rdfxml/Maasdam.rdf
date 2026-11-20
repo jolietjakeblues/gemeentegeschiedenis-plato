@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Maasdam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Maasdam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Maasdam</skos:prefLabel>
+        <gg:name xml:lang="nl">Maasdam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11019"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0554"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Cillaarshoek"/>
+
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sint_Anthoniepolder"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Cillaarshoek"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sint_Anthoniepolder"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Binnenmaas"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Maasdam                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.550327 51.804077,4.570496 51.79523,4.570262 51.784172,4.558511 51.784809,4.556238 51.783824,4.555348 51.783438,4.551753 51.781885,4.546371 51.775738,4.544942 51.774106,4.54583 51.76834,4.54806 51.762938,4.547498 51.758838,4.543819 51.761983,4.541841 51.765272,4.541337 51.770868,4.539331 51.776251,4.539253 51.776281,4.537791 51.77684,4.534689 51.779964,4.517653 51.784154,4.514701 51.786918,4.51436 51.789522,4.510863 51.790485,4.517363 51.799163,4.522568 51.79992,4.535096 51.796776,4.541179 51.79709,4.550327 51.804077)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Maasdam                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.556238 51.783824,4.553174 51.787592,4.546866 51.790193,4.544181 51.794889,4.541179 51.79709,4.550327 51.804077,4.570496 51.79523,4.570262 51.784172,4.558511 51.784809,4.556238 51.783824)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1832</gg:year>
+                            <gg:name xml:lang="nl">Maasdam                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.570496 51.79523,4.570262 51.784172,4.558511 51.784809,4.555348 51.783438,4.551753 51.781885,4.544942 51.774106,4.537791 51.77684,4.534689 51.779964,4.517653 51.784154,4.514701 51.786918,4.51436 51.789522,4.510863 51.790485,4.517363 51.799163,4.522568 51.79992,4.535096 51.796776,4.541179 51.79709,4.550327 51.804077,4.570496 51.79523)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Maasdam"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Maasdam"/>
+            </rdf:Description>
+</rdf:RDF>

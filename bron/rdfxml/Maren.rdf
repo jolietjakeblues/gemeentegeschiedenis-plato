@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Maren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Maren</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Maren</skos:prefLabel>
+        <gg:name xml:lang="nl">Maren</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10495"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Alem__Maren_en_Kessel"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Maren                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.407482 51.763645,5.387782 51.76095,5.374022 51.756365,5.356208 51.755373,5.361708 51.763374,5.364019 51.77497,5.362299 51.777102,5.365966 51.778855,5.367463 51.781841,5.368341 51.784976,5.365703 51.785044,5.367461 51.786271,5.370062 51.789461,5.379955 51.791151,5.390571 51.791737,5.401509 51.776711,5.407482 51.763645)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1821</gg:year>
+                            <gg:name xml:lang="nl">Alem, Maren en Kessel              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.401701 51.804633,5.410396 51.795643,5.40923 51.78297,5.415314 51.778294,5.416753 51.764542,5.407482 51.763645,5.387782 51.76095,5.374022 51.756365,5.356208 51.755373,5.361708 51.763374,5.364019 51.77497,5.358219 51.782159,5.34256 51.789974,5.347342 51.792133,5.364157 51.788452,5.379955 51.791151,5.384158 51.799241,5.401701 51.804633)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1821-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Alem,_Maren_en_Kessel"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Maren"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Alem,_Maren_en_Kessel"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Maren"/>
+            </rdf:Description>
+</rdf:RDF>

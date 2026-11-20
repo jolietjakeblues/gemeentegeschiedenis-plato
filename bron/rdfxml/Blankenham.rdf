@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Blankenham">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Blankenham</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Blankenham</skos:prefLabel>
+        <gg:name xml:lang="nl">Blankenham</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10320"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0145"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Kuinre"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/IJsselham"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1819</gg:year>
+                            <gg:name xml:lang="nl">Blankenham                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.844672 52.803988,5.854162 52.803951,5.876795 52.799008,5.879669 52.790908,5.883669 52.790622,5.891123 52.781424,5.912165 52.768661,5.933265 52.761557,5.938754 52.76216,5.94377 52.760519,5.942394 52.757201,5.949809 52.757795,5.957573 52.751108,5.955594 52.746983,5.947466 52.74837,5.945781 52.743974,5.940468 52.745437,5.927967 52.740461,5.917594 52.752011,5.905229 52.758536,5.868672 52.774956,5.85082 52.782396,5.846525 52.782682,5.847301 52.786005,5.846059 52.794816,5.837046 52.797816,5.844039 52.800126,5.844672 52.803988)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1957</gg:year>
+                            <gg:name xml:lang="nl">Blankenham                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.912165 52.768661,5.933265 52.761557,5.938754 52.76216,5.94377 52.760519,5.942394 52.757201,5.949809 52.757795,5.957573 52.751108,5.955594 52.746983,5.947466 52.74837,5.945781 52.743974,5.940468 52.745437,5.927967 52.740461,5.917594 52.752011,5.905229 52.758536,5.894431 52.759841,5.868672 52.774956,5.85082 52.782396,5.846525 52.782682,5.847301 52.786005,5.846059 52.794816,5.837046 52.797816,5.844039 52.800126,5.844672 52.803988,5.854162 52.803951,5.876795 52.799008,5.879669 52.790908,5.883669 52.790622,5.891123 52.781424,5.912165 52.768661)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-07-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1973-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Blankenham"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Blankenham"/>
+            </rdf:Description>
+</rdf:RDF>

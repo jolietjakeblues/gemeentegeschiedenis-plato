@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zaamslag">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zaamslag</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zaamslag</skos:prefLabel>
+        <gg:name xml:lang="nl">Zaamslag</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Sc"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11173"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0731"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Terneuzen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zaamslag                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.945146 51.366779,3.947327 51.356827,3.947662 51.355303,3.946042 51.352046,3.94321 51.346258,3.943204 51.337358,3.950891 51.325676,3.952669 51.319315,3.944002 51.307521,3.949129 51.299583,3.939384 51.299373,3.928466 51.29546,3.922151 51.295651,3.919544 51.300922,3.913248 51.300483,3.897787 51.290847,3.8855 51.28952,3.869799 51.300374,3.869788 51.309364,3.862655 51.312507,3.86091 51.317519,3.856987 51.318996,3.849972 51.327084,3.853155 51.334858,3.857877 51.33528,3.86649 51.339528,3.874175 51.345831,3.885428 51.348494,3.894126 51.354719,3.903897 51.358889,3.926004 51.363574,3.945146 51.366779)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-04-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zaamslag"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zaamslag"/>
+            </rdf:Description>
+</rdf:RDF>

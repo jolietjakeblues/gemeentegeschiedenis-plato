@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sevenum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sevenum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sevenum</skos:prefLabel>
+        <gg:name xml:lang="nl">Sevenum</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10045"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0964"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Horst"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Peel_en_Maas"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1837</gg:year>
+                            <gg:name xml:lang="nl">Sevenum                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.900428 51.418974,6.042185 51.42941,6.075999 51.421304,6.076689 51.409884,6.080151 51.401234,6.081124 51.399071,6.008022 51.381056,5.955994 51.378805,5.950016 51.383239,5.929784 51.385132,5.900428 51.418974)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1998</gg:year>
+                            <gg:name xml:lang="nl">Sevenum                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.07769 51.419586,6.077588 51.418329,6.076967 51.413434,6.076763 51.409336,6.076788 51.409058,6.076819 51.40889,6.076901 51.408629,6.079588 51.40321,6.079569 51.403201,6.074053 51.405506,6.073743 51.405194,6.073481 51.404791,6.073157 51.40433,6.072869 51.403864,6.072656 51.403396,6.072363 51.402964,6.072185 51.402507,6.072046 51.402068,6.071905 51.401626,6.071829 51.401205,6.071807 51.400679,6.071781 51.400304,6.071801 51.399847,6.07186 51.399385,6.071938 51.398906,6.072038 51.398463,6.072148 51.398017,6.072308 51.397556,6.072485 51.39712,6.072761 51.396677,6.073018 51.396243,6.073318 51.395781,6.073124 51.395732,6.070141 51.395152,6.069726 51.395046,6.033661 51.386034,6.027135 51.384269,6.02078 51.382653,6.017466 51.381835,6.006783 51.379935,6.004949 51.379767,6.002683 51.379518,6.001479 51.379426,6.000949 51.37937,6.00047 51.379326,5.99877 51.379145,5.990011 51.378244,5.989626 51.37821,5.989464 51.378187,5.98927 51.378143,5.987013 51.378099,5.984692 51.378146,5.983913 51.378154,5.972512 51.378034,5.972007 51.378163,5.970332 51.378221,5.966134 51.378275,5.963563 51.378289,5.962827 51.378194,5.959018 51.378132,5.957765 51.37816,5.947264 51.383152,5.938698 51.384,5.931418 51.384658,5.931198 51.384608,5.930545 51.385332,5.92588 51.39082,5.914971 51.403615,5.9128 51.405892,5.902806 51.416662,5.906375 51.417018,5.909448 51.417339,5.915238 51.417941,5.92629 51.419109,5.927082 51.419133,5.928077 51.419237,5.93477 51.419948,5.943114 51.420802,5.94756 51.421272,5.954385 51.42196,5.956689 51.422207,5.963547 51.422903,5.964178 51.422962,5.966221 51.42311,5.96972 51.42337,5.978427 51.424021,5.984768 51.424499,5.994856 51.425255,5.999003 51.425552,6.00255 51.425633,6.006973 51.425732,6.013634 51.425972,6.028971 51.426413,6.031176 51.426485,6.034238 51.426714,6.036521 51.426796,6.037266 51.426545,6.037568 51.426475,6.041135 51.426432,6.043427 51.426457,6.043421 51.426548,6.045228 51.426694,6.045281 51.426619,6.047539 51.427016,6.048027 51.426941,6.048026 51.42684,6.051364 51.425888,6.051565 51.425218,6.056947 51.423835,6.057064 51.423929,6.071766 51.420835,6.07769 51.419586)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1836-06-13</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sevenum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Sevenum"/>
+            </rdf:Description>
+</rdf:RDF>

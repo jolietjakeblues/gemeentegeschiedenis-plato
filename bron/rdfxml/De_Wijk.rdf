@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/De_Wijk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">De Wijk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">De Wijk</skos:prefLabel>
+        <gg:name xml:lang="nl">De Wijk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10753"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0135"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/De_Wolden"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">De Wijk                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.327059 52.720814,6.348507 52.726933,6.365386 52.727066,6.37581 52.710083,6.357591 52.702594,6.37226 52.683779,6.366279 52.680863,6.352492 52.679268,6.343828 52.675293,6.344211 52.672504,6.357598 52.66943,6.362073 52.657889,6.340627 52.650424,6.32657 52.656467,6.327051 52.658261,6.330432 52.664256,6.323698 52.667365,6.317191 52.667236,6.302346 52.664296,6.299499 52.66243,6.296775 52.659395,6.291305 52.659347,6.284774 52.665238,6.279755 52.665546,6.275853 52.662699,6.270392 52.663099,6.26426 52.666919,6.251146 52.669083,6.249898 52.673316,6.245646 52.675144,6.238407 52.675466,6.227699 52.679946,6.233563 52.684937,6.233649 52.68943,6.239603 52.691365,6.243246 52.688552,6.254186 52.688293,6.254868 52.685412,6.264947 52.686507,6.2757 52.68436,6.276806 52.687857,6.285666 52.687161,6.286872 52.69551,6.278088 52.6927,6.275887 52.693616,6.278334 52.697552,6.276588 52.699003,6.27726 52.702952,6.327059 52.720814)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/De_Wijk_(Drenthe)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/De_Wijk_(Drenthe)"/>
+            </rdf:Description>
+</rdf:RDF>

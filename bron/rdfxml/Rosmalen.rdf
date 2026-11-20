@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Rosmalen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Rosmalen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Rosmalen</skos:prefLabel>
+        <gg:name xml:lang="nl">Rosmalen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10970"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0839"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/s-Hertogenbosch"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Rosmalen                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.374022 51.756365,5.387782 51.76095,5.407482 51.763645,5.430481 51.729303,5.41586 51.726161,5.409344 51.72077,5.424959 51.703058,5.39617 51.699469,5.381415 51.702615,5.377944 51.701806,5.376932 51.69848,5.366083 51.699108,5.366952 51.695872,5.352921 51.697936,5.351766 51.695059,5.344968 51.694788,5.335277 51.695143,5.332806 51.705119,5.34264 51.709168,5.337568 51.716627,5.323534 51.714732,5.316575 51.723537,5.324676 51.726058,5.329299 51.732802,5.354196 51.735149,5.356363 51.740452,5.380831 51.744231,5.374022 51.756365)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</gg:year>
+                            <gg:name xml:lang="nl">Rosmalen                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.424959 51.703058,5.39617 51.699469,5.381415 51.702615,5.377944 51.701806,5.376932 51.69848,5.366083 51.699108,5.366952 51.695872,5.352921 51.697936,5.351766 51.695059,5.344968 51.694788,5.335277 51.695143,5.332806 51.705119,5.34264 51.709168,5.337568 51.716627,5.324676 51.726058,5.329299 51.732802,5.354196 51.735149,5.356363 51.740452,5.380831 51.744231,5.374022 51.756365,5.387782 51.76095,5.407482 51.763645,5.430481 51.729303,5.41586 51.726161,5.409344 51.72077,5.424959 51.703058)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</gg:year>
+                            <gg:name xml:lang="nl">Rosmalen                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.409344 51.72077,5.413393 51.716095,5.419472 51.717082,5.422941 51.712137,5.412087 51.709444,5.414979 51.705758,5.41874 51.706026,5.419752 51.704768,5.42308 51.705036,5.424959 51.703058,5.39617 51.699469,5.381415 51.702615,5.377944 51.701806,5.376932 51.69848,5.366083 51.699108,5.366952 51.695872,5.352921 51.697936,5.351766 51.695059,5.344968 51.694788,5.335277 51.695143,5.332806 51.705119,5.34264 51.709168,5.337568 51.716627,5.324676 51.726058,5.329299 51.732802,5.354196 51.735149,5.356363 51.740452,5.380831 51.744231,5.374022 51.756365,5.387782 51.76095,5.407482 51.763645,5.422385 51.74171,5.404575 51.737129,5.410939 51.726881,5.407175 51.725534,5.409344 51.72077)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Rosmalen_(voormalige_gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Rosmalen_(voormalige_gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

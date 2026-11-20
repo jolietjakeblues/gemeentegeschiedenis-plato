@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ambt_Doetinchem">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ambt Doetinchem</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ambt Doetinchem</skos:prefLabel>
+        <gg:name xml:lang="nl">Ambt Doetinchem</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10396"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1010"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hummelo"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Doetinchem"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</gg:year>
+                            <gg:name xml:lang="nl">Doetinchem                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.299814 51.985442,6.303783 51.980198,6.317665 51.975774,6.349196 51.973274,6.369452 51.974454,6.366553 51.968366,6.387469 51.966572,6.389041 51.971772,6.382893 51.976768,6.401313 51.980296,6.414205 51.971196,6.39627 51.950227,6.380266 51.93697,6.380873 51.931572,6.36325 51.92354,6.347827 51.922948,6.331313 51.925778,6.320299 51.934495,6.306714 51.938557,6.302288 51.942637,6.294023 51.94387,6.286349 51.952827,6.275922 51.955244,6.272513 51.944663,6.265706 51.946152,6.262205 51.945639,6.230472 51.975263,6.232137 51.978667,6.223042 51.982687,6.233284 51.98549,6.24286 51.976163,6.249818 51.974674,6.256017 51.979122,6.248671 51.983131,6.254846 51.986322,6.261488 51.983486,6.277495 51.983186,6.291072 51.992341,6.299814 51.985442)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1920-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ambt_Doetinchem"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ambt_Doetinchem"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Wormer">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Wormer</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Wormer</skos:prefLabel>
+        <gg:name xml:lang="nl">Wormer</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10648"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0467"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wormerland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Wormer                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.787167 52.516396,4.786933 52.522776,4.789405 52.525215,4.800134 52.527246,4.801736 52.528692,4.80809 52.527375,4.805316 52.525384,4.807122 52.522517,4.815242 52.521298,4.818145 52.524727,4.823352 52.520798,4.832623 52.52174,4.835148 52.520044,4.835801 52.515014,4.831297 52.50996,4.838411 52.506488,4.846521 52.505717,4.848939 52.500695,4.864534 52.502023,4.86729 52.50563,4.874518 52.504673,4.87442 52.500448,4.858872 52.495167,4.844858 52.485218,4.840512 52.479535,4.836115 52.477987,4.810882 52.48281,4.804315 52.489609,4.794734 52.49046,4.796714 52.496492,4.79379 52.505914,4.788305 52.508493,4.787167 52.516396)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</gg:year>
+                            <gg:name xml:lang="nl">Wormerland                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.834322 52.539004,4.836797 52.529669,4.84037 52.526719,4.848662 52.523432,4.859413 52.52384,4.879388 52.516647,4.907832 52.515687,4.925282 52.509285,4.933826 52.509228,4.933558 52.50671,4.925495 52.502995,4.925109 52.49769,4.919932 52.485897,4.912154 52.483619,4.904712 52.477567,4.896461 52.478342,4.876232 52.471067,4.868 52.470222,4.862441 52.467411,4.848749 52.467979,4.845334 52.47039,4.836115 52.477987,4.810882 52.48281,4.804315 52.489609,4.794734 52.49046,4.796714 52.496492,4.79379 52.505914,4.788305 52.508493,4.787167 52.516396,4.789818 52.51641,4.797827 52.52346,4.805316 52.525384,4.80809 52.527375,4.812904 52.531173,4.820124 52.531208,4.824222 52.533474,4.816536 52.535145,4.817833 52.537488,4.820783 52.537322,4.825432 52.542647,4.834322 52.539004)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Wormer_(dorp)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Wormer_(dorp)"/>
+            </rdf:Description>
+</rdf:RDF>

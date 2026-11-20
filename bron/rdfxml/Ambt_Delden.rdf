@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Ambt_Delden">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Ambt Delden</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Ambt Delden</skos:prefLabel>
+        <gg:name xml:lang="nl">Ambt Delden</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Overijssel"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11400"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0142"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Delden"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hof_van_Twente"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1819</gg:year>
+                            <gg:name xml:lang="nl">Ambt Delden                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.735252 52.280323,6.734742 52.26352,6.726172 52.2611,6.722427 52.26321,6.718145 52.26209,6.715243 52.263021,6.711795 52.265307,6.698334 52.265907,6.696389 52.259546,6.704286 52.249211,6.715291 52.249897,6.722006 52.249192,6.719681 52.244904,6.720582 52.240759,6.723168 52.239112,6.722654 52.236601,6.718433 52.237457,6.71409 52.224382,6.704569 52.214242,6.71244 52.203367,6.700018 52.193888,6.693903 52.194854,6.672282 52.195811,6.625191 52.185618,6.617458 52.191541,6.601416 52.198629,6.599618 52.202422,6.617158 52.207185,6.624659 52.213848,6.638771 52.216126,6.62276 52.229778,6.611649 52.24095,6.604511 52.242282,6.602252 52.245361,6.594073 52.246164,6.589108 52.246664,6.594175 52.255332,6.601431 52.258224,6.601561 52.262986,6.605102 52.269242,6.623192 52.282267,6.632444 52.298619,6.672358 52.294776,6.674744 52.301222,6.68446 52.307588,6.702984 52.314125,6.714314 52.315346,6.719167 52.310887,6.717068 52.304439,6.722212 52.299977,6.728458 52.28831,6.729174 52.282909,6.735252 52.280323)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</gg:year>
+                            <gg:name xml:lang="nl">Ambt Delden                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.722212 52.299977,6.728458 52.28831,6.729174 52.282909,6.735252 52.280323,6.734742 52.26352,6.726172 52.2611,6.722427 52.26321,6.718145 52.26209,6.715243 52.263021,6.711795 52.265307,6.698334 52.265907,6.689679 52.260519,6.676419 52.257878,6.674607 52.256011,6.684294 52.246646,6.693149 52.248976,6.715291 52.249897,6.722006 52.249192,6.719681 52.244904,6.720582 52.240759,6.723168 52.239112,6.722653 52.236601,6.718433 52.237457,6.71409 52.224382,6.704569 52.214242,6.71244 52.203367,6.700018 52.193888,6.693903 52.194854,6.672282 52.195811,6.625191 52.185618,6.617458 52.191541,6.601416 52.198629,6.599618 52.202422,6.617158 52.207185,6.624659 52.213848,6.638771 52.216126,6.62276 52.229778,6.611649 52.24095,6.604511 52.242282,6.602252 52.245361,6.594073 52.246164,6.589108 52.246664,6.594175 52.255332,6.601431 52.258224,6.601561 52.262986,6.605102 52.269242,6.623192 52.282267,6.632444 52.298619,6.672358 52.294776,6.674744 52.301222,6.68446 52.307588,6.702984 52.314125,6.714314 52.315346,6.719167 52.310887,6.717068 52.304439,6.722212 52.299977)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-07-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Ambt_Delden"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Ambt_Delden"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Melick_en_Herkenbosch">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Melick en Herkenbosch</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Melick en Herkenbosch</skos:prefLabel>
+        <gg:name xml:lang="nl">Melick en Herkenbosch</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Ro"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10196"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0939"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Vlodrop"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Roerdalen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Melick en Herkenbosch              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.145767 51.172863,6.13734 51.164738,6.130023 51.163167,6.110432 51.162841,6.081795 51.150431,6.073772 51.14913,6.067561 51.144762,6.061023 51.147137,6.049619 51.149181,6.04444 51.146783,6.044224 51.151728,6.03504 51.149083,6.027358 51.151643,6.008453 51.148779,5.999045 51.150627,6.001253 51.155469,5.998546 51.156113,6.00345 51.159413,5.998611 51.160966,6.000087 51.164464,5.99515 51.169524,5.987743 51.17163,5.989507 51.175306,5.998212 51.174002,6.007393 51.176111,6.009882 51.180413,6.022034 51.180077,6.04974 51.187293,6.053514 51.191047,6.074005 51.183827,6.081867 51.174072,6.093552 51.171484,6.108742 51.173548,6.120471 51.182734,6.165319 51.195926,6.178781 51.188464,6.14082 51.176401,6.145767 51.172863)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1939</gg:year>
+                            <gg:name xml:lang="nl">Melick en Herkenbosch              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.145767 51.172863,6.13734 51.164738,6.130023 51.163167,6.110432 51.162841,6.081795 51.150431,6.073772 51.14913,6.067561 51.144762,6.061023 51.147137,6.049619 51.149181,6.04444 51.146783,6.044224 51.151728,6.03504 51.149083,6.027358 51.151643,6.008453 51.148779,5.999045 51.150627,6.001253 51.155469,5.998546 51.156113,6.00345 51.159413,5.998611 51.160966,6.000087 51.164464,5.99515 51.169524,5.987743 51.17163,5.989507 51.175306,5.998212 51.174002,6.00684 51.166945,6.028562 51.176446,6.022034 51.180077,6.04974 51.187293,6.053514 51.191047,6.074005 51.183827,6.081867 51.174072,6.093552 51.171484,6.108742 51.173548,6.120471 51.182734,6.165319 51.195926,6.178781 51.188464,6.14082 51.176401,6.145767 51.172863)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1991</gg:year>
+                            <gg:name xml:lang="nl">Melick en Herkenbosch              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.145767 51.172863,6.174299 51.160628,6.162033 51.153878,6.163694 51.150631,6.146822 51.150203,6.123457 51.145949,6.114919 51.139261,6.091568 51.13536,6.08614 51.126044,6.081593 51.1276,6.077656 51.12232,6.068757 51.119406,6.051587 51.127146,6.052877 51.137296,6.044746 51.138242,6.0431 51.143015,6.04444 51.146783,6.044224 51.151728,6.03504 51.149083,6.027358 51.151643,6.008453 51.148779,5.999045 51.150627,6.001253 51.155469,5.998546 51.156113,6.00345 51.159413,5.998611 51.160966,6.000087 51.164464,6.010553 51.166656,6.013984 51.166637,6.020752 51.170106,6.030561 51.166007,6.054101 51.162549,6.063714 51.16492,6.059231 51.171238,6.028562 51.176446,6.022034 51.180077,6.04974 51.187293,6.053514 51.191047,6.074005 51.183827,6.081867 51.174072,6.093552 51.171484,6.108742 51.173548,6.120471 51.182734,6.165319 51.195926,6.178781 51.188464,6.14082 51.176401,6.145767 51.172863)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Melick_en_Herkenbosch"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Melick_en_Herkenbosch"/>
+            </rdf:Description>
+</rdf:RDF>

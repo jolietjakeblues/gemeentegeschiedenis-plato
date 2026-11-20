@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Apeldoorn">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Apeldoorn</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Apeldoorn</skos:prefLabel>
+        <gg:name xml:lang="nl">Apeldoorn</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11075"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0200"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Loenen_Ge"/>
+
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Beekbergen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Apeldoorn                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.05574 52.198346,6.047879 52.19686,6.044533 52.194345,6.039288 52.195235,6.005262 52.19348,5.97892 52.189284,5.933005 52.189313,5.886821 52.19641,5.868148 52.187656,5.848893 52.189672,5.842839 52.180217,5.838647 52.181526,5.835482 52.180461,5.831604 52.178106,5.827631 52.173709,5.818918 52.176133,5.799066 52.179529,5.783352 52.188032,5.758095 52.193057,5.750197 52.193082,5.723839 52.20808,5.717341 52.219603,5.717893 52.234791,5.722027 52.239453,5.726278 52.24016,5.761028 52.246346,5.748169 52.267598,5.809994 52.268022,5.819253 52.271044,5.841321 52.265658,5.850265 52.266433,5.858935 52.255163,5.864353 52.255142,5.875708 52.262196,5.932383 52.273093,5.970012 52.271116,5.973248 52.272088,5.978131 52.275749,5.980556 52.281759,5.985867 52.284428,5.990982 52.283324,5.98823 52.274889,5.988345 52.272552,6.013872 52.274936,6.029254 52.274763,6.02801 52.269737,6.035433 52.266371,6.036038 52.257649,6.03017 52.257052,6.029575 52.246269,6.026231 52.247905,6.025854 52.242065,6.033781 52.233394,6.033628 52.222878,6.04458 52.2212,6.05574 52.198346)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Apeldoorn                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.035433 52.266371,6.036038 52.257649,6.03017 52.257052,6.029575 52.246269,6.026231 52.247905,6.025854 52.242065,6.033781 52.233394,6.033628 52.222878,6.04458 52.2212,6.056506 52.196775,6.048982 52.182616,6.06679 52.161393,6.063653 52.156917,6.077024 52.142728,6.079146 52.138221,6.05411 52.124614,6.041418 52.115517,6.042402 52.112905,6.033569 52.10783,6.03174 52.102447,6.034111 52.094884,6.029287 52.094281,6.00785 52.074352,5.992422 52.07686,5.976385 52.07748,5.964836 52.07556,5.954556 52.070127,5.944421 52.076108,5.950241 52.098101,5.909539 52.099457,5.902567 52.102364,5.884346 52.10451,5.864712 52.124814,5.85926 52.147756,5.846436 52.150952,5.848653 52.15346,5.840202 52.170211,5.818918 52.176133,5.799066 52.179529,5.783352 52.188032,5.758095 52.193057,5.750197 52.193082,5.723839 52.20808,5.717341 52.219603,5.717893 52.234791,5.722027 52.239453,5.726278 52.24016,5.761028 52.246346,5.748169 52.267598,5.809994 52.268022,5.819253 52.271044,5.841321 52.265658,5.850265 52.266433,5.858935 52.255163,5.864353 52.255142,5.875708 52.262196,5.932383 52.273093,5.970012 52.271116,5.973248 52.272088,5.978131 52.275749,5.980556 52.281759,5.985867 52.284428,5.990982 52.283324,5.98823 52.274889,5.988345 52.272552,6.013872 52.274936,6.029254 52.274763,6.02801 52.269737,6.035433 52.266371)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2759705"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Apeldoorn_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Apeldoorn_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

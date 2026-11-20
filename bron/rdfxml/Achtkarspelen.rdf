@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Achtkarspelen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Achtkarspelen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Achtkarspelen</skos:prefLabel>
+        <gg:name xml:lang="nl">Achtkarspelen</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10199"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0059"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Augustinusga"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Buitenpost"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Surhuizum"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Achtkarspelen                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.232545 53.25335,6.235601 53.248746,6.232096 53.245715,6.232936 53.242744,6.227668 53.241433,6.22369 53.237147,6.21543 53.235947,6.216667 53.230187,6.227656 53.225438,6.231023 53.213822,6.226173 53.210711,6.225342 53.206494,6.212285 53.19679,6.201945 53.195962,6.200934 53.189948,6.182187 53.171203,6.175619 53.155431,6.153345 53.147038,6.1476 53.151838,6.120816 53.141401,6.118487 53.1451,6.104477 53.147431,6.113682 53.170469,6.105216 53.174025,6.104087 53.178075,6.079178 53.201136,6.085373 53.204784,6.07883 53.207428,6.086056 53.209992,6.024801 53.227945,6.018946 53.237142,6.04625 53.24005,6.072969 53.243674,6.0966 53.250546,6.139615 53.260079,6.145838 53.255996,6.161489 53.25976,6.175338 53.254997,6.189194 53.258769,6.186308 53.264809,6.216663 53.261188,6.219222 53.253982,6.232545 53.25335)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2759982"/>
+                                        <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Achtkarspelen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Achtkarspelen"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Geleen">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Geleen</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Geleen</skos:prefLabel>
+        <gg:name xml:lang="nl">Geleen</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10048"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0906"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Sittard-Geleen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Geleen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.863674 50.982988,5.84819 50.972534,5.851292 50.969555,5.846297 50.968227,5.839679 50.961152,5.841146 50.951168,5.827909 50.95086,5.805697 50.965145,5.79959 50.966695,5.79446 50.966084,5.806827 50.979882,5.80384 50.980163,5.808777 50.990662,5.823707 50.98809,5.838388 50.989292,5.845759 50.985757,5.863674 50.982988)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1982</gg:year>
+                            <gg:name xml:lang="nl">Geleen                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.80428 51.013151,5.800971 51.009657,5.808523 51.00963,5.814766 51.00682,5.8129 51.005299,5.809826 50.996321,5.81295 50.995321,5.814055 50.991542,5.822316 50.991601,5.825871 50.990958,5.825986 50.988081,5.839084 50.987671,5.842775 50.986488,5.852715 50.983572,5.85266 50.978089,5.849311 50.970732,5.854266 50.967925,5.852539 50.966135,5.847962 50.963906,5.844823 50.963199,5.84337 50.960238,5.841497 50.957909,5.841322 50.954583,5.840315 50.953419,5.840581 50.95153,5.840846 50.949552,5.839106 50.946232,5.829165 50.948248,5.813421 50.953791,5.803825 50.946994,5.79433 50.951342,5.788604 50.947497,5.788494 50.951183,5.785939 50.951911,5.7878 50.953163,5.786443 50.960898,5.7848 50.968365,5.787091 50.969975,5.787405 50.973299,5.783767 50.980683,5.785561 50.990564,5.790343 50.999986,5.775843 51.003631,5.780442 51.00829,5.787941 51.018691,5.792495 51.017957,5.804464 51.017734,5.807734 51.016824,5.80428 51.013151)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Geleen"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Geleen"/>
+            </rdf:Description>
+</rdf:RDF>

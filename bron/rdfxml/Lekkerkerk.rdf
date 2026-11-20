@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Lekkerkerk">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Lekkerkerk</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Lekkerkerk</skos:prefLabel>
+        <gg:name xml:lang="nl">Lekkerkerk</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10050"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0550"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Nederlek"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Lekkerkerk                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.713612 51.928631,4.739005 51.932099,4.74452 51.932849,4.741377 51.908742,4.718411 51.899266,4.713635 51.89798,4.701426 51.898269,4.685054 51.895296,4.67333 51.892529,4.663185 51.891029,4.654909 51.890708,4.637891 51.892038,4.641808 51.909861,4.639458 51.911374,4.649552 51.916202,4.65754 51.916611,4.668109 51.919193,4.681086 51.925923,4.688724 51.930283,4.693548 51.928604,4.703848 51.930103,4.713612 51.928631)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</gg:year>
+                            <gg:name xml:lang="nl">Nederlek                           </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.74452 51.932849,4.741377 51.908742,4.718411 51.899266,4.713635 51.89798,4.701426 51.898269,4.685054 51.895296,4.67333 51.892529,4.663185 51.891029,4.654909 51.890708,4.637891 51.892038,4.626871 51.890799,4.612326 51.891783,4.598799 51.892771,4.587056 51.899523,4.578441 51.901891,4.603412 51.911499,4.612267 51.912097,4.616981 51.908442,4.632951 51.909355,4.639458 51.911374,4.649552 51.916202,4.65754 51.916611,4.668109 51.919193,4.681086 51.925923,4.688724 51.930283,4.693548 51.928604,4.703848 51.930103,4.713612 51.928631,4.739005 51.932099,4.74452 51.932849)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Lekkerkerk"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Lekkerkerk"/>
+            </rdf:Description>
+</rdf:RDF>

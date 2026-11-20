@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Aarle-Rixtel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Aarle-Rixtel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Aarle-Rixtel</skos:prefLabel>
+        <gg:name xml:lang="nl">Aarle-Rixtel</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10757"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0739"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Laarbeek"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Aarle-Rixtel                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.679451 51.52868,5.671078 51.526274,5.684121 51.515635,5.682491 51.508628,5.677109 51.500372,5.654972 51.507526,5.653106 51.508608,5.645036 51.507907,5.649416 51.493156,5.629411 51.495087,5.629731 51.501199,5.621233 51.501036,5.610609 51.507799,5.611064 51.512382,5.609793 51.517688,5.614565 51.521184,5.616027 51.525406,5.625649 51.519184,5.627821 51.521158,5.634297 51.519706,5.63659 51.517544,5.639331 51.518167,5.642242 51.523374,5.639663 51.526166,5.643435 51.530562,5.661871 51.528903,5.664546 51.54211,5.679451 51.52868)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</gg:year>
+                            <gg:name xml:lang="nl">Aarle-Rixtel                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.664546 51.54211,5.679451 51.52868,5.671078 51.526274,5.684121 51.515635,5.682491 51.508628,5.677109 51.500372,5.654972 51.507526,5.630995 51.495084,5.622512 51.497618,5.606354 51.491627,5.604202 51.493339,5.598287 51.490923,5.592975 51.494348,5.59242 51.499023,5.587955 51.498851,5.583215 51.501646,5.611064 51.512382,5.609793 51.517688,5.614565 51.521184,5.616027 51.525406,5.625649 51.519184,5.627821 51.521158,5.634297 51.519706,5.63659 51.517544,5.639331 51.518167,5.642242 51.523374,5.639663 51.526166,5.643435 51.530562,5.661871 51.528903,5.664546 51.54211)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Aarle-Rixtel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Aarle-Rixtel"/>
+            </rdf:Description>
+</rdf:RDF>

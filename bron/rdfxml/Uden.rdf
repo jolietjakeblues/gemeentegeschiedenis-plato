@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Uden">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Uden</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Uden</skos:prefLabel>
+        <gg:name xml:lang="nl">Uden</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11141"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0856"/>
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Uden                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.596099 51.703867,5.621856 51.705166,5.670087 51.667937,5.739781 51.652018,5.746147 51.63474,5.749668 51.623493,5.6583 51.630752,5.645134 51.626647,5.62346 51.624625,5.605171 51.635357,5.601551 51.633297,5.595508 51.638521,5.590871 51.635293,5.580349 51.640704,5.580661 51.646097,5.567248 51.651871,5.559346 51.663838,5.571265 51.680269,5.58894 51.688149,5.596937 51.697573,5.596099 51.703867)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</gg:year>
+                            <gg:name xml:lang="nl">Uden                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.670087 51.667937,5.675716 51.666575,5.727532 51.675604,5.732351 51.663006,5.72598 51.661406,5.72538 51.658532,5.728856 51.65951,5.730838 51.654022,5.739781 51.652018,5.746147 51.63474,5.749668 51.623493,5.668839 51.630008,5.657286 51.630125,5.647888 51.628529,5.646579 51.626914,5.632713 51.626494,5.62346 51.624625,5.605171 51.635357,5.601551 51.633297,5.59851 51.631774,5.590301 51.637092,5.588853 51.636196,5.580349 51.640704,5.584121 51.644293,5.580661 51.646097,5.567248 51.651871,5.565667 51.65421,5.569283 51.655014,5.566413 51.660142,5.560354 51.662937,5.560363 51.665274,5.571265 51.680269,5.58894 51.688149,5.596937 51.697573,5.596099 51.703867,5.621856 51.705166,5.621536 51.699234,5.670087 51.667937)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                    <gg:resourceGeonames rdf:resource="http://sws.geonames.org/2746004"/>
+                                                        <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Uden_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Uden_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

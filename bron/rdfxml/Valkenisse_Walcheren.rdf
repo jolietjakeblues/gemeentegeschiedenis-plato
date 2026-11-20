@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Valkenisse_Walcheren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Valkenisse [Walcheren]</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Valkenisse [Walcheren]</skos:prefLabel>
+        <gg:name xml:lang="nl">Valkenisse [Walcheren]</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10779"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0720"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Koudekerke_Walcheren"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Zoutelande"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Biggekerke"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Veere"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</gg:year>
+                            <gg:name xml:lang="nl">Valkenisse                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.493932 51.507589,3.510885 51.505256,3.516563 51.507325,3.523134 51.512195,3.541259 51.512932,3.543191 51.507928,3.548167 51.506029,3.551139 51.496635,3.576097 51.502869,3.581765 51.49073,3.576069 51.489113,3.579558 51.484672,3.581848 51.481381,3.572501 51.473863,3.568764 51.477312,3.559116 51.477341,3.562994 51.473985,3.559563 51.469796,3.553443 51.468081,3.546716 51.470673,3.542826 51.467195,3.538061 51.467569,3.535286 51.465007,3.53609 51.462952,3.525069 51.461428,3.513787 51.466283,3.498492 51.481051,3.494104 51.489611,3.488315 51.493742,3.481422 51.496687,3.461565 51.503014,3.452341 51.509874,3.463102 51.510951,3.462851 51.516881,3.458974 51.519964,3.459883 51.522316,3.476465 51.528972,3.480755 51.526345,3.4894 51.52298,3.495583 51.51292,3.493932 51.507589)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-07-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Valkenisse_(voormalige_gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Valkenisse_(voormalige_gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

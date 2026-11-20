@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Geesteren">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Geesteren</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Geesteren</skos:prefLabel>
+        <gg:name xml:lang="nl">Geesteren</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10756"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Borculo"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Geesteren                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.557935 52.097046,6.557796 52.101337,6.555629 52.101237,6.556541 52.111133,6.555141 52.111556,6.555003 52.112631,6.556667 52.112768,6.55678 52.115161,6.553854 52.116159,6.552569 52.115006,6.549638 52.116523,6.540399 52.118215,6.546323 52.12461,6.540395 52.123759,6.540143 52.125458,6.535987 52.12462,6.536471 52.126221,6.535639 52.128638,6.530386 52.128527,6.52997 52.131097,6.528115 52.132104,6.52615 52.127114,6.520761 52.129428,6.517095 52.129786,6.513921 52.128847,6.515043 52.122596,6.512758 52.122724,6.508688 52.1194,6.510298 52.118839,6.509186 52.116714,6.505444 52.116629,6.490029 52.113161,6.494067 52.122921,6.4893 52.125033,6.488183 52.133044,6.480788 52.141202,6.473361 52.14217,6.46348 52.15044,6.481866 52.155394,6.48224 52.155685,6.48872 52.160724,6.494087 52.170831,6.492012 52.175614,6.51579 52.179254,6.555605 52.175361,6.546273 52.159453,6.547179 52.15495,6.541958 52.145203,6.55941 52.136582,6.560282 52.13082,6.567497 52.127512,6.568607 52.119771,6.578833 52.119938,6.588697 52.1175,6.593942 52.12248,6.601876 52.118893,6.600362 52.111538,6.601763 52.109366,6.585935 52.090742,6.557935 52.097046)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1818-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Geesteren_(Gelderland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Geesteren_(Gelderland)"/>
+            </rdf:Description>
+</rdf:RDF>

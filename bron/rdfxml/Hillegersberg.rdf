@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Hillegersberg">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Hillegersberg</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Hillegersberg</skos:prefLabel>
+        <gg:name xml:lang="nl">Hillegersberg</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zuid-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10227"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1081"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Rotterdam"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Hillegersberg                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.489353 51.968031,4.491997 51.966792,4.493805 51.971031,4.506781 51.96241,4.516435 51.959785,4.537608 51.971175,4.544882 51.971318,4.553386 51.967873,4.55806 51.959097,4.560852 51.949678,4.568548 51.942452,4.556949 51.940483,4.530402 51.936966,4.528497 51.945312,4.491704 51.937757,4.48489 51.936716,4.482795 51.932385,4.473149 51.934827,4.461927 51.928987,4.456848 51.935508,4.456515 51.944584,4.471055 51.944789,4.482156 51.956919,4.479085 51.957705,4.489353 51.968031)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1904</gg:year>
+                            <gg:name xml:lang="nl">Hillegersberg                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.493805 51.971031,4.506781 51.96241,4.516435 51.959785,4.537608 51.971175,4.544882 51.971318,4.553386 51.967873,4.55806 51.959097,4.560852 51.949678,4.568548 51.942452,4.556949 51.940483,4.530402 51.936966,4.528497 51.945312,4.514452 51.949523,4.486174 51.945175,4.471055 51.944789,4.482156 51.956919,4.479085 51.957705,4.489353 51.968031,4.491997 51.966792,4.493805 51.971031)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-08-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Hillegersberg"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Hillegersberg"/>
+            </rdf:Description>
+</rdf:RDF>

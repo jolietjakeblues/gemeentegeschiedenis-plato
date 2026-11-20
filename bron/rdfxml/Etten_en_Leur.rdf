@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Etten_en_Leur">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Etten en Leur</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Etten en Leur</skos:prefLabel>
+        <gg:name xml:lang="nl">Etten en Leur</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/TN"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Brabant"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10750"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1251"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Etten-Leur"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Etten en Leur                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.620055 51.625766,4.62975 51.624661,4.63828 51.632805,4.644467 51.634283,4.660203 51.634831,4.655392 51.6197,4.660351 51.607596,4.679226 51.6007,4.682583 51.589035,4.689583 51.574875,4.692447 51.547925,4.67825 51.543076,4.647594 51.522301,4.635823 51.519619,4.63715 51.543988,4.620892 51.550624,4.622704 51.554321,4.61604 51.556165,4.603104 51.553742,4.588365 51.55553,4.588368 51.56353,4.586593 51.566035,4.588456 51.574947,4.586045 51.580773,4.587936 51.588067,4.582287 51.589287,4.599669 51.610439,4.609816 51.60808,4.610791 51.610154,4.597227 51.626333,4.606676 51.631161,4.615367 51.62969,4.620055 51.625766)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1954</gg:year>
+                            <gg:name xml:lang="nl">Etten en Leur                      </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.660203 51.634831,4.655392 51.6197,4.660351 51.607596,4.679226 51.6007,4.682583 51.589035,4.689583 51.574875,4.692447 51.547925,4.67825 51.543076,4.647594 51.522301,4.635823 51.519619,4.63715 51.543988,4.620892 51.550624,4.622704 51.554321,4.61604 51.556165,4.603104 51.553742,4.598304 51.564407,4.588368 51.56353,4.586593 51.566035,4.588456 51.574947,4.586045 51.580773,4.587936 51.588067,4.582287 51.589287,4.599669 51.610439,4.609816 51.60808,4.610791 51.610154,4.597227 51.626333,4.606676 51.631161,4.615367 51.62969,4.620055 51.625766,4.62975 51.624661,4.63828 51.632805,4.644467 51.634283,4.660203 51.634831)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1968-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Etten-Leur"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Etten-Leur"/>
+            </rdf:Description>
+</rdf:RDF>

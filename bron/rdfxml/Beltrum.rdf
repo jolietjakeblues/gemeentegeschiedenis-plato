@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Beltrum">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Beltrum</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Beltrum</skos:prefLabel>
+        <gg:name xml:lang="nl">Beltrum</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10251"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Eibergen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Beltrum                            </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.585935 52.090742,6.586257 52.084764,6.587713 52.080387,6.594962 52.07692,6.59916 52.07823,6.601087 52.076756,6.600942 52.071425,6.610683 52.070061,6.620531 52.065919,6.623971 52.063425,6.631911 52.064401,6.638994 52.064568,6.644552 52.066448,6.650401 52.064689,6.658046 52.06388,6.666314 52.057368,6.663903 52.051249,6.666361 52.050915,6.667881 52.049945,6.67621 52.048025,6.68177 52.045767,6.687811 52.044469,6.689191 52.038498,6.68477 52.026771,6.67938 52.02683,6.655378 52.012889,6.651637 52.014547,6.646788 52.023408,6.647481 52.027356,6.640898 52.031651,6.640843 52.034888,6.644979 52.036821,6.643167 52.039807,6.64758 52.041198,6.640314 52.047208,6.640394 52.050084,6.631676 52.056379,6.613466 52.057019,6.609968 52.051752,6.597719 52.046306,6.594635 52.040045,6.590676 52.039187,6.586392 52.037073,6.583891 52.0362,6.570582 52.028963,6.522729 52.021075,6.522948 52.035455,6.530914 52.061985,6.511992 52.080864,6.557935 52.097046,6.585935 52.090742)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1819-04-13</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Beltrum"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Beltrum"/>
+            </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Jisp">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Jisp</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Jisp</skos:prefLabel>
+        <gg:name xml:lang="nl">Jisp</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Noord-Holland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10481"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0408"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wijdewormer"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Wormerland"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Jisp                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.912154 52.483619,4.904712 52.477567,4.896461 52.478342,4.876232 52.471067,4.868 52.470222,4.862441 52.467411,4.848749 52.467979,4.845334 52.47039,4.836115 52.477987,4.840512 52.479535,4.844858 52.485218,4.858872 52.495167,4.87442 52.500448,4.887746 52.507066,4.901277 52.508919,4.916901 52.507904,4.925638 52.503444,4.919932 52.485897,4.912154 52.483619)),((4.832694 52.539536,4.83671 52.536588,4.836797 52.529669,4.84037 52.526719,4.848662 52.523432,4.859413 52.52384,4.879388 52.516647,4.881202 52.51261,4.878267 52.511609,4.874518 52.504673,4.86729 52.50563,4.864534 52.502023,4.848939 52.500695,4.846521 52.505717,4.838411 52.506488,4.831297 52.50996,4.835801 52.515014,4.835149 52.520044,4.832623 52.52174,4.823352 52.520798,4.818145 52.524727,4.815242 52.521298,4.807122 52.522517,4.805316 52.525384,4.80809 52.527375,4.801736 52.528692,4.807986 52.535283,4.816536 52.535145,4.817833 52.537488,4.820783 52.537322,4.825432 52.542647,4.82985 52.542937,4.832694 52.539536)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Jisp                               </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((4.832694 52.539536,4.83671 52.536588,4.836797 52.529669,4.84037 52.526719,4.848662 52.523432,4.859413 52.52384,4.879388 52.516647,4.881202 52.51261,4.878267 52.511609,4.874518 52.504673,4.86729 52.50563,4.864534 52.502023,4.848939 52.500695,4.846521 52.505717,4.838411 52.506488,4.831297 52.50996,4.835801 52.515014,4.835148 52.520044,4.832623 52.52174,4.823352 52.520798,4.818145 52.524727,4.815242 52.521298,4.807122 52.522517,4.805316 52.525384,4.80809 52.527375,4.801736 52.528692,4.807986 52.535283,4.816536 52.535145,4.817833 52.537488,4.820783 52.537322,4.825432 52.542647,4.82985 52.542937,4.832694 52.539536)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Jisp_(Wormerland)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Jisp_(Wormerland)"/>
+            </rdf:Description>
+</rdf:RDF>

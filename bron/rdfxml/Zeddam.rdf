@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Zeddam">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Zeddam</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Zeddam</skos:prefLabel>
+        <gg:name xml:lang="nl">Zeddam</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/BY"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10003"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bergh"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Zeddam                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.230472 51.975263,6.262205 51.945639,6.265706 51.946152,6.272513 51.944663,6.275922 51.955244,6.286349 51.952827,6.294023 51.94387,6.302288 51.942637,6.306714 51.938557,6.30449 51.936507,6.298687 51.937182,6.290495 51.927537,6.289547 51.923769,6.293684 51.919872,6.309523 51.919569,6.316418 51.91556,6.315771 51.912419,6.308882 51.909597,6.307847 51.901605,6.316309 51.896235,6.313342 51.89309,6.308328 51.89213,6.302918 51.893354,6.29647 51.894131,6.288016 51.89208,6.240426 51.88872,6.239458 51.892766,6.244696 51.893536,6.235825 51.907818,6.208271 51.929502,6.214073 51.93237,6.20414 51.935989,6.190265 51.940759,6.164454 51.953517,6.153094 51.961321,6.142781 51.979635,6.160538 51.979519,6.21597 51.978153,6.230472 51.975263)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1814</gg:year>
+                            <gg:name xml:lang="nl">Zeddam                             </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.316309 51.896235,6.313342 51.89309,6.308328 51.89213,6.302918 51.893354,6.29647 51.894131,6.288016 51.89208,6.240426 51.88872,6.239458 51.892766,6.244696 51.893536,6.235825 51.907818,6.208271 51.929502,6.214073 51.93237,6.20414 51.935989,6.203505 51.941027,6.228751 51.945613,6.236876 51.944566,6.244934 51.940013,6.262205 51.945639,6.265706 51.946152,6.272513 51.944663,6.275922 51.955244,6.286349 51.952827,6.294023 51.94387,6.302288 51.942637,6.306714 51.938557,6.30449 51.936507,6.298687 51.937182,6.290495 51.927537,6.289547 51.923769,6.293684 51.919872,6.309523 51.919569,6.316418 51.91556,6.315771 51.912419,6.308882 51.909597,6.307847 51.901605,6.316309 51.896235)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1821-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Zeddam_(gemeente)"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Zeddam_(gemeente)"/>
+            </rdf:Description>
+</rdf:RDF>

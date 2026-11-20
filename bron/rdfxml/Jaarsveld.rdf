@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Jaarsveld">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Jaarsveld</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Jaarsveld</skos:prefLabel>
+        <gg:name xml:lang="nl">Jaarsveld</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/Zz"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Utrecht"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10847"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1091"/>
+                    <gg:originated                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Willige_Langerak"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Lopik"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Jaarsveld                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.054979 51.989054,5.047862 51.986877,5.041056 51.982183,5.035437 51.974796,5.02906 51.971451,5.022224 51.97098,5.012727 51.975445,5.003966 51.978832,4.99712 51.979349,4.989284 51.976716,4.984939 51.974364,4.97265 51.965423,4.968747 51.962713,4.963656 51.962515,4.954613 51.964819,4.946447 51.966586,4.937001 51.965382,4.930348 51.961402,4.92602 51.957789,4.923009 51.953553,4.91565 51.947861,4.905504 51.944494,4.886348 51.940729,4.875608 51.938795,4.862071 51.939904,4.857263 51.940602,4.856167 51.947248,4.864003 51.948811,4.880874 51.948975,4.892181 51.952439,4.901331 51.953825,4.903909 51.957521,4.91349 51.959537,4.921289 51.965051,4.91525 51.972038,4.923229 51.974497,4.934581 51.974451,4.942411 51.977447,4.95828 51.976967,4.982673 51.983525,4.989786 51.985706,5.004647 51.984317,5.014367 51.988303,5.025296 51.987079,5.040835 51.991979,5.050552 51.997041,5.055681 51.992561,5.057445 51.990319,5.054979 51.989054)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1818</gg:year>
+                            <gg:name xml:lang="nl">Jaarsveld                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.057445 51.990319,5.054979 51.989054,5.047862 51.986876,5.041056 51.982183,5.035437 51.974796,5.02906 51.971451,5.022224 51.97098,5.012727 51.975445,5.003966 51.978832,4.99712 51.979349,4.989284 51.976716,4.984939 51.974364,4.97265 51.965423,4.968747 51.962713,4.963656 51.962515,4.954613 51.964819,4.946447 51.966586,4.937001 51.965382,4.930348 51.961402,4.92602 51.957789,4.921289 51.965051,4.91525 51.972038,4.923229 51.974497,4.934581 51.974451,4.942411 51.977447,4.95828 51.976967,4.982673 51.983525,4.989786 51.985706,5.004647 51.984317,5.014367 51.988303,5.025296 51.987079,5.040835 51.991979,5.050552 51.997041,5.055681 51.992561,5.057445 51.990319)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1943-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Jaarsveld"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Jaarsveld"/>
+            </rdf:Description>
+</rdf:RDF>

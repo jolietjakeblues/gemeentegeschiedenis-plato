@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Sinoutskerke_en_Baarsdorp">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Sinoutskerke en Baarsdorp</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Sinoutskerke en Baarsdorp</skos:prefLabel>
+        <gg:name xml:lang="nl">Sinoutskerke en Baarsdorp</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MS"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Zeeland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10449"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/s-Heer_Abtskerke"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Sinoutskerke en Baarsdorp          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((3.857923 51.486494,3.853369 51.484053,3.855959 51.48237,3.851479 51.480006,3.853315 51.479217,3.855148 51.478518,3.855259 51.477345,3.85346 51.47705,3.852561 51.475818,3.848889 51.475273,3.840186 51.46951,3.837913 51.470383,3.835921 51.469408,3.832788 51.469439,3.83516 51.471629,3.828299 51.474414,3.819739 51.468006,3.814203 51.46991,3.809097 51.480179,3.813884 51.4833,3.811908 51.490466,3.823457 51.493858,3.826507 51.493089,3.831824 51.497655,3.839371 51.495958,3.839442 51.493891,3.846388 51.492904,3.864043 51.494664,3.863456 51.490701,3.857698 51.490625,3.855185 51.488255,3.857923 51.486494)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Sinoutskerke_en_Baarsdorp"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Sinoutskerke_en_Baarsdorp"/>
+            </rdf:Description>
+</rdf:RDF>

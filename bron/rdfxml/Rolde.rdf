@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Rolde">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Rolde</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Rolde</skos:prefLabel>
+        <gg:name xml:lang="nl">Rolde</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Drenthe"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10470"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0126"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Aa_en_Hunze"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Rolde                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.650426 53.022046,6.667775 53.013953,6.668089 52.9993,6.678493 52.983461,6.687342 52.980579,6.688896 52.977776,6.69833 52.974617,6.708683 52.972346,6.71105 52.966927,6.713379 52.965194,6.71166 52.962517,6.71365 52.959439,6.720731 52.957383,6.720379 52.950736,6.728689 52.950014,6.732835 52.934869,6.726262 52.933954,6.729122 52.906061,6.736132 52.873177,6.743595 52.859971,6.714156 52.863627,6.687075 52.871834,6.675479 52.901709,6.669604 52.904109,6.628273 52.909039,6.619055 52.914257,6.58636 52.91477,6.569198 52.939836,6.562132 52.942602,6.567901 52.946859,6.57857 52.961581,6.583571 52.964857,6.597651 52.96804,6.59743 52.976131,6.605707 52.979282,6.609201 52.992367,6.613502 53.002299,6.617233 53.00253,6.622046 53.009401,6.634855 53.01439,6.630891 53.021711,6.650426 53.022046)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</gg:year>
+                            <gg:name xml:lang="nl">Rolde                              </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((6.736132 52.873177,6.714156 52.863627,6.687075 52.871834,6.675479 52.901709,6.669604 52.904109,6.628273 52.909039,6.619055 52.914257,6.58636 52.91477,6.569198 52.939836,6.562132 52.942602,6.567901 52.946859,6.57857 52.961581,6.583571 52.964857,6.597651 52.96804,6.59743 52.976131,6.605707 52.979282,6.609201 52.992367,6.613502 53.002299,6.617233 53.00253,6.622046 53.009401,6.634855 53.01439,6.630891 53.021711,6.650426 53.022046,6.667775 53.013953,6.668089 52.9993,6.678493 52.983461,6.687342 52.980579,6.688896 52.977776,6.69833 52.974617,6.708683 52.972346,6.71105 52.966927,6.713379 52.965194,6.71166 52.962517,6.71365 52.959439,6.720731 52.957383,6.720379 52.950736,6.728689 52.950014,6.732835 52.934869,6.726262 52.933954,6.729122 52.906061,6.736132 52.873177)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Rolde"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Rolde"/>
+            </rdf:Description>
+</rdf:RDF>

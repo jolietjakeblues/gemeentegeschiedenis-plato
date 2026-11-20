@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Overasselt">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Overasselt</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Overasselt</skos:prefLabel>
+        <gg:name xml:lang="nl">Overasselt</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/MR"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Gelderland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10952"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0271"/>
+                    <gg:absorbed                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Balgoij"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heumen"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Overasselt                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.79873 51.794114,5.799776 51.797526,5.813217 51.793253,5.827367 51.787538,5.82863 51.783309,5.808792 51.76954,5.819198 51.766985,5.81927 51.759344,5.771 51.755018,5.761447 51.755678,5.750606 51.758409,5.742667 51.761759,5.73878 51.764917,5.732312 51.771498,5.727701 51.774927,5.718154 51.777111,5.719787 51.78232,5.739619 51.779565,5.765003 51.782542,5.768067 51.785049,5.776323 51.784483,5.79873 51.794114)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1924</gg:year>
+                            <gg:name xml:lang="nl">Overasselt                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.827367 51.787538,5.82863 51.783309,5.808792 51.76954,5.819198 51.766985,5.81927 51.759344,5.771 51.755018,5.761447 51.755678,5.750606 51.758409,5.742667 51.761759,5.73878 51.764917,5.732312 51.771498,5.727701 51.774927,5.718154 51.777111,5.705827 51.775527,5.698708 51.77276,5.685493 51.7683,5.679999 51.770022,5.679901 51.777123,5.691843 51.786081,5.695914 51.788048,5.699713 51.792352,5.703651 51.795847,5.709026 51.79754,5.719604 51.796792,5.726821 51.792726,5.726344 51.787065,5.719787 51.78232,5.739619 51.779565,5.765003 51.782542,5.768067 51.785049,5.776323 51.784483,5.79873 51.794114,5.799776 51.797526,5.813217 51.793253,5.827367 51.787538)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1958</gg:year>
+                            <gg:name xml:lang="nl">Overasselt                         </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.827367 51.787538,5.82863 51.783309,5.808792 51.76954,5.819198 51.766985,5.81927 51.759344,5.771 51.755018,5.761447 51.755678,5.750606 51.758409,5.742667 51.761759,5.73878 51.764917,5.732312 51.771498,5.727701 51.774927,5.718154 51.777111,5.709183 51.778844,5.703256 51.780838,5.699226 51.784893,5.694616 51.78886,5.689563 51.79184,5.678708 51.794384,5.686124 51.797871,5.696984 51.796045,5.699713 51.792352,5.703651 51.795847,5.709026 51.79754,5.719604 51.796792,5.726821 51.792726,5.726344 51.787065,5.719787 51.78232,5.739619 51.779565,5.765003 51.782542,5.768067 51.785049,5.776323 51.784483,5.79873 51.794114,5.799776 51.797526,5.813217 51.793253,5.827367 51.787538)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1980-07-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Overasselt"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Overasselt"/>
+            </rdf:Description>
+</rdf:RDF>

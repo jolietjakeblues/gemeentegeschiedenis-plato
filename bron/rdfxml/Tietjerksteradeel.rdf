@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Tietjerksteradeel">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Tietjerksteradeel</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Tietjerksteradeel</skos:prefLabel>
+        <gg:name xml:lang="nl">Tietjerksteradeel</gg:name>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Friesland"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11241"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/0094"/>
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oenkerk"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Bergum"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Oostermeer"/>
+
+                    <gg:originatedFrom                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Hardegarijp"/>
+
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Tytsjerksteradiel"/>
+
+        
+                                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1817</gg:year>
+                            <gg:name xml:lang="nl">Tietjerksteradeel                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.83732 53.270578,5.848344 53.278264,5.858744 53.283435,5.86622 53.281518,5.926117 53.251612,5.925174 53.248112,5.942375 53.245967,5.955099 53.222455,5.97188 53.223363,6.00012 53.229781,6.009631 53.235124,6.018946 53.237142,6.024801 53.227945,6.086056 53.209992,6.07883 53.207428,6.085373 53.204784,6.079178 53.201136,6.104087 53.178075,6.105216 53.174025,6.113682 53.170469,6.104477 53.147431,6.080649 53.152873,6.074759 53.158478,6.061341 53.160891,6.051603 53.159597,6.048106 53.155752,6.050135 53.151608,6.01124 53.14948,5.99751 53.143399,5.984771 53.137754,5.978216 53.139224,5.967748 53.138646,5.95927 53.141652,5.952753 53.134674,5.959525 53.127004,5.913632 53.112297,5.906893 53.1232,5.914379 53.124605,5.910096 53.128667,5.917739 53.130611,5.907552 53.14081,5.91326 53.143211,5.905088 53.1472,5.908867 53.150688,5.904242 53.151427,5.901032 53.158001,5.896396 53.157931,5.89321 53.16675,5.861217 53.16733,5.859605 53.170302,5.852602 53.186594,5.853272 53.186795,5.861458 53.189255,5.860297 53.192584,5.855074 53.207701,5.852027 53.216608,5.852018 53.229727,5.858704 53.238597,5.834674 53.238859,5.833245 53.238874,5.830806 53.249306,5.833065 53.265023,5.83732 53.270578),(6.031751 53.201939,6.030249 53.191524,6.033847 53.181979,6.040163 53.174307,6.054509 53.173509,6.060042 53.183093,6.060559 53.187493,6.056146 53.19237,6.054308 53.1993,6.031751 53.201939)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</gg:year>
+                            <gg:name xml:lang="nl">Tietjerksteradeel                  </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.942375 53.245967,5.955099 53.222455,5.97188 53.223363,6.00012 53.229781,6.009631 53.235124,6.018946 53.237142,6.024801 53.227945,6.086056 53.209992,6.07883 53.207428,6.085373 53.204784,6.079178 53.201136,6.104087 53.178075,6.105216 53.174025,6.113682 53.170469,6.104477 53.147431,6.080649 53.152873,6.074759 53.158478,6.061341 53.160891,6.051603 53.159597,6.048106 53.155752,6.050135 53.151608,6.01124 53.14948,5.99751 53.143399,5.984771 53.137754,5.959525 53.127004,5.931176 53.11797,5.917739 53.130611,5.907552 53.14081,5.91326 53.143211,5.92657 53.155912,5.929835 53.165961,5.89321 53.16675,5.861217 53.16733,5.859605 53.170302,5.852602 53.186594,5.861458 53.189255,5.857834 53.199962,5.897703 53.20537,5.908224 53.209099,5.908262 53.212244,5.890434 53.210882,5.890166 53.213579,5.904116 53.216036,5.904157 53.21945,5.893526 53.219316,5.893563 53.222461,5.882021 53.221251,5.883162 53.229423,5.852277 53.225952,5.852018 53.229727,5.858704 53.238597,5.834674 53.238859,5.833245 53.238874,5.830806 53.249306,5.833065 53.265023,5.83732 53.270578,5.848344 53.278264,5.858744 53.283435,5.86622 53.281518,5.886508 53.27272,5.926117 53.251612,5.925174 53.248112,5.942375 53.245967),(6.040163 53.174307,6.054509 53.173509,6.060042 53.183093,6.060559 53.187493,6.056146 53.19237,6.054308 53.1993,6.031751 53.201939,6.030249 53.191524,6.033847 53.181979,6.040163 53.174307)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                <gg:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-10-01</gg:startDate>
+                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1989-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Tietjerksteradeel"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Tietjerksteradeel"/>
+            </rdf:Description>
+</rdf:RDF>

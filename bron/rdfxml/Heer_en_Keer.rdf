@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Heer_en_Keer">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Heer en Keer</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Heer en Keer</skos:prefLabel>
+        <gg:name xml:lang="nl">Heer en Keer</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/NM"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Limburg"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/11407"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Heer"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Heer en Keer                       </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((5.726264 50.84837,5.727814 50.846747,5.739317 50.847072,5.757495 50.847555,5.77097 50.845893,5.77307 50.84229,5.774181 50.83941,5.802322 50.827178,5.802421 50.822413,5.791497 50.822722,5.790896 50.8216,5.787747 50.821662,5.785611 50.82351,5.782172 50.824136,5.781441 50.82666,5.775637 50.827566,5.770481 50.82881,5.761768 50.829384,5.761326 50.827886,5.763362 50.826788,5.76302 50.824491,5.761428 50.824711,5.74536 50.820627,5.742824 50.822972,5.746299 50.83195,5.730831 50.832356,5.728827 50.830115,5.714081 50.832225,5.706979 50.831436,5.703156 50.832885,5.700495 50.838105,5.704517 50.845016,5.718016 50.846506,5.72185 50.846675,5.722572 50.848291,5.726264 50.84837)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                    
+                                                                            <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1828-08-05</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heer_(Maastricht)"/>
+                    <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Heer_en_Keer"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heer_(Maastricht)"/>
+                    <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Heer_en_Keer"/>
+            </rdf:Description>
+</rdf:RDF>

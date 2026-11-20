@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:gg="http://www.gemeentegeschiedenis.nl/gg-schema#"
+        xmlns:geo="http://www.opengis.net/ont/geosparql#">
+
+    <rdf:Description
+            rdf:about="http://www.gemeentegeschiedenis.nl/gemeentenaam/Onstwedde">
+        <rdf:type rdf:resource="http://www.gemeentegeschiedenis.nl/gg-schema#Municipality"></rdf:type>
+        <rdfs:label xml:lang="nl">Onstwedde</rdfs:label>
+        <skos:prefLabel xml:lang="nl">Onstwedde</skos:prefLabel>
+        <gg:name xml:lang="nl">Onstwedde</gg:name>
+                    <skos:broader
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+            <gg:inDepartement
+                    rdf:resource="https://gemeentegeschiedenis.nl/departement/We"/>
+                <skos:broader rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:inProvince
+                rdf:resource="http://www.gemeentegeschiedenis.nl/provincie/Groningen"/>
+        <gg:amsterdamCode rdf:resource="http://www.gemeentegeschiedenis.nl/amco/10610"/>
+        <gg:cbsCode rdf:resource="http://www.gemeentegeschiedenis.nl/cbscode/1250"/>
+                    <gg:absorbedBy                    rdf:resource="https://gemeentegeschiedenis.nl/gemeentenaam/Stadskanaal"/>
+
+        
+                                                        <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1812</gg:year>
+                            <gg:name xml:lang="nl">Onstwedde                          </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.08013 53.056191,7.078286 53.04714,7.07138 53.045979,7.071414 53.039148,7.077892 53.040854,7.085178 53.040301,7.088812 53.037913,7.085123 53.035089,7.084448 53.021617,7.089988 53.022257,7.10385 53.014689,7.073496 53.00056,7.071355 52.94909,7.065222 52.948277,7.066097 52.928491,7.036685 52.925576,7.025996 52.914218,6.978704 52.95063,6.938146 52.985946,6.953927 53.006501,7.00021 53.057205,7.009928 53.069746,7.012173 53.065941,7.017586 53.067036,7.036009 53.061031,7.067739 53.063646,7.08013 53.056191)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                                <geo:hasGeometry>
+                        <rdf:Description>
+                            <gg:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</gg:year>
+                            <gg:name xml:lang="nl">Stadskanaal                        </gg:name>
+                            <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">MULTIPOLYGON(((7.009928 53.069746,7.012173 53.065941,7.017586 53.067036,7.036009 53.061031,7.067739 53.063646,7.08013 53.056191,7.078286 53.04714,7.07138 53.045979,7.071414 53.039148,7.077892 53.040854,7.085178 53.040301,7.088812 53.037913,7.085123 53.035089,7.084448 53.021617,7.089988 53.022257,7.10385 53.014689,7.073496 53.00056,7.071355 52.94909,7.065222 52.948277,7.066097 52.928491,7.036685 52.925576,7.025996 52.914218,6.978704 52.95063,6.938146 52.985946,6.93439 52.98923,6.895767 53.01363,6.857069 53.03712,6.862821 53.039656,6.865875 53.037371,6.878716 53.042245,6.897014 53.028084,6.902599 53.030081,6.90487 53.026817,6.912034 53.031309,6.953927 53.006501,7.00021 53.057205,7.009928 53.069746)))</geo:asWKT>
+                        </rdf:Description>
+                    </geo:hasGeometry>
+
+                                    
+                                                        <gg:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-01-01</gg:endDate>
+                            <gg:resourceWikipedia rdf:resource="https://nl.wikipedia.org/wiki/Onstwedde"/>
+                            <gg:resourceDbpedia rdf:resource="http://nl.dbpedia.org/resource/Onstwedde"/>
+            </rdf:Description>
+</rdf:RDF>
