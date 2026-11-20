@@ -1,0 +1,18 @@
+PREFIX plato: <https://w3id.org/plato#>
+
+SELECT ?datum ?van ?relatie ?naar ?bronwoord ?bron WHERE {
+  ?attestatie plato:attests_about ?eerder ;
+              plato:relates_to ?later ;
+              plato:has_relation_type ?type ;
+              plato:related_label ?naar ;
+              plato:sourced_by/plato:authority_title ?bron .
+  FILTER(?type != plato:ContainedIn)
+  ?type plato:relation_label ?relatie .
+  ?bestaan plato:attests_about ?eerder ;
+           plato:form_status plato:Headword ;
+           plato:attests_name/plato:toponym ?van .
+  OPTIONAL { ?attestatie plato:source_label ?bronwoord }
+  OPTIONAL { ?attestatie plato:attests_timespan/plato:start_earliest ?datum }
+  FILTER(CONTAINS(LCASE(STR(?van)), "abcoude") || CONTAINS(LCASE(STR(?naar)), "abcoude"))
+}
+ORDER BY ?datum ?van

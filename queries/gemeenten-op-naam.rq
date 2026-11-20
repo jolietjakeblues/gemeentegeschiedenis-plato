@@ -1,0 +1,15 @@
+PREFIX plato: <https://w3id.org/plato#>
+
+SELECT ?gemeente ?naam ?bron ?begin ?einde WHERE {
+  ?attestatie plato:attests_about ?gemeente ;
+              plato:form_status plato:Headword ;
+              plato:attests_name/plato:toponym ?naam ;
+              plato:sourced_by/plato:authority_title ?bron .
+  OPTIONAL {
+    ?attestatie plato:attests_timespan ?tijdvak .
+    OPTIONAL { ?tijdvak plato:start_earliest ?begin }
+    OPTIONAL { ?tijdvak plato:end_earliest ?einde }
+  }
+  FILTER(CONTAINS(LCASE(STR(?naam)), "abcoude"))
+}
+ORDER BY ?begin ?naam
